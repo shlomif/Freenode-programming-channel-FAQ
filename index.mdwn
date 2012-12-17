@@ -1,0 +1,9 @@
+This is the wiki of Freenode’s ##programming channel. We are an active channel discussing programming-related topics (and some non-programming-related topics).
+
+The [[Frequently Asked Questions List|FAQ]].
+
+All wikis are supposed to have a [[SandBox]], so this one does too.
+
+----
+
+This wiki is powered by [[ikiwiki]].
