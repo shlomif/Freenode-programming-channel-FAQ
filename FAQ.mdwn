@@ -91,7 +91,7 @@ We sometimes get asked this question, and the answer is simple: there is none. D
 
 Even if we settle on a certain amount of preferences, then you may run into other factors that influence which language you may prefer:
 
-1. Should the program run as quickly as possible? Or do you want to optimise for developer's time?
+1. Should the program run as quickly as possible? Or do you want to optimise for the developers’ time?
 2. Is low memory consumption critical?
 3. Should the language be portable to various operating systems and/or CPUs? Or is it OK if it only runs somewhere specific?
 4. Should the language have an open-source implementation?
