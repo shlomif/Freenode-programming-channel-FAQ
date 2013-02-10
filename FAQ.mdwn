@@ -83,7 +83,7 @@ But here goes with a grain of salt:
   * Please don't give the usual cliches that you don't need a version control system if you’re only one person or that the project is not large enough to warrant it. You probably do.
 2. Write Automated Tests. See [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development wikipedia:Test-driven development) and other resources.
 
-For more information consult the essay [“What Makes Software High Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/) and [the Perl Beginners’s Site “Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) (which while focusing on Perl has a lot of good advice related to other programming languages).
+For more information consult the essay [“What Makes Software High Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/) and [the Perl Beginners’s Site “Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) (which, while focusing on Perl, has a lot of good advice related to other programming languages).
 
 ###   What is the best programming language?
 
@@ -100,7 +100,7 @@ Even if we settle on a certain amount of preferences, then you may run into othe
 7. Should the language have any particular built-in features that you desire?
 8. Should the language have an extensive library of extensions and APIs that can be reused?
 
-Etc. If you tell us what your needs are, we can help you with recommendation.
+Etc. If you tell us what your needs are, we can help you with a recommendation.
 
 Note that some of the channel members happen to like a certain programming language in particular and tend to constantly recommend it to other people. Furthermore, you may run into language wars where one or more languages are bashed as awful languages by participants in the channel. That does not mean these languages are necessarily good or bad or suitable for what you wish to do.
 
