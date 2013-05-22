@@ -8,11 +8,11 @@ This page is intended to be global for the whole [##programming](irc://irc.freen
 
 ###   How do I talk on the channel?
 
-In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type /join ##programming and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <irc://irc.freenode.net/##programming> .
+In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type /join ##programming and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a> .
 
-Freenode also provides a web interface here: <http://webchat.freenode.net/> . For more information about viable IRC clients see:
+Freenode also provides a web interface here: <a href="http://webchat.freenode.net/">http://webchat.freenode.net/</a> . For more information about viable IRC clients see:
 
-* <http://perl-begin.org/irc/>
+* <a href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</a>
 * [http://en.wikipedia.org/wiki/List\_of\_IRC\_clients](http://en.wikipedia.org/wiki/List_of_IRC_clients)
 
 ###   What is considered on-topic on ##programming? What is considered off-topic?
@@ -27,7 +27,7 @@ The reason we agree to discuss such things as discussing such things help the ch
 Some discussions that are explicitly off-topic:
 
 1. Discussions about global/national politics — these tend to deteriorate very quickly, and many people find them annoying. If you still wish to discuss them, head over to [\#politics](irc://irc.freenode.net/#politics).
-2. Personal insults, [Ad hominem](http://en.wikipedia.org/wiki/Ad_hominem wikipedia:Ad hominem) attacks, sexual/racial/political harassment, etc.
+2. Personal insults, [Ad hominem](http://en.wikipedia.org/wiki/Ad_hominem) attacks, sexual/racial/political harassment, etc.
 3. Illegal activity (as forbidden by Freenode policy).
 
 None of these things will get you banned immediately, but you will be warned and told to stop, and devoiced only if you persist.
@@ -37,7 +37,7 @@ None of these things will get you banned immediately, but you will be warned and
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that following editing mechanisms will not be adequate for editing code:
 
 * Rich-text editors includings, but not limited to, Microsoft Windows WordPad (formerly known as Windows Write, we were informed that it has a text editing mode, but see below), word processors such as Microsoft Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc. and WYSIWYG (= "What you see is what you get") HTML editors. These are not suitable for editing code.
-* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](http://en.wikipedia.org/wiki/Pico_(text_editor) wikipedia:Pico (text editor)) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
+* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](http://en.wikipedia.org/wiki/Pico_(text_editor)) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
 
 These editors may still be useful if that's all you can use, but if you can afford to install and/or use a more capable text editor, it is by all means a good idea.
 
@@ -50,7 +50,7 @@ Note that many decent text editors and IDEs are open-source, free-of-charge and 
 
 ###   I want to learn programming? Which language should I start with?
 
-Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](http://en.wikipedia.org/wiki/Python_(programming_language) wikipedia:Python (programming language)) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
+Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](http://en.wikipedia.org/wiki/Python_(programming_language)) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
 
 * [_Learn Python the Hard Way_](http://learnpythonthehardway.org/) - while it has an intimidating title, this book aims to teach beginning programmers proper programming using Python using formal methods.
 * [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/python/english2e/) - a similar book.
@@ -65,9 +65,9 @@ Here are some resources for learning other programming languages, whether as a f
 
 Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
 
-* [Endianness](http://en.wikipedia.org/wiki/Endianness wikipedia:Endianness) - also referred to as byte sex, this determines whether bytes are stored in memory with the lowest byte first, or the highest one.
-* Padding - for effiecency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised, and varies between systems, compilers (and even compilation options can affect it).
-* Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, 64-bit, a long can be 32-bit or 64-bit, etc., which is system-dependent.
+* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as byte sex, this determines whether bytes are stored in memory with the lowest byte first, or the highest one.
+* Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised, and varies between systems, compilers (and even compilation options can affect it).
+* Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a long can be 32-bit or 64-bit, etc., which is system-dependent.
 
 The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase or download under a Creative Commons licence on the link), goes to further depth about these and many other UNIX portability issues.
 
@@ -79,9 +79,9 @@ First of all, we should note that many best practices may still be controversial
 
 But here goes with a grain of salt:
 
-1. Use a good [version control system](http://en.wikipedia.org/wiki/Revision_control wikipedia:Revision control). For more about version control systems and the motivation behind them see [the “Better SCM” Site](http://better-scm.berlios.de/) and [a related section from “Perl for Perl Newbies”](http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/) (which is not exclusively limited to Perl) and [Sawyer X’s talk about source code management systems](http://www.slideshare.net/xSawyer/source-code-management-systems).
+1. Use a good [version control system](http://en.wikipedia.org/wiki/Revision_control). For more about version control systems and the motivation behind them see [the “Better SCM” Site](http://better-scm.berlios.de/) and [a related section from “Perl for Perl Newbies”](http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/) (which is not exclusively limited to Perl) and [Sawyer X’s talk about source code management systems](http://www.slideshare.net/xSawyer/source-code-management-systems).
   * Please don't give the usual cliches that you don't need a version control system if you’re only one person or that the project is not large enough to warrant it. You probably do.
-2. Write Automated Tests. See [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development wikipedia:Test-driven development) and other resources.
+2. Write Automated Tests. See [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development) and other resources.
 
 For more information consult the essay [“What Makes Software High Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/) and [the Perl Beginners’s Site “Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) (which, while focusing on Perl, has a lot of good advice related to other programming languages).
 
@@ -109,9 +109,9 @@ Note that some of the channel members happen to like a certain programming langu
 Here are some resources for learning about algorithms:
 
 * [The Algorithm Design Manual](http://www.algorist.com/) by Steven Skiena. A good book and not a very technical one that provides a good introduction and reference for algorithms.
-* [Wikipedia's list of data structures](http://en.wikipedia.org/wiki/List_of_data_structures wikipedia:List of data structures) and [Wikipedia's list of algorithms](http://en.wikipedia.org/wiki/List_of_algorithms wikipedia:List of algorithms).
+* [Wikipedia's list of data structures](http://en.wikipedia.org/wiki/List_of_data_structures) and [Wikipedia's list of algorithms](http://en.wikipedia.org/wiki/List_of_algorithms).
 * [The Data Structures Wikibook](http://en.wikibooks.org/wiki/Data_Structures)
-* [The Book _Introduction to Algorithms_](http://en.wikipedia.org/wiki/Introduction_to_Algorithms wikipedia:Introduction to Algorithms) - by Cormen et. all (a.k.a "CLR" or "CLRS") - a comprehensive reference on algorithms and data structures, but a technical and dry one.
+* [The Book _Introduction to Algorithms_](http://en.wikipedia.org/wiki/Introduction_to_Algorithms wikipedia:Introduction to Algorithms) - by Cormen et. all (a.k.a “CLR” or “CLRS”) - a comprehensive reference on algorithms and data structures, but a technical and dry one.
 
 There's also a [channel called "#algorithms" on Freenode](irc://irc.freenode.net/#algorithms) and, naturally, you can discuss algorithms on ##programming, as long as you perform due diligence.
 
