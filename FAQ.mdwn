@@ -1,8 +1,6 @@
 # Freenode programming channel FAQ
 
-### From Programmer's Wiki
-
-This page is intended to be global for the whole [##programming](irc://irc.freenode.net/##programming) channel. So be bold and edit.
+This page is intended to be global for the whole [##programming](irc://irc.freenode.net/##programming) channel. So feel free to clone and reuse.
 
 ## The Questions
 
