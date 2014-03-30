@@ -41,7 +41,7 @@ Note that you are still welcome to ask questions related to specific technologie
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that following editing mechanisms will not be adequate for editing code:
 
 * Rich-text editors including, but not limited to, Microsoft Windows WordPad (formerly known as Windows Write, we were informed that it has a text editing mode, but see below), word processors such as Microsoft Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc. and WYSIWYG (= "What you see is what you get") HTML editors. These are not suitable for editing code.
-* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](http://en.wikipedia.org/wiki/Pico_(text_editor)) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
+* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
 
 These editors may still be useful if that's all you can use, but if you can afford to install and/or use a more capable text editor, it is by all means a good idea.
 
@@ -54,7 +54,7 @@ Note that many decent text editors and IDEs are open-source, free-of-charge and 
 
 ###   I want to learn programming? Which language should I start with?
 
-Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](http://en.wikipedia.org/wiki/Python_(programming_language)) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
+Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](https://en.wikipedia.org/wiki/Python_%28programming_language%29) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
 
 * [_Learn Python the Hard Way_](http://learnpythonthehardway.org/) - while it has an intimidating title, this book aims to teach beginning programmers proper programming using Python using formal methods.
 * [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/python/english2e/) - a similar book.
