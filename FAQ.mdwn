@@ -151,3 +151,8 @@ See:
 Here are some lists of recommended books by some of our regulars:
 
 * [Shlomi Fish’s Book Reviews](http://www.shlomifish.org/philosophy/books-recommends/)
+* [vendu’s list of books](https://github.com/vendu/OS-Zero/blob/master/notes/booklist.txt)
+
+In addition, here are some recommended lists of books by some notable software engineers and writers:
+
+* [Joel on Software’s “Book Reviews”][http://www.joelonsoftware.com/navlinks/fog0000000262.html)
