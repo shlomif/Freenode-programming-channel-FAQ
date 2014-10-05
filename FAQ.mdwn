@@ -4,7 +4,7 @@ This page is intended to be global for the whole [##programming](irc://irc.freen
 
 ## NOTE!!!
 
-The ##programming is no longer recommended. Instead see:
+The ##programming channel is no longer recommended. Instead see:
 
 * [#perlcafe](irc://irc.freenode.net/#perlcafe)
 * [#learnprogramming](irc://irc.freenode.net/#learnprogramming)
