@@ -4,6 +4,11 @@ This page is intended to be global for the whole [##programming](irc://irc.freen
 
 ## NOTE!!!
 
+The ##programming is no longer recommended. Instead see:
+
+* [#perlcafe](irc://irc.freenode.net/#perlcafe)
+* [#learnprogramming](irc://irc.freenode.net/#learnprogramming)
+
 This page is not going to be actively maintained in the forseeable future and that is because its maintainer, Shlomi Fish ("rindolf") was banned from the channel (by \_W\_) for "Self-promotion", against which there's a latest Internet moral fashion (see <a href="http://shlomif.wikia.com/wiki/Encourage_criticism_and_try_to_get_offended">Encourage criticism and try to get offended</a>). rindolf tried to negotiate with _W_ but failed.
 
 Rindolf also discovered that the ops on ##programming-ops spent several hours discussing him with a cynical IRC attendee of the channel who concluded that rindolf was evil and was set against him (due to the fact that cynical people feel their lives are going backward instead of forward - see <a href="http://shlomif.livejournal.com/44643.html">Psyche Death/Growth Death</a>). This made rindolf realise that the ops care about him a lot, because the opposite of love isn't hate - it's indifference.
