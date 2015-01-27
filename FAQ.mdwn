@@ -47,7 +47,7 @@ These editors may still be useful if that's all you can use, but if you can affo
 
 Otherwise, asking the channel about the most recommend text editor will end up in people giving you their own preferences (which may have involved many years of trying different solutions, and some time of studying their existing preference and getting accustomed to it). Some links to get you started:
 
-* [The “List of Text Editors and IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/) on [Shlomi Fish](/wiki/User:Shlomif User:Shlomif)’s homepage. (Not complete, but covers the most prominent solutions).
+* [The “List of Text Editors and IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/) on Shlomi Fish’s homepage. (Not complete, but covers the most prominent solutions).
 * [The Text Editors Wiki](http://texteditors.org/)
 
 Note that many decent text editors and IDEs are open-source, free-of-charge, and cross-platform (Windows, Mac OS X and Linux/UNIX). As a result, there is no good excuse not to download one, install it, and use it.
