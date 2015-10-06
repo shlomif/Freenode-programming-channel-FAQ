@@ -183,3 +183,11 @@ For some lists of ideas for what to program see:
 In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
 
 * [“How to start contributing to or using open source software”](http://teachingopensource.org/index.php/How_to_start_contributing_to_or_using_Open_Source_Software)
+
+###   I have a problem with my code, how should I share it for people to review?
+
+First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example. If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
+
+Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+
+If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
