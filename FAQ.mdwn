@@ -11,6 +11,7 @@ In order to talk on ##programming, connect your IRC client to the irc.freenode.n
 Freenode also provides a web interface here: <a href="http://webchat.freenode.net/">http://webchat.freenode.net/</a> . For more information about viable IRC clients see:
 
 * <a href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</a>
+* [List of Networking Clients](http://www.shlomifish.org/open-source/resources/networking-clients/)
 * [http://en.wikipedia.org/wiki/List\_of\_IRC\_clients](http://en.wikipedia.org/wiki/List_of_IRC_clients)
 
 ###   What is considered on-topic on ##programming? What is considered off-topic?
