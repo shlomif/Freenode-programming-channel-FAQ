@@ -192,3 +192,11 @@ First of all, your code should exhibit the problem you are having and should be 
 Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
 
 If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
+
+###   What is FizzBuzz?
+
+See:
+
+* [Why Can’t Programmers Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
+* [FizzBuzz on Rosetta Code](http://rosettacode.org/wiki/FizzBuzz) (WARNING! The licence is problematic.)
+* [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
