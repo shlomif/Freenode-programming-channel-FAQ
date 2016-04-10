@@ -195,7 +195,7 @@ If you have more than one file in the project, then you should put it in a self-
 
 ###   What is FizzBuzz?
 
-In short, FizzBuzz is a simple programming task, which most decent programmers are expected to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
+In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
 
 For more information, see:
 
