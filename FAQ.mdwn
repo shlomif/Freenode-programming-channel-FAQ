@@ -6,7 +6,7 @@ This page is intended to be global for the whole [##programming](irc://irc.freen
 
 ###   How do I talk on the channel?
 
-In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type /join ##programming and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a> .
+In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type «/join ##programming» (without the angle brackets) and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a> .
 
 Freenode also provides a web interface here: <a href="http://webchat.freenode.net/">http://webchat.freenode.net/</a> . For more information about viable IRC clients see:
 
