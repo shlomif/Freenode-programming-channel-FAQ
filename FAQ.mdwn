@@ -212,3 +212,7 @@ For more information, see:
 * [Managed C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is a C++-like language for [the .NET framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is also used to host C#), which isn't entirely compatible with C++.
 
 As a result, the term “the C family of languages” is confusing and should be avoided, in part because other languages not mentioned above may share similar syntax to C.
+
+## Licence/License
+
+The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/X11 License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
