@@ -202,3 +202,13 @@ For more information, see:
 * [Why Can’t Programmers Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
 * [FizzBuzz on Rosetta Code](http://rosettacode.org/wiki/FizzBuzz) (WARNING! The licence is problematic.)
 * [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+
+### How are C, C++, and C# (C-sharp) related? How are they different?
+
+* The [C Programming Language](https://en.wikipedia.org/wiki/C_%28programming_language%29) was created by Dennis Ritchie and other workers, and was used to write most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of "mid-level" language because while is is above assembly, it is still lower-level than most other high-level languages.
+* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to facilitate object-oriented programming (OOP) on C, and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
+* [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) is a programming language whose syntax is superficially reminiscent of C, but which has otherwise different syntax, semantics (including garbage collection) and a completely different standard library.
+* [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29) was inspired a lot by Java, and is very similar (but not compatible), and is not compatible with either C or C++. It is just sharing a name containing "C" for presumably marketing and branding purposes.
+* [Managed C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is a C++-like language for [the .NET framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is also used to host C#), which isn't entirely compatible with C++.
+
+As a result, the term “the C family of languages” is confusing and should be avoided, in part because other languages not mentioned above may share similar syntax to C.
