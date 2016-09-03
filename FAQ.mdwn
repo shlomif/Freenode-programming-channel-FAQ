@@ -110,6 +110,12 @@ Etc. If you tell us what your needs are, we can help you with a recommendation.
 
 Note that some of the channel members happen to like a certain programming language in particular and tend to constantly recommend it to other people. Furthermore, you may run into language wars where one or more languages are bashed as awful languages by participants in the channel. That does not mean these languages are necessarily good or bad or suitable for what you wish to do.
 
+###   What is the best [insert type of product with some alternatives]? What is the best and [insert adjective here]?
+
+We also get asked this a lot and the answer is similar to the previous question: best in which respect? The various alternatives may have functionality trade-offs, and even if the factors are not at odds with one another, there can be remaining issues due to lack of developer time, policy, or design. Please tell us what exactly is the most important to you.
+
+Note that "best and [insert adjective here]" is equally puzzling. Do you want the product with this property or do you also seek some other qualities?
+
 ###   What are good resources (including books) to learn about algorithms?
 
 Here are some resources for learning about algorithms:
