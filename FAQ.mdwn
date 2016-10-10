@@ -42,11 +42,11 @@ Note that you are still welcome to ask questions related to specific technologie
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that following editing mechanisms will not be adequate for editing code:
 
 * Rich-text editors including, but not limited to, Microsoft Windows WordPad (formerly known as Windows Write, we were informed that it has a text editing mode, but see below), word processors such as Microsoft Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc. and WYSIWYG (= "What you see is what you get") HTML editors. These are not suitable for editing code.
-* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
+* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which is aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
 
-These editors may still be useful if that's all you can use, but if you can afford to install and/or use a more capable text editor, it is by all means a good idea.
+These editors may still be useful if that's all you can use, but if you can afford to install and/or use a more capable text editor, it is, by all means, a good idea.
 
-Otherwise, asking the channel about the most recommend text editor will end up in people giving you their own preferences (which may have involved many years of trying different solutions, and some time of studying their existing preference and getting accustomed to it). Some links to get you started:
+Otherwise, asking the channel about the most recommend text editor will end up in people giving you their own preferences (which may have involved many years of trying different solutions, and sometimes of studying their existing preference and getting accustomed to it). Some links to get you started:
 
 * [The “List of Text Editors and IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/) on Shlomi Fish’s homepage. (Not complete, but covers the most prominent solutions).
 * [The Text Editors Wiki](http://texteditors.org/)
@@ -70,11 +70,11 @@ Here are some resources for learning other programming languages, whether as a f
 
 Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
 
-* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as byte sex, this determines whether bytes are stored in memory with the lowest byte first, or the highest one.
-* Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised, and varies between systems, compilers (and even compilation options can affect it).
-* Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a long can be 32-bit or 64-bit, etc., which is system-dependent.
+* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as byte sex, this determines whether bytes are stored in memory with the lowest byte first or the highest one.
+* Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised and varies between systems, compilers (and even compilation options can affect it).
+* Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a "long" can be 32-bit or 64-bit, etc., which is system-dependent.
 
-The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase or download under a Creative Commons licence on the link), goes to further depth about these and many other UNIX portability issues.
+The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase or download under a Creative Commons licence on the link), goes into further depth about these and many other UNIX portability issues.
 
 In any case, the best way to mitigate this problem portably and safely, is to write (and later read) every field (and sometimes every byte within) to the disk or network. You should be able to find some mechanisms inside [portable libraries](http://www.shlomifish.org/open-source/portability-libs/) to do that.
 
@@ -132,7 +132,7 @@ There's also a [channel called "#algorithms" on Freenode](irc://irc.freenode.net
 
 First of all, we appreciate your enthusiasm, but you should realise that most of us have better things to do than help you (even if they are unemployed), and so you should offer money (and we don't mean a share of the profits.). If not, you are quite unlikely to recruit anyone.
 
-If you cannot offer money, please consider learning the necessary skills yourself (see the above questions) and starting work on your own. If you make your project open-source, and publicise it, then other people may eventually join you, and help you if they find it interesting.
+If you cannot offer money, please consider learning the necessary skills yourself (see the above questions) and starting work on your own. If you make your project open-source and publicise it, then other people may eventually join you, and help you if they find it interesting.
 
 ###   What is the difference between “scripting” languages such as Perl, PHP, Python or Ruby and “Industrial-strength” Languages such as C, C++, Java and C#?
 
@@ -142,7 +142,7 @@ Many people have issues with calling dynamic languages, with dynamic typing and 
 * [Larry Wall’s “Programming’s Hard - Let’s Go Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
 * [chromatic - “Program vs. Script”](http://use.perl.org/use.perl.org/_chromatic/journal/35804.html)
 
-The problem with calling them that is that it is that while they allow for getting small and simple things done quickly and easily, large scale projects (100,000s to millions lines of code) have been written in them and are still maintained without any show-stopping difficulties. That is not to say that these languages do not have their downsides, but they still do not preclude **general-purpose**, and/or **large-scale** programming.
+The problem with calling them that is that it is that while they allow for getting small and simple things done quickly and easily, large scale projects (100,000s to millions of lines of code) have been written in them and are still maintained without any show-stopping difficulties. That is not to say that these languages do not have their downsides, but they still do not preclude **general-purpose**, and/or **large-scale** programming.
 
 Furthermore, if we consider Perl/PHP/Python/Ruby/Tcl/Lua/etc. as “scripting languages” and C, C++, Java and C# as “industrial strength” where does Common Lisp fit in? Where does Scheme? Where do Haskell and OCaml? What about the various dialects of Basic? Fortran? COBOL? It seems that the classification of languages as “scripting” vs “industrial strength” is more of that of public perception and marketing as opposed to their actual qualities.
 
@@ -213,7 +213,7 @@ For more information, see:
 ### How are C, C++, and C# (C-sharp) related? How are they different?
 
 * The [C Programming Language](https://en.wikipedia.org/wiki/C_%28programming_language%29) was created by Dennis Ritchie and other workers, and was used to write most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of "mid-level" language because while is is above assembly, it is still lower-level than most other high-level languages.
-* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to facilitate object-oriented programming (OOP) on C, and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
+* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to facilitate object-oriented programming (OOP) on C and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
 * [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) is a programming language whose syntax is superficially reminiscent of C, but which has otherwise different syntax, semantics (including garbage collection) and a completely different standard library.
 * [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29) was inspired a lot by Java, and is very similar (but not compatible), and is not compatible with either C or C++. It is just sharing a name containing "C" for presumably marketing and branding purposes.
 * [Managed C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is a C++-like language for [the .NET framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is also used to host C#), which isn't entirely compatible with C++.
