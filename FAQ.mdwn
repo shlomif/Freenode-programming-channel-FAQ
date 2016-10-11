@@ -226,9 +226,9 @@ As a result, the term “the C family of languages” is confusing and should be
 *When the code is compiled the floating point number is rounded to nearest number in the format,which results in rounding error even before the calculations.
 For more information see:
 
-*[Floating point anomalies](http://floating-point-gui.de/) is a good resource for porblems regarding floating point weird anamolies.
-*[More weird problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error) faced while using floating point numbers.
-*[Correction measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers) to deal with floating point anamolies.	
+* [Floating point anomalies](http://floating-point-gui.de/) is a good resource for problems regarding floating point weird anamolies.
+* [More weird problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error) faced while using floating point numbers.
+* [Correction measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers) to deal with floating point anamolies.	
 
 
 ## Licence/License
