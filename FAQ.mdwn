@@ -222,8 +222,9 @@ As a result, the term “the C family of languages” is confusing and should be
 
 ### I have a problem with floating point numbers,I tried adding two numbers 0.5 and 0.3 and instead of adding up to perfect 0.8 output was 0.800000000000000004.Why does this happen?
 
-*Computers use binary numbers because they’re faster at dealing with those, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway.Also because they use a binary floating point,they cannot represent a number like 0.1,0.3,etc accurately at all.
-*When the code is compiled the floating point number is rounded to nearest number in the format,which results in rounding error even before the calculations.
+Computers use binary numbers because they’re faster at dealing with those, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway.Also because they use a binary floating point,they cannot represent a number like 0.1,0.3,etc accurately at all.
+When the code is compiled the floating point number is rounded to nearest number in the format,which results in rounding error even before the calculations.
+
 For more information see:
 
 * [Floating point anomalies](http://floating-point-gui.de/) is a good resource for problems regarding floating point weird anamolies.
