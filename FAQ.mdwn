@@ -220,6 +220,22 @@ For more information, see:
 
 As a result, the term “the C family of languages” is confusing and should be avoided, in part because other languages not mentioned above may share similar syntax to C.
 
+### I have faced a number of problems while using the float data type,for comparisons and have often got inacccurate results.Is there a explanation for this?
+
+Computers use binary numbers because they’re faster at dealing with those, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway.Also because they use a binary floating point,they cannot represent a number like 0.1,0.3,etc accurately at all.
+
+
+When the code is compiled the floating point number is rounded to nearest number in the format,which results in rounding error even before the calculations.Also ,associativity in addition may result in different results.i.e: a + (b+ c) != (a + b) +c and it is possible to get weird results like a+b==a as their rounding errors cancel each other.	
+
+For more information see:
+
+* [Floating point anomalies](http://floating-point-gui.de/) is a good resource for problems regarding floating point weird anamolies.
+* [More weird problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error) faced while using floating point numbers.
+* [Correction measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers) to deal with floating point anamolies.
+* [Accuracy of a float data-type](http://www.stata.com/support/faqs/data-management/float-data-type/) 	
+
+
+
 ## Licence/License
 
 The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/X11 License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
