@@ -26,8 +26,9 @@ The reason we agree to discuss such things as discussing such things help the ch
 Some discussions that are explicitly off-topic:
 
 1. Discussions about global/national politics — these tend to deteriorate very quickly, and many people find them annoying. If you still wish to discuss them, head over to [\#politics](irc://irc.freenode.net/#politics).
-2. Personal insults, [Ad hominem](http://en.wikipedia.org/wiki/Ad_hominem) attacks, sexual/racial/political harassment, etc.
-3. Illegal activity (as forbidden by Freenode policy).
+2. Discussions about religion for similar reasons.
+3. Personal insults, [Ad hominem](http://en.wikipedia.org/wiki/Ad_hominem) attacks, sexual/racial/political harassment, etc.
+4. Illegal activity (as forbidden by Freenode policy).
 
 None of these things will get you banned immediately, but you will be warned and told to stop, and devoiced only if you persist.
 
