@@ -249,6 +249,23 @@ slower (by a factor of about 100,000), so it'll likely be unacceptable to you.
 The second is that some popular approaches for "hiding" the source code
 are known to be ineffective - see [this post about distributing CPython's .pyc files](http://shlomif-tech.livejournal.com/39732.html) for an example.
 
+The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different Networked service) for it and have the local end-user code query it using the network stack.
+
+Another point is that you should consider trusting your users instead. Shlomi
+Fish (“rindolf”) has a written a cautionary tale about the fact that BitKeeper’s
+parent company, BitMover, has done a series of licence changes to its main
+offering over the years to prevent abuses from users who were unlikely to
+become paid customers out of sheer paranoia in
+[“What BitMover Got Wrong?”](http://better-scm.shlomifish.org/bk/what-bitmover-got-wrong.html), and you should better avoid it. Freenode is dedicated
+to discussing collaborative and free/open projects and you are likely to
+receive a lot of heat for not trusting your end users.
+
+Finally, note that [Copyrights](https://en.wikipedia.org/wiki/Copyright) or
+[software patents](https://en.wikipedia.org/wiki/Software_patent) may provide
+adequate protection into people misappropriating the working of your code,
+although they may be controversial (especially software patents). For more
+information, see Eric Sink’s essay
+[“Five Things Every Micro-ISV Should Know About Intellectual Property”](http://ericsink.com/articles/Intellectual_Property.html) .
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
