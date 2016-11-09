@@ -36,7 +36,7 @@ None of these things will get you banned immediately, but you will be warned and
 
 Some channels people try to join to seek help with their technology (notably ##java) require registration at the Freenode services. See [Freenode’s knowledge base](http://freenode.net/kb/all) for more information about user/nickname registration.
 
-Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels. 
+Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels.
 
 ###   Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
@@ -232,11 +232,11 @@ For more information, refer to these resources:
 * [Floating point anomalies](http://floating-point-gui.de/) is a good resource for problems regarding floating point weird anamolies.
 * [More weird problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error) faced while using floating point numbers.
 * [Correction measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers) to deal with floating point anamolies.
-* [Accuracy of a float data-type](http://www.stata.com/support/faqs/data-management/float-data-type/) 	
+* [Accuracy of a float data-type](http://www.stata.com/support/faqs/data-management/float-data-type/)
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
-That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime. 
+That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
 
 ## Licence/License
 
