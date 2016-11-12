@@ -267,6 +267,19 @@ although they may be controversial (especially software patents). For more
 information, see Eric Sink’s essay
 [“Five Things Every Micro-ISV Should Know About Intellectual Property”](http://ericsink.com/articles/Intellectual_Property.html) .
 
+### Who is the world’s best programmer?
+
+We got asked several times who is world’s best programmer, so let’s try
+to answer it once and for all. The first question we need to ask you is:
+“Why does it matter?” If you knew who the best programmer in the world is,
+do you think you can afford to hire him? Moreover, as [a post by Ovid notes](http://images.use.perl.org/use.perl.org/_Ovid/journal/39801.html),
+studies found that the best programmers are only 5 times more
+productive than the worst, which is consisten with productivity variation
+in other fields. Furthermore, a contractor who did both web development
+and Linux kernel development [noted](http://www.shlomifish.org/enough-with-sec/web-devel-has-become-too-hard.xhtml)
+that despite common belief, “web development is harder than Linux kernel
+development”.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
