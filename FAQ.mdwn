@@ -40,7 +40,7 @@ Note that you are still welcome to ask questions related to specific technologie
 
 ###   Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
-We get asked this question a lot. The answer is a bit long. First of all, it is likely that following editing mechanisms will not be adequate for editing code:
+We get asked this question a lot. The answer is a bit long. First of all, it is likely that the following editing mechanisms will not be adequate for editing code:
 
 * Rich-text editors including, but not limited to, Microsoft Windows WordPad (formerly known as Windows Write, we were informed that it has a text editing mode, but see below), word processors such as Microsoft Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc. and WYSIWYG (= "What you see is what you get") HTML editors. These are not suitable for editing code.
 * Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
