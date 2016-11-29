@@ -213,8 +213,8 @@ For more information, see:
 
 ### How are C, C++, and C# (C-sharp) related? How are they different?
 
-* The [C Programming Language](https://en.wikipedia.org/wiki/C_%28programming_language%29) was created by Dennis Ritchie and other workers, and was used to write most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of "mid-level" language because while is is above assembly, it is still lower-level than most other high-level languages.
-* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to facilitate object-oriented programming (OOP) on C and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
+* The [C Programming Language](https://en.wikipedia.org/wiki/C_%28programming_language%29) was created by Dennis Ritchie and other workers, and was used to write most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of "mid-level" language because while it is above assembly, it is still lower-level than most other high-level languages.
+* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to C to facilitate object-oriented programming (OOP) there, and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
 * [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) is a programming language whose syntax is superficially reminiscent of C, but which has otherwise different syntax, semantics (including garbage collection) and a completely different standard library.
 * [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29) was inspired a lot by Java, and is very similar (but not compatible), and is not compatible with either C or C++. It is just sharing a name containing "C" for presumably marketing and branding purposes.
 * [Managed C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is a C++-like language for [the .NET framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is also used to host C#), which isn't entirely compatible with C++.
@@ -252,9 +252,9 @@ are known to be ineffective - see [this post about distributing CPython's .pyc f
 The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different Networked service) for it and have the local end-user code query it using the network stack.
 
 Another point is that you should consider trusting your users instead. Shlomi
-Fish (“rindolf”) has a written a cautionary tale about the fact that BitKeeper’s
-parent company, BitMover, has done a series of licence changes to its main
-offering over the years to prevent abuses from users who were unlikely to
+Fish (“rindolf”) has a written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
+parent company, BitMover, has done a series of licence changes to BitKeeper
+over the years to prevent abuses from users who were unlikely to
 become paid customers out of sheer paranoia in
 [“What BitMover Got Wrong?”](http://better-scm.shlomifish.org/bk/what-bitmover-got-wrong.html), and you should better avoid it. Freenode is dedicated
 to discussing collaborative and free/open projects and you are likely to
@@ -274,7 +274,7 @@ to answer it once and for all. The first question we need to ask you is:
 “Why does it matter?” If you knew who the best programmer in the world is,
 do you think you can afford to hire him? Moreover, as [a post by Ovid notes](http://images.use.perl.org/use.perl.org/_Ovid/journal/39801.html),
 studies found that the best programmers are only 5 times more
-productive than the worst, which is consisten with productivity variation
+productive than the worst, which is consistent with productivity variation
 in other fields. Furthermore, a contractor who did both web development
 and Linux kernel development [noted](http://www.shlomifish.org/enough-with-sec/web-devel-has-become-too-hard.xhtml)
 that despite common belief, “web development is harder than Linux kernel
@@ -295,4 +295,4 @@ That's not really true. While we sometimes discuss popular culture and entertain
 
 ## Licence/License
 
-The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/X11 License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
+The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
