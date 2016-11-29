@@ -289,6 +289,16 @@ programming skills, and learn from your fellow programmers, and from good
 and bad code people wrote out there. One way to achieve that is to be present
 on software development's forums, including ##programming .
 
+### I printed something but don't see it on the console yet! My output is out-of-order? Help!
+
+You may be suffering from buffering. First of all, go over Mark Jason Dominus’
+[“Suffering from Buffering?”](http://perl.plover.com/FAQs/Buffering.html)
+page which is somewhat focused on these issues for Perl 5. Then you may wish to:
+
+1. In C, make a judicious use of [fflush()](http://en.cppreference.com/w/c/io/fflush), or use locks for synchronisation.
+2. In C++, use [std::flush](http://stackoverflow.com/questions/14105650/how-does-stdflush-work).
+3. Use similar routines for your programming language of choice.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
