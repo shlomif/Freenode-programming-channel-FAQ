@@ -316,6 +316,20 @@ Try referring to these links:
 
 In addition the English wikipedia has [a list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of problems that were shown to be NP-complete.
 
+### What do you think about interpreted vs. compiled languages?
+
+First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpreter_%28computing%29) vs. [“compiled”](https://en.wikipedia.org/wiki/Compiler) is an implementation detail, and a programming language may have more than one implementation.
+
+Morever, it is not always that straightforward - there are also languages
+that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine) or
+[bytecode](https://en.wikipedia.org/wiki/Bytecode) and then interpret that,
+there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation) and there may be some other approaches.
+
+Note that one should not use the fact that an implementation is
+interpreted against it, because it may not be slower than compiled code all the
+time, and because it may still be fast enough for many uses given today’s
+processors.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
