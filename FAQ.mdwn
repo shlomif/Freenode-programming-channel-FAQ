@@ -331,7 +331,7 @@ time, and because it may still be fast enough for many uses given today’s
 processors.
 
 Despite some common belief, C has some interpreters as
-[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamicly typed languages such as Common Lisp, Scheme, or Python have compilers.
+[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically typed languages such as Common Lisp, Scheme, or Python have compilers.
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
