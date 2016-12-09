@@ -306,6 +306,16 @@ page which is somewhat focused on these issues for Perl 5. Then you may wish to:
 2. In C++, use [std::flush](http://stackoverflow.com/questions/14105650/how-does-stdflush-work).
 3. Use similar routines for your programming language of choice.
 
+### What do “NP-Complete”, “NP-hard”, etc. mean?
+
+Try referring to these links:
+
+* [The English Wikipedia’s entry](https://en.wikipedia.org/wiki/NP-completeness) - somewhat formal, but may prove enlightening.
+* [Stackoverflow Thread](http://stackoverflow.com/questions/210829/what-is-an-np-complete-in-computer-science) - should be more accessible
+* [Log of a conversation on ##programming](http://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-what-is-NP-complete)
+
+In addition the English wikipedia has [a list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of problems that were shown to be NP-complete.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
