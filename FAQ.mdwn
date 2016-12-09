@@ -202,7 +202,7 @@ In addition, note that you may wish to consider contributing to open source proj
 
 ###   I have a problem with my code, how should I share it for people to review?
 
-First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example. If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
+First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page). If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
 
 Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
 
