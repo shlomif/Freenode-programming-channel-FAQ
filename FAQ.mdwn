@@ -330,6 +330,9 @@ interpreted against it, because it may not be slower than compiled code all the
 time, and because it may still be fast enough for many uses given today’s
 processors.
 
+Despite some common belief, C has some interpreters as
+[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamicly typed languages such as Common Lisp, Scheme, or Python have compilers.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
