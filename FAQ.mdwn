@@ -334,6 +334,19 @@ processors.
 Despite some common belief, C has some interpreters as
 [mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically typed languages such as Common Lisp, Scheme, or Python have compilers.
 
+### How is JavaScript related to Java? What is the difference between them?
+
+JavaScript (also see [its Wikipedia entry](https://en.wikipedia.org/wiki/JavaScript)) is a programming language first introduced in version 2.0 of the
+browser [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_%28web_browser%29)
+which also introduced support for browser-hosted [Java applets](https://en.wikipedia.org/wiki/Java_applet) written in the [Java programming language](https://en.wikipedia.org/wiki/Java_%28programming_language%29).
+
+According to [this blog post](https://brendaneich.com/2008/04/popularity/) titled
+“Popularity” it was designed so its syntax will resemble Java (which ruled out the use of other popular open source languages at the time) and was named “JavaScript” for marketing reasons. Despite that, Java and JavaScript codes are not compatible with one another.
+
+For more information, see:
+
+* [Stackoverflow Question about “What’s the difference between JavaScript and Java”](http://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java?sort=votes)
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
