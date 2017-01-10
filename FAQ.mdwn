@@ -38,6 +38,28 @@ Some channels people try to join to seek help with their technology (notably ##j
 
 Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels.
 
+###   How should I ask a question on the channel? Can I?
+
+The first guideline is that you should not “ask to ask” by saying “May I ask
+a question?” or asking if anyone worked with that certain technology. Just ask
+for help directly.
+
+The second guideline is that you should probably read or skim the guide
+[“How To Ask Questions The Smart Way”](http://catb.org/~esr/faqs/smart-questions.html) and try to follow its wisdom, which involves doing some prior due diligence.
+
+Otherwise, also see the next question for how to share the offending code with
+the channel.
+
+###   I have a problem with my code, how should I share it for people to review?
+
+First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page). If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
+
+Please don't share non-runnable pieces and fragments of your code, see [“Show Us The Whole Code”](http://shadow.cat/blog/matt-s-trout/show-us-the-whole-code/) .
+
+Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+
+If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
+
 ###   Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that the following editing mechanisms will not be adequate for editing code:
@@ -201,14 +223,6 @@ For some lists of ideas for what to program see:
 In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
 
 * [“How to start contributing to or using open source software”](http://teachingopensource.org/index.php/How_to_start_contributing_to_or_using_Open_Source_Software)
-
-###   I have a problem with my code, how should I share it for people to review?
-
-First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page). If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
-
-Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
-
-If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
 
 ###   What is FizzBuzz?
 
