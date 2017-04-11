@@ -205,6 +205,7 @@ For some lists of ideas for what to program see:
 * [“Hackerrank” - “Programming problems and competitions”](https://www.hackerrank.com/)
 * [Anarchy Code Golf](http://golf.shinh.org/).
 * [Some ideas for websites you can build!](https://github.com/melanierichards/just-build-websites)
+* [/r/dailyprogrammer on Reddit](https://www.reddit.com/r/dailyprogrammer/)
 
 In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
 
