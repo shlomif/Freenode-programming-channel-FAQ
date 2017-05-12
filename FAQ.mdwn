@@ -195,6 +195,7 @@ One such debugger is the open source command-line debugger, ["gdb"](https://en.w
 * [“gdb - customize it the way you want”](http://www.haifux.org/lectures/210/) - by guy keren.
 * [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief, but not carefully reviewed for correctness.
 
+Also note that gdb has some [GUI frontends](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/#open-debugger-GUIs) that may make it easier or more convenient to use.
 
 ###   I feel like programming something, but I don't know what. Can you suggest some good ideas for programs?
 
