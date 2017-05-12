@@ -188,11 +188,12 @@ In addition, here are some recommended lists of books by some notable software e
 
 We are often approached by people who tell us their C or C++ (or whatever) program crashes or otherwise misbehaves and then ask us why. If that's the case for you, you should realise that you should learn how to use an interactive debugger in order to debug your program, and you should learn how to do so as soon as possible.
 
-One such debugger is the open source command-line debugger, "gdb", which can be used to debug programs in C, C++ and some other languages. Here is some information on learning to use it:
+One such debugger is the open source command-line debugger, ["gdb"](https://en.wikipedia.org/wiki/GNU_Debugger), which can be used to debug programs in C, C++ and some other languages. Here is some information on learning to use it:
 
 * [“Software Development on Linux” slides](http://www.shlomifish.org/lecture/W2L/Development/slides/) - a basic introduction to gdb.
 * [“Advanced Debugging with gdb”](http://www.shlomifish.org/tel.foss.org.il-temp/lecture-notes/GDB_Linux_telux.pdf) - by David Khosid.
 * [“gdb - customize it the way you want”](http://www.haifux.org/lectures/210/) - by guy keren.
+* [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief, but not carefully reviewed for correctness.
 
 
 ###   I feel like programming something, but I don't know what. Can you suggest some good ideas for programs?
