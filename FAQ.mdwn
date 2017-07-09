@@ -369,6 +369,23 @@ For more information, see:
 
 * [Stackoverflow Question about “What’s the difference between JavaScript and Java”](http://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java?sort=votes)
 
+### How can I learn Web Development? (HTML/etc.)?
+
+First of all, you may wish to go over
+[“The Unix and Internet Fundamentals HOWTO”](http://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)
+to gain some basic understanding of how the Web works over the Internet.
+
+After that, read [HTML Dog](http://htmldog.com/) which hosts some quality
+tutorials about HTML, CSS, and JavaScript.
+
+After that, perhaps using a [static site generator](https://davidwalsh.name/introduction-static-site-generators)
+will be good enough for you and static sites are more secure and requires
+less maintenance than sites with server-side scripting. If you need something
+to run on the server, then you have a lot of choice for
+[server-side technologies](https://duckduckgo.com/?q=server-side+technologies+web&ia=web)
+and often [web frameworks](https://en.wikipedia.org/wiki/Web_framework) and
+APIs for them.
+
 ### Where can I get help with writing my own operating system or kernel?
 
 First of all, Freenode has
