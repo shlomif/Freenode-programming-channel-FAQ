@@ -405,6 +405,20 @@ in order to avoid what Joel on Software calls
 one or more of the existing [open source operating systems](https://en.wikipedia.org/wiki/Comparison_of_open-source_operating_systems) out there,
 because that way your efforts will be much more likely to amount to something.
 
+### Is {software dev paradigm, e.g: Object-Oriented Programming, Functional Programming, Structured Programming} bad/good/better/worse?
+
+We had several people join to try to provke a discussion about whether Object-Oriented Programming or a different software paradigm was bad or had alternatives. These discussions were rarely constructive and usually were pointless, so you should avoid sparking them.
+
+If you are working on a project that is under your control, you can try to use
+programming languages which avoid this particular paradigm. If you need to use
+it for your day job, you can either look for a different job and/or realise
+that [“Reality to be conquered must be obeyed.”](http://shlomifishswiki.branchable.com/Self-Sufficiency/) and all that jazz, and try to cope with what you have.
+
+Otherwise, it is unlikely that adopting a certain programming paradigm, or
+alternatively ditching one completely, will magically solve all the world's
+software development problems, and provoking heated debates about it
+on ##programming is even less likely to make that happen.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
