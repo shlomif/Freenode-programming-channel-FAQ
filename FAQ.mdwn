@@ -380,7 +380,7 @@ After that, read [HTML Dog](http://htmldog.com/) which hosts some quality
 tutorials about HTML, CSS, and JavaScript.
 
 After that, perhaps using a [static site generator](https://davidwalsh.name/introduction-static-site-generators)
-will be good enough for you and static sites are more secure and requires
+will be good enough for you, and static sites are more secure and require
 less maintenance than sites with server-side scripting. If you need something
 to run on the server, then you have a lot of choice for
 [server-side technologies](https://duckduckgo.com/?q=server-side+technologies+web&ia=web)
