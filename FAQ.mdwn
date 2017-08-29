@@ -421,6 +421,20 @@ alternatively ditching one completely, will magically solve all the world's
 software development problems, and provoking heated debates about it
 on ##programming is even less likely to make that happen.
 
+### Why are people still using C when there are languages like Rust or Pony?
+
+First of all note that we do not mean to imply that languages like [Rust](https://en.wikipedia.org/wiki/Rust_%28programming_languaged%29) or [Pony](https://www.ponylang.org/) are not without their merit, or do not provide any significant advantages in comparison to C or C++.
+
+That put aside, there are some reasons why C may still be popular:
+
+1. Due to legacy and inertia and the fact C has been around for many years before Rust was introduced, there is a lot of C code out there, and it still needs to be maintained.
+2. Rust reportedly compiles extremely slowly, which may be prohibitive especially for large projects, and similar complaints were voiced against C++’s compilation speeds.
+3. Rust and Pony may be quite more complex than C.
+4. Some people may still like C, and they are still allowed to use it.
+5. Rust appears to have become a religion-of-sorts, which deters some people from using it.
+
+If you like Rust or Pony or whatever, and wish to promote them, then it would be a better idea to actively contribute to and improve their core or ecosystem, rather than ranting about how much their older alternatives suck on online forums. Like a wise man once [said](https://github.com/shlomif/fortune-mod/blob/a2c124c5717435772f5d319b074ba226b5d0c71b/fortune-mod/datfiles/definitions#L3142): “After all is said and done, a hell of a lot more is said than done.”, and you should try to keep the ratio smaller.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
