@@ -99,6 +99,7 @@ But here goes with a grain of salt:
 2. Write Automated Tests. See [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development) and other resources.
 3. Use a standard build/configuration system for the language you use. Simple [makefiles](http://en.wikipedia.org/wiki/Makefile) may be adequate for small projects, especially those written in C or C++. If you need to handle dependencies, build-time configuration variables and other complications, you should look at [alternatives for C](http://www.shlomifish.org/open-source/resources/software-tools/) or the community-based alternatives for your programming language of choice (e.g: [setuptools](http://en.wikipedia.org/wiki/Setuptools) for Python; [Dist::Zilla](http://dzil.org/) for Perl; [RubyGems](http://en.wikipedia.org/wiki/RubyGems) for Ruby).
 4. Deploy a local or hosted [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) service and make sure that failing builds or tests are remedied.
+5. Set up a [bug tracker](https://en.wikipedia.org/wiki/Bug_tracking_system) and use it to manage the issues and tasks' list. Some code-sharing sites provide hosted web-based issue trackers free-of-charge.
 
 For more information consult these links:
 
@@ -109,6 +110,7 @@ For more information consult these links:
 5. The tongue-in-cheek essay [“How To Write Unmaintable Code”](https://github.com/Droogans/unmaintainable-code) .
 6. A [discussion](http://perlhacks.com/2012/03/you-must-hate-version-control-systems/) on Dave Cross’ Perl Hacks blog titled “You Must Hate Version Control Systems”.
 7. [The Daily WTF](http://thedailywtf.com/) is a web site dedicated to posts about awful, but funny, programming practices.
+8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
 
 ###   What is the best programming language?
 
