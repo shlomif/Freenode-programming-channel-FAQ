@@ -24,6 +24,17 @@ Some channels people try to join to seek help with their technology (notably ##j
 
 Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels.
 
+###   Why do ##programming and other channels have two "#" whereas other channels have only one?
+
+To quote from [this post about Freenode](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/): «The name of a “Primary Channel” starts with a single hash (“#”) and is discussion forum for a specific project or community (like Alfresco, or your local LUG). “About channels” start with a double hash and host conversations about a topic or subject (for example: ##security). »
+
+### Why do some users on the channel have +v (voice, a + sign, a blue circle, etc.)?
+
+These users are voiced so in case the channel is under attack, and it will
+become restricted, then they and only they will be able to talk here. Normally,
+it should not matter, as when there is no major abuse, everyone can talk
+whether +v'ed or not.
+
 ###   How should I ask a question on the channel? Can I?
 
 The first guideline is that you should not “ask to ask” by saying “May I ask
