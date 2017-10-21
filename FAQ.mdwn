@@ -18,6 +18,15 @@ Freenode also provides a web interface here: <a href="http://webchat.freenode.ne
 
 Refer to [the channel rules](https://github.com/jeaye/2lb_programming/blob/master/README.md) for more information.
 
+###   How do I address someone to grab his/her attention?
+
+Just say their nickname followed by a colon (":") or a comma (","). Many IRC
+clients will allow you to do that by typing the first letters of the nickname
+followed by pressing the [tab key](https://en.wikipedia.org/wiki/Tab_key)
+(so-called tab completion). Please don't generally private message someone
+using the `/msg` or `/query` commands because that way other people cannot
+view and contribute to what you are saying.
+
 ###   I tried joining a different channel for help, but I could not - why?
 
 Some channels people try to join to seek help with their technology (notably ##java) require registration at the Freenode services. See [Freenode’s knowledge base](http://freenode.net/kb/all) for more information about user/nickname registration.
