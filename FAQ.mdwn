@@ -458,7 +458,7 @@ That put aside, there are some reasons why C may still be popular:
 
 If you like Rust or Pony or whatever, and wish to promote them, then it would be a better idea to actively contribute to and improve their core or ecosystem, rather than ranting about how much their older alternatives suck on online forums. Like a wise man once [said](https://github.com/shlomif/fortune-mod/blob/a2c124c5717435772f5d319b074ba226b5d0c71b/fortune-mod/datfiles/definitions#L3142): “After all is said and done, a hell of a lot more is said than done.”, and you should try to keep the ratio smaller.
 
-### How do I factor a large integer number into its prime components? (Project Euler problem 3)
+### How do I factor a large integer number into its prime components quickly enough? (Project Euler problem 3)
 
 Here are some tips:
 
