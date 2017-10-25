@@ -1,4 +1,4 @@
-This repository contains the Frequently Asked Questions (FAQ) for the
+This repository contains the [FAQ.mdwn](Frequently Asked Questions &#40;FAQ&#41;) for the
 [Freenode](https://freenode.net/) ##programming channel. It is meant to be
 hosted as either an Ikiwiki wiki or alternatively viewable using the GitHub
 Markdown viewer.
