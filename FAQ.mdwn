@@ -472,6 +472,19 @@ Here are some tips in English:
 3. If a number is a composite then its smallest prime factor is less or equal to its square root. So if you have checked all numbers up to its root and they didn't divide it, then you know it is prime.
 4. Consider skipping common composite factors such as powers of 2 or 3.
 
+### How can I write code to perform operations on web-sites for me? (that otherwise should be done manually)
+
+This is called [web automation](https://duckduckgo.com/?q=web+automation;ia=web)
+and can be conveniently done in several languages:
+
+* The book [Automate the Boring Stuff with Python](http://automatetheboringstuff.com/) covers web automation in Python
+* This [page](http://perl-begin.org/uses/web-automation/) covers it using Perl.
+* There are some [command line web clients](http://www.shlomifish.org/open-source/resources/networking-clients/#cmd-line-WWW-clients).
+
+Note that if the site provides a WWW-based API, then you should use it, and
+that automating client-side JavaScript may prove to be tricky. You should also
+avoid overloading a site or going against its Terms of Service.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
