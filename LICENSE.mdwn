@@ -1,0 +1,1 @@
+The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
