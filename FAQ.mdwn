@@ -258,6 +258,14 @@ using [GitHub search](https://github.com/search),
 the [English Wikipedia search](https://en.wikipedia.org/wiki/Main_Page) or
 other search resources.
 
+###   What is "open source" software? Does it mean only that its source is available?
+
+No. According to the [open source definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition)
+an open source software licence must fulfill more than just the availability
+of the source code, including free redistribution and allowing to modify the
+code and distribute changes. Read the link on the wikipedia page for more
+information.
+
 ###   What is FizzBuzz?
 
 In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
