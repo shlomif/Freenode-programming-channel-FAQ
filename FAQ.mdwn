@@ -216,10 +216,10 @@ We are often approached by people who tell us their C or C++ (or whatever) progr
 
 One such debugger is the open source command-line debugger, ["gdb"](https://en.wikipedia.org/wiki/GNU_Debugger), which can be used to debug programs in C, C++ and some other languages. Here is some information on learning to use it:
 
+* [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief and accurate.
 * [“Software Development on Linux” slides](http://www.shlomifish.org/lecture/W2L/Development/slides/) - a basic introduction to gdb.
 * [“Advanced Debugging with gdb”](http://www.shlomifish.org/tel.foss.org.il-temp/lecture-notes/GDB_Linux_telux.pdf) - by David Khosid.
 * [“gdb - customize it the way you want”](http://www.haifux.org/lectures/210/) - by guy keren.
-* [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief, but not carefully reviewed for correctness.
 
 Also note that gdb has some [GUI frontends](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/#open-debugger-GUIs) that may make it easier or more convenient to use.
 
