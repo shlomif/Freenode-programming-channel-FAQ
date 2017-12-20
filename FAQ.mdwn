@@ -238,7 +238,7 @@ For some lists of ideas for what to program see:
 
 In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
 
-* [“How to start contributing to or using open source software”](http://teachingopensource.org/index.php/How_to_start_contributing_to_or_using_Open_Source_Software)
+* [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
 * [High Priority Free Software Projects](https://www.fsf.org/campaigns/priority-projects/)
 
 ###   I want to contribute to an open source project, but how? Which one can I contribute to?
@@ -246,7 +246,7 @@ In addition, note that you may wish to consider contributing to open source proj
 First of all, it is good that you wish to contribute and good luck. Here are
 some resources to get you started:
 
-* [“How to start contributing to or using open source software”](http://teachingopensource.org/index.php/How_to_start_contributing_to_or_using_Open_Source_Software)
+* [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
 * [“14 ways to contribute to open source without being a programming genius or a rock star”](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/)
 * [“How to become a hacker?”](http://www.catb.org/esr/faqs/hacker-howto.html)
 
