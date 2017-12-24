@@ -493,6 +493,14 @@ Note that if the site provides a WWW-based API, then you should use it, and
 that automating client-side JavaScript may prove to be tricky. You should also
 avoid overloading a site or going against its Terms of Service.
 
+### Where can I learn to write and/or read regular expressions?
+
+Here are some resources:
+
+* [regular-expressions.info](http://www.regular-expressions.info/)
+* Page about [regular expressions in Perl](http://perl-begin.org/topics/regular-expressions/)
+* [pydoc for regular expressions](https://docs.python.org/3/library/re.html) in Python
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
