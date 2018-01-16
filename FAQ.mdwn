@@ -280,6 +280,7 @@ For more information, see:
 * [Why Can’t Programmers Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
 * [FizzBuzz on Rosetta Code](http://rosettacode.org/wiki/FizzBuzz) (WARNING! The licence is problematic.)
 * [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+* [Expat-licensed version in C](https://github.com/shlomif/shlomif-c-snippets/blob/master/shlomif-c-snippets/fizz_buzz.c), an [Expat-licensed version in Perl 5](https://github.com/shlomif/shlomif-perl-snippets/blob/master/fizz-buzz/fizz-buzz.pl), and [one in Python](https://github.com/shlomif/shlomif-perl-snippets/blob/master/fizz-buzz/fizz-buzz.py) - written by rindolf.
 
 ### How are C, C++, and C# (C-sharp) related? How are they different?
 
