@@ -508,7 +508,7 @@ Here are some resources:
 
 ### I have problems understanding recursion. Can you help?
 
-* The book [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) (whose [text is available online](https://mitpress.mit.edu/sicp/) freely and openly)has a strong focus about recursion.
+* The book [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) (whose [text is available online](https://mitpress.mit.edu/sicp/) freely and openly) has a strong focus about recursion.
 * One way to understand recursion is to understand the [call stack](https://duckduckgo.com/?q=call+stack;ia=web) used by programming languages to implement it.
 * There is a [Stack Exchange thread](https://softwareengineering.stackexchange.com/questions/25052/in-plain-english-what-is-recursion) about explaining recursion.
 
