@@ -504,6 +504,7 @@ avoid overloading a site or going against its Terms of Service.
 
 Here are some resources:
 
+* [awesome-regex](https://github.com/aloisdg/awesome-regex) - a curated list of recommended regular expression resources.
 * [regular-expressions.info](http://www.regular-expressions.info/)
 * Page about [regular expressions in Perl](http://perl-begin.org/topics/regular-expressions/)
 * [pydoc for regular expressions](https://docs.python.org/3/library/re.html) in Python
