@@ -515,6 +515,16 @@ Here are some resources:
 * One way to understand recursion is to understand the [call stack](https://duckduckgo.com/?q=call+stack;ia=web) used by programming languages to implement it.
 * There is a [Stack Exchange thread](https://softwareengineering.stackexchange.com/questions/25052/in-plain-english-what-is-recursion) about explaining recursion.
 
+### What does "indentation" mean?
+
+Indentation means that the contents of every block are promoted from their
+containing environment by using a shift of some space. This makes the code
+easier to read and follow.
+
+Code without indentation is harder to read and so should be avoided. The
+[Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style) lists
+several styles - pick one and follow it.
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
