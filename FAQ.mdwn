@@ -525,6 +525,26 @@ Code without indentation is harder to read and so should be avoided. The
 [Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style) lists
 several styles - pick one and follow it.
 
+### I want to release my code - which (open source) licence should I use?
+
+First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
+not a lawyer) and all that jazz. Some resources to get you started are:
+
+1. GitHub’s [choosealicense](https://choosealicense.com/) which provides
+the most popular and recommended choices.
+2. Understand the distinction between [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence), weak [copyleft](https://en.wikipedia.org/wiki/Copyleft),
+strong copyleft, and proprietary licences.
+3. The [licences list](https://www.gnu.org/licenses/license-list.html) of the Free Software Foundation is comprehensive, but opinionated.
+4. The [OSI list of popular licences](https://opensource.org/licenses)
+
+Please avoid:
+
+1. Creating your own licence - this risks [licence proliferation](https://en.wikipedia.org/wiki/License_proliferation) and may very well be legally unsound.
+2. Not specify a licence - this risks the software being considered as [All Rights Reserved](https://en.wikipedia.org/wiki/All_rights_reserved) by default which may taint and encumber software developer's future work.
+3. Choose an unpopular or obscure licence.
+4. Choose a licence that is [incompatible with the GPL](https://www.dwheeler.com/essays/gpl-compatible.html).
+5. If you want to use the [public domain](https://en.wikipedia.org/wiki/Public_domain) as a non-licence, please use [CC0](https://creativecommons.org/choose/zero/) .
+
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
