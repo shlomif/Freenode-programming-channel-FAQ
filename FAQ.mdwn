@@ -540,9 +540,9 @@ strong copyleft, and proprietary licences.
 Please avoid:
 
 1. Creating your own licence - this risks [licence proliferation](https://en.wikipedia.org/wiki/License_proliferation) and may very well be legally unsound.
-2. Not specify a licence - this risks the software being considered as [All Rights Reserved](https://en.wikipedia.org/wiki/All_rights_reserved) by default which may taint and encumber software developer's future work.
-3. Choose an unpopular or obscure licence.
-4. Choose a licence that is [incompatible with the GPL](https://www.dwheeler.com/essays/gpl-compatible.html).
+2. Not specifying a licence - this risks the software being considered as [All Rights Reserved](https://en.wikipedia.org/wiki/All_rights_reserved) by default which may taint and encumber software developer's future work.
+3. Choosing an unpopular or obscure licence.
+4. Choosing a licence that is [incompatible with the GPL](https://www.dwheeler.com/essays/gpl-compatible.html).
 5. If you want to use the [public domain](https://en.wikipedia.org/wiki/Public_domain) as a non-licence, please use [CC0](https://creativecommons.org/choose/zero/) .
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
