@@ -555,10 +555,7 @@ example, it may be configured to install some dependencies, and then run
 `./configure && make && make test`. If one of the steps fails, then it is
 reported and one needs to restore the build to order.
 
-While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29), there are hosted services such as Travis-CI or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor) which provide a service, which : 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
-
-
-
+While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
