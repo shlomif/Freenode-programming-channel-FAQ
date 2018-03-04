@@ -71,6 +71,12 @@ Once you have that, you have several options to share it. If you are coding a we
 
 If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
 
+###   I do not see anyone talking on the channel - is it dead?
+
+The channel is still active, but may grow silent for several hours at a time,
+especially during the weekends and other holidays. Stick around and you should
+see some conversation eventually.
+
 ###   Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that the following editing mechanisms will not be adequate for editing code:
