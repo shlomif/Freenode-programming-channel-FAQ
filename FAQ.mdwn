@@ -325,7 +325,9 @@ that, but its downside is that the resultant code is much larger and much
 slower (by a factor of about 100,000), so it'll likely be unacceptable to you.
 
 The second is that some popular approaches for "hiding" the source code
-are known to be ineffective - see [this post about distributing CPython's .pyc files](http://shlomif-tech.livejournal.com/39732.html) for an example.
+are known to be ineffective - see [this post about distributing CPython's .pyc files](http://shlomif-tech.livejournal.com/39732.html) for an example,
+as well as [this 2002 thread](https://lists.gt.net/python/python/123115?do=post_view_threaded)
+about obscuring Python code.
 
 The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different Networked service) for it and have the local end-user code query it using the network stack.
 
