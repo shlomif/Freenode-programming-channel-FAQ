@@ -565,6 +565,16 @@ reported and one needs to restore the build to order.
 
 While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
 
+### Which music do you listen to while programming?
+
+A lot of people ask us that. Different software developers have different
+musical tastes, and may find different music suitable to listen to while
+programming. Some of them may find it hard to concentrate while listening to
+music.
+
+That put aside, here are some recommendations from our regulars:
+
+* rindolf listens mostly to pop and rock (while fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
