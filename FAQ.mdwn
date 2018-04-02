@@ -575,6 +575,16 @@ There are some tools that can help:
 4. [PurifyPlus](https://en.wikipedia.org/wiki/PurifyPlus)
 5. [BoundsChecker](https://en.wikipedia.org/wiki/BoundsChecker) - Windows-only.
 
+### How do I remove duplicates from a list of items? How do I make the items unique?
+
+The best way is to use a [Set](https://stackoverflow.com/questions/2630738/c-how-to-implement-set-data-structure) or
+a [dictionary/map/associative-array](https://en.wikipedia.org/wiki/Associative_array) [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type) . For more insights consult:
+
+* [Rosetta Code page](http://rosettacode.org/wiki/Remove_duplicate_elements)
+* [Perl Hashes page](http://perl-begin.org/topics/hashes/)
+* [JavaScript Set page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+* [awk one-liners](http://www.pement.org/awk/awk1line.txt) - search for "duplicate"
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
