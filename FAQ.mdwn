@@ -560,8 +560,8 @@ A CI service runs the build and tests on pristine environments (=
 such that dependencies need to be explicitly installed) on each version control
 commit. For
 example, it may be configured to install some dependencies, and then run
-`./configure && make && make test`. If one of the steps fails, then it is
-reported and one needs to restore the build to order.
+`./configure && make && make test`. If one of the steps fails, then the problem
+is reported, and the developers need to restore the build to order.
 
 While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
 
