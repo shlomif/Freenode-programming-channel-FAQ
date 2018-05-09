@@ -585,6 +585,15 @@ a [dictionary/map/associative-array](https://en.wikipedia.org/wiki/Associative_a
 * [JavaScript Set page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 * [awk one-liners](http://www.pement.org/awk/awk1line.txt) - search for "duplicate"
 
+### How is this symbol/character/punctuation mark called in English?
+
+The following resources may help:
+
+* [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
+* [Wikipedia Punctuation Page](https://en.wikipedia.org/wiki/Punctuation)
+* [Unicode Shapecatcher](http://shapecatcher.com/)
+* [Wikipedia ASCII Page](https://en.wikipedia.org/wiki/ASCII)
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
