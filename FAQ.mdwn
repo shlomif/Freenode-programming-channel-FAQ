@@ -584,6 +584,7 @@ a [dictionary/map/associative-array](https://en.wikipedia.org/wiki/Associative_a
 * [Perl Hashes page](http://perl-begin.org/topics/hashes/)
 * [JavaScript Set page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 * [awk one-liners](http://www.pement.org/awk/awk1line.txt) - search for "duplicate"
+* [Perl one-liners explained](http://www.catonmat.net/blog/perl-one-liners-explained-part-six/) - search for "unique"
 
 ### How is this symbol/character/punctuation mark called in English?
 
