@@ -100,7 +100,7 @@ Different people will give different answers when asked that. Most people on ##p
 * [_Automate the Boring Stuff with Python_](http://automatetheboringstuff.com/) - “Practical programming for total beginners.”
 * [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/python/english2e/) - a similar book.
 * [_A Byte of Python_](https://python.swaroopch.com/)
-* [_Learn Python the Hard Way_](http://learnpythonthehardway.org/) - while it has an intimidating title, this book aims to teach beginning programmers proper programming using Python using formal methods.
+* [_Test-Driven Development with Python_](https://www.obeythetestinggoat.com/pages/book.html)
 * [The Default Python Tutorial](http://docs.python.org/tutorial/) - may not be too useful for people with no programming experience.
 
 Here are some resources for learning other programming languages, whether as a first language or after knowing some other languages:
