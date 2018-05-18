@@ -595,6 +595,20 @@ The following resources may help:
 * [Unicode Shapecatcher](http://shapecatcher.com/)
 * [Wikipedia ASCII Page](https://en.wikipedia.org/wiki/ASCII)
 
+### What do people mean when they say “s/pattern/replacement/”?
+
+This means replace (or "substitute") the pattern with the replacement in a
+previous said text.
+
+This notation is derived from
+the Unix [ed](https://en.wikipedia.org/wiki/Ed_%28text_editor%29) editor,
+which in turn was inherited by sed, vi (and vim) and perl.
+
+For more information see:
+
+* [Hacker Writing Style](http://www.catb.org/jargon/html/writing-style.html)
+
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
