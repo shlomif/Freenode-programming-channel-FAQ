@@ -422,7 +422,8 @@ For more information, see:
 ### How can I learn Web Development? (HTML/etc.)?
 
 First of all, you may wish to go over
-[“The Unix and Internet Fundamentals HOWTO”](http://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)
+[MDN's "How the Web works"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works),
+[“The Unix and Internet Fundamentals HOWTO”](http://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/),
 or [Mozilla Hacks' "Web Demystified" video series](https://hacks.mozilla.org/2018/04/a-new-video-series-web-demystified/)
 to gain some basic understanding of how the Web works over the Internet.
 
