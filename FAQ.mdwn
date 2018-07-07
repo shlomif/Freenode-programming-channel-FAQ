@@ -544,9 +544,9 @@ not a lawyer) and all that jazz. Some resources to get you started are:
 1. GitHub’s [choosealicense](https://choosealicense.com/) which provides
 the most popular and recommended choices.
 2. Understand the distinction between [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence), weak [copyleft](https://en.wikipedia.org/wiki/Copyleft),
-strong copyleft, and proprietary licences.
+strong copyleft, and [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) licences.
 3. The [licences list](https://www.gnu.org/licenses/license-list.html) of the Free Software Foundation is comprehensive, but opinionated.
-4. The [OSI list of popular licences](https://opensource.org/licenses)
+4. The [OSI list of popular licences](https://opensource.org/licenses).
 
 Please avoid:
 
