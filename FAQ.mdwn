@@ -487,7 +487,7 @@ If you like Rust or Pony or whatever, and wish to promote them, then it would be
 
 ### How do I factor a large integer number into its prime components quickly enough? (Project Euler problem 3)
 
-You can peruse the sources of [mini-factor](https://github.com/shlomif/project-euler/tree/master/project-euler/3) which is quite fast and licensed under the permissive [Expat licence](https://tldrlegal.com/license/mit-license),
+You can peruse the sources of [mini-factor](https://github.com/shlomif/mini-factor) which is quite fast and licensed under the permissive [Expat licence](https://tldrlegal.com/license/mit-license),
 those of [factor from GNU coreutils](https://github.com/coreutils/coreutils/blob/master/src/factor.c) which is under the strong [copyleft](https://en.wikipedia.org/wiki/Copyleft) GPLv3 licence,
 and those of [FreeBSD’s factor](https://svnweb.freebsd.org/base/head/usr.bin/factor/factor.c?view=log) which is under a permissive open source licence.
 
