@@ -251,6 +251,7 @@ In addition, note that you may wish to consider contributing to open source proj
 
 * [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
 * [High Priority Free Software Projects](https://www.fsf.org/campaigns/priority-projects/)
+* [koollman's missing programs he would like](https://github.com/koollman/stuff-I-would-like/blob/master/Programs.md)
 
 ###   I want to contribute to an open source project, but how? Which one can I contribute to?
 
