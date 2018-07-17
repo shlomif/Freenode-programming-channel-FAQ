@@ -603,6 +603,18 @@ The following resources may help:
 
 See [this Stackoverflow question](https://stackoverflow.com/questions/37538/how-do-i-determine-the-size-of-my-array-in-c) .
 
+### Is it true that macOS / Mac OS X is superior to Linux because it is a "Certified Unix"?
+
+In the context of this question, we are not trying to disuade you from using
+macOS, just to point out that being "Certified Unix™" is not too relevant
+and should not be used as an argument against using [Linux](https://en.wikipedia.org/wiki/Linux). Namely:
+
+1. Certified Unix™ is reportedly given to particular OSes running on certain hardware. This is harder for Linux and other open source Unix-like OSes to achieve because they support heterogeneous hardware (including [x86](https://en.wikipedia.org/wiki/X86) and its peripherals).
+2. Two Linux and GNU/etc. runtime OSes - namely EulerOS and Inspur K-UX - were certified as Unix. See [the wikipedia page](https://en.wikipedia.org/wiki/Single_UNIX_Specification#EulerOS) for details.
+3. At a time, Windows NT by Microsoft was certified as Unix as well.
+4. Being certified as such does not mean that the system will behave exactly as a Unix system is expected to behave. For example, the [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in macOS is reportedly mostly neutered.
+5. Most people and organisations do not care too much about the Unix certification and will be happy to use a sane non-certified [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating system. The certification as Unix does not buy you much.
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
