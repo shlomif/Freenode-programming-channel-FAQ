@@ -617,6 +617,21 @@ and should not be used as an argument against using [Linux](https://en.wikipedia
 4. Being certified as such does not mean that the system will behave exactly as a Unix system is expected to behave. For example, the [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in macOS is reportedly mostly neutered.
 5. Most people and organisations do not care too much about the Unix certification and will be happy to use a sane non-certified [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating system. The certification as Unix does not buy you much.
 
+### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
+
+First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
+not a lawyer) and all that jazz.
+
+A copyright holder may change the licence as they please, and [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence) also allow
+other parties to sublicense the code under different licences. However, the
+original version of the code may be [forked](https://en.wikipedia.org/wiki/Fork_%28software_development%29) and maintained under the original licence by
+other parties.
+
+For more information, see:
+
+* [Fear of Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
+* [ESR's comments about the "right to fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
