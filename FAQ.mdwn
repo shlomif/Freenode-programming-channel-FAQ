@@ -253,6 +253,19 @@ In addition, note that you may wish to consider contributing to open source proj
 * [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
 * [High Priority Free Software Projects](https://www.fsf.org/campaigns/priority-projects/)
 
+###   Does anyone know of a program to do \[insert task here\]?
+
+Such questions are tolerated on the channel, but anyway:
+
+* Try a [DuckDuckGo Search](https://duckduckgo.com/)
+* Try a [Google Search](https://www.google.com/)
+* Try a [GitHub Search](https://github.com/)
+
+Note that very often these questions describe a task that is relatively
+quickly doable in Python/Perl/Ruby/insert-productive-language-of-choice
+so either learn Python or whatever, or alternatively hire a programmer to
+write it for you.
+
 ###   I want to contribute to an open source project, but how? Which one can I contribute to?
 
 First of all, it is good that you wish to contribute and good luck. Here are
