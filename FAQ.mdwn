@@ -704,7 +704,9 @@ ops. So there you go.
 ### Does this FAQ reflect the opinions of the channel as a whole?
 
 \#\#programming is a collective and often different members of it have
-different opinions, so there is often no unified opinion. The contributors
+different opinions, so there is often no unified opinion. As the old joke
+goes "Ask N programmers what they think about X, and you'll get at least
+N+1 opinions." The contributors
 to this document tried to be as informative and non-bigotted as possible,
 but there probably is some bias.
 
