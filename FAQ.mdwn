@@ -652,6 +652,17 @@ For more information, see:
 * [Fear of Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
 * [ESR's comments about the "right to fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
 
+### I was recommended a Unix tool. How can I set up a Unix-like subsystem on my system?
+
+If you already have Linux, one of the BSDs, or macOS, then they are usually
+suitable for that out of the box. If you are using MS Windows, then look into:
+
+1. [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source unix-like environment that runs on several versions of Win32/Win64.
+2. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by Microsoft for Windows 10.
+3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox)
+
+For more information, see [How to start contributing to or using Open Source Software](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
