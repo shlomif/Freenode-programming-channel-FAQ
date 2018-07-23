@@ -170,6 +170,13 @@ We also get asked this a lot and the answer is similar to the previous question:
 
 Note that "best and [insert adjective here]" is equally puzzling. Do you want the product with this property or do you also seek some other qualities?
 
+###   I need/am forced to work with a certain technology (e.g: programming language or framework) which I hate. What should I do?
+
+You may wish to read [this post](https://shlomifish.livejournal.com/1747.html)
+about Stoicism and Peace of Mind or [the Tao Te Ching](https://en.wikisource.org/wiki/Tao_Te_Ching). Namely, you can say to yourself: "OK, this is not ideal,
+but I cannot avoid it, so I'll try to tolerate it, and make the best of it,
+and maybe even grow to like it.".
+
 ###   What are good resources (including books) to learn about algorithms?
 
 Here are some resources for learning about algorithms:
