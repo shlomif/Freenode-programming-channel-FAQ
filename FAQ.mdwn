@@ -147,7 +147,7 @@ For more information consult these links:
 
 ###   What is the best programming language?
 
-We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“(Why) Your Programming Language Must Suck”](http://shlomif-tech.livejournal.com/57811.html) for a short coverage of some of the important trade-offs a language design will have, and why no one will be happy with it all the time.
+We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“(Why) Your Programming Language Must Suck”](http://shlomif-tech.livejournal.com/57811.html) for a short coverage of some of the important trade-offs a language design will have, and why not everyone will be happy with your choices.
 
 Even if we settle on a certain amount of preferences, then you may run into other factors that influence which language you may prefer:
 
