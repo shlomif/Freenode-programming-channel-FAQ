@@ -692,6 +692,28 @@ That put aside, here are some recommendations from our regulars:
 
 That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
 
+## About this FAQ
+
+### This FAQ seems useful. Why isn't it in the channel's topic?
+
+Only channel operators can edit the /topic and none of them have seen it fit to
+put it there. Some of the maintainers of this FAQ approve of it being there
+(and the licencing terms do not prevent it.), but none of them are channel
+ops. So there you go.
+
+### Does this FAQ reflect the opinions of the channel as a whole?
+
+\#\#programming is a collective and often different members of it have
+different opinions, so there is often no unified opinion. The contributors
+to this document tried to be as informative and non-bigotted as possible,
+but there probably is some bias.
+
+If you do not approve of parts of this document, you can:
+
+1. Send a pull request or a patch.
+2. Fork it and maintain your own version (which you are entitled to do given some conditions such as attribution).
+3. Write a similar document of your own.
+
 ## Licence/License
 
 The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
