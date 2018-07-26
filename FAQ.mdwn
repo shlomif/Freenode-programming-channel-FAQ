@@ -557,6 +557,16 @@ Code without indentation is harder to read and so should be avoided. The
 [Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style) lists
 several styles - pick one and follow it.
 
+### I shared my code (using a paste-site/etc.) and people on the channel complained that my indentation is bad / off / inconsistent , but it looks fine in my text editor. Why?
+
+This is usually caused by mismatch of [hard tabs](https://www.reddit.com/r/learnprogramming/comments/1998iy/what_is_the_difference_between_soft_tabs_and_hard/)
+vs whitespace expansions or because you are using a different tab expansion
+step than the paste-site or that of other channel members' local editor (e.g:
+4 spaces, 8 spaces, 2 spaces, 3 spaces). Please make sure your indentation
+is consistent either by expanding all tabs to spaces, or by using a
+[prettyprinter](https://en.wikipedia.org/wiki/Prettyprint) / autoformatter
+for your programming language.
+
 ### I want to release my code - which (open source) licence should I use?
 
 First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
