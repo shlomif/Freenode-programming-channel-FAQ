@@ -356,7 +356,7 @@ Another point is that you should consider trusting your users instead. Shlomi
 Fish (“rindolf”) has a written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
 parent company, BitMover, has done a series of licence changes to BitKeeper
 over the years to prevent abuses from users who were unlikely to
-become paid customers out of sheer paranoia in
+become paying customers out of sheer paranoia in
 [“What BitMover Got Wrong?”](http://better-scm.shlomifish.org/bk/what-bitmover-got-wrong.html), and you should better avoid it. Freenode is dedicated
 to discussing collaborative and free/open projects and you are likely to
 receive a lot of heat for not trusting your end users.
