@@ -689,6 +689,13 @@ suitable for that out of the box. If you are using MS Windows, then look into:
 
 For more information, see [How to start contributing to or using Open Source Software](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
 
+### What is language X good for?
+
+More often than not, it is asked about a
+[general purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) which
+can be used for a wide array of purposes. Note however, that sometimes they
+may not be too suitable for certain tasks for various reasons.
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
