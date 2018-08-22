@@ -648,6 +648,30 @@ and should not be used as an argument against using [Linux](https://en.wikipedia
 4. Being certified as such does not mean that the system will behave exactly as a Unix system is expected to behave. For example, the [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in macOS is reportedly mostly neutered.
 5. Most people and organisations do not care too much about the Unix certification and will be happy to use a sane non-certified [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating system. The certification as Unix does not buy you much.
 
+### Is a certain software technology good just because I heard that NASA uses it?
+
+[NASA](https://en.wikipedia.org/wiki/NASA) is large (and has a large budget)
+and has been around for many decades, and so uses many different technologies,
+some of them may not be too recommended in the general case. While the
+[Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
+homepage used to proclaim that "NASA uses Python", with a photo of an
+astraunaut, and it is technically true, it was largely marketing built on
+common ignorance.
+
+Among the other technologies that NASA has used are:
+
+1. [Fortran](https://en.wikipedia.org/wiki/Fortran)
+2. [COBOL](https://blog.codinghorror.com/cobol-everywhere-and-nowhere/)
+3. [VAX](https://en.wikipedia.org/wiki/VAX)
+4. [Forth](https://en.wikipedia.org/wiki/Forth_%28programming_language%29)
+5. Assembly
+6. [Perl 5](https://www.nntp.perl.org/group/perl.advocacy/2008/04/msg2383.html)
+7. [Windows, MS Word, and MS Outlook](https://linux.slashdot.org/story/02/12/24/006238/bridging-unix-and-windows-at-nasa)
+
+Note that we do not mean to imply that Python or whatever are bad just because
+NASA uses them, just that you should not use that fact as an argument in
+their favour.
+
 ### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
 
 First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
