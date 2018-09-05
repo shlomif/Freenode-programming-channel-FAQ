@@ -12,7 +12,7 @@ Freenode also provides a web interface here: <a href="http://webchat.freenode.ne
 
 * <a href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</a>
 * [List of Networking Clients](http://www.shlomifish.org/open-source/resources/networking-clients/)
-* [http://en.wikipedia.org/wiki/List\_of\_IRC\_clients](http://en.wikipedia.org/wiki/List_of_IRC_clients)
+* https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients
 
 ###   What is considered on-topic on ##programming? What is considered off-topic?
 
@@ -655,7 +655,7 @@ and has been around for many decades, and so uses many different technologies,
 some of them may not be too recommended in the general case. While the
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
 homepage used to proclaim that "NASA uses Python", with a photo of an
-astraunaut, and it is technically true, it was largely marketing built on
+astronaut, and it is technically true, it was largely marketing built on
 common ignorance.
 
 Among the other technologies that NASA has used are:
@@ -708,7 +708,7 @@ this case assuming the relevant project is of decent quality.
 If you already have Linux, one of the BSDs, or macOS, then they are usually
 suitable for that out of the box. If you are using MS Windows, then look into:
 
-1. [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source unix-like environment that runs on several versions of Win32/Win64.
+1. [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source Unix-like environment that runs on several versions of Win32/Win64.
 2. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by Microsoft for Windows 10.
 3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox)
 
@@ -720,6 +720,15 @@ More often than not, it is asked about a
 [general purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) which
 can be used for a wide array of purposes. Note however, that sometimes they
 may not be too suitable for certain tasks for various reasons.
+
+### How can I run / program .NET and ASP.NET applications on Linux or macOS?
+
+You can try using one or more of:
+
+* [.NET Core](https://dotnet.github.io/) - open source by Microsoft and other contributors
+* [Mono](https://www.mono-project.com/) - also open source
+
+Note that some APIs such as [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) were not open sourced yet.
 
 ### What do people mean when they say “s/pattern/replacement/”?
 
