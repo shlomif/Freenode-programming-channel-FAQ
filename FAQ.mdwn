@@ -255,6 +255,7 @@ For some lists of ideas for what to program see:
 * [Some ideas for websites you can build!](https://github.com/melanierichards/just-build-websites)
 * [/r/dailyprogrammer on Reddit](https://www.reddit.com/r/dailyprogrammer/)
 * [koollman's missing programs he would like](https://github.com/koollman/stuff-I-would-like/blob/master/Programs.md)
+* [Shlomi Fish’s software-related ideas](https://www.shlomifish.org/philosophy/ideas/#computer)
 
 In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
 
