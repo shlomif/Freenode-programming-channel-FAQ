@@ -56,7 +56,9 @@ a question?” or asking if anyone worked with that certain technology. Just ask
 for help directly.
 
 The second guideline is that you should probably read or skim the guide
-[“How To Ask Questions The Smart Way”](http://catb.org/~esr/faqs/smart-questions.html) and try to follow its wisdom, which involves doing some prior due diligence.
+[“Writing the Perfect Question”](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
+(or the older and somewhat deficient in style
+[“How To Ask Questions The Smart Way”](http://catb.org/~esr/faqs/smart-questions.html) ) and try to follow their wisdom, which involves doing some prior due diligence.
 
 Otherwise, also see the next question for how to share the offending code with
 the channel.
