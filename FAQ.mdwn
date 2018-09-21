@@ -520,8 +520,8 @@ Here are some tips in English:
 
 1. Make sure to divide the number by the found factor (repeatedly as long as the remainder is 0) so it becomes smaller.
 2. This way, you don't need to check the factors for primality.
-3. If a number is a composite then its smallest prime factor is less or equal to its square root. So if you have checked all numbers up to its root and they didn't divide it, then you know it is prime.
-4. Consider skipping common composite factors such as powers of 2 or 3.
+3. If a number is a [composite](https://en.wikipedia.org/wiki/Composite_number) (= non-prime), then its smallest prime factor is less or equal to its [square root](https://en.wikipedia.org/wiki/Square_root). So if you have checked all numbers up to its root and they didn't divide it, then you know it is prime.
+4. Consider skipping common composite factors such as products of 2 or 3.
 
 ### How can I write code to perform operations on web-sites for me? (that otherwise should be done manually)
 
