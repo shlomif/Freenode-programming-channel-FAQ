@@ -733,6 +733,18 @@ You can try using one or more of:
 
 Note that some APIs such as [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) were not open sourced yet.
 
+### What can I use to document my code? Can you recommend a documentation tool/system/framework ?
+
+Here are some resources to get you started:
+
+1. rindolf wrote a page titled [Choice of Document Formats](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/)
+2. Wikipedia has a page about [Lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) with a comparison.
+3. [Doxygen](http://www.doxygen.org/) is an open source documentation tool that supports many languages.
+4. [DocBook](https://en.wikipedia.org/wiki/DocBook) and [TEI](http://www.tei-c.org/) are open XML-based standards for encoding semantic documents and translating them, but with complex tooling.
+    1. [AsciiDoctor](https://asciidoctor.org/) can be converted to DocBook.
+5. Many languages have a common standard for documentation such as [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
+6. http://pandoc.org/ can convert between formats, but the conversion is not always flawfree.
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
