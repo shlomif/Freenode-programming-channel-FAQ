@@ -783,7 +783,7 @@ but there probably is some bias.
 If you do not approve of parts of this document, you can:
 
 1. Send a pull request or a patch.
-2. Fork it and maintain your own version (which you are entitled to do given some conditions such as attribution).
+2. Fork it and maintain your own version (which you are entitled to do after accepting some preconditions such as giving attribution).
 3. Write a similar document of your own.
 
 ## Licence/License
