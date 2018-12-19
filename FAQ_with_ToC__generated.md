@@ -258,6 +258,7 @@ Here are some resources for learning about algorithms:
 * The CC-by book [Open Data Structures](http://opendatastructures.org/).
 * [The Book _Introduction to Algorithms_](http://en.wikipedia.org/wiki/Introduction_to_Algorithms) - by Cormen et. all (a.k.a “CLR” or “CLRS”) - a comprehensive reference on algorithms and data structures, but a technical and dry one.
 * [_Mastering Algorithms with Perl_](http://shop.oreilly.com/product/9781565923980.do) and [_Mastering Algorithms with C_](http://shop.oreilly.com/product/9781565924536.do) from O’Reilly Media.
+* [“The Algorithms” GitHub organisation](https://github.com/TheAlgorithms) - contains repositories of codebases for popular algorithms and data structures in several programming languages.
 
 There's also a [channel called "#algorithms" on Freenode](irc://irc.freenode.net/#algorithms) and, naturally, you can discuss algorithms on ##programming, as long as you perform due diligence.
 
