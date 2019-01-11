@@ -61,6 +61,7 @@
 - [How can I run / program .NET and ASP.NET applications on Linux or macOS?](#How-can-I-run-program-NET-and-ASP-NET-applications-on-Linux-or-macOS)
 - [What can I use to document my code? Can you recommend a documentation tool/system/framework ?](#What-can-I-use-to-document-my-code-Can-you-recommend-a-documentation-tool-system-framework)
 - [What do people mean when they say “s/pattern/replacement/”?](#What-do-people-mean-when-they-say-s-pattern-replacement)
+- [What does “FOSS” mean?](#What-does-FOSS-mean)
 - [Which music do you listen to while programming?](#Which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#Is-it-true-that-programming-is-more-about-Anime-than-programming-Just-like-anime-is-more-about-programming-than-Anime)
 - [About this FAQ](#About-this-FAQ)
@@ -828,6 +829,11 @@ which in turn was inherited by sed, vi (and vim) and perl.
 For more information see:
 
 * [Hacker Writing Style](http://www.catb.org/jargon/html/writing-style.html)
+
+
+### What does “FOSS” mean?
+
+[Free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
 
 
 ### Which music do you listen to while programming?

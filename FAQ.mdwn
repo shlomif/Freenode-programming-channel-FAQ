@@ -761,6 +761,11 @@ For more information see:
 * [Hacker Writing Style](http://www.catb.org/jargon/html/writing-style.html)
 
 
+### What does “FOSS” mean?
+
+[Free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
+
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
