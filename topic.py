@@ -3,11 +3,14 @@
 
 import re
 
+out_s = ""
 for line in open("FAQ.mdwn"):
     if line.startswith("#"):
-        print("""- [{}](#{})""".format(
+        out_s += ("""- [{}](#{})\n""".format(
             line.strip("#").strip(),
-            re.sub("\W+", "-", line.strip("#").strip()).strip("-")))
+            re.sub("\\W+", "-", line.strip("#").strip()).strip("-")))
 
 for line in open("FAQ.mdwn"):
-    print(line, end="")
+    out_s += line
+
+print(out_s, end="")
