@@ -3,14 +3,17 @@
 
 import re
 
-out_s = ""
-for line in open("FAQ.mdwn"):
-    if line.startswith("#"):
-        out_s += ("""- [{}](#{})\n""".format(
-            line.strip("#").strip(),
-            re.sub("\\W+", "-", line.strip("#").strip()).strip("-")))
 
-for line in open("FAQ.mdwn"):
-    out_s += line
+def add_toc(fn):
+    out_s = ""
+    for line in open(fn):
+        if line.startswith("#"):
+            out_s += ("""- [{}](#{})\n""".format(
+                line.strip("#").strip(),
+                re.sub("\\W+", "-", line.strip("#").strip()).strip("-")))
 
-print(out_s, end="")
+    out_s += open(fn).read()
+    return out_s
+
+
+print(add_toc("FAQ.mdwn"), end="")
