@@ -2,6 +2,7 @@
 # (c) Xavier Combelle here made in public domain
 
 import re
+import sys
 
 # * https://github.com/jch/html-pipeline/
 # blob/master/lib/html/pipeline/toc_filter.rb
@@ -23,4 +24,4 @@ def add_toc(fn):
     return out_s
 
 
-print(add_toc("FAQ.mdwn"), end="")
+open(sys.argv[1], "wt").write(add_toc("FAQ.mdwn"))
