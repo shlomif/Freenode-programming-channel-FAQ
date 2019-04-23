@@ -610,6 +610,12 @@ Note that if the site provides a WWW-based API, then you should use it, and
 that automating client-side JavaScript may prove to be tricky. You should also
 avoid overloading a site or going against its Terms of Service.
 
+Some technologies that allow automating using client-side JavaScript are:
+
+* [Headless Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
+* [Firefox's Headless mode](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode)
+* [Selenium](https://en.wikipedia.org/wiki/Selenium_%28software%29)
+
 ### Where can I learn to write and/or read regular expressions?
 
 Here are some resources:
