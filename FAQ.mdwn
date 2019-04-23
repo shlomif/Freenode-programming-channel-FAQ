@@ -755,6 +755,11 @@ Here are some resources to get you started:
 5. Many languages have a common standard for documentation such as [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
 6. http://pandoc.org/ can convert between formats, but the conversion is not always flawfree.
 
+### Which Linux Distribution / OS / version can you recommend?
+
+See [this link](https://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html#Playing_with_Linux) with an
+introduction and some recommended alternatives.
+
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a

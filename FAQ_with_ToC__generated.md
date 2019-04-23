@@ -60,6 +60,7 @@
 - [What is language X good for?](#what-is-language-x-good-for)
 - [How can I run / program .NET and ASP.NET applications on Linux or macOS?](#how-can-i-run--program-net-and-aspnet-applications-on-linux-or-macos)
 - [What can I use to document my code? Can you recommend a documentation tool/system/framework ?](#what-can-i-use-to-document-my-code-can-you-recommend-a-documentation-toolsystemframework)
+- [Which Linux Distribution / OS / version can you recommend?](#which-linux-distribution--os--version-can-you-recommend)
 - [What do people mean when they say “s/pattern/replacement/”?](#what-do-people-mean-when-they-say-spatternreplacement)
 - [What does “FOSS” mean?](#what-does-foss-mean)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
@@ -824,6 +825,11 @@ Here are some resources to get you started:
     1. [AsciiDoctor](https://asciidoctor.org/) can be converted to DocBook.
 5. Many languages have a common standard for documentation such as [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
 6. http://pandoc.org/ can convert between formats, but the conversion is not always flawfree.
+
+### Which Linux Distribution / OS / version can you recommend?
+
+See [this link](https://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html#Playing_with_Linux) with an
+introduction and some recommended alternatives.
 
 ### What do people mean when they say “s/pattern/replacement/”?
 
