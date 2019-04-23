@@ -15,10 +15,10 @@ def add_toc(fn):
             # See:
             # * https://gist.github.com/asabaylus/3071099
             stripped = line.strip("#").strip()
-            out_s += ("""- [{}](#{})\n""".format(
-                stripped,
-                re.sub("[ ]", "-",
-                       re.sub("[^\\w\\- ]", "", stripped.lower())).strip("-")))
+            anchor = re.sub(
+                "[ ]", "-",
+                re.sub("[^\\w\\- ]", "", stripped.lower())).strip("-")
+            out_s += ("""- [{}](#{})\n""".format(stripped, anchor))
 
     out_s += open(fn).read()
     return out_s
