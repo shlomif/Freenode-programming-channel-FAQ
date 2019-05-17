@@ -495,7 +495,7 @@ We had several people join to try to provoke a discussion about whether Object-O
 If you are working on a project that is under your control, you can try to use
 programming languages which avoid this particular paradigm. If you need to use
 it for your day job, you can either look for a different job and/or realise
-that [“Reality to be conquered must be obeyed.”](http://shlomifishswiki.branchable.com/Self-Sufficiency/) and all that jazz, and try to cope with what you have.
+that [“Reality to be commanded must be obeyed.”](http://shlomifishswiki.branchable.com/Self-Sufficiency/) and all that jazz, and try to cope with what you have.
 
 Otherwise, it is unlikely that adopting a certain programming paradigm, or
 alternatively ditching one completely, will magically solve all the world's
