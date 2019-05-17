@@ -92,6 +92,7 @@ Otherwise, asking the channel about the most recommend text editor will end up i
 
 * [The “List of Text Editors and IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/) on Shlomi Fish’s homepage. (Not complete, but covers the most prominent solutions).
 * [The Text Editors Wiki](http://texteditors.org/)
+* The [Wikipedia Comparison of IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) and their [List of Text Editors](https://en.wikipedia.org/wiki/List_of_text_editors)
 
 Note that many decent text editors and IDEs are open-source, free-of-charge, and cross-platform (Windows, Mac OS X and Linux/UNIX). As a result, there is no good excuse not to download one, install it, and use it.
 
