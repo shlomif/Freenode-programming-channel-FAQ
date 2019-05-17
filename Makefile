@@ -4,5 +4,5 @@ GEN = topic.py
 
 all: $(GEN_FAQ)
 
-$(GEN_FAQ): FAQ.mdwn $(GEN)
+$(GEN_FAQ): $(SRC_FAQ) $(GEN)
 	python3 $(GEN) --input $< --output $@
