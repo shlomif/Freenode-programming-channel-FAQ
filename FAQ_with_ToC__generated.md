@@ -63,6 +63,7 @@
 - [Which Linux Distribution / OS / version can you recommend?](#which-linux-distribution--os--version-can-you-recommend)
 - [What do people mean when they say “s/pattern/replacement/”?](#what-do-people-mean-when-they-say-spatternreplacement)
 - [What does “FOSS” mean?](#what-does-foss-mean)
+- [How can I calculate the top / bottom number of items of a certain property from a stream of them?](#how-can-i-calculate-the-top--bottom-number-of-items-of-a-certain-property-from-a-stream-of-them)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -851,6 +852,16 @@ For more information see:
 
 [Free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
 
+### How can I calculate the top / bottom number of items of a certain property from a stream of them?
+
+You can try using an efficient implementation of the [Priority queue ADT](https://en.wikipedia.org/wiki/Priority_queue). Some implementations of it are:
+
+* [C++ STL](https://en.cppreference.com/w/cpp/container/priority_queue)
+* [Python](https://docs.python.org/3/library/heapq.html)
+* [Perl 5](https://metacpan.org/pod/Heap)
+* [Ruby](https://github.com/rubyworks/pqueue)
+* [C](https://github.com/armon/c-minheap-array) and [C libpqueue](https://github.com/vy/libpqueue)
+* [Java](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
 
 ### Which music do you listen to while programming?
 
