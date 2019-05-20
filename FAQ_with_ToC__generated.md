@@ -361,7 +361,7 @@ First of all, it is good that you wish to contribute and good luck. Here are
 some resources to get you started:
 
 * [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
-* [“14 ways to contribute to open source without being a programming genius or a rock star”](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/)
+* [“14 ways to contribute to open source without being a programming genius or a rock star”](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/)
 * [“How to become a hacker?”](http://www.catb.org/esr/faqs/hacker-howto.html)
 
 If you still need ideas for which open source projects to contribute to then ask
