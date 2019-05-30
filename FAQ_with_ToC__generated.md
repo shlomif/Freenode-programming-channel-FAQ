@@ -277,7 +277,7 @@ If you cannot offer money, please consider learning the necessary skills yoursel
 
 Many people have issues with calling dynamic languages, with dynamic typing and those that are of somewhat more open-source nature such as Perl, PHP, Python and Ruby as “scripting” languages. See:
 
-* [Andy Lester's Stop saying “script”](http://xoa.petdance.com/Stop_saying_%22script%22)
+* [Andy Lester's Stop saying “script”](http://web.archive.org/web/20140704054553/http://xoa.petdance.com/Stop_saying_%22script%22) ([Original link](http://xoa.petdance.com/Stop_saying_%22script%22) - currently broken)
 * [Larry Wall’s “Programming’s Hard - Let’s Go Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
 * [chromatic - “Program vs. Script”](http://use.perl.org/use.perl.org/_chromatic/journal/35804.html)
 
