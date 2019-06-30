@@ -63,6 +63,7 @@
 - [Which Linux Distribution / OS / version can you recommend?](#which-linux-distribution--os--version-can-you-recommend)
 - [What do people mean when they say “s/pattern/replacement/”?](#what-do-people-mean-when-they-say-spatternreplacement)
 - [What does “FOSS” mean?](#what-does-foss-mean)
+- [How do developers of open source software make money from it?](#how-do-developers-of-open-source-software-make-money-from-it)
 - [How can I calculate the top / bottom number of items of a certain property from a stream of them?](#how-can-i-calculate-the-top--bottom-number-of-items-of-a-certain-property-from-a-stream-of-them)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
@@ -851,6 +852,15 @@ For more information see:
 ### What does “FOSS” mean?
 
 [Free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
+
+### How do developers of open source software make money from it?
+
+First of all see ["A handy guide to financial support for FOSS"](https://github.com/nayafia/lemonade-stand).
+
+Otherwise, note that copies of FOSS can be copied and distributed at a very low
+cost, like other digital files. As a result some developers opt to provide their
+gratis digital works (including FOSS) free of charge, without expecting to be reimbursed,
+simply because they do not get penalised for every downloaded copy.
 
 ### How can I calculate the top / bottom number of items of a certain property from a stream of them?
 
