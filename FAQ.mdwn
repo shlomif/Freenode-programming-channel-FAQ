@@ -800,6 +800,17 @@ You can try using an efficient implementation of the [Priority queue ADT](https:
 * [C](https://github.com/armon/c-minheap-array) and [C libpqueue](https://github.com/vy/libpqueue)
 * [Java](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
 
+### What does "bisecting" mean?
+
+There is a [wikipedia page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29) that details
+the [VCS](https://en.wikipedia.org/wiki/Version_control) technique, but it has a more general utility.
+
+As the old joke goes: "How do you find a lion in the desert? You split the desert into two halfs, and
+the lion is in either one. Then you split the half with the lion into two quarters, and so on until
+you find the lion-sized fraction of the area with the lion." You can apply this to many problems, e.g
+by gradually moving away or temporarily removing configuration files or directives until you
+pinpoint the problem.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different

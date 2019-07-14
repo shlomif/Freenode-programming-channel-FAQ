@@ -65,6 +65,7 @@
 - [What does “FOSS” mean?](#what-does-foss-mean)
 - [How do developers of open source software make money from it?](#how-do-developers-of-open-source-software-make-money-from-it)
 - [How can I calculate the top / bottom number of items of a certain property from a stream of them?](#how-can-i-calculate-the-top--bottom-number-of-items-of-a-certain-property-from-a-stream-of-them)
+- [What does "bisecting" mean?](#what-does-bisecting-mean)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -872,6 +873,17 @@ You can try using an efficient implementation of the [Priority queue ADT](https:
 * [Ruby](https://github.com/rubyworks/pqueue)
 * [C](https://github.com/armon/c-minheap-array) and [C libpqueue](https://github.com/vy/libpqueue)
 * [Java](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
+
+### What does "bisecting" mean?
+
+There is a [wikipedia page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29) that details
+the [VCS](https://en.wikipedia.org/wiki/Version_control) technique, but it has a more general utility.
+
+As the old joke goes: "How do you find a lion in the desert? You split the desert into two halfs, and
+the lion is in either one. Then you split the half with the lion into two quarters, and so on until
+you find the lion-sized fraction of the area with the lion." You can apply this to many problems, e.g
+by gradually moving away or temporarily removing configuration files or directives until you
+pinpoint the problem.
 
 ### Which music do you listen to while programming?
 
