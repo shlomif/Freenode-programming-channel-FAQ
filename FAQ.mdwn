@@ -4,7 +4,7 @@ This page is intended to be global for the whole [##programming](irc://irc.freen
 
 ## The Questions
 
-###   How do I talk on the channel?
+### How do I talk on the channel?
 
 In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type «/join ##programming» (without the angle brackets) and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a> .
 
@@ -14,11 +14,11 @@ Freenode also provides a web interface here: <a href="http://webchat.freenode.ne
 * [List of Networking Clients](http://www.shlomifish.org/open-source/resources/networking-clients/)
 * https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients
 
-###   What is considered on-topic on ##programming? What is considered off-topic?
+### What is considered on-topic on ##programming? What is considered off-topic?
 
 Refer to [the channel rules](https://github.com/jeaye/2lb_programming/blob/master/README.md) for more information.
 
-###   How do I address someone to grab his/her attention?
+### How do I address someone to grab his/her attention?
 
 Just say their nickname followed by a colon (":") or a comma (","). Many IRC
 clients will allow you to do that by typing the first letters of the nickname
@@ -27,18 +27,18 @@ followed by pressing the [tab key](https://en.wikipedia.org/wiki/Tab_key)
 using the `/msg` or `/query` commands because that way other people cannot
 view and contribute to what you are saying.
 
-###   I tried joining a different channel for help, but I could not - why?
+### I tried joining a different channel for help, but I could not - why?
 
 Some channels people try to join to seek help with their technology (notably ##java) require registration at the Freenode services. See [Freenode’s knowledge base](http://freenode.net/kb/all) for more information about user/nickname registration.
 
 Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels.
 
-###   What is the channel for $TOPIC/$TECHNOLOGY?
+### What is the channel for $TOPIC/$TECHNOLOGY?
 
 You can search the channels list by following the instructions in the command
 `/msg alis help` .
 
-###   Why do ##programming and other channels have two "#" whereas other channels have only one?
+### Why do ##programming and other channels have two "#" whereas other channels have only one?
 
 To quote from [this post about Freenode](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/): «The name of a “Primary Channel” starts with a single hash (“#”) and is discussion forum for a specific project or community (like Alfresco, or your local LUG). “About channels” start with a double hash and host conversations about a topic or subject (for example: ##security). »
 
@@ -49,7 +49,7 @@ become restricted, then they and only they will be able to talk here. Normally,
 it should not matter, as when there is no major abuse, everyone can talk
 whether +v'ed or not.
 
-###   Why should I learn how to program properly?
+### Why should I learn how to program properly?
 
 To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming my cause any of:
 
@@ -62,7 +62,7 @@ To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just
 
 So please [learn programming properly](#i-want-to-learn-programming-which-language-should-i-start-with) .
 
-###   How should I ask a question on the channel? Can I?
+### How should I ask a question on the channel? Can I?
 
 The first guideline is that you should not “ask to ask” by saying “May I ask
 a question?” or asking if anyone worked with that certain technology. Just ask
@@ -76,7 +76,7 @@ The second guideline is that you should probably read or skim the guide
 Otherwise, also see the next question for how to share the offending code with
 the channel.
 
-###   I have a problem with my code, how should I share it for people to review?
+### I have a problem with my code, how should I share it for people to review?
 
 First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page). If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
 
@@ -86,13 +86,13 @@ Once you have that, you have several options to share it. If you are coding a we
 
 If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
 
-###   I do not see anyone talking on the channel - is it dead?
+### I do not see anyone talking on the channel - is it dead?
 
 The channel is still active, but may grow silent for several hours at a time,
 especially during the weekends and other holidays. Stick around and you should
 see some conversation eventually.
 
-###   Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
+### Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
 We get asked this question a lot. The answer is a bit long. First of all, it is likely that the following editing mechanisms will not be adequate for editing code:
 
@@ -109,7 +109,7 @@ Otherwise, asking the channel about the most recommend text editor will end up i
 
 Note that many decent text editors and IDEs are open-source, free-of-charge, and cross-platform (Windows, Mac OS X and Linux/UNIX). As a result, there is no good excuse not to download one, install it, and use it.
 
-###   I want to learn programming? Which language should I start with?
+### I want to learn programming? Which language should I start with?
 
 Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](https://en.wikipedia.org/wiki/Python_%28programming_language%29) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
 
@@ -127,7 +127,7 @@ Here are some resources for learning other programming languages, whether as a f
     * [JavaScript Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
     * [HTML Dog](https://htmldog.com/)
 
-###   How should I do binary Input/Output properly?
+### How should I do binary Input/Output properly?
 
 Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
 
@@ -139,7 +139,7 @@ The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentat
 
 In any case, the best way to mitigate this problem portably and safely, is to write (and later read) every field (and sometimes every byte within) to the disk or network. You should be able to find some mechanisms inside [portable libraries](http://www.shlomifish.org/open-source/portability-libs/) to do that.
 
-###   What are some best practices in programming that I should adopt?
+### What are some best practices in programming that I should adopt?
 
 First of all, we should note that many best practices may still be controversial to a small or large extent, despite being very common in the industry. We also don't expect a beginning programmer who writes some simple programs to immediately employ all the best practices that go into developing mission-critical software on which lives are dependent.
 
@@ -165,7 +165,7 @@ For more information consult these links:
 8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
 9. [“5 Tips to Increase your Code Quality”](https://simpleprogrammer.com/2017/10/06/5-tips-code-quality/)
 
-###   What is the best programming language?
+### What is the best programming language?
 
 We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“(Why) Your Programming Language Must Suck”](http://shlomif-tech.livejournal.com/57811.html) for a short coverage of some of the important trade-offs a language design will have, and why not everyone will be happy with your choices.
 
@@ -184,20 +184,20 @@ Etc. If you tell us what your needs are, we can help you with a recommendation.
 
 Note that some of the channel members happen to like a certain programming language in particular and tend to constantly recommend it to other people. Furthermore, you may run into language wars where one or more languages are bashed as awful languages by participants in the channel. That does not mean these languages are necessarily good or bad or suitable for what you wish to do.
 
-###   What is the best [insert type of product with some alternatives]? What is the best and [insert adjective here]?
+### What is the best [insert type of product with some alternatives]? What is the best and [insert adjective here]?
 
 We also get asked this a lot and the answer is similar to the previous question: best in which respect? The various alternatives may have functionality trade-offs, and even if the factors are not at odds with one another, there can be remaining issues due to lack of developer time, policy, or design. Please tell us what exactly is the most important to you.
 
 Note that "best and [insert adjective here]" is equally puzzling. Do you want the product with this property or do you also seek some other qualities?
 
-###   I need/am forced to work with a certain technology (e.g: programming language or framework) which I hate. What should I do?
+### I need/am forced to work with a certain technology (e.g: programming language or framework) which I hate. What should I do?
 
 You may wish to read [this post](https://shlomifish.livejournal.com/1747.html)
 about Stoicism and Peace of Mind or [the Tao Te Ching](https://en.wikisource.org/wiki/Tao_Te_Ching). Namely, you can say to yourself: "OK, this is not ideal,
 but I cannot avoid it, so I'll try to tolerate it, and make the best of it,
 and maybe even grow to like it.".
 
-###   What are good resources (including books) to learn about algorithms?
+### What are good resources (including books) to learn about algorithms?
 
 Here are some resources for learning about algorithms:
 
@@ -217,7 +217,7 @@ First of all, we appreciate your enthusiasm, but you should realise that most of
 
 If you cannot offer money, please consider learning the necessary skills yourself (see the above questions) and starting work on your own. If you make your project open-source and publicise it, then other people may eventually join you, and help you if they find it interesting.
 
-###   What is the difference between “scripting” languages such as Perl, PHP, Python or Ruby and “Industrial-strength” Languages such as C, C++, Java and C#?
+### What is the difference between “scripting” languages such as Perl, PHP, Python or Ruby and “Industrial-strength” Languages such as C, C++, Java and C#?
 
 Many people have issues with calling dynamic languages, with dynamic typing and those that are of somewhat more open-source nature such as Perl, PHP, Python and Ruby as “scripting” languages. See:
 
@@ -231,14 +231,14 @@ Furthermore, if we consider Perl/PHP/Python/Ruby/Tcl/Lua/etc. as “scripting la
 
 On the other hand, we do not wish to claim here that C, C++, Java and/or C# are necessarily bad languages, or that you should not study them or refuse job offers that involve writing code using them.
 
-###   I need to learn about various base systems, like hexadecimal (base-16), binary (base-2). Where can I find information about them?
+### I need to learn about various base systems, like hexadecimal (base-16), binary (base-2). Where can I find information about them?
 
 See:
 
 * [The English Wikipedia’s Binary Numeral System](https://en.wikipedia.org/wiki/Binary_numeral_system) - and the side bar next to it.
 * [wikiHow’s How to Understand Hexadecimal](http://www.wikihow.com/Understand-Hexadecimal)
 
-###   I want to buy some interesting books to read. Can you recommend me some?
+### I want to buy some interesting books to read. Can you recommend me some?
 
 Here are some lists of recommended books by some of our regulars:
 
@@ -250,7 +250,7 @@ In addition, here are some recommended lists of books by some notable software e
 * [Joel on Software’s “Book Reviews”](http://www.joelonsoftware.com/navlinks/fog0000000262.html)
 * [Lists of books from the “Awesome” list of lists](https://github.com/sindresorhus/awesome#books)
 
-###   How do I learn how to use GDB (= the GNU debugger)?
+### How do I learn how to use GDB (= the GNU debugger)?
 
 We are often approached by people who tell us their C or C++ (or whatever) program crashes or otherwise misbehaves and then ask us why. If that's the case for you, you should realise that you should learn how to use an interactive debugger in order to debug your program, and you should learn how to do so as soon as possible.
 
@@ -263,7 +263,7 @@ One such debugger is the open source command-line debugger, ["gdb"](https://en.w
 
 Also note that gdb has some [GUI frontends](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/#open-debugger-GUIs) that may make it easier or more convenient to use.
 
-###   I feel like programming something, but I don't know what. Can you suggest some good ideas for programs?
+### I feel like programming something, but I don't know what. Can you suggest some good ideas for programs?
 
 For some lists of ideas for what to program see:
 
@@ -286,7 +286,7 @@ In addition, note that you may wish to consider contributing to open source proj
 * [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
 * [High Priority Free Software Projects](https://www.fsf.org/campaigns/priority-projects/)
 
-###   Does anyone know of a program to do \[insert task here\]?
+### Does anyone know of a program to do \[insert task here\]?
 
 Such questions are tolerated on the channel, but anyway:
 
@@ -299,7 +299,7 @@ quickly doable in Python/Perl/Ruby/insert-productive-language-of-choice
 so either learn Python or whatever, or alternatively hire a programmer to
 write it for you.
 
-###   I want to contribute to an open source project, but how? Which one can I contribute to?
+### I want to contribute to an open source project, but how? Which one can I contribute to?
 
 First of all, it is good that you wish to contribute and good luck. Here are
 some resources to get you started:
@@ -316,7 +316,7 @@ using [GitHub search](https://github.com/search),
 the [English Wikipedia search](https://en.wikipedia.org/wiki/Main_Page) or
 other search resources.
 
-###   What is "open source" software? Does it mean only that its source is available?
+### What is "open source" software? Does it mean only that its source is available?
 
 No. According to the [open source definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition)
 an open source software licence must fulfill more than just the availability
@@ -324,7 +324,7 @@ of the source code, including free redistribution and allowing to modify the
 code and distribute changes. Read the link on the wikipedia page for more
 information.
 
-###   What is FizzBuzz?
+### What is FizzBuzz?
 
 In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
 
@@ -719,7 +719,7 @@ For more information, see:
 * [Fear of Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
 * [ESR's comments about the "right to fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
 
-###  Should I avoid using an open source project just because it is primarily developed by a company or individual that I dislike?
+### Should I avoid using an open source project just because it is primarily developed by a company or individual that I dislike?
 
 First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
 not a lawyer) and all that jazz.
