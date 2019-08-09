@@ -132,6 +132,7 @@ To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just
 * Buggy code
 * Security vulnerabilities
 * Data loss
+* Loss of time or money or worse.
 * Wasting the time of the knowledgable people in the channel by being a [help vampire](https://duckduckgo.com/?q=help+vampire&atb=v140-1&ia=web).
 
 So please [learn programming properly](#i-want-to-learn-programming-which-language-should-i-start-with) .
