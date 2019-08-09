@@ -197,6 +197,9 @@ Here are some resources for learning other programming languages, whether as a f
 
 * [The C/C++ Beginners' Wiki](http://c-begin.wikia.com/wiki/C_and_C%2B%2B_Beginners_Wiki) and the more mature (but with a non-clear licence) [Freenode ##C Wiki](http://www.iso-9899.info/).
 * [The Perl Beginners Site](http://perl-begin.org/) for Perl beginners.
+* [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn) on MDN.
+    * [JavaScript Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
+    * [HTML Dog](https://htmldog.com/)
 
 ###   How should I do binary Input/Output properly?
 
