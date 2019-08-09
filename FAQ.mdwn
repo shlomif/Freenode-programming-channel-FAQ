@@ -49,6 +49,18 @@ become restricted, then they and only they will be able to talk here. Normally,
 it should not matter, as when there is no major abuse, everyone can talk
 whether +v'ed or not.
 
+###   Why should I learn how to program properly?
+
+To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming my cause any of:
+
+* Compiler errors
+* Buggy code
+* Security vulnerabilities
+* Data loss
+* Wasting the time of the knowledgable people in the channel by being a [help vampire](https://duckduckgo.com/?q=help+vampire&atb=v140-1&ia=web).
+
+So please [learn programming properly](#i-want-to-learn-programming-which-language-should-i-start-with) .
+
 ###   How should I ask a question on the channel? Can I?
 
 The first guideline is that you should not “ask to ask” by saying “May I ask

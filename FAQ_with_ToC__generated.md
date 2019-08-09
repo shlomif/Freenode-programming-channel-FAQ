@@ -7,6 +7,7 @@
 - [What is the channel for $TOPIC/$TECHNOLOGY?](#what-is-the-channel-for-topictechnology)
 - [Why do ##programming and other channels have two "#" whereas other channels have only one?](#why-do-programming-and-other-channels-have-two--whereas-other-channels-have-only-one)
 - [Why do some users on the channel have +v (voice, a + sign, a blue circle, etc.)?](#why-do-some-users-on-the-channel-have-v-voice-a--sign-a-blue-circle-etc)
+- [Why should I learn how to program properly?](#why-should-i-learn-how-to-program-properly)
 - [How should I ask a question on the channel? Can I?](#how-should-i-ask-a-question-on-the-channel-can-i)
 - [I have a problem with my code, how should I share it for people to review?](#i-have-a-problem-with-my-code-how-should-i-share-it-for-people-to-review)
 - [I do not see anyone talking on the channel - is it dead?](#i-do-not-see-anyone-talking-on-the-channel---is-it-dead)
@@ -122,6 +123,18 @@ These users are voiced so in case the channel is under attack, and it will
 become restricted, then they and only they will be able to talk here. Normally,
 it should not matter, as when there is no major abuse, everyone can talk
 whether +v'ed or not.
+
+###   Why should I learn how to program properly?
+
+To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming my cause any of:
+
+* Compiler errors
+* Buggy code
+* Security vulnerabilities
+* Data loss
+* Wasting the time of the knowledgable people in the channel by being a [help vampire](https://duckduckgo.com/?q=help+vampire&atb=v140-1&ia=web).
+
+So please [learn programming properly](#i-want-to-learn-programming-which-language-should-i-start-with) .
 
 ###   How should I ask a question on the channel? Can I?
 
