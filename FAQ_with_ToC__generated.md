@@ -186,7 +186,7 @@ Note that many decent text editors and IDEs are open-source, free-of-charge, and
 
 ### I want to learn programming? Which language should I start with?
 
-Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](https://en.wikipedia.org/wiki/Python_%28programming_language%29) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms), that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
+Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](https://en.wikipedia.org/wiki/Python_%28programming_language%29) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms) language, that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
 
 * [_Automate the Boring Stuff with Python_](http://automatetheboringstuff.com/) - “Practical programming for total beginners.”
 * [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/) - a similar book.
