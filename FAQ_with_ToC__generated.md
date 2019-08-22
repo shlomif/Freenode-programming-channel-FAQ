@@ -68,6 +68,7 @@
 - [How can I calculate the top / bottom number of items of a certain property from a stream of them?](#how-can-i-calculate-the-top--bottom-number-of-items-of-a-certain-property-from-a-stream-of-them)
 - [What does "bisecting" mean?](#what-does-bisecting-mean)
 - [How can I overwrite text in a terminal or write a console-based UI?](#how-can-i-overwrite-text-in-a-terminal-or-write-a-console-based-ui)
+- [How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?](#how-much-time--competitive-programming-problems--books--online-courses--etc-will-it-take-before-i-am-employable--a-master-programmer--etc)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -911,6 +912,14 @@ pinpoint the problem.
 * There are bindings for other languages like [curses.py](https://docs.python.org/3/howto/curses.html)
 * For simple tasks, printing no more than the terminal width (typically 80 characters) and then printing "\r" and overwriting may be adequate.
 * There are libraries for line input such as [readline](https://en.wikipedia.org/wiki/GNU_Readline) (GPLed) or [libedit](https://duckduckgo.com/?q=libedit&atb=v140-1&ia=web) (BSDLed).
+
+### How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?
+
+How many roads must a man walk down, before you can call him a man? ["The answer, my friend, is blowing in the wind"](https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind).
+
+Somewhat more seriously now, here are some thoughts:
+
+
 
 ### Which music do you listen to while programming?
 
