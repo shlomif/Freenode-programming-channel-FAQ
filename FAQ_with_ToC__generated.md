@@ -67,6 +67,7 @@
 - [How do developers of open source software make money from it?](#how-do-developers-of-open-source-software-make-money-from-it)
 - [How can I calculate the top / bottom number of items of a certain property from a stream of them?](#how-can-i-calculate-the-top--bottom-number-of-items-of-a-certain-property-from-a-stream-of-them)
 - [What does "bisecting" mean?](#what-does-bisecting-mean)
+- [How can I overwrite text in a terminal or write a console-based UI?](#how-can-i-overwrite-text-in-a-terminal-or-write-a-console-based-ui)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -902,6 +903,14 @@ the lion is in either one. Then you split the half with the lion into two quarte
 you find the lion-sized fraction of the area with the lion." You can apply this to many problems, e.g
 by gradually moving away or temporarily removing configuration files or directives until you
 pinpoint the problem.
+
+### How can I overwrite text in a terminal or write a console-based UI?
+
+* The de-facto standard for writing [TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) is [curses](https://en.wikipedia.org/wiki/Curses_%28programming_library%29) which has some open source implementations such as [ncurses](https://en.wikipedia.org/wiki/Ncurses) and [PDCurses](https://en.wikipedia.org/wiki/PDCurses), but may be somewhat baroque in nature.
+* [libtickit](http://www.leonerd.org.uk/code/libtickit/) and others are newer and possibly more modern alternatives with an incompatible API.
+* There are bindings for other languages like [curses.py](https://docs.python.org/3/howto/curses.html)
+* For simple tasks, printing no more than the terminal width (typically 80 characters) and then printing "\r" and overwriting may be adequate.
+* There are libraries for line input such as [readline](https://en.wikipedia.org/wiki/GNU_Readline) (GPLed) or [libedit](https://duckduckgo.com/?q=libedit&atb=v140-1&ia=web) (BSDLed).
 
 ### Which music do you listen to while programming?
 
