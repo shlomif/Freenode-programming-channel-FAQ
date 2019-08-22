@@ -919,7 +919,40 @@ How many roads must a man walk down, before you can call him a man? ["The answer
 
 Somewhat more seriously now, here are some thoughts:
 
+There is a [How to Teach Yourself C++ in 21 days](https://www.abstrusegoose.com/249) parody
+comics and a [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
+essay (but note that there was a post claiming that the study it was based on was about
+becoming an exceptional artisan, and that it took far less time to merely become proficient).
 
+In ["Lord Palmerston on Programming"](https://www.joelonsoftware.com/2002/12/11/lord-palmerston-on-programming/),
+Joel on Software notes that "Becoming proficient, really proficient, in just
+one programming world takes years. Sure, lots of bright teenagers learn Delphi
+one week and Python the next week and Perl the next week and think they are
+proficient. Yet they don’t have the foggiest clue how much they’re missing.".
+
+You can probably get an entry-level or junior position software development job
+with relatively little or no experience, but likely with relatively low salary.
+
+Some books like [this one](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+or [this one](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
+aim to teach inexperienced developers, part of the wisdom gained by experience.
+
+It is a perceived fact among software developers that some developers write more elegant
+code with only six months of experience, than many developers with ten years of experience
+and Ph.D.'s in Computer Science.
+
+There is an [interesting quote by Henry Ford about "experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately).
+
+According to the Coding Horror blog [most interviewed job candidates cannot program FizzBuzz](https://blog.codinghorror.com/why-cant-programmers-program/).
+
+Also note that being proficient and experienced may not automatically get you accepted into job openings
+because there are [other factors that employers may found important](https://shlomif.livejournal.com/4408.html).
+
+----
+
+To sum up, there is no clear cut answer and magical moment during which you transition from a "newbie"
+into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
+the better off you'll be with the right attitude.
 
 ### Which music do you listen to while programming?
 
