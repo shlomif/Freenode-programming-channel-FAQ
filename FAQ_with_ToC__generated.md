@@ -69,6 +69,7 @@
 - [What does "bisecting" mean?](#what-does-bisecting-mean)
 - [How can I overwrite text in a terminal or write a console-based UI?](#how-can-i-overwrite-text-in-a-terminal-or-write-a-console-based-ui)
 - [How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?](#how-much-time--competitive-programming-problems--books--online-courses--etc-will-it-take-before-i-am-employable--a-master-programmer--etc)
+- [Will a change I would like to do break some functionality?](#will-a-change-i-would-like-to-do-break-some-functionality)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -953,6 +954,24 @@ because there are [other factors that employers may found important](https://shl
 To sum up, there is no clear cut answer and magical moment during which you transition from a "newbie"
 into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
 the better off you'll be with the right attitude.
+
+### Will a change I would like to do break some functionality?
+
+As the [aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988)
+goes: <q>The difference between theory and practice is that in theory, there
+is no difference between theory and practice, while in practice, there is.</q>. There is usually
+a risk, however small, that a change will break some functionality. With good tooling (such
+as https://en.wikipedia.org/wiki/Version_control , https://en.wikipedia.org/wiki/Virtual_machine and
+https://en.wikipedia.org/wiki/OS-level_virtualisation ) it should be relatively easy to
+revert a change which introduced regressions, and you should do adequate testing.
+
+A change may have to be avoided due to being estimated as too time or money
+consuming, or as having too little gain. However, promising changes
+should be attempted because:
+
+1. "No guts - no glory."
+2. [What does "if it ain't broke, don't fix it" really mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
+3. If you never change anything, your project won't progress.
 
 ### Which music do you listen to while programming?
 

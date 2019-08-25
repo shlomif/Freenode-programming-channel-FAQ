@@ -877,6 +877,24 @@ To sum up, there is no clear cut answer and magical moment during which you tran
 into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
 the better off you'll be with the right attitude.
 
+### Will a change I would like to do break some functionality?
+
+As the [aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988)
+goes: <q>The difference between theory and practice is that in theory, there
+is no difference between theory and practice, while in practice, there is.</q>. There is usually
+a risk, however small, that a change will break some functionality. With good tooling (such
+as https://en.wikipedia.org/wiki/Version_control , https://en.wikipedia.org/wiki/Virtual_machine and
+https://en.wikipedia.org/wiki/OS-level_virtualisation ) it should be relatively easy to
+revert a change which introduced regressions, and you should do adequate testing.
+
+A change may have to be avoided due to being estimated as too time or money
+consuming, or as having too little gain. However, promising changes
+should be attempted because:
+
+1. "No guts - no glory."
+2. [What does "if it ain't broke, don't fix it" really mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
+3. If you never change anything, your project won't progress.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
