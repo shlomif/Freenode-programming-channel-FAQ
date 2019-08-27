@@ -325,7 +325,7 @@ Here are some lists of recommended books by some of our regulars:
 
 In addition, here are some recommended lists of books by some notable software engineers and writers:
 
-* [Joel on Software’s “Book Reviews”](http://www.joelonsoftware.com/navlinks/fog0000000262.html)
+* [Joel on Software’s “Book Reviews”](http://web.archive.org/web/20120403095428/https://www.joelonsoftware.com/navlinks/fog0000000262.html)
 * [Lists of books from the “Awesome” list of lists](https://github.com/sindresorhus/awesome#books)
 
 ### How do I learn how to use GDB (= the GNU debugger)?
