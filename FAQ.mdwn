@@ -855,7 +855,7 @@ Somewhat more seriously now, here are some thoughts:
 There is a [How to Teach Yourself C++ in 21 days](https://www.abstrusegoose.com/249) parody
 comics and a [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
 essay (but note that there was a post claiming that the study it was based on was about
-becoming an exceptional artisan, and that it took far less time to merely become proficient).
+becoming an exceptional artisan, and that it takes far less time to merely become proficient).
 
 In ["Lord Palmerston on Programming"](https://www.joelonsoftware.com/2002/12/11/lord-palmerston-on-programming/),
 Joel on Software notes that "Becoming proficient, really proficient, in just
@@ -864,7 +864,7 @@ one week and Python the next week and Perl the next week and think they are
 proficient. Yet they don’t have the foggiest clue how much they’re missing.".
 
 You can probably get an entry-level or junior position software development job
-with relatively little or no experience, but likely with relatively low salary.
+with relatively little or no experience, but likely one with relatively low salary.
 
 Some books like [this one](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 or [this one](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
@@ -880,6 +880,9 @@ According to the Coding Horror blog [most interviewed job candidates cannot prog
 
 Also note that being proficient and experienced may not automatically get you accepted into job openings
 because there are [other factors that employers may found important](https://shlomif.livejournal.com/4408.html).
+
+The [learn X in Y minutes](https://learnxinyminutes.com/) site provides short introductions to computing topics
+which, although potentially useful, are likely not enough to become truly proficient.
 
 ----
 
