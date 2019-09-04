@@ -13,6 +13,7 @@
 - [I do not see anyone talking on the channel - is it dead?](#i-do-not-see-anyone-talking-on-the-channel---is-it-dead)
 - [Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?](#which-integrated-development-environment-ide-or-text-editor-would-you-recommend)
 - [I want to learn programming? Which language should I start with?](#i-want-to-learn-programming-which-language-should-i-start-with)
+- [What amount of due diligence should I do before asking for help?](#what-amount-of-due-diligence-should-i-do-before-asking-for-help)
 - [How should I do binary Input/Output properly?](#how-should-i-do-binary-inputoutput-properly)
 - [What are some best practices in programming that I should adopt?](#what-are-some-best-practices-in-programming-that-i-should-adopt)
 - [What is the best programming language?](#what-is-the-best-programming-language)
@@ -204,6 +205,15 @@ Here are some resources for learning other programming languages, whether as a f
 * [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn) on MDN.
     * [JavaScript Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
     * [HTML Dog](https://htmldog.com/)
+
+### What amount of due diligence should I do before asking for help?
+
+Make sure you know how to program in at least one programming language (see the
+[previous question](#i-want-to-learn-programming-which-language-should-i-start-with) )
+and understand the fundamentals of the general topic with which you are having a problem,
+by having read a book, a good tutorial, a video, an online course, etc. Otherwise, you
+might ask the wrong questions, or misguided ones, and generally waste the time of
+the more experienced people on the channel who are trying to help you.
 
 ### How should I do binary Input/Output properly?
 
