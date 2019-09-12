@@ -910,7 +910,13 @@ should be attempted because:
 
 ### What does Object-Oriented Programming ( OOP ) mean?
 
-TODO.
+When people say [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) they can mean one of several things:
+
+* A catch-all phrase for the paradigm.
+* Like [Alan Kay noted:](https://softwareengineering.stackexchange.com/questions/46592/so-what-did-alan-kay-really-mean-by-the-term-object-oriented) <q>Actually, I made up the term object-oriented, and I can tell you I did not have C++ in mind. An important thing here is—I have many of the same feelings about Smalltalk </q>
+* The "OOP/OOD" approach taken by C++ and later Java and C# and other languages, which was inspired by [Simula](https://en.wikipedia.org/wiki/Simula).
+
+As a result, the term has become somewhat muddled. Also note that if the language is Turing complete, then usually one can implement OOP-like systems such as [GObject](https://en.wikipedia.org/wiki/GObject) or [libcello](http://libcello.org/) for C.
 
 ### What does Functional Programming ( FP ) mean?
 
