@@ -71,6 +71,9 @@
 - [How can I overwrite text in a terminal or write a console-based UI?](#how-can-i-overwrite-text-in-a-terminal-or-write-a-console-based-ui)
 - [How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?](#how-much-time--competitive-programming-problems--books--online-courses--etc-will-it-take-before-i-am-employable--a-master-programmer--etc)
 - [Will a change I would like to do break some functionality?](#will-a-change-i-would-like-to-do-break-some-functionality)
+- [What does Object-Oriented Programming ( OOP ) mean?](#what-does-object-oriented-programming--oop--mean)
+- [What does Functional Programming ( FP ) mean?](#what-does-functional-programming--fp--mean)
+- [Why do people keep speaking against [language]?](#why-do-people-keep-speaking-against-language)
 - [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
 - [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
 - [About this FAQ](#about-this-faq)
@@ -986,6 +989,18 @@ should be attempted because:
 1. "No guts - no glory."
 2. [What does "if it ain't broke, don't fix it" really mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
 3. If you never change anything, your project won't progress.
+
+### What does Object-Oriented Programming ( OOP ) mean?
+
+TODO.
+
+### What does Functional Programming ( FP ) mean?
+
+TODO.
+
+### Why do people keep speaking against [language]?
+
+TODO.
 
 ### Which music do you listen to while programming?
 

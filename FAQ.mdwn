@@ -908,6 +908,18 @@ should be attempted because:
 2. [What does "if it ain't broke, don't fix it" really mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
 3. If you never change anything, your project won't progress.
 
+### What does Object-Oriented Programming ( OOP ) mean?
+
+TODO.
+
+### What does Functional Programming ( FP ) mean?
+
+TODO.
+
+### Why do people keep speaking against [language]?
+
+TODO.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
