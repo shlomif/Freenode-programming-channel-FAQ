@@ -1011,7 +1011,14 @@ Like OOP, FP can mean several things:
 
 ### Why do people keep speaking against [language]?
 
-TODO.
+Because it is [impossible to please everyone](http://shlomifishswiki.branchable.com/Never_Try_to_Please_Everyone/) or as [Bjarne Stroustrup noted](https://en.wikiquote.org/wiki/Bjarne_Stroustrup): <q>There are only two kinds of languages: the ones people complain about and the ones nobody uses</q>.
+
+Furthermore, rindolf identified [several tradeoffs](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/) in
+programming language design which means no perfect language can ever exist, and some people will dislike it or complain about it.
+
+So some people will always complain, and while their opinions may have merit, it does not imply the language is not otherwise decent and usable.
+One cannot afford to [completely rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) the whole codebase in the trendiest
+language every month or even every year (although gradual conversions are a less suicidal option), so many languages will linger on due to legacy.
 
 ### Which music do you listen to while programming?
 
