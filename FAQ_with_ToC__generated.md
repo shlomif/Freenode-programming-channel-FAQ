@@ -1002,7 +1002,12 @@ As a result, the term has become somewhat muddled. Also note that if the languag
 
 ### What does Functional Programming ( FP ) mean?
 
-TODO.
+Like OOP, FP can mean several things:
+
+1. The concept of programming without mutation or side effects. This was modelled in [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), and can often also be done in imperative languages.
+2. A language that is "marketed" as a functional language, which includes non-purely functional languages such as https://en.wikipedia.org/wiki/Scheme_%28programming_language%29 or https://en.wikipedia.org/wiki/Standard_ML and excludes others which have functional programming capabilities such as Perl, Ruby, or JavaScript.
+3. The polymorphism implementation in such statically typed languages such as Haskell, Standard ML, or OCaml.
+4. A functional code, i.e: one that has [external quality](https://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/): is mostly bug free, has acceptable performance, etc. as opposed to the elegance of the code, and other internal quality aspects.
 
 ### Why do people keep speaking against [language]?
 
