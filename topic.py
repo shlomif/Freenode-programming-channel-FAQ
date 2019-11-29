@@ -2,7 +2,7 @@
 # (c) Xavier Combelle here made in public domain
 
 import argparse
-import re
+import subprocess
 import sys
 
 # * https://github.com/jch/html-pipeline/
@@ -10,17 +10,9 @@ import sys
 
 
 def add_toc(fn):
-    out_s = ""
-    for line in open(fn):
-        if line.startswith("#"):
-            # See:
-            # * https://gist.github.com/asabaylus/3071099
-            stripped = line.strip("#").strip()
-            anchor = re.sub(
-                "[ ]", "-",
-                re.sub("[^\\w\\- ]", "", stripped.lower())).strip("-")
-            out_s += ("""- [{}](#{})\n""".format(stripped, anchor))
-
+    out_s = str(subprocess.Popen(
+        ["bash", "-c", "./github-markdown-toc/gh-md-toc - < " + fn],
+        stdout=subprocess.PIPE).stdout.read())
     out_s += open(fn).read()
     return out_s
 
