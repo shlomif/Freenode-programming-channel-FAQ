@@ -10,9 +10,9 @@ import sys
 
 
 def add_toc(fn):
-    out_s = str(subprocess.Popen(
+    out_s = subprocess.Popen(
         ["bash", "-c", "./github-markdown-toc/gh-md-toc - < " + fn],
-        stdout=subprocess.PIPE).stdout.read())
+        stdout=subprocess.PIPE).stdout.read().decode('utf-8')
     out_s += open(fn).read()
     return out_s
 
