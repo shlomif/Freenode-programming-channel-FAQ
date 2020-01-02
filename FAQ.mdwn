@@ -890,6 +890,18 @@ To sum up, there is no clear cut answer and magical moment during which you tran
 into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
 the better off you'll be with the right attitude.
 
+### What do you mean by "generating makefiles" or by "generating code" in general?
+
+One can write code in some programming language that will emit plaintext, which in turn
+is valid code or markup of the same programming language or a different one that can be
+passed to its backend for execution. This is called "code generation".
+
+For more information, see:
+
+1. [GNU Autogen](https://www.gnu.org/software/autogen/)
+2. [Text Processing Tools](https://www.shlomifish.org/open-source/resources/text-processing-tools/)
+3. [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
+
 ### Will a change I would like to do break some functionality?
 
 As the [aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988)

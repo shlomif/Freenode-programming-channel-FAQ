@@ -70,6 +70,7 @@
          * [What does "bisecting" mean?](#what-does-bisecting-mean)
          * [How can I overwrite text in a terminal or write a console-based UI?](#how-can-i-overwrite-text-in-a-terminal-or-write-a-console-based-ui)
          * [How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?](#how-much-time--competitive-programming-problems--books--online-courses--etc-will-it-take-before-i-am-employable--a-master-programmer--etc)
+         * [What do you mean by "generating makefiles" or by "generating code" in general?](#what-do-you-mean-by-generating-makefiles-or-by-generating-code-in-general)
          * [Will a change I would like to do break some functionality?](#will-a-change-i-would-like-to-do-break-some-functionality)
          * [What does Object-Oriented Programming ( OOP ) mean?](#what-does-object-oriented-programming--oop--mean)
          * [What does Functional Programming ( FP ) mean?](#what-does-functional-programming--fp--mean)
@@ -971,6 +972,18 @@ which, although potentially useful, are likely not enough to become truly profic
 To sum up, there is no clear cut answer and magical moment during which you transition from a "newbie"
 into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
 the better off you'll be with the right attitude.
+
+### What do you mean by "generating makefiles" or by "generating code" in general?
+
+One can write code in some programming language that will emit plaintext, which in turn
+is valid code or markup of the same programming language or a different one that can be
+passed to its backend for execution. This is called "code generation".
+
+For more information, see:
+
+1. [GNU Autogen](https://www.gnu.org/software/autogen/)
+2. [Text Processing Tools](https://www.shlomifish.org/open-source/resources/text-processing-tools/)
+3. [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
 
 ### Will a change I would like to do break some functionality?
 
