@@ -570,6 +570,7 @@ avoid overloading a site or going against its Terms of Service.
 
 Some technologies that allow automating using client-side JavaScript are:
 
+* ["Awesome Browser Automation"](https://github.com/angrykoala/awesome-browser-automation#readme) - list on GitHub
 * [Headless Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
 * [Firefox's Headless mode](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode)
 * [Selenium](https://en.wikipedia.org/wiki/Selenium_%28software%29)
