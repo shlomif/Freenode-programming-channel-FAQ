@@ -647,7 +647,7 @@ and can be conveniently done in several languages:
 * This [page](http://perl-begin.org/uses/web-automation/) covers it using Perl.
 * There are some [command line web clients](http://www.shlomifish.org/open-source/resources/networking-clients/#cmd-line-WWW-clients).
 
-Note that if the site provides a WWW-based API, then you should use it, and
+Note that if the site provides a [WWW-based API](https://en.wikipedia.org/wiki/Web_API), then you should use it, and
 that automating client-side JavaScript may prove to be tricky. You should also
 avoid overloading a site or going against its Terms of Service.
 
