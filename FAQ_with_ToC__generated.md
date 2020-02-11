@@ -371,6 +371,7 @@ For some lists of ideas for what to program see:
 * [/r/dailyprogrammer on Reddit](https://www.reddit.com/r/dailyprogrammer/)
 * [A list of practical projects that “anyone can solve in any programming language.”](https://github.com/karan/Projects)
 * [A list of ideas for websites one can build](https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d) - on freeCodeCamp.org .
+* [List of ideas for software applications](https://github.com/florinpop17/app-ideas) - on GitHub under MITL.
 * [koollman's missing programs he would like](https://github.com/koollman/stuff-I-would-like/blob/master/Programs.md)
 * [Shlomi Fish’s software-related ideas](https://www.shlomifish.org/philosophy/ideas/#computer)
 
