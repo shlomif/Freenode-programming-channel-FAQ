@@ -794,7 +794,7 @@ introduction and some recommended alternatives.
 ### What do people mean when they say “s/pattern/replacement/”?
 
 This means replace (or "substitute") the pattern with the replacement in a
-previous said text.
+previously said text.
 
 This notation is derived from
 the Unix [ed](https://en.wikipedia.org/wiki/Ed_%28text_editor%29) editor,
