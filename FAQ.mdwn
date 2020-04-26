@@ -339,6 +339,8 @@ information.
 
 In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
 
+Namely, in FizzBuzz one has to write a program that prints the natural numbers from 1 to 100 one line each, but if the number is divisible by 3, print "Fizz" and if it is divisible by 5 print "Buzz"; if it is divisible by both, print "FizzBuzz".
+
 For more information, see:
 
 * [Why Can’t Programmers Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
