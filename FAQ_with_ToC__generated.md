@@ -134,7 +134,7 @@ whether +v'ed or not.
 
 ### Why should I learn how to program properly?
 
-To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming my cause any of:
+To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming may cause any of:
 
 * Compiler errors
 * Buggy code
@@ -951,7 +951,7 @@ one week and Python the next week and Perl the next week and think they are
 proficient. Yet they don’t have the foggiest clue how much they’re missing.".
 
 You can probably get an entry-level or junior position software development job
-with relatively little or no experience, but likely one with relatively low salary.
+with relatively little or no experience, but likely one with a relatively low salary.
 
 Some books like [this one](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 or [this one](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
