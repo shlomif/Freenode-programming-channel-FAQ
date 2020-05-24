@@ -800,12 +800,12 @@ previously said text.
 
 This notation is derived from
 the Unix [ed](https://en.wikipedia.org/wiki/Ed_%28text_editor%29) editor,
-which in turn was inherited by sed, vi (and vim) and perl.
+which in turn was inherited by [sed](https://en.wikipedia.org/wiki/Sed),
+[vi](https://en.wikipedia.org/wiki/Vi) (and vim) and [Perl](https://en.wikipedia.org/wiki/Perl).
 
 For more information see:
 
 * [Hacker Writing Style](http://www.catb.org/jargon/html/writing-style.html)
-
 
 ### What does “FOSS” mean?
 
