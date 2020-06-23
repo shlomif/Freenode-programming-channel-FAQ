@@ -248,6 +248,12 @@ See:
 * [The English Wikipedia’s Binary Numeral System](https://en.wikipedia.org/wiki/Binary_numeral_system) - and the side bar next to it.
 * [wikiHow’s How to Understand Hexadecimal](http://www.wikihow.com/Understand-Hexadecimal)
 
+One thing to note is that numbers are the same regardless of their representation. E.g: the number represented by the base ten digits "16"
+is the same [Platonic ideal](https://en.wikipedia.org/wiki/Platonic_idealism) as the hexadecimal representation "0x10",
+the binary representation "0b10000", or the base 7 representation "12", the English name "sixteen" (or the count of apples
+in this: "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏"). Therefore, it is inaccurate to speak of "binary numbers" or
+"hexadecimal numbers".
+
 ### I want to buy some interesting books to read. Can you recommend me some?
 
 Here are some lists of recommended books by some of our regulars:
