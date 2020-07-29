@@ -75,6 +75,7 @@
          * [What does Object-Oriented Programming ( OOP ) mean?](#what-does-object-oriented-programming--oop--mean)
          * [What does Functional Programming ( FP ) mean?](#what-does-functional-programming--fp--mean)
          * [Why do people keep speaking against [language]?](#why-do-people-keep-speaking-against-language)
+         * [How can I handle several different tasks / events (e.g: replying networking requests) at the same time?](#how-can-i-handle-several-different-tasks--events-eg-replying-networking-requests-at-the-same-time)
          * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
          * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
       * [About this FAQ](#about-this-faq)
@@ -1042,6 +1043,14 @@ programming language design which means no perfect language can ever exist, and 
 So some people will always complain, and while their opinions may have merit, it does not imply the language is not otherwise decent and usable.
 One cannot afford to [completely rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) the whole codebase in the trendiest
 language every month or even every year (although gradual conversions are a less suicidal option), so many languages will linger on due to legacy.
+
+### How can I handle several different tasks / events (e.g: replying networking requests) at the same time?
+
+You likely want an [event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming) approach using an events / asynchronous library or framework. Some examples for those are:
+
+1. [libuv](https://en.wikipedia.org/wiki/Libuv) and the older [libevent](https://en.wikipedia.org/wiki/Libevent) for C.
+2. [Twisted](https://en.wikipedia.org/wiki/Twisted_%28software%29) (which may be somewhat baroque), and [asyncio](https://docs.python.org/3/library/asyncio.html) for Python.
+3. Some alternatives for Perl are listed on [this page](https://perl-begin.org/uses/multitasking/).
 
 ### Which music do you listen to while programming?
 
