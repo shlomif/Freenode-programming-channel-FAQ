@@ -1051,6 +1051,11 @@ You likely want an [event-driven programming](https://en.wikipedia.org/wiki/Even
 1. [libuv](https://en.wikipedia.org/wiki/Libuv) and the older [libevent](https://en.wikipedia.org/wiki/Libevent) for C.
 2. [Twisted](https://en.wikipedia.org/wiki/Twisted_%28software%29) (which may be somewhat baroque), and [asyncio](https://docs.python.org/3/library/asyncio.html) for Python.
 3. Some alternatives for Perl are listed on [this page](https://perl-begin.org/uses/multitasking/).
+4. [Node.js](https://en.wikipedia.org/wiki/Nodejs) is inherently event-driven.
+
+There are other approaches for multitasking including [multithreading](https://en.wikipedia.org/wiki/Thread_%28computer_science%29),
+[multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
+as well as hybrid approaches.
 
 ### Which music do you listen to while programming?
 
