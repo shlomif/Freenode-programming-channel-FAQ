@@ -973,6 +973,18 @@ There are other approaches for multitasking including [multithreading](https://e
 [multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
 as well as hybrid approaches.
 
+### How can I make [insert application or library here] from scratch?
+
+First of all see:
+
+1. Carl Sagan: [“If you wish to make an apple pie from scratch, you mist first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
+2. [“I thought using loops was cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/) on reddit.
+3. ["It’s not a Fooware - it's an operating system!"](https://www.shlomifish.org/humour/bits/It-s-not-a-Fooware-It-s-an-Operating-System/)
+
+Different operating systems, programming languages, and runtimes provide different facilities out of the box. For example,
+cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
+rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different

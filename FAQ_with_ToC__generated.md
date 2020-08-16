@@ -76,6 +76,7 @@
          * [What does Functional Programming ( FP ) mean?](#what-does-functional-programming--fp--mean)
          * [Why do people keep speaking against [language]?](#why-do-people-keep-speaking-against-language)
          * [How can I handle several different tasks / events (e.g: replying networking requests) at the same time?](#how-can-i-handle-several-different-tasks--events-eg-replying-networking-requests-at-the-same-time)
+         * [How can I make [insert application or library here] from scratch?](#how-can-i-make-insert-application-or-library-here-from-scratch)
          * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
          * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
       * [About this FAQ](#about-this-faq)
@@ -1056,6 +1057,18 @@ You likely want an [event-driven programming](https://en.wikipedia.org/wiki/Even
 There are other approaches for multitasking including [multithreading](https://en.wikipedia.org/wiki/Thread_%28computer_science%29),
 [multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
 as well as hybrid approaches.
+
+### How can I make [insert application or library here] from scratch?
+
+First of all see:
+
+1. Carl Sagan: [“If you wish to make an apple pie from scratch, you mist first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
+2. [“I thought using loops was cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/) on reddit.
+3. ["It’s not a Fooware - it's an operating system!"](https://www.shlomifish.org/humour/bits/It-s-not-a-Fooware-It-s-an-Operating-System/)
+
+Different operating systems, programming languages, and runtimes provide different facilities out of the box. For example,
+cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
+rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
 
 ### Which music do you listen to while programming?
 
