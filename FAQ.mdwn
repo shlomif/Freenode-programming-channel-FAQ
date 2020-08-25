@@ -977,7 +977,7 @@ as well as hybrid approaches.
 
 First of all see:
 
-1. Carl Sagan: [“If you wish to make an apple pie from scratch, you mist first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
+1. Carl Sagan: [“If you wish to make an apple pie from scratch, you must first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
 2. [“I thought using loops was cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/) on reddit.
 3. ["It’s not a Fooware - it's an operating system!"](https://www.shlomifish.org/humour/bits/It-s-not-a-Fooware-It-s-an-Operating-System/)
 
