@@ -211,6 +211,7 @@ Here are some resources for learning other programming languages, whether as a f
 * [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn) on MDN.
     * [JavaScript Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
     * [HTML Dog](https://htmldog.com/)
+* [List of Freely available programming books](https://github.com/EbookFoundation/free-programming-books) - and other resources, for many programming languages and in several human languages. May vary in quality.
 
 ### What amount of due diligence should I do before asking for help?
 
