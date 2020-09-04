@@ -296,7 +296,7 @@ and maybe even grow to like it.".
 
 Here are some resources for learning about algorithms:
 
-* [The Algorithm Design Manual](http://www.algorist.com/) by Steven Skiena. A good book and not a very technical one that provides a good introduction and reference for algorithms.
+* [The Algorithm Design Manual](http://www.algorist.com/) by Steven Skiena. An accessible, yet accurate, book and not a very technical one that provides a good introduction and reference for algorithms.
 * [Wikipedia's list of data structures](http://en.wikipedia.org/wiki/List_of_data_structures) and [Wikipedia's list of algorithms](http://en.wikipedia.org/wiki/List_of_algorithms).
 * [The Data Structures Wikibook](http://en.wikibooks.org/wiki/Data_Structures)
 * The CC-by book [Open Data Structures](http://opendatastructures.org/).
