@@ -78,6 +78,7 @@
          * [Why do people keep speaking against [language]?](#why-do-people-keep-speaking-against-language)
          * [How can I handle several different tasks / events (e.g: replying networking requests) at the same time?](#how-can-i-handle-several-different-tasks--events-eg-replying-networking-requests-at-the-same-time)
          * [How can I make [insert application or library here] from scratch?](#how-can-i-make-insert-application-or-library-here-from-scratch)
+         * [How hard is it to implement my own compiler?](#how-hard-is-it-to-implement-my-own-compiler)
          * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
          * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
       * [About this FAQ](#about-this-faq)
@@ -1082,6 +1083,14 @@ First of all see:
 Different operating systems, programming languages, and runtimes provide different facilities out of the box. For example,
 cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
 rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
+
+### How hard is it to implement my own compiler?
+
+That depends on the source, target, and implementation languages. A compiler from [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) to
+[C](https://en.wikipedia.org/wiki/C_%28programming_language%29) can be written in, say, [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
+in a few hours. On the other hand, an optimising compiler from [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
+[x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
+implement even by highly competent programmers.
 
 ### Which music do you listen to while programming?
 

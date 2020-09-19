@@ -997,6 +997,14 @@ Different operating systems, programming languages, and runtimes provide differe
 cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
 rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
 
+### How hard is it to implement my own compiler?
+
+That depends on the source, target, and implementation languages. A compiler from [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) to
+[C](https://en.wikipedia.org/wiki/C_%28programming_language%29) can be written in, say, [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
+in a few hours. On the other hand, an optimising compiler from [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
+[x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
+implement even by highly competent programmers.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
