@@ -63,6 +63,7 @@
          * [How can I run / program .NET and ASP.NET applications on Linux or macOS?](#how-can-i-run--program-net-and-aspnet-applications-on-linux-or-macos)
          * [What can I use to document my code? Can you recommend a documentation tool/system/framework ?](#what-can-i-use-to-document-my-code-can-you-recommend-a-documentation-toolsystemframework-)
          * [Which Linux Distribution / OS / version can you recommend?](#which-linux-distribution--os--version-can-you-recommend)
+         * [How can I learn how to use the Git version control system?](#how-can-i-learn-how-to-use-the-git-version-control-system)
          * [What do people mean when they say “s/pattern/replacement/”?](#what-do-people-mean-when-they-say-spatternreplacement)
          * [What does “FOSS” mean?](#what-does-foss-mean)
          * [How do developers of open source software make money from it?](#how-do-developers-of-open-source-software-make-money-from-it)
@@ -848,7 +849,7 @@ suitable for that out of the box. If you are using MS Windows, then look into:
 
 1. [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source Unix-like environment that runs on several versions of Win32/Win64.
 2. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by Microsoft for Windows 10.
-3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox)
+3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
 
 For more information, see [How to start contributing to or using Open Source Software](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
 
@@ -884,6 +885,11 @@ Here are some resources to get you started:
 
 See [this link](https://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html#Playing_with_Linux) with an
 introduction and some recommended alternatives.
+
+### How can I learn how to use the Git version control system?
+
+The [“awesome-git”](https://github.com/dictcp/awesome-git) document on GitHub has a
+list of tutorials.
 
 ### What do people mean when they say “s/pattern/replacement/”?
 
