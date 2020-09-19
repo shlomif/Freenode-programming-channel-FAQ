@@ -549,7 +549,10 @@ First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpr
 Morever, it is not always that straightforward - there are also languages
 that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine) or
 [bytecode](https://en.wikipedia.org/wiki/Bytecode) and then interpret that,
-there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation) and there may be some other approaches.
+there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation);
+some compilers compile to a different high-level languages (see for example the
+[List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) on CoffeeScript's
+wiki as well as the [Wikipedia page about "Source-to-source compilers"](https://en.wikipedia.org/wiki/Source-to-source_compiler)) and there may be some other approaches.
 
 Note that one should not use the fact that an implementation is
 interpreted against it, because it may not be slower than compiled code all the
@@ -558,6 +561,9 @@ processors.
 
 Despite some common belief, C has some interpreters as
 [mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically typed languages such as Common Lisp, Scheme, or Python have compilers.
+
+Moreover, note that interpreters are often easier to implement and port than compilers, which
+may justify the slower performance.
 
 ### How is JavaScript related to Java? What is the difference between them?
 
