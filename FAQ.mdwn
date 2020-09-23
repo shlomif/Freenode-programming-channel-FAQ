@@ -479,6 +479,10 @@ Despite some common belief, C has some interpreters as
 Moreover, note that interpreters are often easier to implement and port than compilers, which
 may justify the slower performance.
 
+As another anecdote, one can think of most [CPUs](https://en.wikipedia.org/wiki/Central_processing_unit) as
+interpreters for their [machine code](https://en.wikipedia.org/wiki/Machine_code), which are implemented using logic gates
+and electronic components.
+
 ### How is JavaScript related to Java? What is the difference between them?
 
 JavaScript (also see [its Wikipedia entry](https://en.wikipedia.org/wiki/JavaScript)) is a programming language first introduced in version 2.0 of the
