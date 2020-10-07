@@ -162,6 +162,7 @@ But here goes with a grain of salt:
 4. Deploy a local or hosted [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) service and make sure that failing builds or tests are remedied.
 5. Set up a [bug tracker](https://en.wikipedia.org/wiki/Bug_tracking_system) and use it to manage the issues and tasks' list. Some code-sharing sites provide hosted web-based issue trackers free-of-charge.
 6. Implement [Reproducible Builds](https://reproducible-builds.org/) ( [Wikipedia page](https://en.wikipedia.org/wiki/Reproducible_builds) ).
+7. Use [code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) to get rid of [code smells](https://en.wikipedia.org/wiki/Code_smell) such as duplicate code or magic constants. Also see ["Rub a dub dub"](https://www.joelonsoftware.com/2002/01/23/rub-a-dub-dub/).
 
 For more information consult these links:
 
