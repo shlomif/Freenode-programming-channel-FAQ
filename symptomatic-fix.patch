@@ -1,0 +1,13 @@
+diff --git a/gh-md-toc b/gh-md-toc
+index a9fbae6..4ae0b39 100755
+--- a/gh-md-toc
++++ b/gh-md-toc
+@@ -215,7 +215,7 @@ gh_toc_grab() {
+     text = substr($0, match($0, /a>.*<\/h/)+2, RLENGTH-5)
+     href = substr($0, match($0, "href=\"[^\"]+?\"")+6, RLENGTH-7)
+     print sprintf("%*s", level*3, " ") "* [" text "](" gh_url  href ")" }' |
+-        sed 'y/+/ /; s/%/\\x/g')"
++        sed 's/%/\\x/g')"
+ }
+ 
+ #
