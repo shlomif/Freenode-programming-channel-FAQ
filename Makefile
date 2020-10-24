@@ -11,4 +11,5 @@ $(GEN_FAQ): $(SRC_FAQ) $(GEN) $(TOC_GEN)
 	python3 $(GEN) --input $< --output $@
 
 $(TOC_GEN):
-	git clone https://github.com/ekalinin/github-markdown-toc
+	# git clone https://github.com/ekalinin/github-markdown-toc
+	git clone -b "shlomif-issue100-better-fix" https://github.com/shlomif/github-markdown-toc
