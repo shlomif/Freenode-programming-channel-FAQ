@@ -204,6 +204,7 @@ Different people will give different answers when asked that. Most people on ##p
 * [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/) - a similar book.
 * [_A Byte of Python_](https://python.swaroopch.com/)
 * [_Test-Driven Development with Python_](https://www.obeythetestinggoat.com/pages/book.html)
+* [Cory Schafer's Video Tutorials’ Channel](https://www.youtube.com/user/schafer5) - in case you prefer video tutorials.
 * [The Official Python Tutorial](http://docs.python.org/tutorial/) - may not be too useful for people with no programming experience.
 
 Here are some resources for learning other programming languages, whether as a first language or after knowing some other languages:
