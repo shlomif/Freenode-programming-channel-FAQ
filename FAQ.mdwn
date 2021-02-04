@@ -171,7 +171,7 @@ For more information consult these links:
 2. [“Awesome Guidelines”](https://github.com/Kristories/awesome-guidelines) - a curated list of high quality coding style conventions and standards.
 3. The Perl Beginners’s Site [“Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) and its spin-off [“C and C++ Elements to Avoid”](http://www.shlomifish.org/lecture/C-and-CPP/bad-elements/) (both of which have a lot of good advice related to other programming languages).
 4. The essay [“Clean Code JavaScript”](https://github.com/ryanmcdermott/clean-code-javascript) on GitHub.
-5. The tongue-in-cheek essay [“How To Write Unmaintable Code”](https://github.com/Droogans/unmaintainable-code) .
+5. The tongue-in-cheek essay [“How To Write Unmaintainable Code”](https://github.com/Droogans/unmaintainable-code) .
 6. A [discussion](http://perlhacks.com/2012/03/you-must-hate-version-control-systems/) on Dave Cross’ Perl Hacks blog titled “You Must Hate Version Control Systems”.
 7. [The Daily WTF](http://thedailywtf.com/) is a web site dedicated to posts about awful, but funny, programming practices.
 8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
