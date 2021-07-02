@@ -287,7 +287,7 @@ Also note that gdb has some [GUI frontends](http://www.shlomifish.org/open-sourc
 For some lists of ideas for what to program see:
 
 * [“Links to Perl Exercises and Challenges” on Perl-Begin](http://perl-begin.org/exercises/) - not entirely Perl-specific.
-* [“Problem Sets and Competitive Programming Sites”](https://github.com/vhf/free-programming-books/blob/master/problem-sets-competitive-programming.md) - a comprehensive list on GitHub.
+* [“Problem Sets and Competitive Programming Sites”](https://github.com/EbookFoundation/free-programming-books/blob/master/more/problem-sets-competitive-programming.md) - a comprehensive list on GitHub.
 * [Sphere Online Judge (SPOJ)](http://www.spoj.com/) - a site with many programming challenges.
 * [“Ideas for Computing” by Samsquire](https://github.com/samsquire/ideas) - a list of advanced ideas.
 * [“Hackerrank” - “Programming problems and competitions”](https://www.hackerrank.com/)
