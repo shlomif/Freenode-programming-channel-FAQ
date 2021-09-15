@@ -169,7 +169,7 @@ For more information consult these links:
 
 1. The essay [“What Makes Software High Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/)
 2. [“Awesome Guidelines”](https://github.com/Kristories/awesome-guidelines) - a curated list of high quality coding style conventions and standards.
-3. The Perl Beginners’s Site [“Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) and its spin-off [“C and C++ Elements to Avoid”](http://www.shlomifish.org/lecture/C-and-CPP/bad-elements/) (both of which have a lot of good advice related to other programming languages).
+3. The Perl Beginners Site [“Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) and its spin-off [“C and C++ Elements to Avoid”](http://www.shlomifish.org/lecture/C-and-CPP/bad-elements/) (both of which have a lot of good advice related to other programming languages).
 4. The essay [“Clean Code JavaScript”](https://github.com/ryanmcdermott/clean-code-javascript) on GitHub.
 5. The tongue-in-cheek essay [“How To Write Unmaintainable Code”](https://github.com/Droogans/unmaintainable-code) .
 6. A [discussion](http://perlhacks.com/2012/03/you-must-hate-version-control-systems/) on Dave Cross’ Perl Hacks blog titled “You Must Hate Version Control Systems”.
