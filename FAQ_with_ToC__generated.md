@@ -489,7 +489,7 @@ about obscuring Python code.
 The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different Networked service) for it and have the local end-user code query it using the network stack.
 
 Another point is that you should consider trusting your users instead. Shlomi
-Fish (“rindolf”) has a written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
+Fish (“rindolf”) has written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
 parent company, BitMover, has done a series of licence changes to BitKeeper
 over the years to prevent abuses from users who were unlikely to
 become paying customers out of sheer paranoia in
