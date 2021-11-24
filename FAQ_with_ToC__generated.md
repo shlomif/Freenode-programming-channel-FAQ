@@ -79,6 +79,7 @@
          * [How can I handle several different tasks / events (e.g: replying networking requests) at the same time?](#how-can-i-handle-several-different-tasks--events-eg-replying-networking-requests-at-the-same-time)
          * [How can I make [insert application or library here] from scratch?](#how-can-i-make-insert-application-or-library-here-from-scratch)
          * [How hard is it to implement my own compiler?](#how-hard-is-it-to-implement-my-own-compiler)
+         * [How can I achieve this task using Unix shell?](#how-can-i-achieve-this-task-using-unix-shell)
          * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
          * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
       * [About this FAQ](#about-this-faq)
@@ -1103,6 +1104,11 @@ That depends on the source, target, and implementation languages. A compiler fro
 in a few hours. On the other hand, an optimising compiler from [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
 [x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
 implement even by highly competent programmers.
+
+### How can I achieve this task using Unix shell?
+
+Often many programming tasks outgrow the Unix shells' functionality. In that
+case use [python or similar](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-learn-programming-which-language-should-i-start-with).
 
 ### Which music do you listen to while programming?
 

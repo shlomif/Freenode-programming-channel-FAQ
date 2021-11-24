@@ -1017,6 +1017,11 @@ in a few hours. On the other hand, an optimising compiler from [C++17](https://e
 [x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
 implement even by highly competent programmers.
 
+### How can I achieve this task using Unix shell?
+
+Often many programming tasks outgrow the Unix shells' functionality. In that
+case use [python or similar](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-learn-programming-which-language-should-i-start-with).
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
