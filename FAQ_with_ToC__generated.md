@@ -80,6 +80,7 @@
          * [How can I make [insert application or library here] from scratch?](#how-can-i-make-insert-application-or-library-here-from-scratch)
          * [How hard is it to implement my own compiler?](#how-hard-is-it-to-implement-my-own-compiler)
          * [How can I achieve this task using Unix shell?](#how-can-i-achieve-this-task-using-unix-shell)
+         * [How do I create an installable .exe or .msi out of my Python/etc. code?](#how-do-i-create-an-installable-exe-or-msi-out-of-my-pythonetc-code)
          * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
          * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
       * [About this FAQ](#about-this-faq)
@@ -1110,6 +1111,14 @@ implement even by highly competent programmers.
 Often many programming tasks outgrow the Unix shells' functionality. In that
 case use [python or similar](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-learn-programming-which-language-should-i-start-with).
 
+### How do I create an installable .exe or .msi out of my Python/etc. code?
+
+First of all note that these solutions are not effective ways to [hide the code's inner workings from end-users](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#how-do-i-hideobscureencrypt-my-source-code-to-prevent-end-users-from-learning-how-it-works).
+
+Otherwise, you can try using:
+
+* [PyInstaller](https://www.pyinstaller.org/), [Nuitka](https://nuitka.net/), and similar for Python.
+* [PAR](https://metacpan.org/pod/PAR) for Perl.
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
