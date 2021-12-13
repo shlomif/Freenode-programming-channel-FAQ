@@ -265,6 +265,7 @@ For more information consult these links:
 7. [The Daily WTF](http://thedailywtf.com/) is a web site dedicated to posts about awful, but funny, programming practices.
 8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
 9. [“5 Tips to Increase your Code Quality”](https://simpleprogrammer.com/2017/10/06/5-tips-code-quality/)
+10. [“Awesome Linters”](https://github.com/caramelomartins/awesome-linters) and [“Software Quality Enhancement Tools and Links”](https://www.shlomifish.org/open-source/resources/software-quality-enhancement/)
 
 ### What is the best programming language?
 
