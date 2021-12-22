@@ -249,10 +249,11 @@ But here goes with a grain of salt:
   * Please don't give the usual cliches that you don't need a version control system if you’re only one person or that the project is not large enough to warrant it. You probably do.
 2. Write Automated Tests. See [“What you should know about automated software testing”](https://github.com/shlomif/what-you-should-know-about-automated-testing), the wikipedia [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development) entry and other resources.
 3. Use a standard build/configuration system for the language you use. Simple [makefiles](http://en.wikipedia.org/wiki/Makefile) may be adequate for small projects, especially those written in C or C++. If you need to handle dependencies, build-time configuration variables and other complications, you should look at [alternatives for C](http://www.shlomifish.org/open-source/resources/software-tools/) or the community-based alternatives for your programming language of choice (e.g: [setuptools](http://en.wikipedia.org/wiki/Setuptools) for Python; [Dist::Zilla](http://dzil.org/) for Perl; [RubyGems](http://en.wikipedia.org/wiki/RubyGems) for Ruby).
-4. Deploy a local or hosted [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) service and make sure that failing builds or tests are remedied.
+4. Deploy a local or hosted [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) service and make sure that failing builds or tests are remedied.
 5. Set up a [bug tracker](https://en.wikipedia.org/wiki/Bug_tracking_system) and use it to manage the issues and tasks' list. Some code-sharing sites provide hosted web-based issue trackers free-of-charge.
 6. Implement [Reproducible Builds](https://reproducible-builds.org/) ( [Wikipedia page](https://en.wikipedia.org/wiki/Reproducible_builds) ).
 7. Use [code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) to get rid of [code smells](https://en.wikipedia.org/wiki/Code_smell) such as duplicate code or magic constants. Also see ["Rub a dub dub"](https://www.joelonsoftware.com/2002/01/23/rub-a-dub-dub/).
+8. If possible, make use of [linters, autoformatters, and validators](https://github.com/caramelomartins/awesome-linters) and incorporate them into the test suite and CI.
 
 For more information consult these links:
 
@@ -266,6 +267,7 @@ For more information consult these links:
 8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
 9. [“5 Tips to Increase your Code Quality”](https://simpleprogrammer.com/2017/10/06/5-tips-code-quality/)
 10. [“Awesome Linters”](https://github.com/caramelomartins/awesome-linters) and [“Software Quality Enhancement Tools and Links”](https://www.shlomifish.org/open-source/resources/software-quality-enhancement/)
+11. [“100 Tips on Software Developer Productivity”](https://dev.to/apkoponen/100-tips-on-software-developer-productivity-36if) - by Ari Koponen.
 
 ### What is the best programming language?
 
