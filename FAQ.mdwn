@@ -672,7 +672,7 @@ example, it may be configured to install some dependencies, and then run
 `./configure && make && make test`. If one of the steps fails, then the problem
 is reported, and the developers need to restore the build to order.
 
-While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
+While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [GitHub Actions](https://github.com/features/actions), [GitLab Pipelines](https://docs.gitlab.com/ee/ci/pipelines/), [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
 
 ### How do I debug memory errors (e.g: crashes, memory leaks, double-freeing) in my C / etc. programs?
 
