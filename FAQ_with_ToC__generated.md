@@ -558,7 +558,7 @@ First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpr
 Morever, it is not always that straightforward - there are also languages
 that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine),
 [bytecode](https://en.wikipedia.org/wiki/Bytecode), [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree),
-or some other [intemediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that,
+or some other [intermediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that,
 there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation);
 some compilers compile to a different high-level languages (see for example the
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) on CoffeeScript's
