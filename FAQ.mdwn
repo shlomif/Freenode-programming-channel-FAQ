@@ -138,6 +138,10 @@ by having read a book, a good tutorial, a video, an online course, etc. Otherwis
 might ask the wrong questions, or misguided ones, and generally waste the time of
 the more experienced people on the channel who are trying to help you.
 
+### How do I learn how to program?
+
+See the [previous question](#i-want-to-learn-programming-which-language-should-i-start-with).
+
 ### How should I do binary Input/Output properly?
 
 Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
@@ -182,7 +186,7 @@ For more information consult these links:
 
 ### What is the best programming language?
 
-We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“(Why) Your Programming Language Must Suck”](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/) for a short coverage of some of the important trade-offs a language design will have, and why not everyone will be happy with your choices.
+We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“Why Your Programming Language Must Suck”](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/) for a short coverage of some of the important trade-offs a language design will have, and why not everyone will be happy with your choices.
 
 Even if we settle on a certain amount of preferences, then you may run into other factors that influence which language you may prefer:
 
