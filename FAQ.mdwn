@@ -470,12 +470,12 @@ In addition the English wikipedia has [a list](https://en.wikipedia.org/wiki/Lis
 
 First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpreter_%28computing%29) vs. [“compiled”](https://en.wikipedia.org/wiki/Compiler) is an implementation detail, and a programming language may have more than one implementation.
 
-Morever, it is not always that straightforward - there are also languages
+Morever, it is not always that straightforward - there are also language implementations
 that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine),
 [bytecode](https://en.wikipedia.org/wiki/Bytecode), [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree),
 or some other [intermediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that,
 there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation);
-some compilers compile to a different high-level languages (see for example the
+some compilers compile to different high-level languages (see for example the
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) on CoffeeScript's
 wiki as well as the [Wikipedia page about "Source-to-source compilers"](https://en.wikipedia.org/wiki/Source-to-source_compiler));
 some packagers package a runtime of a language with a higher level code (which to be honest most compilers do even if they
