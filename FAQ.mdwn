@@ -707,6 +707,7 @@ The following resources may help:
 * [Wikipedia Punctuation Page](https://en.wikipedia.org/wiki/Punctuation)
 * [Unicode Shapecatcher](http://shapecatcher.com/)
 * [Wikipedia ASCII Page](https://en.wikipedia.org/wiki/ASCII)
+* [Xahlee's Unicode Pages](http://xahlee.info/)
 
 ### How do I find the size and/or length of an array in C?
 
