@@ -113,7 +113,7 @@ Refer to [the channel rules](https://github.com/jeaye/2lb_programming/blob/maste
 Just say their nickname followed by a colon (":") or a comma (","). Many IRC
 clients will allow you to do that by typing the first letters of the nickname
 followed by pressing the [tab key](https://en.wikipedia.org/wiki/Tab_key)
-(so-called tab completion). Please don't generally private message someone
+(so-called "tab-completion"). Please don't generally private message someone
 using the `/msg` or `/query` commands because that way other people cannot
 view and contribute to what you are saying.
 
@@ -175,6 +175,8 @@ Please don't share non-runnable pieces and fragments of your code, see [“Show 
 Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
 
 If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
+
+For more guidelines, see https://github.com/shlomif/how-to-share-code-online .
 
 ### I do not see anyone talking on the channel - is it dead?
 
@@ -240,7 +242,7 @@ Some people would naïvely assume that writing a C struct directly to a file wou
 * Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised and varies between systems, compilers (and even compilation options can affect it).
 * Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a "long" can be 32-bit or 64-bit, etc., which is system-dependent.
 
-The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase or download under a Creative Commons licence on the link), goes into further depth about these and many other UNIX portability issues.
+The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase, or a free download under a Creative Commons licence, on the link), goes into further depth about these and many other UNIX portability issues.
 
 In any case, the best way to mitigate this problem portably and safely, is to write (and later read) every field (and sometimes every byte within) to the disk or network. You should be able to find some mechanisms inside [portable libraries](http://www.shlomifish.org/open-source/portability-libs/) to do that.
 
@@ -330,7 +332,7 @@ If you cannot offer money, please consider learning the necessary skills yoursel
 
 ### What is the difference between “scripting” languages such as Perl, PHP, Python or Ruby and “Industrial-strength” Languages such as C, C++, Java and C#?
 
-Many people have issues with calling dynamic languages, with dynamic typing and those that are of somewhat more open-source nature such as Perl, PHP, Python and Ruby as “scripting” languages. See:
+Many people have issues with calling dynamic languages, with dynamic typing and those that are of somewhat more open-source nature such as Perl, PHP, Python and Ruby “scripting” languages. See:
 
 * [Andy Lester's Stop saying “script”](http://web.archive.org/web/20140704054553/http://xoa.petdance.com/Stop_saying_%22script%22) ([Original link](http://xoa.petdance.com/Stop_saying_%22script%22) - currently broken)
 * [Larry Wall’s “Programming’s Hard - Let’s Go Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
@@ -351,7 +353,7 @@ See:
 
 One thing to note is that numbers are the same regardless of their representation. E.g: the number represented by the base ten digits "16"
 is the same [Platonic ideal](https://en.wikipedia.org/wiki/Platonic_idealism) as the hexadecimal representation "0x10",
-the binary representation "0b10000", or the base 7 representation "12", the English name "sixteen" (or the count of apples
+the binary representation "0b10000", or the base 7 representation "22", the English name "sixteen" (or the count of apples
 in this: "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏"). Therefore, it is inaccurate to speak of "binary numbers" or
 "hexadecimal numbers".
 
@@ -444,9 +446,9 @@ information.
 
 ### What is FizzBuzz?
 
-In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
+In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of a [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
 
-Namely, in FizzBuzz one has to write a program that prints the natural numbers from 1 to 100 one line each, but if the number is divisible by 3, print "Fizz" and if it is divisible by 5 print "Buzz"; if it is divisible by both, print "FizzBuzz".
+Namely, in FizzBuzz one has to write a program that prints the natural numbers from 1 to 100 on one line each, but if the number is divisible by 3, print "Fizz" instead, and if it is divisible by 5 print "Buzz" instead; if it is divisible by both, print "FizzBuzz".
 
 For more information, see:
 
@@ -468,7 +470,7 @@ As a result, the term “the C family of languages” is confusing and should be
 
 ### I am facing a number of problems while using floating-point data types (e.g: "float" or "double"). Is there a explanation for this?
 
-Computers use binary numbers because they’re faster at dealing with them, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway. Moreover, because they use a binary floating point,they cannot represent a number like 0.1, 0.3, etc. accurately at all.
+Computers use binary-encoded numbers because they’re faster at dealing with them, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway. Moreover, because they use a binary floating point, they cannot represent a number like 0.1, 0.3, etc. accurately at all.
 
 When the code is compiled, the floating point number is rounded to nearest number in the format, which results in rounding error even before the calculations. Furthermore, associativity in addition may result in different results: `a + (b + c) != (a + b) + c` and it is possible to get weird results like `a + b == a` if a’s exponent is much larger than b’s.
 
@@ -496,7 +498,7 @@ are known to be ineffective - see [this post about distributing CPython's .pyc f
 as well as [this 2002 thread](https://lists.gt.net/python/python/123115?do=post_view_threaded)
 about obscuring Python code.
 
-The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different Networked service) for it and have the local end-user code query it using the network stack.
+The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different networked service) for it and have the local end-user code query it using the network stack.
 
 Another point is that you should consider trusting your users instead. Shlomi
 Fish (“rindolf”) has written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
@@ -544,7 +546,8 @@ page which is somewhat focused on these issues for Perl 5. Then you may wish to:
 
 1. In C, make a judicious use of [fflush()](http://en.cppreference.com/w/c/io/fflush), or use locks for synchronisation.
 2. In C++, use [std::flush](http://stackoverflow.com/questions/14105650/how-does-stdflush-work).
-3. Use similar routines for your programming language of choice.
+3. For Python, see [this Stackoverflow thread](https://stackoverflow.com/questions/230751/how-can-i-flush-the-output-of-the-print-function)
+4. Use similar routines for your programming language of choice.
 
 ### What do “NP-Complete”, “NP-hard”, etc. mean?
 
@@ -563,7 +566,7 @@ First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpr
 Morever, it is not always that straightforward - there are also language implementations
 that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine),
 [bytecode](https://en.wikipedia.org/wiki/Bytecode), [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree),
-or some other [intermediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that,
+or some other [intermediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that;
 there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation);
 some compilers compile to different high-level languages (see for example the
 [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) on CoffeeScript's
@@ -881,7 +884,7 @@ suitable for that out of the box. If you are using MS Windows, then look into:
 2. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by Microsoft for Windows 10.
 3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
 
-For more information, see [How to start contributing to or using Open Source Software](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
+For more information, see [“How to start contributing to or using Open Source Software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
 
 ### What is language X good for?
 
@@ -903,7 +906,7 @@ Note that some APIs such as [WPF](https://en.wikipedia.org/wiki/Windows_Presenta
 
 Here are some resources to get you started:
 
-1. rindolf wrote a page titled [Choice of Document Formats](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/)
+1. rindolf wrote a page titled [“Choice of Document Formats”](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/).
 2. Wikipedia has a page about [Lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) with a comparison.
 3. [Doxygen](http://www.doxygen.org/) is an open source documentation tool that supports many languages.
 4. [DocBook](https://en.wikipedia.org/wiki/DocBook) and [TEI](http://www.tei-c.org/) are open XML-based standards for encoding semantic documents and translating them, but with complex tooling.
@@ -998,7 +1001,7 @@ proficient. Yet they don’t have the foggiest clue how much they’re missing."
 You can probably get an entry-level or junior position software development job
 with relatively little or no experience, but likely one with a relatively low salary.
 
-Some books like [this one](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+Some books like ["The Pragmatic Programmer"](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 or [this one](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
 aim to teach inexperienced developers, part of the wisdom gained by experience.
 
@@ -1018,9 +1021,10 @@ which, although potentially useful, are likely not enough to become truly profic
 
 ----
 
-To sum up, there is no clear cut answer and magical moment during which you transition from a "newbie"
-into a "super duper rock star ninja wizard awesomesauce hotstuff" dev. However, the more you learn and try,
-the better off you'll be with the right attitude.
+To sum up, there is no clear cut answer and magical moment during which you
+transition from a "newbie" into a "super duper rock star ninja wizard
+awesomesauce hotstuff" dev. However, the more you learn and try, the better off
+you'll be with the right attitude.
 
 ### What do you mean by "generating makefiles" or by "generating code" in general?
 
@@ -1067,7 +1071,7 @@ As a result, the term has become somewhat muddled. Also note that if the languag
 Like OOP, FP can mean several things:
 
 1. The concept of programming without mutation or side effects. This was modelled in [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), and can often also be done in imperative languages.
-2. A language that is "marketed" as a functional language, which includes non-purely functional languages such as https://en.wikipedia.org/wiki/Scheme_%28programming_language%29 or https://en.wikipedia.org/wiki/Standard_ML and excludes others which have functional programming capabilities such as Perl, Ruby, or JavaScript.
+2. A language that is "marketed" as a functional language, which includes non-purely functional languages such as [Scheme](https://en.wikipedia.org/wiki/Scheme_%28programming_language%29) or https://en.wikipedia.org/wiki/Standard_ML and excludes others which have functional programming capabilities such as Perl, Ruby, or JavaScript.
 3. The polymorphism implementation in such statically typed languages such as Haskell, Standard ML, or OCaml.
 4. A functional code, i.e: one that has [external quality](https://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/): is mostly bug free, has acceptable performance, etc. as opposed to the elegance of the code, and other internal quality aspects.
 
@@ -1113,7 +1117,7 @@ That depends on the source, target, and implementation languages. A compiler fro
 [C](https://en.wikipedia.org/wiki/C_%28programming_language%29) can be written in, say, [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
 in a few hours. On the other hand, an optimising compiler from [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
 [x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
-implement even by highly competent programmers.
+implement even by very competent programmers.
 
 ### How can I achieve this task using Unix shell?
 
@@ -1128,6 +1132,7 @@ Otherwise, you can try using:
 
 * [PyInstaller](https://www.pyinstaller.org/), [Nuitka](https://nuitka.net/), and similar for Python.
 * [PAR](https://metacpan.org/pod/PAR) for Perl.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
@@ -1137,7 +1142,7 @@ music.
 
 That put aside, here are some recommendations from our regulars:
 
-* rindolf listens mostly to pop and rock (while fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
+* rindolf listens mostly to pop and rock (while being fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
