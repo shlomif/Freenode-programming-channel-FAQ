@@ -82,6 +82,7 @@
       * [How hard is it to implement my own compiler?](#how-hard-is-it-to-implement-my-own-compiler)
       * [How can I achieve this task using Unix shell?](#how-can-i-achieve-this-task-using-unix-shell)
       * [How do I create an installable .exe or .msi out of my Python/etc. code?](#how-do-i-create-an-installable-exe-or-msi-out-of-my-pythonetc-code)
+      * [Will Artificial Intelligence (“AI”) eventually eliminate the need for human programmers?](#will-artificial-intelligence-ai-eventually-eliminate-the-need-for-human-programmers)
       * [Which music do you listen to while programming?](#which-music-do-you-listen-to-while-programming)
       * [Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)](#is-it-true-that-programming-is-more-about-anime-than-programming-just-like-anime-is-more-about-programming-than-anime)
    * [About this FAQ](#about-this-faq)
@@ -1132,6 +1133,10 @@ Otherwise, you can try using:
 
 * [PyInstaller](https://www.pyinstaller.org/), [Nuitka](https://nuitka.net/), and similar for Python.
 * [PAR](https://metacpan.org/pod/PAR) for Perl.
+
+### Will Artificial Intelligence (“AI”) eventually eliminate the need for human programmers?
+
+Many people asked us that, and these discussions have not been too fruitful.
 
 ### Which music do you listen to while programming?
 

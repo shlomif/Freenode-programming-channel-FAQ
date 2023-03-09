@@ -1043,6 +1043,10 @@ Otherwise, you can try using:
 * [PyInstaller](https://www.pyinstaller.org/), [Nuitka](https://nuitka.net/), and similar for Python.
 * [PAR](https://metacpan.org/pod/PAR) for Perl.
 
+### Will Artificial Intelligence (“AI”) eventually eliminate the need for human programmers?
+
+Many people asked us that, and these discussions have not been too fruitful.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
