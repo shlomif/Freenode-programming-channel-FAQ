@@ -1151,6 +1151,9 @@ As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me
 2. assuming he has over 30 millions US dollars in the bank, then:
 3. extract 25,000 US dollars , which should allow you to support yourself for many days.
 
+Most of the best employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
+and will
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
