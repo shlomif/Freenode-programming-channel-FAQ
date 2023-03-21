@@ -1049,7 +1049,9 @@ Many people asked us that, and these discussions have not been too fruitful.
 
 First of all note that a far more efficient way of earning money is to
 request it from people (whether online or in reallife) in exchange for
-sessions of education and entertainment.
+sessions of education and entertainment. These have been called
+"philosophy / comedy", "geeking out", even "love / knowledge".
+You can think of that as "begging for donations with style".
 
 ### Which music do you listen to while programming?
 
