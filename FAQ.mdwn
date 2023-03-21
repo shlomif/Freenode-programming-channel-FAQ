@@ -1047,6 +1047,10 @@ Otherwise, you can try using:
 
 Many people asked us that, and these discussions have not been too fruitful.
 
+First of all note that a far more efficient way of earning money is to
+request it from people (whether online or in reallife) in exchange for
+sessions of education and entertainment.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
