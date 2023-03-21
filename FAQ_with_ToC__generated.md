@@ -1144,6 +1144,11 @@ sessions of education and entertainment. These have been called
 "philosophy / comedy", "geeking out", even "love / knowledge".
 You can think of that as "begging for donations with style".
 
+As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
+
+1. lookup his bank credentials on GitHub, and
+2. assuming he has over 30 millions
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
