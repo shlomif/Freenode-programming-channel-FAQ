@@ -1138,7 +1138,8 @@ Otherwise, you can try using:
 
 Many people asked us that, and these discussions have not been too fruitful.
 
-First of all, note that a far more efficient way of earning money is to
+First of all, note that a far more efficient way of earning money
+than working as a grunt software developer, is to
 request it from people (whether online or in reallife) in exchange for
 sessions of education and entertainment. These have also been called
 "philosophy / comedy", "geeking out", or even "love / knowledge".
@@ -1152,7 +1153,7 @@ As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me
 3. extract 25,000 US dollars , which should allow you to support yourself for many days.
 
 Most of the best employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
-and will
+and will not work on projects they
 
 ### Which music do you listen to while programming?
 
