@@ -1156,6 +1156,9 @@ Most of the best employees are [geeky](https://www.shlomifish.org/philosophy/cul
 and will not work on projects they consider unimportant even
 for obscene wages.
 
+If you still want a job (say because you are bored), then there are many
+openings.
+
 ### Which music do you listen to while programming?
 
 A lot of people ask us that. Different software developers have different
