@@ -1065,7 +1065,8 @@ As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me
 
 Most of the best employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
 and will not work on projects they consider unimportant even
-for obscene wages. Geeks are also known as "amateurs"
+for obscene wages. Geeks are also known as "amateurs", workers
+who love their work.
 
 If you still want a job (say because you are bored), then there are many
 non-software-development openings.
