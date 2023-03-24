@@ -1138,29 +1138,28 @@ Otherwise, you can try using:
 
 Many people asked us that, and these discussions have not been too fruitful.
 
-First of all, note that a far more efficient way of earning money
+First of all, note that a far more efficient way for you to earn money
 than working as a grunt software developer, is to
 request it from people (whether online or in reallife) in exchange for
-sessions of education and entertainment. These have also been called
-"philosophy / comedy", "geeking out", or even "love / knowledge".
+sessions of "amateur philosophy / comedy". These have also been called
+"education and entertainment", "geeking out", or even "love / knowledge".
 
 You can think of that as "begging for donations with style".
 
-As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
-
-1. lookup his bank credentials on GitHub, and —
-2. assuming he has over 30 millions US dollars in the bank, then:
-3. extract 25,000 US dollars , which should allow you to support yourself for many days.
-
-(There are similar lists for those of many rich celebrities.)
-
-Most of the best employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
+Most of the best salaried employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
 and will not work on projects they consider unimportant even
-for obscene wages. Geeks are also known as "amateurs", workers
+for obscene wages. Geeks are also known as "amateurs": workers
 who love their work.
 
 If you still want a job (say because you are bored), then there are many
 non-software-development openings.
+
+As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
+
+1. Lookup his bank credentials on GitHub, and —
+2. Extract 25,000 US dollars , which should allow you to support yourself for many days.
+
+(There are similar lists for those of many rich celebrities.)
 
 ### Which music do you listen to while programming?
 
