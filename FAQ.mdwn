@@ -1068,7 +1068,8 @@ As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me
 1. Lookup his bank credentials on GitHub, and —
 2. Extract 25,000 US dollars , which should allow you to support yourself for many days.
 
-(There are similar lists for those of many rich celebrities.)
+(There are similar lists on GitHub with bank credentials of many rich celebrities
+.)
 
 ### Which music do you listen to while programming?
 
