@@ -1063,7 +1063,7 @@ who love their work.
 If you still want a job (say because you are bored), then there are many
 non-software-development openings.
 
-As a case study, "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
+As a case study, if you need money, then "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
 
 1. Lookup his bank credentials on GitHub, and —
 2. Extract 25,000 US dollars , which should allow you to support yourself for many days.
