@@ -146,9 +146,9 @@ See the [previous question](#i-want-to-learn-programming-which-language-should-i
 
 ### How should I do binary Input/Output properly?
 
-Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
+Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from being the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
 
-* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as byte sex, this determines whether bytes are stored in memory with the lowest byte first or the highest one.
+* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as “byte sex”, this determines whether bytes are stored in memory with the lowest byte first or the highest one.
 * Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised and varies between systems, compilers (and even compilation options can affect it).
 * Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a "long" can be 32-bit or 64-bit, etc., which is system-dependent.
 
