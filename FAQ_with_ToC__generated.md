@@ -950,9 +950,10 @@ For more information see:
 First of all see ["A handy guide to financial support for FOSS"](https://github.com/nayafia/lemonade-stand).
 
 Otherwise, note that copies of FOSS can be copied and distributed at a very low
-cost, like other digital files. As a result some developers opt to provide their
-gratis digital works (including FOSS) free of charge, without expecting to be reimbursed,
-simply because they do not get penalised for every downloaded copy.
+cost, like other digital files. As a result, some developers opt to provide
+their gratis digital works (including FOSS) free of charge, without expecting
+to be reimbursed, simply because they do not get penalised for every downloaded
+copy.
 
 ### How can I calculate the top / bottom number of items of a certain property from a stream of them?
 
@@ -1017,7 +1018,7 @@ There is an [interesting quote by Henry Ford about "experts"](https://www.goodre
 According to the Coding Horror blog [most interviewed job candidates cannot program FizzBuzz](https://blog.codinghorror.com/why-cant-programmers-program/).
 
 Also note that being proficient and experienced may not automatically get you accepted into job openings
-because there are [other factors that employers may found important](https://shlomif.livejournal.com/4408.html).
+because there are [other factors that employers may find important](https://shlomif.livejournal.com/4408.html).
 
 The [learn X in Y minutes](https://learnxinyminutes.com/) site provides short introductions to computing topics
 which, although potentially useful, are likely not enough to become truly proficient.
@@ -1067,7 +1068,7 @@ When people say [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 * Like [Alan Kay noted:](https://softwareengineering.stackexchange.com/questions/46592/so-what-did-alan-kay-really-mean-by-the-term-object-oriented) <q>Actually, I made up the term object-oriented, and I can tell you I did not have C++ in mind. An important thing here is—I have many of the same feelings about Smalltalk </q>
 * The "OOP/OOD" approach taken by C++ and later Java and C# and other languages, which was inspired by [Simula](https://en.wikipedia.org/wiki/Simula).
 
-As a result, the term has become somewhat muddled. Also note that if the language is Turing complete, then usually one can implement OOP-like systems such as [GObject](https://en.wikipedia.org/wiki/GObject) or [libcello](http://libcello.org/) for C.
+As a result, the term has become somewhat muddled. Also note that if the language is Turing-complete, then usually one can implement OOP-like systems such as [GObject](https://en.wikipedia.org/wiki/GObject) or [libcello](http://libcello.org/) for C.
 
 ### What does Functional Programming ( FP ) mean?
 
@@ -1075,7 +1076,7 @@ Like OOP, FP can mean several things:
 
 1. The concept of programming without mutation or side effects. This was modelled in [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), and can often also be done in imperative languages.
 2. A language that is "marketed" as a functional language, which includes non-purely functional languages such as [Scheme](https://en.wikipedia.org/wiki/Scheme_%28programming_language%29) or https://en.wikipedia.org/wiki/Standard_ML and excludes others which have functional programming capabilities such as Perl, Ruby, or JavaScript.
-3. The polymorphism implementation in such statically typed languages such as Haskell, Standard ML, or OCaml.
+3. The polymorphism implementation in such statically-typed languages such as Haskell, Standard ML, or OCaml.
 4. A functional code, i.e: one that has [external quality](https://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/): is mostly bug free, has acceptable performance, etc. as opposed to the elegance of the code, and other internal quality aspects.
 
 ### Why do people keep speaking against [language]?
@@ -1087,7 +1088,7 @@ programming language design which means no perfect language can ever exist, and 
 
 So some people will always complain, and while their opinions may have merit, it does not imply the language is not otherwise decent and usable.
 One cannot afford to [completely rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) the whole codebase in the trendiest
-language every month or even every year (although gradual conversions are a less suicidal option), so many languages will linger on due to legacy.
+language every month or even every year (although gradual conversions are a less suicidal option), so many languages will linger-on due to legacy.
 
 ### How can I handle several different tasks / events (e.g: replying networking requests) at the same time?
 
@@ -1175,7 +1176,7 @@ music.
 
 That put aside, here are some recommendations from our regulars:
 
-* rindolf listens mostly to pop and rock (while being fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
+* rindolf listens mostly to Pop and Rock (while being fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
