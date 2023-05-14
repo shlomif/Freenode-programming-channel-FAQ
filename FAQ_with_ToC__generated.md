@@ -339,7 +339,7 @@ Many people have issues with calling dynamic languages, with dynamic typing and 
 * [Larry Wall’s “Programming’s Hard - Let’s Go Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
 * [chromatic - “Program vs. Script”](http://use.perl.org/use.perl.org/_chromatic/journal/35804.html)
 
-The problem with calling them that is that it is that while they allow for getting small and simple things done quickly and easily, large scale projects (100,000s to millions of lines of code) have been written in them and are still maintained without any show-stopping difficulties. That is not to say that these languages do not have their downsides, but they still do not preclude **general-purpose**, and/or **large-scale** programming.
+The problem with calling them that is that while they allow for getting small and simple things done quickly and easily, large scale projects (100,000s to millions of lines of code) have been written in them and are still maintained without any show-stopping difficulties. That is not to say that these languages do not have their downsides, but they still do not preclude **general-purpose**, and/or **large-scale** programming.
 
 Furthermore, if we consider Perl/PHP/Python/Ruby/Tcl/Lua/etc. as “scripting languages” and C, C++, Java and C# as “industrial strength” where does Common Lisp fit in? Where does Scheme? Where do Haskell and OCaml? What about the various dialects of Basic? Fortran? COBOL? It seems that the classification of languages as “scripting” vs “industrial strength” is more of that of public perception and marketing as opposed to their actual qualities.
 
