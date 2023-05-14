@@ -583,10 +583,10 @@ time, and because it may still be fast enough for many uses given today’s
 processors.
 
 Despite some common belief, C has some interpreters as
-[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically typed languages such as Common Lisp, Scheme, or Python have compilers.
+[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically-typed languages such as Common Lisp, Scheme, or Python have compilers.
 
 Moreover, note that interpreters are often easier to implement and port than compilers, which
-may justify the slower performance.
+may justify the poorer performance.
 
 As another anecdote, one can think of most [CPUs](https://en.wikipedia.org/wiki/Central_processing_unit) as
 interpreters for their [machine code](https://en.wikipedia.org/wiki/Machine_code), which are implemented using logic gates
@@ -624,6 +624,8 @@ If you need something to run on the server, then you have a lot of choice for
 [server-side technologies](https://duckduckgo.com/?q=server-side+technologies+web&ia=web)
 and often [web frameworks](https://en.wikipedia.org/wiki/Web_framework) and
 APIs for them.
+
+Also see [Four Ways to Build Web Apps :: Tom Hummel](https://tomhummel.com/posts/four-web-apps/)
 
 ### Where can I get help with writing my own operating system or kernel?
 
