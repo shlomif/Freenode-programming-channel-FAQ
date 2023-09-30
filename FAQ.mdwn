@@ -489,10 +489,10 @@ There may also be some other approaches.
 Note that one should not use the fact that an implementation is
 interpreted against it, because it may not be slower than compiled code all the
 time, and because it may still be fast enough for many uses given today’s
-processors.
+processors’ speeds.
 
 Despite some common belief, C has some interpreters as
-[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c) while some dynamically-typed languages such as Common Lisp, Scheme, or Python have compilers.
+[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c), while some dynamically-typed languages such as Common Lisp, Scheme, or Python have compilers.
 
 Moreover, note that interpreters are often easier to implement and port than compilers, which
 may justify the poorer performance.
@@ -614,6 +614,7 @@ Some technologies that allow automating using client-side JavaScript are:
 * [Headless Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
 * [Firefox's Headless mode](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode)
 * [Selenium](https://en.wikipedia.org/wiki/Selenium_%28software%29)
+* [Puppeteer](https://github.com/puppeteer/puppeteer)
 
 ### Where can I learn to write and/or read regular expressions?
 
@@ -640,6 +641,8 @@ easier to read and follow.
 Code without indentation is harder to read and so should be avoided. The
 [Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style) lists
 several styles - pick one and follow it.
+
+Also consider using an autoformatter: [awesome-linters](https://github.com/caramelomartins/awesome-linters) .
 
 ### I shared my code (using a paste-site/etc.) and people on the channel complained that my indentation is bad / off / inconsistent , but it looks fine in my text editor. Why?
 
@@ -880,16 +883,17 @@ You can try using an efficient implementation of the [Priority queue ADT](https:
 There is a [wikipedia page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29) that details
 the [VCS](https://en.wikipedia.org/wiki/Version_control) technique, but it has a more general utility.
 
-As the old joke goes: "How do you find a lion in the desert? You split the desert into two halfs, and
-the lion is in either one. Then you split the half with the lion into two quarters, and so on until
-you find the lion-sized fraction of the area with the lion." You can apply this to many problems, e.g
-by gradually moving away or temporarily removing configuration files or directives until you
-pinpoint the problem.
+As the old joke goes: "How do you find a lion in the desert? You split the
+desert into two halfs, and the lion is in either one. Then you split the half
+with the lion into two quarters, and so on until you find the lion-sized
+fraction of the area with the lion." You can apply this to many problems, e.g
+by gradually moving away or temporarily removing configuration files or
+directives until you pinpoint the problem.
 
 ### How can I overwrite text in a terminal or write a console-based UI?
 
 * The de-facto standard for writing [TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) is [curses](https://en.wikipedia.org/wiki/Curses_%28programming_library%29) which has some open source implementations such as [ncurses](https://en.wikipedia.org/wiki/Ncurses) and [PDCurses](https://en.wikipedia.org/wiki/PDCurses), but may be somewhat baroque in nature.
-* [libtickit](http://www.leonerd.org.uk/code/libtickit/) and others are newer and possibly more modern alternatives with an incompatible API.
+* [libtickit](http://www.leonerd.org.uk/code/libtickit/) and others are newer and possibly more modern alternatives with incompatible APIs.
 * There are bindings for other languages like [curses.py](https://docs.python.org/3/howto/curses.html)
 * For simple tasks, printing no more than the terminal width (typically 80 characters) and then printing "\r" and overwriting may be adequate.
 * There are libraries for line input such as [readline](https://en.wikipedia.org/wiki/GNU_Readline) (GPLed) or [libedit](https://duckduckgo.com/?q=libedit&atb=v140-1&ia=web) (BSDLed).
@@ -915,7 +919,7 @@ You can probably get an entry-level or junior position software development job
 with relatively little or no experience, but likely one with a relatively low salary.
 
 Some books like ["The Pragmatic Programmer"](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
-or [this one](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
+or ["Coder to Developer"](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
 aim to teach inexperienced developers, part of the wisdom gained by experience.
 
 It is a perceived fact among software developers that some developers write more elegant
@@ -1009,7 +1013,7 @@ You likely want an [event-driven programming](https://en.wikipedia.org/wiki/Even
 4. [Node.js](https://en.wikipedia.org/wiki/Nodejs) is inherently event-driven.
 
 There are other approaches for multitasking including [multithreading](https://en.wikipedia.org/wiki/Thread_%28computer_science%29),
-[multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
+[multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing),
 as well as hybrid approaches.
 
 ### How can I make [insert application or library here] from scratch?
@@ -1104,7 +1108,7 @@ ops. So there you go.
 
 \#\#programming is a collective and often different members of it have
 different opinions, so there is often no unified opinion. As the old joke
-goes "Ask N programmers what they think about X, and you'll get at least
+goes: "Ask N programmers what they think about X, and you'll get at least
 N+1 opinions." The contributors
 to this document tried to be as informative and non-bigotted as possible,
 but there probably is some bias.
@@ -1117,4 +1121,4 @@ If you do not approve of parts of this document, you can:
 
 ## Licence/License
 
-The textual content of this document is made available under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
+The textual content of this document is made available under the [Creative Commons Attribution (CC-by) 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
