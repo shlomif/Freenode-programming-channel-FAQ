@@ -157,7 +157,7 @@ So please [learn programming properly](#i-want-to-learn-programming-which-langua
 
 The first guideline is that you should not “ask to ask” by saying “May I ask
 a question?” or asking if anyone worked with that certain technology. Just ask
-for help directly.
+for help directly. Also see https://dontasktoask.com/ .
 
 The second guideline is that you should probably read or skim the guide
 [“Writing the Perfect Question”](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
@@ -321,7 +321,7 @@ Here are some resources for learning about algorithms:
 * [_Mastering Algorithms with Perl_](http://shop.oreilly.com/product/9781565923980.do) and [_Mastering Algorithms with C_](http://shop.oreilly.com/product/9781565924536.do) from O’Reilly Media.
 * [“The Algorithms” GitHub organisation](https://github.com/TheAlgorithms) - contains repositories of codebases for popular algorithms and data structures in several programming languages.
 * [Think Data Structures](https://greenteapress.com/wp/think-data-structures/) - by Green Tea Press - a gratis and CC-by-nc-sa lightweight book using Java.
-* [“The Art of Computer Programming”](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) - (aka “TAOCP” or “Knuth”) - an esteemed series of books, by an esteemed author, but one that is only accessible to those who are very experienced programmers, and so not recommended here due to the scope of the question. Given here only for completeness sake.
+* [“The Art of Computer Programming”](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) - (aka “TAOCP” or “Knuth”) - an esteemed series of books, by an esteemed author, but one that is only accessible to those who are very experienced programmers, and so not recommended here due to the scope of the question. Mentioned here only for completeness sake.
 
 There's also a [channel called "#algorithms" on Freenode](irc://irc.freenode.net/#algorithms) and, naturally, you can discuss algorithms on ##programming, as long as you perform due diligence.
 
@@ -416,7 +416,7 @@ Such questions are tolerated on the channel, but anyway:
 * Try a [GitHub Search](https://github.com/)
 
 Note that very often these questions describe a task that is relatively
-quickly doable in Python/Perl/Ruby/insert-productive-language-of-choice
+quickly doable in Python/Perl/insert-productive-language-of-choice
 so either learn Python or whatever, or alternatively hire a programmer to
 write it for you.
 
@@ -499,7 +499,7 @@ are known to be ineffective - see [this post about distributing CPython's .pyc f
 as well as [this 2002 thread](https://lists.gt.net/python/python/123115?do=post_view_threaded)
 about obscuring Python code.
 
-The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different networked service) for it and have the local end-user code query it using the network stack.
+The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different networked service) for it and have the local end-user´s code query it using the network stack.
 
 Another point is that you should consider trusting your users instead. Shlomi
 Fish (“rindolf”) has written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
@@ -558,7 +558,7 @@ Try referring to these links:
 * [Stackoverflow Thread](http://stackoverflow.com/questions/210829/what-is-an-np-complete-in-computer-science) - should be more accessible
 * [Log of a conversation on ##programming](http://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-what-is-NP-complete)
 
-In addition the English wikipedia has [a list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of problems that were shown to be NP-complete.
+In addition, the English wikipedia has [a list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of problems that were shown to be NP-complete.
 
 ### What do you think about interpreted vs. compiled languages?
 
@@ -625,7 +625,7 @@ If you need something to run on the server, then you have a lot of choice for
 and often [web frameworks](https://en.wikipedia.org/wiki/Web_framework) and
 APIs for them.
 
-Also see [Four Ways to Build Web Apps :: Tom Hummel](https://tomhummel.com/posts/four-web-apps/)
+Also see the post [“Four Ways to Build Web Apps” by Tom Hummel](https://tomhummel.com/posts/four-web-apps/)
 
 ### Where can I get help with writing my own operating system or kernel?
 
@@ -817,10 +817,10 @@ See [this Stackoverflow question](https://stackoverflow.com/questions/37538/how-
 First of all, see [the wikipedia page](https://en.wikipedia.org/wiki/Single_UNIX_Specification) for when OSes are considered certified to use the UNIX® trademark.
 
 In the context of this question, we are not trying to disuade you from using
-macOS, just to point out that being "Certified Unix™" is not too relevant
+macOS, just to point out that being "Certified UNIX®" is not too relevant
 and should not be used as an argument against using [Linux](https://en.wikipedia.org/wiki/Linux). Namely:
 
-1. Certified Unix™ is reportedly given to particular OSes running on specific hardware. This is harder for Linux and other open source Unix-like OSes to achieve because they support heterogeneous hardware (including [x86](https://en.wikipedia.org/wiki/X86) and its peripherals).
+1. Certified Unix® is reportedly given to particular OSes running on specific hardware. This is harder for Linux and other open source Unix-like OSes to achieve because they support heterogeneous hardware (including [x86](https://en.wikipedia.org/wiki/X86) and its peripherals).
 2. Two OSes based on the Linux kernel and the [GNU](https://en.wikipedia.org/wiki/GNU_Project)/etc. runtime - namely EulerOS and Inspur K-UX - were certified as Unix. See [the wikipedia page](https://en.wikipedia.org/wiki/Single_UNIX_Specification#EulerOS) for details.
 3. At a time, Windows NT by Microsoft was certified as Unix as well.
 4. Being certified as such does not mean that the system will behave exactly as a Unix system is expected to behave. For example, the [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in macOS is reportedly mostly neutered.
@@ -852,7 +852,7 @@ their favour.
 
 ### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
 
-First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
+First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
 not a lawyer) and all that jazz.
 
 A copyright holder may change the licence as they please, and [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence) also allow
@@ -867,7 +867,7 @@ For more information, see:
 
 ### Should I avoid using an open source project just because it is primarily developed by a company or individual that I dislike?
 
-First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
+First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
 not a lawyer) and all that jazz.
 
 In essence, the [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) nature of
@@ -914,7 +914,7 @@ Here are some resources to get you started:
 
 1. rindolf wrote a page titled [“Choice of Document Formats”](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/).
 2. Wikipedia has a page about [Lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) with a comparison.
-3. [Doxygen](http://www.doxygen.org/) is an open source documentation tool that supports many languages.
+3. [Doxygen](http://www.doxygen.org/) is an open source documentation tool that supports many programming languages.
 4. [DocBook](https://en.wikipedia.org/wiki/DocBook) and [TEI](http://www.tei-c.org/) are open XML-based standards for encoding semantic documents and translating them, but with complex tooling.
     1. [AsciiDoctor](https://asciidoctor.org/) can be converted to DocBook.
 5. Many languages have a common standard for documentation such as [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
@@ -1017,7 +1017,19 @@ It is a perceived fact among software developers that some developers write more
 code with only six months of experience, than many developers with ten years of experience
 and Ph.D.'s in Computer Science.
 
-There is an [interesting quote by Henry Ford about "experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately).
+There is an [interesting quote by Henry Ford about "experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately):
+
+“
+None of our men are "experts." We have most unfortunately found it necessary
+to get rid of a man as soon as he thinks himself an expert -- because no one
+ever considers himself expert if he really knows his job. A man who knows a
+job sees so much more to be done than he has done, that he is always pressing
+forward and never gives up an instant of thought to how good and how efficient
+he is. Thinking always ahead, thinking always of trying to do more, brings a
+state of mind in which nothing is impossible. The moment one gets into the
+"expert" state of mind a great number of things become impossible.
+— From Henry Ford Sr., "My Life and Work," p. 86 (1922)
+”
 
 According to the Coding Horror blog [most interviewed job candidates cannot program FizzBuzz](https://blog.codinghorror.com/why-cant-programmers-program/).
 
@@ -1192,7 +1204,7 @@ That's not really true. While we sometimes discuss popular culture and entertain
 
 Only channel operators can edit the /topic and none of them have seen it fit to
 put it there. Some of the maintainers of this FAQ approve of it being there
-(and the licencing terms do not prevent it.), but none of them are channel
+(and the licencing terms allow that.), but none of them are channel
 ops. So there you go.
 
 ### Does this FAQ reflect the opinions of the channel as a whole?
