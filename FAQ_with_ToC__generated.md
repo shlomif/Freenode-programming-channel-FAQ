@@ -1135,7 +1135,7 @@ Different operating systems, programming languages, and runtimes provide differe
 cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
 rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
 
-From fortune-mod:
+Merging these 2 sides-of-the-coin, we get (from fortune-mod):
 
 ```
 A young man wrote to Mozart and said:
