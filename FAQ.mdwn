@@ -1044,6 +1044,19 @@ Different operating systems, programming languages, and runtimes provide differe
 cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
 rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
 
+From fortune-mod:
+
+```
+A young man wrote to Mozart and said:
+
+Q: "Herr Mozart, I am thinking of writing symphonies. Can you give me any
+   suggestions as to how to get started?"
+A: "A symphony is a very complex musical form, perhaps you should begin with
+   some simple lieder and work your way up to a symphony."
+Q: "But Herr Mozart, you were writing symphonies when you were 8 years old."
+A: "But I never asked anybody how."
+```
+
 ### How hard is it to implement my own compiler?
 
 That depends on the source, target, and implementation languages. A compiler from [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) to
