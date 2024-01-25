@@ -1030,7 +1030,11 @@ as well as hybrid approaches.
 
 ### How can I make [insert application or library here] from scratch?
 
-First of all see:
+We appreciate your enthusiasm, and often writing small-scoped systems' components "from scratch" is a useful exercise, for learning as well as for proof of implementation and reproducibility.
+
+[Tweet](https://twitter.com/shlomif/status/1542047869989011457): “My friend Botje from freenode noted that some people on its #osdev chatroom, have implemented kernels from scratch, which supported enough of POSIX to bootstrap a GNU ( https://gnu.org ) system [as I suspected]. Now try this with CSS 2.1…”.
+
+However, see:
 
 1. Carl Sagan: [“If you wish to make an apple pie from scratch, you must first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
 2. [“I thought using loops was cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/) on reddit.
@@ -1105,7 +1109,7 @@ That put aside, here are some recommendations from our regulars:
 
 ### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
 
-That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)) most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
+That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)), most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
 
 ## About this FAQ
 
