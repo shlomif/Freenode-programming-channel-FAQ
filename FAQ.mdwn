@@ -737,9 +737,15 @@ and should not be used as an argument against using [Linux](https://en.wikipedia
 
 ### Is a certain software technology good just because I heard that NASA uses it?
 
-[NASA](https://en.wikipedia.org/wiki/NASA) is large (and has a large budget)
-and has been around for many decades, and so uses many different technologies,
-some of them may not be too recommended in the general case. While the
+[NASA](https://en.wikipedia.org/wiki/NASA) is large (and has a large budget,
+and a large scope of concern) and has been around for many decades, and so uses
+many different technologies, some of them may not be too recommended in the
+general case. Moreover, like many other organisations (and individuals), its
+developers, of software of otherwise, often experiment with technological
+trends or ideas, that turn out to be fads, or even long-term [technical
+debts](https://en.wikipedia.org/wiki/Technical_debt) or liabilities.
+
+While the
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
 homepage used to proclaim that "NASA uses Python", with a photo of an
 astronaut, and it is technically true, it was largely marketing built on
