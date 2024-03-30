@@ -979,9 +979,11 @@ As the [aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master
 goes: <q>The difference between theory and practice is that in theory, there
 is no difference between theory and practice, while in practice, there is.</q>. There is usually
 a risk, however small, that a change will break some functionality. With good tooling (such
-as https://en.wikipedia.org/wiki/Version_control , https://en.wikipedia.org/wiki/Virtual_machine and
-https://en.wikipedia.org/wiki/OS-level_virtualisation ) it should be relatively easy to
-revert a change which introduced regressions, and you should do adequate testing.
+as [Version control](https://en.wikipedia.org/wiki/Version_control) (git-scm / etc.) , [Virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) ( KVM , VMware, Xen, VirtualBox, etc. ) and
+[Docker / etc.](https://en.wikipedia.org/wiki/OS-level_virtualisation) ),
+and having a comprehensive automated tests' suite. it should be relatively easy
+to revert a change which introduced regressions, and you should do adequate
+testing.
 
 A change may have to be avoided due to being estimated as too time or money
 consuming, or as having too little gain. However, promising changes
