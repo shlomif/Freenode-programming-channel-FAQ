@@ -1063,6 +1063,7 @@ For more information, see:
 1. [GNU Autogen](https://www.gnu.org/software/autogen/)
 2. [Text Processing Tools](https://www.shlomifish.org/open-source/resources/text-processing-tools/)
 3. [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
+4. [Code Generation Chapter from “The Art of Unix Programming”](http://www.catb.org/esr/writings/taoup/html/generationchapter.html)
 
 ### Will a change I would like to do break some functionality?
 
