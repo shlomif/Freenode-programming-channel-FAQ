@@ -6,6 +6,7 @@
 #
 # Distributed under terms of the MIT license.
 
+import re
 import unittest
 
 import html_unit_test
@@ -19,8 +20,31 @@ class MyTests(html_unit_test.TestCase):
         sections = doc.xpath('//db:section')
         id_attr = '{xml}id'.format(xml=("{" + ns['xml'] + "}"))
 
-        for s in sections.xpath_results:
-            print(s.get(id_attr))
+        def _compare_ids():
+            markdown_fn = (
+                "FAQ_with_ToC__generated-"
+                "before-docbook5-transiton.md"
+            )
+            with open(markdown_fn) as md_fh:
+                for line in md_fh:
+                    if line == "# Freenode programming channel FAQ\n":
+                        return True
+                    NO_SQ = "(?:[^\\[\\]]*?)"
+                    m = re.match(
+                        ("^ *\\* \\[((?:" + NO_SQ + "|(?:\\[" + NO_SQ + "\\])"
+                         ")*)\\]\\(#([^\\)]+?)\\)$"), line)
+                    self.assertTrue(m, "match")
+                    # title = m[1]
+                    want_id = m[2]
+                    section = sections.xpath_results.pop(0)
+                    id2 = section.get(id_attr)
+                    self.assertEqual(want_id, id2, "IDs match")
+            assert False
+
+        _compare_ids()
+        if 0:
+            for section in sections.xpath_results:
+                print(section.get(id_attr))
 
 
 if __name__ == '__main__':
