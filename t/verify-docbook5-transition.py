@@ -36,11 +36,27 @@ class MyTests(html_unit_test.TestCase):
                         return True
                     m = re.match(MARKDOWN_TOC_LINE_RE, line)
                     self.assertTrue(m, "match")
-                    # title = m[1]
+                    md_title = m[1]
                     want_id = m[2]
                     section = sections.xpath_results.pop(0)
                     id2 = section.get(id_attr)
                     self.assertEqual(want_id, id2, "IDs match")
+
+                    if re.search("\\$TOPIC", md_title):
+                        continue
+
+                    title_words = re.findall('([a-zA-Z]+)', md_title)
+                    title_re = ".*?".join(title_words)
+                    # print(title_re)
+                    title_xpath = './db:title/text()'
+                    docbook5_title_list = section.xpath(
+                        title_xpath, namespaces=ns
+                    )
+                    docbook5_title = docbook5_title_list[0]
+                    m = re.search(title_re, docbook5_title, re.M | re.S)
+                    self.assertTrue(m, "title matches  [{}]".format(
+                        docbook5_title
+                    ))
             assert False
 
         _compare_ids()
