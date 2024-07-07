@@ -21,6 +21,11 @@ class MyTests(html_unit_test.TestCase):
         id_attr = '{xml}id'.format(xml=("{" + ns['xml'] + "}"))
 
         def _compare_ids():
+            NO_SQ = "(?:[^\\[\\]]*?)"
+            MARKDOWN_TOC_LINE_RE = (
+                "^ *\\* \\[((?:" + NO_SQ + "|(?:\\[" + NO_SQ + "\\])"
+                ")*)\\]\\(#([^\\)]+?)\\)$"
+            )
             markdown_fn = (
                 "FAQ_with_ToC__generated-"
                 "before-docbook5-transiton.md"
@@ -29,10 +34,7 @@ class MyTests(html_unit_test.TestCase):
                 for line in md_fh:
                     if line == "# Freenode programming channel FAQ\n":
                         return True
-                    NO_SQ = "(?:[^\\[\\]]*?)"
-                    m = re.match(
-                        ("^ *\\* \\[((?:" + NO_SQ + "|(?:\\[" + NO_SQ + "\\])"
-                         ")*)\\]\\(#([^\\)]+?)\\)$"), line)
+                    m = re.match(MARKDOWN_TOC_LINE_RE, line)
                     self.assertTrue(m, "match")
                     # title = m[1]
                     want_id = m[2]
