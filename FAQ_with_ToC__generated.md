@@ -4,7 +4,7 @@
       * [What is considered on-topic on ##programming? What is considered off-topic?](#what-is-considered-on-topic-on-programming-what-is-considered-off-topic)
       * [How do I address someone to grab his/her attention?](#how-do-i-address-someone-to-grab-hisher-attention)
       * [I tried joining a different channel for help, but I could not - why?](#i-tried-joining-a-different-channel-for-help-but-i-could-not---why)
-      * [What is the channel for $TOPIC/$TECHNOLOGY?](#what-is-the-channel-for-topictechnology)
+      * [What is the channel for <em>TOPIC</em>/TECHNOLOGY?](#what-is-the-channel-for-topictechnology)
       * [Why do ##programming and other channels have two "#" whereas other channels have only one?](#why-do-programming-and-other-channels-have-two--whereas-other-channels-have-only-one)
       * [Why do some users on the channel have +v (voice, a + sign, a blue circle, etc.)?](#why-do-some-users-on-the-channel-have-v-voice-a--sign-a-blue-circle-etc)
       * [Why should I learn how to program properly?](#why-should-i-learn-how-to-program-properly)
@@ -91,749 +91,1318 @@
    * [Licence/License](#licencelicense)
 # Freenode programming channel FAQ
 
-This page is intended to be global for the whole [##programming](irc://irc.freenode.net/##programming) channel. So feel free to clone and reuse.
+This page is intended to be global for the whole
+[\##programming](irc://irc.freenode.net/%23%23programming) channel. So
+feel free to clone and reuse.
 
 ## The Questions
 
 ### How do I talk on the channel?
 
-In order to talk on ##programming, connect your IRC client to the irc.freenode.net server, type «/join ##programming» (without the angle brackets) and press enter. It is a good idea to register your nickname with the Freenode network (see /msg NickServ HELP). This URL may work for you: <a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a> .
+In order to talk on \##programming, connect your IRC client to the
+irc.freenode.net server, type «/join \##programming» (without the angle
+brackets) and press enter. It is a good idea to register your nickname
+with the Freenode network (see /msg NickServ HELP). This URL may work
+for you:
+[irc://irc.freenode.net/##programming](irc://irc.freenode.net/%23%23programming)
+.
 
-Freenode also provides a web interface here: <a href="http://webchat.freenode.net/">http://webchat.freenode.net/</a> . For more information about viable IRC clients see:
+Freenode also provides a web interface here:
+[<http://webchat.freenode.net/>](http://webchat.freenode.net/) . For
+more information about viable IRC clients see:
 
-* <a href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</a>
-* [List of Networking Clients](http://www.shlomifish.org/open-source/resources/networking-clients/)
-* https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients
+- [<http://perl-begin.org/irc/>](http://perl-begin.org/irc/)
+- [List of Networking
+  Clients](http://www.shlomifish.org/open-source/resources/networking-clients/)
+- <https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients>
 
-### What is considered on-topic on ##programming? What is considered off-topic?
+### What is considered on-topic on \##programming? What is considered off-topic?
 
-Refer to [the channel rules](https://github.com/jeaye/2lb_programming/blob/master/README.md) for more information.
+Refer to [the channel
+rules](https://github.com/jeaye/2lb_programming/blob/master/README.md)
+for more information.
 
 ### How do I address someone to grab his/her attention?
 
-Just say their nickname followed by a colon (":") or a comma (","). Many IRC
-clients will allow you to do that by typing the first letters of the nickname
-followed by pressing the [tab key](https://en.wikipedia.org/wiki/Tab_key)
-(so-called "tab-completion"). Please don't generally private message someone
-using the `/msg` or `/query` commands because that way other people cannot
+Just say their nickname followed by a colon (":") or a comma (","). Many
+IRC clients will allow you to do that by typing the first letters of the
+nickname followed by pressing the [tab
+key](https://en.wikipedia.org/wiki/Tab_key) (so-called
+"tab-completion"). Please don't generally private message someone using
+the `/msg` or `/query` commands because that way other people cannot
 view and contribute to what you are saying.
 
 ### I tried joining a different channel for help, but I could not - why?
 
-Some channels people try to join to seek help with their technology (notably ##java) require registration at the Freenode services. See [Freenode’s knowledge base](http://freenode.net/kb/all) for more information about user/nickname registration.
+Some channels people try to join to seek help with their technology
+(notably \##java) require registration at the Freenode services. See
+[Freenode’s knowledge base](http://freenode.net/kb/all) for more
+information about user/nickname registration.
 
-Note that you are still welcome to ask questions related to specific technologies on ##programming, but otherwise you'll probably get more help on the topic-specific channels.
+Note that you are still welcome to ask questions related to specific
+technologies on \##programming, but otherwise you'll probably get more
+help on the topic-specific channels.
 
-### What is the channel for $TOPIC/$TECHNOLOGY?
+### What is the channel for *TOPIC*/TECHNOLOGY?
 
-You can search the channels list by following the instructions in the command
-`/msg alis help` .
+You can search the channels list by following the instructions in the
+command `/msg alis help` .
 
-### Why do ##programming and other channels have two "#" whereas other channels have only one?
+### Why do \##programming and other channels have two "#" whereas other channels have only one?
 
-To quote from [this post about Freenode](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/): «The name of a “Primary Channel” starts with a single hash (“#”) and is discussion forum for a specific project or community (like Alfresco, or your local LUG). “About channels” start with a double hash and host conversations about a topic or subject (for example: ##security). »
+To quote from [this post about
+Freenode](http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/):
+«The name of a “Primary Channel” starts with a single hash (“#”) and is
+discussion forum for a specific project or community (like Alfresco, or
+your local LUG). “About channels” start with a double hash and host
+conversations about a topic or subject (for example: \##security). »
 
 ### Why do some users on the channel have +v (voice, a + sign, a blue circle, etc.)?
 
-These users are voiced so in case the channel is under attack, and it will
-become restricted, then they and only they will be able to talk here. Normally,
-it should not matter, as when there is no major abuse, everyone can talk
-whether +v'ed or not.
+These users are voiced so in case the channel is under attack, and it
+will become restricted, then they and only they will be able to talk
+here. Normally, it should not matter, as when there is no major abuse,
+everyone can talk whether +v'ed or not.
 
 ### Why should I learn how to program properly?
 
-To [quote MJD](https://perl.plover.com/Questions4.html) «Because you can't just make shit up and expect the computer to magically know what you mean, Retardo!». Trying to whip up working code without a fundamental understanding of programming may cause any of:
+To [quote MJD](https://perl.plover.com/Questions4.html) «Because you
+can't just make shit up and expect the computer to magically know what
+you mean, Retardo!». Trying to whip up working code without a
+fundamental understanding of programming may cause any of:
 
-* Compiler errors
-* Buggy code
-* Security vulnerabilities
-* Data loss
-* Loss of time or money or worse.
-* Wasting the time of the knowledgable people in the channel by being a [help vampire](https://duckduckgo.com/?q=help+vampire&atb=v140-1&ia=web).
+- Compiler errors
+- Buggy code
+- Security vulnerabilities
+- Data loss
+- Loss of time or money or worse.
+- Wasting the time of the knowledgable people in the channel by being a
+  [help
+  vampire](https://duckduckgo.com/?q=help+vampire&atb=v140-1&ia=web).
 
-So please [learn programming properly](#i-want-to-learn-programming-which-language-should-i-start-with) .
+So please [learn programming
+properly](#i-want-to-learn-programming-which-language-should-i-start-with)
+.
 
 ### How should I ask a question on the channel? Can I?
 
-The first guideline is that you should not “ask to ask” by saying “May I ask
-a question?” or asking if anyone worked with that certain technology. Just ask
-for help directly. Also see https://dontasktoask.com/ .
+The first guideline is that you should not “ask to ask” by saying “May I
+ask a question?” or asking if anyone worked with that certain
+technology. Just ask for help directly. Also see
+<https://dontasktoask.com/> .
 
 The second guideline is that you should probably read or skim the guide
-[“Writing the Perfect Question”](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
-(or the older and somewhat deficient in style
-[“How To Ask Questions The Smart Way”](http://catb.org/~esr/faqs/smart-questions.html) ) and try to follow their wisdom, which involves doing some prior due diligence.
+[“Writing the Perfect
+Question”](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)
+(or the older and somewhat deficient in style [“How To Ask Questions The
+Smart Way”](http://catb.org/~esr/faqs/smart-questions.html) ) and try to
+follow their wisdom, which involves doing some prior due diligence.
 
-Otherwise, also see the next question for how to share the offending code with
-the channel.
+Otherwise, also see the next question for how to share the offending
+code with the channel.
 
 ### I have a problem with my code, how should I share it for people to review?
 
-First of all, your code should exhibit the problem you are having and should be a ''self-contained'', and ''reproducing'' example (see [“The Short, Self Contained, Correct, Example”](http://sscce.org/) page). If the code is too large, please consider reducing it to a more minimal example that still exhibits the problem (see the [bisection method](https://en.wikipedia.org/wiki/Bisection_method) ).
+First of all, your code should exhibit the problem you are having and
+should be a ''self-contained'', and ''reproducing'' example (see [“The
+Short, Self Contained, Correct, Example”](http://sscce.org/) page). If
+the code is too large, please consider reducing it to a more minimal
+example that still exhibits the problem (see the [bisection
+method](https://en.wikipedia.org/wiki/Bisection_method) ).
 
-Please don't share non-runnable pieces and fragments of your code, see [“Show Us The Whole Code”](http://shadow.cat/blog/matt-s-trout/show-us-the-whole-code/) .
+Please don't share non-runnable pieces and fragments of your code, see
+[“Show Us The Whole
+Code”](http://shadow.cat/blog/matt-s-trout/show-us-the-whole-code/) .
 
-Once you have that, you have several options to share it. If you are coding a web page, you can try sharing your code using [jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is self-contained in one file, you can use a paste site such as [ideone](http://ideone.com/) or [paste.debian.net](https://paste.debian.net/). Please don't floodpaste the code to the channel because this is slower and more annoying than using a paste site and may get you kicked or devoiced out of the channel.
+Once you have that, you have several options to share it. If you are
+coding a web page, you can try sharing your code using
+[jsfiddle](http://jsfiddle.net/) . Otherwise, if your code is
+self-contained in one file, you can use a paste site such as
+[ideone](http://ideone.com/) or
+[paste.debian.net](https://paste.debian.net/). Please don't floodpaste
+the code to the channel because this is slower and more annoying than
+using a paste site and may get you kicked or devoiced out of the
+channel.
 
-If you have more than one file in the project, then you should put it in a self-contained version control repository on a code sharing site such as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) , or [GitLab](https://about.gitlab.com/) , so we can easily clone or checkout it.
+If you have more than one file in the project, then you should put it in
+a self-contained version control repository on a code sharing site such
+as [GitHub](http://github.com/) , [Bitbucket](http://bitbucket.org/) ,
+or [GitLab](https://about.gitlab.com/) , so we can easily clone or
+checkout it.
 
-For more guidelines, see https://github.com/shlomif/how-to-share-code-online .
+For more guidelines, see
+<https://github.com/shlomif/how-to-share-code-online> .
 
 ### I do not see anyone talking on the channel - is it dead?
 
-The channel is still active, but may grow silent for several hours at a time,
-especially during the weekends and other holidays. Stick around and you should
-see some conversation eventually.
+The channel is still active, but may grow silent for several hours at a
+time, especially during the weekends and other holidays. Stick around
+and you should see some conversation eventually.
 
 ### Which Integrated Development Environment (IDE) or Text Editor Would You Recommend?
 
-We get asked this question a lot. The answer is a bit long. First of all, it is likely that the following editing mechanisms will not be adequate for editing code:
+We get asked this question a lot. The answer is a bit long. First of
+all, it is likely that the following editing mechanisms will not be
+adequate for editing code:
 
-* Rich-text editors including, but not limited to, Microsoft Windows WordPad (formerly known as Windows Write, we were informed that it has a text editing mode, but see below), word processors such as Microsoft Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc. and WYSIWYG (= "What you see is what you get") HTML editors. These are not suitable for editing code.
-* Limited text editors such as Microsoft Windows Notepad (see <http://www.notepad.org/> for a very fun link about it ), or [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which are aimed for casual editing of text documents. More capable text editors such as [Notepad++](http://notepad-plus-plus.org/), [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU Nano](http://www.nano-editor.org/), should be OK.
+- Rich-text editors including, but not limited to, Microsoft Windows
+  WordPad (formerly known as Windows Write, we were informed that it has
+  a text editing mode, but see below), word processors such as Microsoft
+  Word, OpenOffice.org/LibreOffice Writer, WordPerfect, AbiWord, etc.
+  and WYSIWYG (= "What you see is what you get") HTML editors. These are
+  not suitable for editing code.
+- Limited text editors such as Microsoft Windows Notepad (see
+  <http://www.notepad.org/> for a very fun link about it ), or
+  [Pico](https://en.wikipedia.org/wiki/Pico_%28text_editor%29) which are
+  aimed for casual editing of text documents. More capable text editors
+  such as [Notepad++](http://notepad-plus-plus.org/),
+  [Notepad2](http://www.flos-freeware.ch/notepad2.html) and [GNU
+  Nano](http://www.nano-editor.org/), should be OK.
 
-These editors may still be useful if that's all you can use, but if you can afford to install and/or use a more capable text editor, it is, by all means, a good idea.
+These editors may still be useful if that's all you can use, but if you
+can afford to install and/or use a more capable text editor, it is, by
+all means, a good idea.
 
-Otherwise, asking the channel about the most recommend text editor will end up in people giving you their own preferences (which may have involved many years of trying different solutions, and dedicating some time to studying their existing preference and getting accustomed to it). Some links to get you started:
+Otherwise, asking the channel about the most recommend text editor will
+end up in people giving you their own preferences (which may have
+involved many years of trying different solutions, and dedicating some
+time to studying their existing preference and getting accustomed to
+it). Some links to get you started:
 
-* [The “List of Text Editors and IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/) on Shlomi Fish’s homepage. (Not complete, but covers the most prominent solutions).
-* [The Text Editors Wiki](http://texteditors.org/)
-* The [Wikipedia Comparison of IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) and their [List of Text Editors](https://en.wikipedia.org/wiki/List_of_text_editors)
+- [The “List of Text Editors and
+  IDEs”](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/)
+  on Shlomi Fish’s homepage. (Not complete, but covers the most
+  prominent solutions).
+- [The Text Editors Wiki](http://texteditors.org/)
+- The [Wikipedia Comparison of
+  IDEs](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments)
+  and their [List of Text
+  Editors](https://en.wikipedia.org/wiki/List_of_text_editors)
 
-Note that many decent text editors and IDEs are open-source, free-of-charge, and cross-platform (Windows, Mac OS X and Linux/UNIX). As a result, there is no good excuse not to download one, install it, and use it.
+Note that many decent text editors and IDEs are open-source,
+free-of-charge, and cross-platform (Windows, Mac OS X and Linux/UNIX).
+As a result, there is no good excuse not to download one, install it,
+and use it.
 
 ### I want to learn programming? Which language should I start with?
 
-Different people will give different answers when asked that. Most people on ##programming believe that something like [the Python programming language](https://en.wikipedia.org/wiki/Python_%28programming_language%29) would be a good start. Python is a popular, useful, open source, and cross-platform (runs fine on Windows, Linux and Mac OS X and on many other less common platforms) language, that is not too hard to learn and get your feet wet with. Some resources to learn Python are:
+Different people will give different answers when asked that. Most
+people on \##programming believe that something like [the Python
+programming
+language](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
+would be a good start. Python is a popular, useful, open source, and
+cross-platform (runs fine on Windows, Linux and Mac OS X and on many
+other less common platforms) language, that is not too hard to learn and
+get your feet wet with. Some resources to learn Python are:
 
-* [_Automate the Boring Stuff with Python_](http://automatetheboringstuff.com/) - “Practical programming for total beginners.”
-* [_How to think like a computer scientist - Learning in Python_](http://openbookproject.net/thinkcs/) - a similar book.
-* [_A Byte of Python_](https://python.swaroopch.com/)
-* [_Test-Driven Development with Python_](https://www.obeythetestinggoat.com/pages/book.html)
-* [Cory Schafer's Video Tutorials’ Channel](https://www.youtube.com/user/schafer5) - in case you prefer video tutorials.
-* [The Official Python Tutorial](http://docs.python.org/tutorial/) - may not be too useful for people with no programming experience.
+- [*Automate the Boring Stuff with
+  Python*](http://automatetheboringstuff.com/) - “Practical programming
+  for total beginners.”
+- [*How to think like a computer scientist - Learning in
+  Python*](http://openbookproject.net/thinkcs/) - a similar book.
+- [*A Byte of Python*](https://python.swaroopch.com/)
+- [*Test-Driven Development with
+  Python*](https://www.obeythetestinggoat.com/pages/book.html)
+- [Cory Schafer's Video Tutorials’
+  Channel](https://www.youtube.com/user/schafer5) - in case you prefer
+  video tutorials.
+- [The Official Python Tutorial](http://docs.python.org/tutorial/) - may
+  not be too useful for people with no programming experience.
 
-Here are some resources for learning other programming languages, whether as a first language or after knowing some other languages:
+Here are some resources for learning other programming languages,
+whether as a first language or after knowing some other languages:
 
-* [The C/C++ Beginners' Wiki](http://c-begin.wikia.com/wiki/C_and_C%2B%2B_Beginners_Wiki) and the more mature (but with a non-clear licence) [Freenode ##C Wiki](http://www.iso-9899.info/).
-* [The Perl Beginners Site](http://perl-begin.org/) for Perl beginners.
-* [Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn) on MDN.
-    * [JavaScript Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
-    * [HTML Dog](https://htmldog.com/)
-* [List of Freely available programming books](https://github.com/EbookFoundation/free-programming-books) - and other resources, for many programming languages and in several human languages. May vary in quality.
+- [The C/C++ Beginners'
+  Wiki](http://c-begin.wikia.com/wiki/C_and_C%2B%2B_Beginners_Wiki) and
+  the more mature (but with a non-clear licence) [Freenode \##C
+  Wiki](http://www.iso-9899.info/).
+- [The Perl Beginners Site](http://perl-begin.org/) for Perl beginners.
+- [Learn Web
+  Development](https://developer.mozilla.org/en-US/docs/Learn) on MDN.
+  - [JavaScript
+    Tutorial](https://github.com/javascript-tutorial/en.javascript.info/)
+  - [HTML Dog](https://htmldog.com/)
+- [List of Freely available programming
+  books](https://github.com/EbookFoundation/free-programming-books) -
+  and other resources, for many programming languages and in several
+  human languages. May vary in quality.
 
 ### What amount of due diligence should I do before asking for help?
 
-Make sure you know how to program in at least one programming language (see the
-[previous question](#i-want-to-learn-programming-which-language-should-i-start-with) )
-and understand the fundamentals of the general topic with which you are having a problem,
-by having read a book, a good tutorial, a video, an online course, etc. Otherwise, you
-might ask the wrong questions, or misguided ones, and generally waste the time of
-the more experienced people on the channel who are trying to help you.
+Make sure you know how to program in at least one programming language
+(see the [previous
+question](#i-want-to-learn-programming-which-language-should-i-start-with)
+) and understand the fundamentals of the general topic with which you
+are having a problem, by having read a book, a good tutorial, a video,
+an online course, etc. Otherwise, you might ask the wrong questions, or
+misguided ones, and generally waste the time of the more experienced
+people on the channel who are trying to help you.
 
 ### How do I learn how to program?
 
-See the [previous question](#i-want-to-learn-programming-which-language-should-i-start-with).
+See the [previous
+question](#i-want-to-learn-programming-which-language-should-i-start-with).
 
 ### How should I do binary Input/Output properly?
 
-Some people would naïvely assume that writing a C struct directly to a file would be a good solution for outputting it to disk. That is far from being the case, however. The representation of a struct in memory is subject to many system-dependent factors, such as:
+Some people would naïvely assume that writing a C struct directly to a
+file would be a good solution for outputting it to disk. That is far
+from being the case, however. The representation of a struct in memory
+is subject to many system-dependent factors, such as:
 
-* [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred to as “byte sex”, this determines whether bytes are stored in memory with the lowest byte first or the highest one.
-* Padding - for efficiency reasons, compilers tend to place empty spaces between the fields of structs. The amount of such space is not standardised and varies between systems, compilers (and even compilation options can affect it).
-* Integral data types and pointers can vary in their nominal size. I.e: an "int" can be 16-bit, 32-bit, or 64-bit, a "long" can be 32-bit or 64-bit, etc., which is system-dependent.
+- [Endianness](http://en.wikipedia.org/wiki/Endianness) - also referred
+  to as “byte sex”, this determines whether bytes are stored in memory
+  with the lowest byte first or the highest one.
+- Padding - for efficiency reasons, compilers tend to place empty spaces
+  between the fields of structs. The amount of such space is not
+  standardised and varies between systems, compilers (and even
+  compilation options can affect it).
+- Integral data types and pointers can vary in their nominal size. I.e:
+  an "int" can be 16-bit, 32-bit, or 64-bit, a "long" can be 32-bit or
+  64-bit, etc., which is system-dependent.
 
-The O’Reilly book [Porting UNIX Software](http://www.lemis.com/grog/Documentation/PUS/) (available for purchase, or a free download under a Creative Commons licence, on the link), goes into further depth about these and many other UNIX portability issues.
+The O’Reilly book [Porting UNIX
+Software](http://www.lemis.com/grog/Documentation/PUS/) (available for
+purchase, or a free download under a Creative Commons licence, on the
+link), goes into further depth about these and many other UNIX
+portability issues.
 
-In any case, the best way to mitigate this problem portably and safely, is to write (and later read) every field (and sometimes every byte within) to the disk or network. You should be able to find some mechanisms inside [portable libraries](http://www.shlomifish.org/open-source/portability-libs/) to do that.
+In any case, the best way to mitigate this problem portably and safely,
+is to write (and later read) every field (and sometimes every byte
+within) to the disk or network. You should be able to find some
+mechanisms inside [portable
+libraries](http://www.shlomifish.org/open-source/portability-libs/) to
+do that.
 
 ### What are some best practices in programming that I should adopt?
 
-First of all, we should note that many best practices may still be controversial to a small or large extent, despite being very common in the industry. We also don't expect a beginning programmer who writes some simple programs to immediately employ all the best practices that go into developing mission-critical software on which lives are dependent.
+First of all, we should note that many best practices may still be
+controversial to a small or large extent, despite being very common in
+the industry. We also don't expect a beginning programmer who writes
+some simple programs to immediately employ all the best practices that
+go into developing mission-critical software on which lives are
+dependent.
 
 But here goes with a grain of salt:
 
-1. Use a good [version control system](http://en.wikipedia.org/wiki/Revision_control). For more about version control systems and the motivation behind them see [the “Better SCM” Site](http://better-scm.shlomifish.org/) and [a related section from “Perl for Perl Newbies”](http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/) (which is not exclusively limited to Perl) and [Sawyer X’s talk about source code management systems](http://www.slideshare.net/xSawyer/source-code-management-systems).
-  * Please don't give the usual cliches that you don't need a version control system if you’re only one person or that the project is not large enough to warrant it. You probably do.
-2. Write Automated Tests. See [“What you should know about automated software testing”](https://github.com/shlomif/what-you-should-know-about-automated-testing), the wikipedia [Test-driven development](http://en.wikipedia.org/wiki/Test-driven_development) entry and other resources.
-3. Use a standard build/configuration system for the language you use. Simple [makefiles](http://en.wikipedia.org/wiki/Makefile) may be adequate for small projects, especially those written in C or C++. If you need to handle dependencies, build-time configuration variables and other complications, you should look at [alternatives for C](http://www.shlomifish.org/open-source/resources/software-tools/) or the community-based alternatives for your programming language of choice (e.g: [setuptools](http://en.wikipedia.org/wiki/Setuptools) for Python; [Dist::Zilla](http://dzil.org/) for Perl; [RubyGems](http://en.wikipedia.org/wiki/RubyGems) for Ruby).
-4. Deploy a local or hosted [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) service and make sure that failing builds or tests are remedied.
-5. Set up a [bug tracker](https://en.wikipedia.org/wiki/Bug_tracking_system) and use it to manage the issues and tasks' list. Some code-sharing sites provide hosted web-based issue trackers free-of-charge.
-6. Implement [Reproducible Builds](https://reproducible-builds.org/) ( [Wikipedia page](https://en.wikipedia.org/wiki/Reproducible_builds) ).
-7. Use [code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) to get rid of [code smells](https://en.wikipedia.org/wiki/Code_smell) such as duplicate code or magic constants. Also see ["Rub a dub dub"](https://www.joelonsoftware.com/2002/01/23/rub-a-dub-dub/).
-8. If possible, make use of [linters, autoformatters, and validators](https://github.com/caramelomartins/awesome-linters) and incorporate them into the test suite and CI.
+1.  Use a good [version control
+    system](http://en.wikipedia.org/wiki/Revision_control). For more
+    about version control systems and the motivation behind them see
+    [the “Better SCM” Site](http://better-scm.shlomifish.org/) and [a
+    related section from “Perl for Perl
+    Newbies”](http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/)
+    (which is not exclusively limited to Perl) and [Sawyer X’s talk
+    about source code management
+    systems](http://www.slideshare.net/xSawyer/source-code-management-systems).
+
+- Please don't give the usual cliches that you don't need a version
+  control system if you’re only one person or that the project is not
+  large enough to warrant it. You probably do.
+
+2.  Write Automated Tests. See [“What you should know about automated
+    software
+    testing”](https://github.com/shlomif/what-you-should-know-about-automated-testing),
+    the wikipedia [Test-driven
+    development](http://en.wikipedia.org/wiki/Test-driven_development)
+    entry and other resources.
+3.  Use a standard build/configuration system for the language you use.
+    Simple [makefiles](http://en.wikipedia.org/wiki/Makefile) may be
+    adequate for small projects, especially those written in C or C++.
+    If you need to handle dependencies, build-time configuration
+    variables and other complications, you should look at [alternatives
+    for
+    C](http://www.shlomifish.org/open-source/resources/software-tools/)
+    or the community-based alternatives for your programming language of
+    choice (e.g: [setuptools](http://en.wikipedia.org/wiki/Setuptools)
+    for Python; [Dist::Zilla](http://dzil.org/) for Perl;
+    [RubyGems](http://en.wikipedia.org/wiki/RubyGems) for Ruby).
+4.  Deploy a local or hosted [Continuous
+    Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI)
+    service and make sure that failing builds or tests are remedied.
+5.  Set up a [bug
+    tracker](https://en.wikipedia.org/wiki/Bug_tracking_system) and use
+    it to manage the issues and tasks' list. Some code-sharing sites
+    provide hosted web-based issue trackers free-of-charge.
+6.  Implement [Reproducible Builds](https://reproducible-builds.org/) (
+    [Wikipedia page](https://en.wikipedia.org/wiki/Reproducible_builds)
+    ).
+7.  Use [code
+    refactoring](https://en.wikipedia.org/wiki/Code_refactoring) to get
+    rid of [code smells](https://en.wikipedia.org/wiki/Code_smell) such
+    as duplicate code or magic constants. Also see ["Rub a dub
+    dub"](https://www.joelonsoftware.com/2002/01/23/rub-a-dub-dub/).
+8.  If possible, make use of [linters, autoformatters, and
+    validators](https://github.com/caramelomartins/awesome-linters) and
+    incorporate them into the test suite and CI.
 
 For more information consult these links:
 
-1. The essay [“What Makes Software High Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/)
-2. [“Awesome Guidelines”](https://github.com/Kristories/awesome-guidelines) - a curated list of high quality coding style conventions and standards.
-3. The Perl Beginners Site [“Perl Elements to avoid”](http://perl-begin.org/tutorials/bad-elements/) and its spin-off [“C and C++ Elements to Avoid”](http://www.shlomifish.org/lecture/C-and-CPP/bad-elements/) (both of which have a lot of good advice related to other programming languages).
-4. The essay [“Clean Code JavaScript”](https://github.com/ryanmcdermott/clean-code-javascript) on GitHub.
-5. The tongue-in-cheek essay [“How To Write Unmaintainable Code”](https://github.com/Droogans/unmaintainable-code) .
-6. A [discussion](http://perlhacks.com/2012/03/you-must-hate-version-control-systems/) on Dave Cross’ Perl Hacks blog titled “You Must Hate Version Control Systems”.
-7. [The Daily WTF](http://thedailywtf.com/) is a web site dedicated to posts about awful, but funny, programming practices.
-8. [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) and similar resources on the [Joel on Software](https://www.joelonsoftware.com/) site.
-9. [“5 Tips to Increase your Code Quality”](https://simpleprogrammer.com/2017/10/06/5-tips-code-quality/)
-10. [“Awesome Linters”](https://github.com/caramelomartins/awesome-linters) and [“Software Quality Enhancement Tools and Links”](https://www.shlomifish.org/open-source/resources/software-quality-enhancement/)
-11. [“100 Tips on Software Developer Productivity”](https://dev.to/apkoponen/100-tips-on-software-developer-productivity-36if) - by Ari Koponen.
+1.  The essay [“What Makes Software High
+    Quality?”](http://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/)
+2.  [“Awesome
+    Guidelines”](https://github.com/Kristories/awesome-guidelines) - a
+    curated list of high quality coding style conventions and standards.
+3.  The Perl Beginners Site [“Perl Elements to
+    avoid”](http://perl-begin.org/tutorials/bad-elements/) and its
+    spin-off [“C and C++ Elements to
+    Avoid”](http://www.shlomifish.org/lecture/C-and-CPP/bad-elements/)
+    (both of which have a lot of good advice related to other
+    programming languages).
+4.  The essay [“Clean Code
+    JavaScript”](https://github.com/ryanmcdermott/clean-code-javascript)
+    on GitHub.
+5.  The tongue-in-cheek essay [“How To Write Unmaintainable
+    Code”](https://github.com/Droogans/unmaintainable-code) .
+6.  A
+    [discussion](http://perlhacks.com/2012/03/you-must-hate-version-control-systems/)
+    on Dave Cross’ Perl Hacks blog titled “You Must Hate Version Control
+    Systems”.
+7.  [The Daily WTF](http://thedailywtf.com/) is a web site dedicated to
+    posts about awful, but funny, programming practices.
+8.  [The Joel
+    Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+    and similar resources on the [Joel on
+    Software](https://www.joelonsoftware.com/) site.
+9.  [“5 Tips to Increase your Code
+    Quality”](https://simpleprogrammer.com/2017/10/06/5-tips-code-quality/)
+10. [“Awesome
+    Linters”](https://github.com/caramelomartins/awesome-linters) and
+    [“Software Quality Enhancement Tools and
+    Links”](https://www.shlomifish.org/open-source/resources/software-quality-enhancement/)
+11. [“100 Tips on Software Developer
+    Productivity”](https://dev.to/apkoponen/100-tips-on-software-developer-productivity-36if) -
+    by Ari Koponen.
 
 ### What is the best programming language?
 
-We sometimes get asked this question, and the answer is simple: there is none. Different languages have different strengths, weaknesses and often trade offs. You may wish to read the blog post [“Why Your Programming Language Must Suck”](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/) for a short coverage of some of the important trade-offs a language design will have, and why not everyone will be happy with your choices.
+We sometimes get asked this question, and the answer is simple: there is
+none. Different languages have different strengths, weaknesses and often
+trade offs. You may wish to read the blog post [“Why Your Programming
+Language Must
+Suck”](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/)
+for a short coverage of some of the important trade-offs a language
+design will have, and why not everyone will be happy with your choices.
 
-Even if we settle on a certain amount of preferences, then you may run into other factors that influence which language you may prefer:
+Even if we settle on a certain amount of preferences, then you may run
+into other factors that influence which language you may prefer:
 
-1. Should the program run as quickly as possible? Or do you want to optimise for the developers’ time?
-2. Is low memory consumption critical?
-3. Should the language be portable to various operating systems and/or CPUs? Or is it OK if it only runs somewhere specific?
-4. Should the language have an open-source implementation?
-5. Should the language have a large user base, and provide quick and useful support?
-6. Should bugs be addressed and fixed quickly in the implementations?
-7. Should the language have any particular built-in features that you desire?
-8. Should the language have an extensive library of extensions and APIs that can be reused?
+1.  Should the program run as quickly as possible? Or do you want to
+    optimise for the developers’ time?
+2.  Is low memory consumption critical?
+3.  Should the language be portable to various operating systems and/or
+    CPUs? Or is it OK if it only runs somewhere specific?
+4.  Should the language have an open-source implementation?
+5.  Should the language have a large user base, and provide quick and
+    useful support?
+6.  Should bugs be addressed and fixed quickly in the implementations?
+7.  Should the language have any particular built-in features that you
+    desire?
+8.  Should the language have an extensive library of extensions and APIs
+    that can be reused?
 
-Etc. If you tell us what your needs are, we can help you with a recommendation.
+Etc. If you tell us what your needs are, we can help you with a
+recommendation.
 
-Note that some of the channel members happen to like a certain programming language in particular and tend to constantly recommend it to other people. Furthermore, you may run into language wars where one or more languages are bashed as awful languages by participants in the channel. That does not mean these languages are necessarily good or bad or suitable for what you wish to do.
+Note that some of the channel members happen to like a certain
+programming language in particular and tend to constantly recommend it
+to other people. Furthermore, you may run into language wars where one
+or more languages are bashed as awful languages by participants in the
+channel. That does not mean these languages are necessarily good or bad
+or suitable for what you wish to do.
 
-### What is the best [insert type of product with some alternatives]? What is the best and [insert adjective here]?
+### What is the best \[insert type of product with some alternatives\]? What is the best and \[insert adjective here\]?
 
-We also get asked this a lot and the answer is similar to the previous question: best in which respect? The various alternatives may have functionality trade-offs, and even if the factors are not at odds with one another, there can be remaining issues due to lack of developer time, policy, or design. Please tell us what exactly is the most important to you.
+We also get asked this a lot and the answer is similar to the previous
+question: best in which respect? The various alternatives may have
+functionality trade-offs, and even if the factors are not at odds with
+one another, there can be remaining issues due to lack of developer
+time, policy, or design. Please tell us what exactly is the most
+important to you.
 
-Note that "best and [insert adjective here]" is equally puzzling. Do you want the product with this property or do you also seek some other qualities?
+Note that "best and \[insert adjective here\]" is equally puzzling. Do
+you want the product with this property or do you also seek some other
+qualities?
 
 ### I need/am forced to work with a certain technology (e.g: programming language or framework) which I hate. What should I do?
 
-You may wish to read [this post](https://shlomifish.livejournal.com/1747.html)
-about Stoicism and Peace of Mind or [the Tao Te Ching](https://en.wikisource.org/wiki/Tao_Te_Ching). Namely, you can say to yourself: "OK, this is not ideal,
-but I cannot avoid it, so I'll try to tolerate it, and make the best of it,
-and maybe even grow to like it.".
+You may wish to read [this
+post](https://shlomifish.livejournal.com/1747.html) about Stoicism and
+Peace of Mind or [the Tao Te
+Ching](https://en.wikisource.org/wiki/Tao_Te_Ching). Namely, you can say
+to yourself: "OK, this is not ideal, but I cannot avoid it, so I'll try
+to tolerate it, and make the best of it, and maybe even grow to like
+it.".
 
 ### What are good resources (including books) to learn about algorithms?
 
 Here are some resources for learning about algorithms:
 
-* [The Algorithm Design Manual](http://www.algorist.com/) by Steven Skiena. An accessible, yet accurate, book and not a very technical one that provides a good introduction and reference for algorithms.
-* [Wikipedia's list of data structures](http://en.wikipedia.org/wiki/List_of_data_structures) and [Wikipedia's list of algorithms](http://en.wikipedia.org/wiki/List_of_algorithms).
-* [The Data Structures Wikibook](http://en.wikibooks.org/wiki/Data_Structures)
-* The CC-by book [Open Data Structures](http://opendatastructures.org/).
-* [The Book _Introduction to Algorithms_](http://en.wikipedia.org/wiki/Introduction_to_Algorithms) - by Cormen et. all (a.k.a “CLR” or “CLRS”) - a comprehensive reference on algorithms and data structures, but a technical and dry one.
-* [_Mastering Algorithms with Perl_](http://shop.oreilly.com/product/9781565923980.do) and [_Mastering Algorithms with C_](http://shop.oreilly.com/product/9781565924536.do) from O’Reilly Media.
-* [“The Algorithms” GitHub organisation](https://github.com/TheAlgorithms) - contains repositories of codebases for popular algorithms and data structures in several programming languages.
-* [Think Data Structures](https://greenteapress.com/wp/think-data-structures/) - by Green Tea Press - a gratis and CC-by-nc-sa lightweight book using Java.
-* [“The Art of Computer Programming”](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) - (aka “TAOCP” or “Knuth”) - an esteemed series of books, by an esteemed author, but one that is only accessible to those who are very experienced programmers, and so not recommended here due to the scope of the question. Mentioned here only for completeness sake.
+- [The Algorithm Design Manual](http://www.algorist.com/) by Steven
+  Skiena. An accessible, yet accurate, book and not a very technical one
+  that provides a good introduction and reference for algorithms.
+- [Wikipedia's list of data
+  structures](http://en.wikipedia.org/wiki/List_of_data_structures) and
+  [Wikipedia's list of
+  algorithms](http://en.wikipedia.org/wiki/List_of_algorithms).
+- [The Data Structures
+  Wikibook](http://en.wikibooks.org/wiki/Data_Structures)
+- The CC-by book [Open Data Structures](http://opendatastructures.org/).
+- [The Book *Introduction to
+  Algorithms*](http://en.wikipedia.org/wiki/Introduction_to_Algorithms) -
+  by Cormen et. all (a.k.a “CLR” or “CLRS”) - a comprehensive reference
+  on algorithms and data structures, but a technical and dry one.
+- [*Mastering Algorithms with
+  Perl*](http://shop.oreilly.com/product/9781565923980.do) and
+  [*Mastering Algorithms with
+  C*](http://shop.oreilly.com/product/9781565924536.do) from O’Reilly
+  Media.
+- [“The Algorithms” GitHub
+  organisation](https://github.com/TheAlgorithms) - contains
+  repositories of codebases for popular algorithms and data structures
+  in several programming languages.
+- [Think Data
+  Structures](https://greenteapress.com/wp/think-data-structures/) - by
+  Green Tea Press - a gratis and CC-by-nc-sa lightweight book using
+  Java.
+- [“The Art of Computer
+  Programming”](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) -
+  (aka “TAOCP” or “Knuth”) - an esteemed series of books, by an esteemed
+  author, but one that is only accessible to those who are very
+  experienced programmers, and so not recommended here due to the scope
+  of the question. Mentioned here only for completeness sake.
 
-There's also a [channel called "#algorithms" on Freenode](irc://irc.freenode.net/#algorithms) and, naturally, you can discuss algorithms on ##programming, as long as you perform due diligence.
+There's also a [channel called "#algorithms" on
+Freenode](irc://irc.freenode.net/%23algorithms) and, naturally, you can
+discuss algorithms on \##programming, as long as you perform due
+diligence.
 
 ### I have an awesome idea for a great project (probably a game) and I want people to help me…
 
-First of all, we appreciate your enthusiasm, but you should realise that most of us have better things to do than help you (even if they are unemployed), and so you should offer money (and we don't mean a share of the profits.). If not, you are quite unlikely to recruit anyone.
+First of all, we appreciate your enthusiasm, but you should realise that
+most of us have better things to do than help you (even if they are
+unemployed), and so you should offer money (and we don't mean a share of
+the profits.). If not, you are quite unlikely to recruit anyone.
 
-If you cannot offer money, please consider learning the necessary skills yourself (see the above questions) and starting work on your own. If you make your project open-source and publicise it, then other people may eventually join you, and help you if they find it interesting.
+If you cannot offer money, please consider learning the necessary skills
+yourself (see the above questions) and starting work on your own. If you
+make your project open-source and publicise it, then other people may
+eventually join you, and help you if they find it interesting.
 
 ### What is the difference between “scripting” languages such as Perl, PHP, Python or Ruby and “Industrial-strength” Languages such as C, C++, Java and C#?
 
-Many people have issues with calling dynamic languages, with dynamic typing and those that are of somewhat more open-source nature such as Perl, PHP, Python and Ruby “scripting” languages. See:
+Many people have issues with calling dynamic languages, with dynamic
+typing and those that are of somewhat more open-source nature such as
+Perl, PHP, Python and Ruby “scripting” languages. See:
 
-* [Andy Lester's Stop saying “script”](http://web.archive.org/web/20140704054553/http://xoa.petdance.com/Stop_saying_%22script%22) ([Original link](http://xoa.petdance.com/Stop_saying_%22script%22) - currently broken)
-* [Larry Wall’s “Programming’s Hard - Let’s Go Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
-* [chromatic - “Program vs. Script”](http://use.perl.org/use.perl.org/_chromatic/journal/35804.html)
+- [Andy Lester's Stop saying
+  “script”](http://web.archive.org/web/20140704054553/http://xoa.petdance.com/Stop_saying_%22script%22)
+  ([Original link](http://xoa.petdance.com/Stop_saying_%22script%22) -
+  currently broken)
+- [Larry Wall’s “Programming’s Hard - Let’s Go
+  Scripting”](http://www.perl.com/pub/2007/12/06/soto-11.html)
+- [chromatic - “Program vs.
+  Script”](http://use.perl.org/use.perl.org/_chromatic/journal/35804.html)
 
-The problem with calling them that is that while they allow for getting small and simple things done quickly and easily, large scale projects (100,000s to millions of lines of code) have been written in them and are still maintained without any show-stopping difficulties. That is not to say that these languages do not have their downsides, but they still do not preclude **general-purpose**, and/or **large-scale** programming.
+The problem with calling them that is that while they allow for getting
+small and simple things done quickly and easily, large scale projects
+(100,000s to millions of lines of code) have been written in them and
+are still maintained without any show-stopping difficulties. That is not
+to say that these languages do not have their downsides, but they still
+do not preclude **general-purpose**, and/or **large-scale** programming.
 
-Furthermore, if we consider Perl/PHP/Python/Ruby/Tcl/Lua/etc. as “scripting languages” and C, C++, Java and C# as “industrial strength” where does Common Lisp fit in? Where does Scheme? Where do Haskell and OCaml? What about the various dialects of Basic? Fortran? COBOL? It seems that the classification of languages as “scripting” vs “industrial strength” is more of that of public perception and marketing as opposed to their actual qualities.
+Furthermore, if we consider Perl/PHP/Python/Ruby/Tcl/Lua/etc. as
+“scripting languages” and C, C++, Java and C# as “industrial strength”
+where does Common Lisp fit in? Where does Scheme? Where do Haskell and
+OCaml? What about the various dialects of Basic? Fortran? COBOL? It
+seems that the classification of languages as “scripting” vs “industrial
+strength” is more of that of public perception and marketing as opposed
+to their actual qualities.
 
-On the other hand, we do not wish to claim here that C, C++, Java and/or C# are necessarily bad languages, or that you should not study them or refuse job offers that involve writing code using them.
+On the other hand, we do not wish to claim here that C, C++, Java and/or
+C# are necessarily bad languages, or that you should not study them or
+refuse job offers that involve writing code using them.
 
 ### I need to learn about various base systems, like hexadecimal (base-16), binary (base-2). Where can I find information about them?
 
 See:
 
-* [The English Wikipedia’s Binary Numeral System](https://en.wikipedia.org/wiki/Binary_numeral_system) - and the side bar next to it.
-* [wikiHow’s How to Understand Hexadecimal](http://www.wikihow.com/Understand-Hexadecimal)
+- [The English Wikipedia’s Binary Numeral
+  System](https://en.wikipedia.org/wiki/Binary_numeral_system) - and the
+  side bar next to it.
+- [wikiHow’s How to Understand
+  Hexadecimal](http://www.wikihow.com/Understand-Hexadecimal)
 
-One thing to note is that numbers are the same regardless of their representation. E.g: the number represented by the base ten digits "16"
-is the same [Platonic ideal](https://en.wikipedia.org/wiki/Platonic_idealism) as the hexadecimal representation "0x10",
-the binary representation "0b10000", or the base 7 representation "22", the English name "sixteen" (or the count of apples
-in this: "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏"). Therefore, it is inaccurate to speak of "binary numbers" or
-"hexadecimal numbers".
+One thing to note is that numbers are the same regardless of their
+representation. E.g: the number represented by the base ten digits "16"
+is the same [Platonic
+ideal](https://en.wikipedia.org/wiki/Platonic_idealism) as the
+hexadecimal representation "0x10", the binary representation "0b10000",
+or the base 7 representation "22", the English name "sixteen" (or the
+count of apples in this: "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏"). Therefore,
+it is inaccurate to speak of "binary numbers" or "hexadecimal numbers".
 
 ### I want to buy some interesting books to read. Can you recommend me some?
 
 Here are some lists of recommended books by some of our regulars:
 
-* [Shlomi Fish’s Book Reviews](http://www.shlomifish.org/philosophy/books-recommends/)
-* [vendu’s list of books](https://github.com/vendu/OS-Zero/blob/master/notes/booklist.txt)
+- [Shlomi Fish’s Book
+  Reviews](http://www.shlomifish.org/philosophy/books-recommends/)
+- [vendu’s list of
+  books](https://github.com/vendu/OS-Zero/blob/master/notes/booklist.txt)
 
-In addition, here are some recommended lists of books by some notable software engineers and writers:
+In addition, here are some recommended lists of books by some notable
+software engineers and writers:
 
-* [Joel on Software’s “Book Reviews”](http://web.archive.org/web/20120403095428/https://www.joelonsoftware.com/navlinks/fog0000000262.html)
-* [Lists of books from the “Awesome” list of lists](https://github.com/sindresorhus/awesome#books)
+- [Joel on Software’s “Book
+  Reviews”](http://web.archive.org/web/20120403095428/https://www.joelonsoftware.com/navlinks/fog0000000262.html)
+- [Lists of books from the “Awesome” list of
+  lists](https://github.com/sindresorhus/awesome#books)
 
 ### How do I learn how to use GDB (= the GNU debugger)?
 
-We are often approached by people who tell us their C or C++ (or whatever) program crashes or otherwise misbehaves and then ask us why. If that's the case for you, you should realise that you should learn how to use an interactive debugger in order to debug your program, and you should learn how to do so as soon as possible.
+We are often approached by people who tell us their C or C++ (or
+whatever) program crashes or otherwise misbehaves and then ask us why.
+If that's the case for you, you should realise that you should learn how
+to use an interactive debugger in order to debug your program, and you
+should learn how to do so as soon as possible.
 
-One such debugger is the open source command-line debugger, ["gdb"](https://en.wikipedia.org/wiki/GNU_Debugger), which can be used to debug programs in C, C++ and some other languages. Here is some information on learning to use it:
+One such debugger is the open source command-line debugger,
+["gdb"](https://en.wikipedia.org/wiki/GNU_Debugger), which can be used
+to debug programs in C, C++ and some other languages. Here is some
+information on learning to use it:
 
-* [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief and accurate.
-* [“Software Development on Linux” slides](http://www.shlomifish.org/lecture/W2L/Development/slides/) - a basic introduction to gdb.
-* [“Advanced Debugging with gdb”](http://www.shlomifish.org/tel.foss.org.il-temp/lecture-notes/GDB_Linux_telux.pdf) - by David Khosid.
-* [“gdb - customize it the way you want”](http://www.haifux.org/lectures/210/) - by guy keren.
+- [gdb Tutorial](https://www.cs.cmu.edu/~gilpin/tutorial/) - brief and
+  accurate.
+- [“Software Development on Linux”
+  slides](http://www.shlomifish.org/lecture/W2L/Development/slides/) - a
+  basic introduction to gdb.
+- [“Advanced Debugging with
+  gdb”](http://www.shlomifish.org/tel.foss.org.il-temp/lecture-notes/GDB_Linux_telux.pdf) -
+  by David Khosid.
+- [“gdb - customize it the way you
+  want”](http://www.haifux.org/lectures/210/) - by guy keren.
 
-Also note that gdb has some [GUI frontends](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/#open-debugger-GUIs) that may make it easier or more convenient to use.
+Also note that gdb has some [GUI
+frontends](http://www.shlomifish.org/open-source/resources/editors-and-IDEs/#open-debugger-GUIs)
+that may make it easier or more convenient to use.
 
 ### I feel like programming something, but I don't know what. Can you suggest some good ideas for programs?
 
 For some lists of ideas for what to program see:
 
-* [“Links to Perl Exercises and Challenges” on Perl-Begin](http://perl-begin.org/exercises/) - not entirely Perl-specific.
-* [“Problem Sets and Competitive Programming Sites”](https://github.com/EbookFoundation/free-programming-books/blob/master/more/problem-sets-competitive-programming.md) - a comprehensive list on GitHub.
-* [Sphere Online Judge (SPOJ)](http://www.spoj.com/) - a site with many programming challenges.
-* [“Ideas for Computing” by Samsquire](https://github.com/samsquire/ideas) - a list of advanced ideas.
-* [“Hackerrank” - “Programming problems and competitions”](https://www.hackerrank.com/)
-* [Anarchy Code Golf](http://golf.shinh.org/).
-* [Some ideas for websites you can build!](https://github.com/melanierichards/just-build-websites)
-* [Open Source Ideas repository on GitHub](https://github.com/open-source-ideas/open-source-ideas)
-* [/r/dailyprogrammer on Reddit](https://www.reddit.com/r/dailyprogrammer/)
-* [A list of practical projects that “anyone can solve in any programming language.”](https://github.com/karan/Projects)
-* [A list of ideas for websites one can build](https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d) - on freeCodeCamp.org .
-* [List of ideas for software applications](https://github.com/florinpop17/app-ideas) - on GitHub under MITL.
-* [koollman's missing programs he would like](https://github.com/koollman/stuff-I-would-like/blob/master/Programs.md)
-* [Shlomi Fish’s software-related ideas](https://www.shlomifish.org/philosophy/ideas/#computer)
+- [“Links to Perl Exercises and Challenges” on
+  Perl-Begin](http://perl-begin.org/exercises/) - not entirely
+  Perl-specific.
+- [“Problem Sets and Competitive Programming
+  Sites”](https://github.com/EbookFoundation/free-programming-books/blob/master/more/problem-sets-competitive-programming.md) -
+  a comprehensive list on GitHub.
+- [Sphere Online Judge (SPOJ)](http://www.spoj.com/) - a site with many
+  programming challenges.
+- [“Ideas for Computing” by
+  Samsquire](https://github.com/samsquire/ideas) - a list of advanced
+  ideas.
+- [“Hackerrank” - “Programming problems and
+  competitions”](https://www.hackerrank.com/)
+- [Anarchy Code Golf](http://golf.shinh.org/).
+- [Some ideas for websites you can
+  build!](https://github.com/melanierichards/just-build-websites)
+- [Open Source Ideas repository on
+  GitHub](https://github.com/open-source-ideas/open-source-ideas)
+- [/r/dailyprogrammer on
+  Reddit](https://www.reddit.com/r/dailyprogrammer/)
+- [A list of practical projects that “anyone can solve in any
+  programming language.”](https://github.com/karan/Projects)
+- [A list of ideas for websites one can
+  build](https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d) -
+  on freeCodeCamp.org .
+- [List of ideas for software
+  applications](https://github.com/florinpop17/app-ideas) - on GitHub
+  under MITL.
+- [koollman's missing programs he would
+  like](https://github.com/koollman/stuff-I-would-like/blob/master/Programs.md)
+- [Shlomi Fish’s software-related
+  ideas](https://www.shlomifish.org/philosophy/ideas/#computer)
 
-In addition, note that you may wish to consider contributing to open source projects that you find useful or interesting. For more information about that see:
+In addition, note that you may wish to consider contributing to open
+source projects that you find useful or interesting. For more
+information about that see:
 
-* [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
-* [High Priority Free Software Projects](https://www.fsf.org/campaigns/priority-projects/)
+- [“How to start contributing to or using open source
+  software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
+- [High Priority Free Software
+  Projects](https://www.fsf.org/campaigns/priority-projects/)
 
 ### Does anyone know of a program to do \[insert task here\]?
 
 Such questions are tolerated on the channel, but anyway:
 
-* Try a [DuckDuckGo Search](https://duckduckgo.com/)
-* Try a [Google Search](https://www.google.com/)
-* Try a [GitHub Search](https://github.com/)
+- Try a [DuckDuckGo Search](https://duckduckgo.com/)
+- Try a [Google Search](https://www.google.com/)
+- Try a [GitHub Search](https://github.com/)
 
 Note that very often these questions describe a task that is relatively
-quickly doable in Python/Perl/insert-productive-language-of-choice
-so either learn Python or whatever, or alternatively hire a programmer to
+quickly doable in Python/Perl/insert-productive-language-of-choice so
+either learn Python or whatever, or alternatively hire a programmer to
 write it for you.
 
 ### I want to contribute to an open source project, but how? Which one can I contribute to?
 
-First of all, it is good that you wish to contribute and good luck. Here are
-some resources to get you started:
+First of all, it is good that you wish to contribute and good luck. Here
+are some resources to get you started:
 
-* [“How to start contributing to or using open source software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
-* [“14 ways to contribute to open source without being a programming genius or a rock star”](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/)
-* [“How to become a hacker?”](http://www.catb.org/esr/faqs/hacker-howto.html)
+- [“How to start contributing to or using open source
+  software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html)
+- [“14 ways to contribute to open source without being a programming
+  genius or a rock
+  star”](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/)
+- [“How to become a
+  hacker?”](http://www.catb.org/esr/faqs/hacker-howto.html)
 
-If you still need ideas for which open source projects to contribute to then ask
-yourself - which open source projects are you using? (Either directly
-or indirectly.) Which ones are you interested in? If that fails perhaps try
-using [GitHub search](https://github.com/search),
+If you still need ideas for which open source projects to contribute to
+then ask yourself - which open source projects are you using? (Either
+directly or indirectly.) Which ones are you interested in? If that fails
+perhaps try using [GitHub search](https://github.com/search),
 [DuckDuckGo](https://duckduckgo.com/), [Google](http://www.google.com/),
-the [English Wikipedia search](https://en.wikipedia.org/wiki/Main_Page) or
-other search resources.
+the [English Wikipedia search](https://en.wikipedia.org/wiki/Main_Page)
+or other search resources.
 
 ### What is "open source" software? Does it mean only that its source is available?
 
-No. According to the [open source definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition)
-an open source software licence must fulfill more than just the availability
-of the source code, including free redistribution and allowing to modify the
-code and distribute changes. Read the link on the wikipedia page for more
-information.
+No. According to the [open source
+definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition) an
+open source software licence must fulfill more than just the
+availability of the source code, including free redistribution and
+allowing to modify the code and distribute changes. Read the link on the
+wikipedia page for more information.
 
 ### What is FizzBuzz?
 
-In short, FizzBuzz is a simple programming task, which most decent programmers are expected to be able to easily write, but, reportedly, most interviewed software development candidates cannot write it. It's a kind of a [litmus test](https://en.wiktionary.org/wiki/litmus_test) for programmers.
+In short, FizzBuzz is a simple programming task, which most decent
+programmers are expected to be able to easily write, but, reportedly,
+most interviewed software development candidates cannot write it. It's a
+kind of a [litmus test](https://en.wiktionary.org/wiki/litmus_test) for
+programmers.
 
-Namely, in FizzBuzz one has to write a program that prints the natural numbers from 1 to 100 on one line each, but if the number is divisible by 3, print "Fizz" instead, and if it is divisible by 5 print "Buzz" instead; if it is divisible by both, print "FizzBuzz".
+Namely, in FizzBuzz one has to write a program that prints the natural
+numbers from 1 to 100 on one line each, but if the number is divisible
+by 3, print "Fizz" instead, and if it is divisible by 5 print "Buzz"
+instead; if it is divisible by both, print "FizzBuzz".
 
 For more information, see:
 
-* [Why Can’t Programmers Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
-* [FizzBuzz on Rosetta Code](http://rosettacode.org/wiki/FizzBuzz) (WARNING! The licence is problematic.)
-* [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
-* [Expat-licensed versions in several languages](https://github.com/shlomif/fizz-buzz), written by rindolf and some other people, including C, Perl 5, Python 2/3, Scheme, Java, JavaScript, Ruby, Go, C#, Haskell, and Lua.
-* [FizzBuzz in every programming language](https://github.com/zenware/FizzBuzz) - under a non-specified licence.
+- [Why Can’t Programmers
+  Program?](http://blog.codinghorror.com/why-cant-programmers-program/)
+- [FizzBuzz on Rosetta Code](http://rosettacode.org/wiki/FizzBuzz)
+  (WARNING! The licence is problematic.)
+- [FizzBuzz Enterprise
+  Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+- [Expat-licensed versions in several
+  languages](https://github.com/shlomif/fizz-buzz), written by rindolf
+  and some other people, including C, Perl 5, Python 2/3, Scheme, Java,
+  JavaScript, Ruby, Go, C#, Haskell, and Lua.
+- [FizzBuzz in every programming
+  language](https://github.com/zenware/FizzBuzz) - under a non-specified
+  licence.
 
 ### How are C, C++, and C# (C-sharp) related? How are they different?
 
-* The [C Programming Language](https://en.wikipedia.org/wiki/C_%28programming_language%29) was created by Dennis Ritchie and other workers, and was used to write most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of "mid-level" language because while it is above assembly, it is still lower-level than most other high-level languages.
-* [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some extensions to C to facilitate object-oriented programming (OOP) there, and has since developed many more extensions. C code can usually be compiled using a C++ compiler as is, but such code is no longer considered idiomatic C++. C and C++ can also call each other's routines, with relative ease.
-* [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) is a programming language whose syntax is superficially reminiscent of C, but which has otherwise different syntax, semantics (including garbage collection) and a completely different standard library.
-* [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29) was inspired a lot by Java, and is very similar (but not compatible), and is not compatible with either C or C++. It is just sharing a name containing "C" for presumably marketing and branding purposes.
-* [Managed C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is a C++-like language for [the .NET framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is also used to host C#), which isn't entirely compatible with C++.
+- The [C Programming
+  Language](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+  was created by Dennis Ritchie and other workers, and was used to write
+  most of [UNIX](https://en.wikipedia.org/wiki/Unix). It is a kind of
+  "mid-level" language because while it is above assembly, it is still
+  lower-level than most other high-level languages.
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B) originated as some
+  extensions to C to facilitate object-oriented programming (OOP) there,
+  and has since developed many more extensions. C code can usually be
+  compiled using a C++ compiler as is, but such code is no longer
+  considered idiomatic C++. C and C++ can also call each other's
+  routines, with relative ease.
+- [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29)
+  is a programming language whose syntax is superficially reminiscent of
+  C, but which has otherwise different syntax, semantics (including
+  garbage collection) and a completely different standard library.
+- [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29)
+  was inspired a lot by Java, and is very similar (but not compatible),
+  and is not compatible with either C or C++. It is just sharing a name
+  containing "C" for presumably marketing and branding purposes.
+- [Managed
+  C++](https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B) is
+  a C++-like language for [the .NET
+  framework](https://en.wikipedia.org/wiki/.NET_Framework) (which is
+  also used to host C#), which isn't entirely compatible with C++.
 
-As a result, the term “the C family of languages” is confusing and should be avoided, in part because other languages not mentioned above may share similar syntax to C.
+As a result, the term “the C family of languages” is confusing and
+should be avoided, in part because other languages not mentioned above
+may share similar syntax to C.
 
 ### I am facing a number of problems while using floating-point data types (e.g: "float" or "double"). Is there a explanation for this?
 
-Computers use binary-encoded numbers because they’re faster at dealing with them, and because for most calculations, a tiny error in the 17th decimal place doesn’t matter at all since the numbers you work with aren’t round (or that precise) anyway. Moreover, because they use a binary floating point, they cannot represent a number like 0.1, 0.3, etc. accurately at all.
+Computers use binary-encoded numbers because they’re faster at dealing
+with them, and because for most calculations, a tiny error in the 17th
+decimal place doesn’t matter at all since the numbers you work with
+aren’t round (or that precise) anyway. Moreover, because they use a
+binary floating point, they cannot represent a number like 0.1, 0.3,
+etc. accurately at all.
 
-When the code is compiled, the floating point number is rounded to nearest number in the format, which results in rounding error even before the calculations. Furthermore, associativity in addition may result in different results: `a + (b + c) != (a + b) + c` and it is possible to get weird results like `a + b == a` if a’s exponent is much larger than b’s.
+When the code is compiled, the floating point number is rounded to
+nearest number in the format, which results in rounding error even
+before the calculations. Furthermore, associativity in addition may
+result in different results: `a + (b + c) != (a + b) + c` and it is
+possible to get weird results like `a + b == a` if a’s exponent is much
+larger than b’s.
 
 For more information, refer to these resources:
 
-* [Floating point anomalies](http://floating-point-gui.de/) is a good resource for problems regarding floating point weird anamolies.
-* [More weird problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error) faced while using floating point numbers.
-* [Correction measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers) to deal with floating point anamolies.
-* [Accuracy of a float data-type](http://www.stata.com/support/faqs/data-management/float-data-type/)
+- [Floating point anomalies](http://floating-point-gui.de/) is a good
+  resource for problems regarding floating point weird anamolies.
+- [More weird
+  problems](http://stackoverflow.com/questions/14859875/c-how-to-avoid-floating-point-arithmetic-error)
+  faced while using floating point numbers.
+- [Correction
+  measures](http://stackoverflow.com/questions/590822/dealing-with-accuracy-problems-in-floating-point-numbers)
+  to deal with floating point anamolies.
+- [Accuracy of a float
+  data-type](http://www.stata.com/support/faqs/data-management/float-data-type/)
 
 ### How do I hide/obscure/“encrypt” my source code to prevent end-users from learning how it works?
 
 If you want to distribute some code you wrote and prevent end-users from
-learning its inner working, there are a few things you need to be aware of.
+learning its inner working, there are a few things you need to be aware
+of.
 
-The first is that there are [decompilers](http://en.wikipedia.org/wiki/Decompiler) and
-that it is often possible for humans to do [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering)
-in order to determine the inner workings of a program to duplicate them. We
-were told that there's a code-obfuscation technique that can usually prevent
-that, but its downside is that the resultant code is much larger and much
-slower (by a factor of about 100,000), so it'll likely be unacceptable to you.
+The first is that there are
+[decompilers](http://en.wikipedia.org/wiki/Decompiler) and that it is
+often possible for humans to do [reverse
+engineering](https://en.wikipedia.org/wiki/Reverse_engineering) in order
+to determine the inner workings of a program to duplicate them. We were
+told that there's a code-obfuscation technique that can usually prevent
+that, but its downside is that the resultant code is much larger and
+much slower (by a factor of about 100,000), so it'll likely be
+unacceptable to you.
 
 The second is that some popular approaches for "hiding" the source code
-are known to be ineffective - see [this post about distributing CPython's .pyc files](http://shlomif-tech.livejournal.com/39732.html) for an example,
-as well as [this 2002 thread](https://lists.gt.net/python/python/123115?do=post_view_threaded)
+are known to be ineffective - see [this post about distributing
+CPython's .pyc files](http://shlomif-tech.livejournal.com/39732.html)
+for an example, as well as [this 2002
+thread](https://lists.gt.net/python/python/123115?do=post_view_threaded)
 about obscuring Python code.
 
-The third is that a mostly failproof way to avoid revealing your code is to set up a world-wide-web service (or a different networked service) for it and have the local end-user´s code query it using the network stack.
+The third is that a mostly failproof way to avoid revealing your code is
+to set up a world-wide-web service (or a different networked service)
+for it and have the local end-user´s code query it using the network
+stack.
 
-Another point is that you should consider trusting your users instead. Shlomi
-Fish (“rindolf”) has written a cautionary tale about the fact that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s
-parent company, BitMover, has done a series of licence changes to BitKeeper
-over the years to prevent abuses from users who were unlikely to
-become paying customers out of sheer paranoia in
-[“What BitMover Got Wrong?”](http://better-scm.shlomifish.org/bk/what-bitmover-got-wrong.html), and you should better avoid it. Freenode is dedicated
-to discussing collaborative and free/open projects and you are likely to
-receive a lot of heat for not trusting your end users.
+Another point is that you should consider trusting your users instead.
+Shlomi Fish (“rindolf”) has written a cautionary tale about the fact
+that [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)’s parent
+company, BitMover, has done a series of licence changes to BitKeeper
+over the years to prevent abuses from users who were unlikely to become
+paying customers out of sheer paranoia in [“What BitMover Got
+Wrong?”](http://better-scm.shlomifish.org/bk/what-bitmover-got-wrong.html),
+and you should better avoid it. Freenode is dedicated to discussing
+collaborative and free/open projects and you are likely to receive a lot
+of heat for not trusting your end users.
 
-Finally, note that [Copyrights](https://en.wikipedia.org/wiki/Copyright) or
-[software patents](https://en.wikipedia.org/wiki/Software_patent) may provide
-adequate protection into people misappropriating the working of your code,
-although they may be controversial (especially software patents). For more
-information, see Eric Sink’s essay
-[“Five Things Every Micro-ISV Should Know About Intellectual Property”](http://ericsink.com/articles/Intellectual_Property.html) .
+Finally, note that [Copyrights](https://en.wikipedia.org/wiki/Copyright)
+or [software patents](https://en.wikipedia.org/wiki/Software_patent) may
+provide adequate protection into people misappropriating the working of
+your code, although they may be controversial (especially software
+patents). For more information, see Eric Sink’s essay [“Five Things
+Every Micro-ISV Should Know About Intellectual
+Property”](http://ericsink.com/articles/Intellectual_Property.html) .
 
 ### Who is the world’s best programmer?
 
 We got asked several times who is world’s best programmer, so let’s try
 to answer it once and for all. The first question we need to ask you is:
-“Why does it matter?” If you knew who the best programmer in the world is,
-do you think you can afford to hire him? Moreover, as [a post by Ovid notes](http://images.use.perl.org/use.perl.org/_Ovid/journal/39801.html),
-studies found that the best programmers are only 5 times more
-productive than the worst, which is consistent with productivity variation
-in other fields. Furthermore, a contractor who did both web development
-and Linux kernel development [noted](http://www.shlomifish.org/enough-with-sec/web-devel-has-become-too-hard.xhtml)
+“Why does it matter?” If you knew who the best programmer in the world
+is, do you think you can afford to hire him? Moreover, as [a post by
+Ovid
+notes](http://images.use.perl.org/use.perl.org/_Ovid/journal/39801.html),
+studies found that the best programmers are only 5 times more productive
+than the worst, which is consistent with productivity variation in other
+fields. Furthermore, a contractor who did both web development and Linux
+kernel development
+[noted](http://www.shlomifish.org/enough-with-sec/web-devel-has-become-too-hard.xhtml)
 that despite common belief, “web development is harder than Linux kernel
 development”.
 
-Finally note that some software developers were able to contribute a lot to
-the world of computing while writing only sub-optimal code. See the post
-[“Why some Great Hackers Write Inelegant Code”](http://shlomif-tech.livejournal.com/33461.html).
+Finally note that some software developers were able to contribute a lot
+to the world of computing while writing only sub-optimal code. See the
+post [“Why some Great Hackers Write Inelegant
+Code”](http://shlomif-tech.livejournal.com/33461.html).
 
 The most important thing you can do is constantly try to improve your
-programming skills, and learn from your fellow programmers, and from good
-and bad code people wrote out there. One way to achieve that is to be present
-on software development's forums, including ##programming .
+programming skills, and learn from your fellow programmers, and from
+good and bad code people wrote out there. One way to achieve that is to
+be present on software development's forums, including \##programming .
 
 ### I printed something but don't see it on the console yet! My output is out-of-order? Help!
 
-You may be suffering from buffering. First of all, go over Mark Jason Dominus’
-[“Suffering from Buffering?”](http://perl.plover.com/FAQs/Buffering.html)
-page which is somewhat focused on these issues for Perl 5. Then you may wish to:
+You may be suffering from buffering. First of all, go over Mark Jason
+Dominus’ [“Suffering from
+Buffering?”](http://perl.plover.com/FAQs/Buffering.html) page which is
+somewhat focused on these issues for Perl 5. Then you may wish to:
 
-1. In C, make a judicious use of [fflush()](http://en.cppreference.com/w/c/io/fflush), or use locks for synchronisation.
-2. In C++, use [std::flush](http://stackoverflow.com/questions/14105650/how-does-stdflush-work).
-3. For Python, see [this Stackoverflow thread](https://stackoverflow.com/questions/230751/how-can-i-flush-the-output-of-the-print-function)
-4. Use similar routines for your programming language of choice.
+1.  In C, make a judicious use of
+    [fflush()](http://en.cppreference.com/w/c/io/fflush), or use locks
+    for synchronisation.
+2.  In C++, use
+    [std::flush](http://stackoverflow.com/questions/14105650/how-does-stdflush-work).
+3.  For Python, see [this Stackoverflow
+    thread](https://stackoverflow.com/questions/230751/how-can-i-flush-the-output-of-the-print-function)
+4.  Use similar routines for your programming language of choice.
 
 ### What do “NP-Complete”, “NP-hard”, etc. mean?
 
 Try referring to these links:
 
-* [The English Wikipedia’s entry](https://en.wikipedia.org/wiki/NP-completeness) - somewhat formal, but may prove enlightening.
-* [Stackoverflow Thread](http://stackoverflow.com/questions/210829/what-is-an-np-complete-in-computer-science) - should be more accessible
-* [Log of a conversation on ##programming](http://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-what-is-NP-complete)
+- [The English Wikipedia’s
+  entry](https://en.wikipedia.org/wiki/NP-completeness) - somewhat
+  formal, but may prove enlightening.
+- [Stackoverflow
+  Thread](http://stackoverflow.com/questions/210829/what-is-an-np-complete-in-computer-science) -
+  should be more accessible
+- [Log of a conversation on
+  \##programming](http://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-what-is-NP-complete)
 
-In addition, the English wikipedia has [a list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of problems that were shown to be NP-complete.
+In addition, the English wikipedia has [a
+list](https://en.wikipedia.org/wiki/List_of_NP-complete_problems) of
+problems that were shown to be NP-complete.
 
 ### What do you think about interpreted vs. compiled languages?
 
-First of all note that [“interpreted”](https://en.wikipedia.org/wiki/Interpreter_%28computing%29) vs. [“compiled”](https://en.wikipedia.org/wiki/Compiler) is an implementation detail, and a programming language may have more than one implementation.
+First of all note that
+[“interpreted”](https://en.wikipedia.org/wiki/Interpreter_%28computing%29)
+vs. [“compiled”](https://en.wikipedia.org/wiki/Compiler) is an
+implementation detail, and a programming language may have more than one
+implementation.
 
-Morever, it is not always that straightforward - there are also language implementations
-that compile the raw text source code into [p-code](https://en.wikipedia.org/wiki/P-code_machine),
-[bytecode](https://en.wikipedia.org/wiki/Bytecode), [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree),
-or some other [intermediate representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and then interpret that;
-there is [just-in-time compilation (JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation);
-some compilers compile to different high-level languages (see for example the
-[List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS) on CoffeeScript's
-wiki as well as the [Wikipedia page about "Source-to-source compilers"](https://en.wikipedia.org/wiki/Source-to-source_compiler));
-some packagers package a runtime of a language with a higher level code (which to be honest most compilers do even if they
-just bind to [libc](https://en.wikipedia.org/wiki/C_standard_library)).
+Morever, it is not always that straightforward - there are also language
+implementations that compile the raw text source code into
+[p-code](https://en.wikipedia.org/wiki/P-code_machine),
+[bytecode](https://en.wikipedia.org/wiki/Bytecode), [abstract syntax
+tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree), or some other
+[intermediate representation
+(IR)](https://en.wikipedia.org/wiki/Intermediate_representation) and
+then interpret that; there is [just-in-time compilation
+(JIT)](https://en.wikipedia.org/wiki/Just-in-time_compilation); some
+compilers compile to different high-level languages (see for example the
+[List of languages that compile to
+JS](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
+on CoffeeScript's wiki as well as the [Wikipedia page about
+"Source-to-source
+compilers"](https://en.wikipedia.org/wiki/Source-to-source_compiler));
+some packagers package a runtime of a language with a higher level code
+(which to be honest most compilers do even if they just bind to
+[libc](https://en.wikipedia.org/wiki/C_standard_library)).
 
 There may also be some other approaches.
 
 Note that one should not use the fact that an implementation is
-interpreted against it, because it may not be slower than compiled code all the
-time, and because it may still be fast enough for many uses given today’s
-processors’ speeds.
+interpreted against it, because it may not be slower than compiled code
+all the time, and because it may still be fast enough for many uses
+given today’s processors’ speeds.
 
-Despite some common belief, C has some interpreters as
-[mentioned on stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c), while some dynamically-typed languages such as Common Lisp, Scheme, or Python have compilers.
+Despite some common belief, C has some interpreters as [mentioned on
+stackoverflow](http://stackoverflow.com/questions/584714/is-there-an-interpreter-for-c),
+while some dynamically-typed languages such as Common Lisp, Scheme, or
+Python have compilers.
 
-Moreover, note that interpreters are often easier to implement and port than compilers, which
-may justify the poorer performance.
+Moreover, note that interpreters are often easier to implement and port
+than compilers, which may justify the poorer performance.
 
-As another anecdote, one can think of most [CPUs](https://en.wikipedia.org/wiki/Central_processing_unit) as
-interpreters for their [machine code](https://en.wikipedia.org/wiki/Machine_code), which are implemented using logic gates
-and electronic components.
+As another anecdote, one can think of most
+[CPUs](https://en.wikipedia.org/wiki/Central_processing_unit) as
+interpreters for their [machine
+code](https://en.wikipedia.org/wiki/Machine_code), which are implemented
+using logic gates and electronic components.
 
 ### How is JavaScript related to Java? What is the difference between them?
 
-JavaScript (also see [its Wikipedia entry](https://en.wikipedia.org/wiki/JavaScript)) is a programming language first introduced in version 2.0 of the
-browser [Netscape Navigator](https://en.wikipedia.org/wiki/Netscape_%28web_browser%29)
-which also introduced support for browser-hosted [Java applets](https://en.wikipedia.org/wiki/Java_applet) written in the [Java programming language](https://en.wikipedia.org/wiki/Java_%28programming_language%29).
+JavaScript (also see [its Wikipedia
+entry](https://en.wikipedia.org/wiki/JavaScript)) is a programming
+language first introduced in version 2.0 of the browser [Netscape
+Navigator](https://en.wikipedia.org/wiki/Netscape_%28web_browser%29)
+which also introduced support for browser-hosted [Java
+applets](https://en.wikipedia.org/wiki/Java_applet) written in the [Java
+programming
+language](https://en.wikipedia.org/wiki/Java_%28programming_language%29).
 
-According to [this blog post](https://brendaneich.com/2008/04/popularity/) titled
-“Popularity” it was designed so its syntax will resemble Java (which ruled out the use of other popular open source languages at the time) and was named “JavaScript” for marketing reasons. Despite that, Java and JavaScript codes are not compatible with one another.
+According to [this blog
+post](https://brendaneich.com/2008/04/popularity/) titled “Popularity”
+it was designed so its syntax will resemble Java (which ruled out the
+use of other popular open source languages at the time) and was named
+“JavaScript” for marketing reasons. Despite that, Java and JavaScript
+codes are not compatible with one another.
 
 For more information, see:
 
-* [Stackoverflow Question about “What’s the difference between JavaScript and Java”](http://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java?sort=votes)
+- [Stackoverflow Question about “What’s the difference between
+  JavaScript and
+  Java”](http://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java?sort=votes)
 
 ### How can I learn Web Development? (HTML/etc.)?
 
-First of all, you may wish to go over
-[MDN's "How the Web works"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works),
-[“The Unix and Internet Fundamentals HOWTO”](http://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/),
-or [Mozilla Hacks' "Web Demystified" video series](https://hacks.mozilla.org/2018/04/a-new-video-series-web-demystified/)
+First of all, you may wish to go over [MDN's "How the Web
+works"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works),
+[“The Unix and Internet Fundamentals
+HOWTO”](http://tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/), or
+[Mozilla Hacks' "Web Demystified" video
+series](https://hacks.mozilla.org/2018/04/a-new-video-series-web-demystified/)
 to gain some basic understanding of how the Web works over the Internet.
 
-After that, read [HTML Dog](http://htmldog.com/) which hosts some quality
-tutorials about HTML, CSS, and JavaScript.
+After that, read [HTML Dog](http://htmldog.com/) which hosts some
+quality tutorials about HTML, CSS, and JavaScript.
 
-After that, perhaps using a [static site generator](https://davidwalsh.name/introduction-static-site-generators)
-will be good enough for you, and static sites are more secure and require
-less maintenance than sites with
-[server-side scripting](https://en.wikipedia.org/wiki/Server-side_scripting).
-If you need something to run on the server, then you have a lot of choice for
-[server-side technologies](https://duckduckgo.com/?q=server-side+technologies+web&ia=web)
-and often [web frameworks](https://en.wikipedia.org/wiki/Web_framework) and
-APIs for them.
+After that, perhaps using a [static site
+generator](https://davidwalsh.name/introduction-static-site-generators)
+will be good enough for you, and static sites are more secure and
+require less maintenance than sites with [server-side
+scripting](https://en.wikipedia.org/wiki/Server-side_scripting). If you
+need something to run on the server, then you have a lot of choice for
+[server-side
+technologies](https://duckduckgo.com/?q=server-side+technologies+web&ia=web)
+and often [web frameworks](https://en.wikipedia.org/wiki/Web_framework)
+and APIs for them.
 
-Also see the post [“Four Ways to Build Web Apps” by Tom Hummel](https://tomhummel.com/posts/four-web-apps/)
+Also see the post [“Four Ways to Build Web Apps” by Tom
+Hummel](https://tomhummel.com/posts/four-web-apps/)
 
 ### Where can I get help with writing my own operating system or kernel?
 
-First of all, Freenode has
-[a channel called #osdev](irc://irc.freenode.net/#osdev) and it is possible
-that you may get better help there.
+First of all, Freenode has [a channel called
+\#osdev](irc://irc.freenode.net/%23osdev) and it is possible that you
+may get better help there.
 
-Otherwise, we should distinguish between two different cases. The first is that
-you're just writing the kernel as a learning exercise and do not intend it to
-be production-ready. In that case, you may go forward with whatever design you
-have in mind.
+Otherwise, we should distinguish between two different cases. The first
+is that you're just writing the kernel as a learning exercise and do not
+intend it to be production-ready. In that case, you may go forward with
+whatever design you have in mind.
 
-The other case is that you want your operating system to be popular. In that
-case, you should probably make it [POSIX](https://en.wikipedia.org/wiki/POSIX)-compatible
-in order to avoid what Joel on Software calls
-[“Chicken and Egg Problems”](https://www.joelonsoftware.com/2000/05/24/strategy-letter-ii-chicken-and-egg-problems/). You should also consider contributing to
-one or more of the existing [open source operating systems](https://en.wikipedia.org/wiki/Comparison_of_open-source_operating_systems) out there,
-because that way your efforts will be much more likely to amount to something.
+The other case is that you want your operating system to be popular. In
+that case, you should probably make it
+[POSIX](https://en.wikipedia.org/wiki/POSIX)-compatible in order to
+avoid what Joel on Software calls [“Chicken and Egg
+Problems”](https://www.joelonsoftware.com/2000/05/24/strategy-letter-ii-chicken-and-egg-problems/).
+You should also consider contributing to one or more of the existing
+[open source operating
+systems](https://en.wikipedia.org/wiki/Comparison_of_open-source_operating_systems)
+out there, because that way your efforts will be much more likely to
+amount to something.
 
 ### Is {software dev paradigm, e.g: Object-Oriented Programming, Functional Programming, Structured Programming} bad/good/better/worse?
 
-We had several people join to try to provoke a discussion about whether Object-Oriented Programming or a different software paradigm was bad or had alternatives. These discussions were rarely constructive and usually were pointless, so you should avoid sparking them.
+We had several people join to try to provoke a discussion about whether
+Object-Oriented Programming or a different software paradigm was bad or
+had alternatives. These discussions were rarely constructive and usually
+were pointless, so you should avoid sparking them.
 
-If you are working on a project that is under your control, you can try to use
-programming languages which avoid this particular paradigm. If you need to use
-it for your day job, you can either look for a different job and/or realise
-that [“Reality to be commanded must be obeyed.”](http://shlomifishswiki.branchable.com/Self-Sufficiency/) and all that jazz, and try to cope with what you have.
+If you are working on a project that is under your control, you can try
+to use programming languages which avoid this particular paradigm. If
+you need to use it for your day job, you can either look for a different
+job and/or realise that [“Reality to be commanded must be
+obeyed.”](http://shlomifishswiki.branchable.com/Self-Sufficiency/) and
+all that jazz, and try to cope with what you have.
 
-Otherwise, it is unlikely that adopting a certain programming paradigm, or
-alternatively ditching one completely, will magically solve all the world's
-software development problems, and provoking heated debates about it
-on ##programming is even less likely to make that happen.
+Otherwise, it is unlikely that adopting a certain programming paradigm,
+or alternatively ditching one completely, will magically solve all the
+world's software development problems, and provoking heated debates
+about it on \##programming is even less likely to make that happen.
 
 ### Why are people still using C when there are languages like Rust or Pony?
 
-First of all note that we do not mean to imply that languages like [Rust](https://en.wikipedia.org/wiki/Rust_%28programming_languaged%29) or [Pony](https://www.ponylang.org/) are not without their merit, or do not provide any significant advantages in comparison to C or C++.
+First of all note that we do not mean to imply that languages like
+[Rust](https://en.wikipedia.org/wiki/Rust_%28programming_languaged%29)
+or [Pony](https://www.ponylang.org/) are not without their merit, or do
+not provide any significant advantages in comparison to C or C++.
 
 That put aside, there are some reasons why C may still be popular:
 
-1. Due to legacy and inertia and the fact C has been around for many years before Rust was introduced, there is a lot of C code out there, and it still needs to be maintained.
-2. Rust reportedly compiles extremely slowly, which may be prohibitive especially for large projects, and similar complaints were voiced against C++’s compilation speeds.
-3. Rust and Pony may be quite more complex than C.
-4. Some people may still like C, and they are still allowed to use it.
-5. Rust appears to have become a religion-of-sorts, which deters some people from using it.
+1.  Due to legacy and inertia and the fact C has been around for many
+    years before Rust was introduced, there is a lot of C code out
+    there, and it still needs to be maintained.
+2.  Rust reportedly compiles extremely slowly, which may be prohibitive
+    especially for large projects, and similar complaints were voiced
+    against C++’s compilation speeds.
+3.  Rust and Pony may be quite more complex than C.
+4.  Some people may still like C, and they are still allowed to use it.
+5.  Rust appears to have become a religion-of-sorts, which deters some
+    people from using it.
 
-If you like Rust or Pony or whatever, and wish to promote them, then it would be a better idea to actively contribute to and improve their core or ecosystem, rather than ranting about how much their older alternatives suck on online forums. Like a wise man once [said](https://github.com/shlomif/fortune-mod/blob/a2c124c5717435772f5d319b074ba226b5d0c71b/fortune-mod/datfiles/definitions#L3142): “After all is said and done, a hell of a lot more is said than done.”, and you should try to keep the ratio smaller.
+If you like Rust or Pony or whatever, and wish to promote them, then it
+would be a better idea to actively contribute to and improve their core
+or ecosystem, rather than ranting about how much their older
+alternatives suck on online forums. Like a wise man once
+[said](https://github.com/shlomif/fortune-mod/blob/a2c124c5717435772f5d319b074ba226b5d0c71b/fortune-mod/datfiles/definitions#L3142):
+“After all is said and done, a hell of a lot more is said than done.”,
+and you should try to keep the ratio smaller.
 
 ### How do I factor a large integer number into its prime components quickly enough? (Project Euler problem 3)
 
-You can peruse the sources of [mini-factor](https://github.com/shlomif/mini-factor) which is quite fast and licensed under the permissive [Expat licence](https://tldrlegal.com/license/mit-license),
-those of [factor from GNU coreutils](https://github.com/coreutils/coreutils/blob/master/src/factor.c) which is under the strong [copyleft](https://en.wikipedia.org/wiki/Copyleft) GPLv3 licence,
-and those of [FreeBSD’s factor](https://svnweb.freebsd.org/base/head/usr.bin/factor/factor.c?view=log) which is under a permissive open source licence.
+You can peruse the sources of
+[mini-factor](https://github.com/shlomif/mini-factor) which is quite
+fast and licensed under the permissive [Expat
+licence](https://tldrlegal.com/license/mit-license), those of [factor
+from GNU
+coreutils](https://github.com/coreutils/coreutils/blob/master/src/factor.c)
+which is under the strong
+[copyleft](https://en.wikipedia.org/wiki/Copyleft) GPLv3 licence, and
+those of [FreeBSD’s
+factor](https://svnweb.freebsd.org/base/head/usr.bin/factor/factor.c?view=log)
+which is under a permissive open source licence.
 
 Here are some tips in English:
 
-1. Make sure to divide the number by the found factor (repeatedly as long as the remainder is 0) so it becomes smaller.
-2. This way, you don't need to check the factors for primality.
-3. If a number is a [composite](https://en.wikipedia.org/wiki/Composite_number) (= non-prime), then its smallest prime factor is less or equal to its [square root](https://en.wikipedia.org/wiki/Square_root). So if you have checked all numbers up to its root and they didn't divide it, then you know it is prime.
-4. Consider skipping common composite factors such as products of 2 or 3.
+1.  Make sure to divide the number by the found factor (repeatedly as
+    long as the remainder is 0) so it becomes smaller.
+2.  This way, you don't need to check the factors for primality.
+3.  If a number is a
+    [composite](https://en.wikipedia.org/wiki/Composite_number) (=
+    non-prime), then its smallest prime factor is less or equal to its
+    [square root](https://en.wikipedia.org/wiki/Square_root). So if you
+    have checked all numbers up to its root and they didn't divide it,
+    then you know it is prime.
+4.  Consider skipping common composite factors such as products of 2 or
+    3.
 
 ### How can I write code to perform operations on web-sites for me? (that otherwise should be done manually)
 
-This is called [web automation](https://duckduckgo.com/?q=web+automation;ia=web)
-and can be conveniently done in several languages:
+This is called [web
+automation](https://duckduckgo.com/?q=web+automation;ia=web) and can be
+conveniently done in several languages:
 
-* The book [Automate the Boring Stuff with Python](http://automatetheboringstuff.com/) covers web automation in Python
-* This [page](http://perl-begin.org/uses/web-automation/) covers it using Perl.
-* There are some [command line web clients](http://www.shlomifish.org/open-source/resources/networking-clients/#cmd-line-WWW-clients).
+- The book [Automate the Boring Stuff with
+  Python](http://automatetheboringstuff.com/) covers web automation in
+  Python
+- This [page](http://perl-begin.org/uses/web-automation/) covers it
+  using Perl.
+- There are some [command line web
+  clients](http://www.shlomifish.org/open-source/resources/networking-clients/#cmd-line-WWW-clients).
 
-Note that if the site provides a [WWW-based API](https://en.wikipedia.org/wiki/Web_API), then you should use it, and
-that automating client-side JavaScript may prove to be tricky. You should also
-avoid overloading a site or going against its Terms of Service.
+Note that if the site provides a [WWW-based
+API](https://en.wikipedia.org/wiki/Web_API), then you should use it, and
+that automating client-side JavaScript may prove to be tricky. You
+should also avoid overloading a site or going against its Terms of
+Service.
 
-Some technologies that allow automating using client-side JavaScript are:
+Some technologies that allow automating using client-side JavaScript
+are:
 
-* ["Awesome Browser Automation"](https://github.com/angrykoala/awesome-browser-automation#readme) - list on GitHub
-* [Headless Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
-* [Firefox's Headless mode](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode)
-* [Selenium](https://en.wikipedia.org/wiki/Selenium_%28software%29)
-* [Puppeteer](https://github.com/puppeteer/puppeteer)
+- ["Awesome Browser
+  Automation"](https://github.com/angrykoala/awesome-browser-automation#readme) -
+  list on GitHub
+- [Headless
+  Chrome/Chromium](https://developers.google.com/web/updates/2017/04/headless-chrome)
+- [Firefox's Headless
+  mode](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Headless_mode)
+- [Selenium](https://en.wikipedia.org/wiki/Selenium_%28software%29)
+- [Puppeteer](https://github.com/puppeteer/puppeteer)
 
 ### Where can I learn to write and/or read regular expressions?
 
 Here are some resources:
 
-* [awesome-regex](https://github.com/aloisdg/awesome-regex) - a curated list of recommended regular expression resources.
-* [Learn Regex Tutorial on GitHub](https://github.com/ziishaned/learn-regex) - under the permissive Expat licence.
-* [regular-expressions.info](http://www.regular-expressions.info/)
-* Page about [regular expressions in Perl](http://perl-begin.org/topics/regular-expressions/)
-* [pydoc for regular expressions](https://docs.python.org/3/library/re.html) in Python
+- [awesome-regex](https://github.com/aloisdg/awesome-regex) - a curated
+  list of recommended regular expression resources.
+- [Learn Regex Tutorial on
+  GitHub](https://github.com/ziishaned/learn-regex) - under the
+  permissive Expat licence.
+- [regular-expressions.info](http://www.regular-expressions.info/)
+- Page about [regular expressions in
+  Perl](http://perl-begin.org/topics/regular-expressions/)
+- [pydoc for regular
+  expressions](https://docs.python.org/3/library/re.html) in Python
 
 ### I have problems understanding recursion. Can you help?
 
-* The book [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) (whose [text is available online](https://mitpress.mit.edu/sicp/) freely and openly) has a strong focus about recursion.
-* One way to understand recursion is to understand the [call stack](https://duckduckgo.com/?q=call+stack;ia=web) used by programming languages to implement it.
-* There is a [Stack Exchange thread](https://softwareengineering.stackexchange.com/questions/25052/in-plain-english-what-is-recursion) about explaining recursion.
+- The book [Structure and Interpretation of Computer
+  Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
+  (whose [text is available online](https://mitpress.mit.edu/sicp/)
+  freely and openly) has a strong focus about recursion.
+- One way to understand recursion is to understand the [call
+  stack](https://duckduckgo.com/?q=call+stack;ia=web) used by
+  programming languages to implement it.
+- There is a [Stack Exchange
+  thread](https://softwareengineering.stackexchange.com/questions/25052/in-plain-english-what-is-recursion)
+  about explaining recursion.
 
 ### What does "indentation" mean?
 
-Indentation means that the contents of every block are promoted from their
-containing environment by using a shift of some space. This makes the code
-easier to read and follow.
+Indentation means that the contents of every block are promoted from
+their containing environment by using a shift of some space. This makes
+the code easier to read and follow.
 
 Code without indentation is harder to read and so should be avoided. The
-[Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style) lists
-several styles - pick one and follow it.
+[Wikipedia article](https://en.wikipedia.org/wiki/Indentation_style)
+lists several styles - pick one and follow it.
 
-Also consider using an autoformatter: [awesome-linters](https://github.com/caramelomartins/awesome-linters) .
+Also consider using an autoformatter:
+[awesome-linters](https://github.com/caramelomartins/awesome-linters) .
 
 ### I shared my code (using a paste-site/etc.) and people on the channel complained that my indentation is bad / off / inconsistent , but it looks fine in my text editor. Why?
 
-This is usually caused by mismatch of [hard tabs](https://www.reddit.com/r/learnprogramming/comments/1998iy/what_is_the_difference_between_soft_tabs_and_hard/)
-vs whitespace expansions or because you are using a different tab expansion
-step than the paste-site or that of other channel members' local editor (e.g:
-4 spaces, 8 spaces, 2 spaces, 3 spaces). Please make sure your indentation
-is consistent either by expanding all tabs to spaces, or by using a
-[prettyprinter](https://en.wikipedia.org/wiki/Prettyprint) / autoformatter
-for your programming language.
+This is usually caused by mismatch of [hard
+tabs](https://www.reddit.com/r/learnprogramming/comments/1998iy/what_is_the_difference_between_soft_tabs_and_hard/)
+vs whitespace expansions or because you are using a different tab
+expansion step than the paste-site or that of other channel members'
+local editor (e.g: 4 spaces, 8 spaces, 2 spaces, 3 spaces). Please make
+sure your indentation is consistent either by expanding all tabs to
+spaces, or by using a
+[prettyprinter](https://en.wikipedia.org/wiki/Prettyprint) /
+autoformatter for your programming language.
 
 ### I want to release my code - which (open source) licence should I use?
 
-First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
-not a lawyer) and all that jazz. Some resources to get you started are:
+First of all note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I
+am not a lawyer) and all that jazz. Some resources to get you started
+are:
 
-1. GitHub’s [choosealicense](https://choosealicense.com/) which provides
-the most popular and recommended choices.
-2. Understand the distinction between [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence), weak [copyleft](https://en.wikipedia.org/wiki/Copyleft),
-strong copyleft, and [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) licences.
-3. The [licences list](https://www.gnu.org/licenses/license-list.html) of the Free Software Foundation is comprehensive, but opinionated.
-4. The [OSI list of popular licences](https://opensource.org/licenses).
+1.  GitHub’s [choosealicense](https://choosealicense.com/) which
+    provides the most popular and recommended choices.
+2.  Understand the distinction between [permissive
+    licences](https://en.wikipedia.org/wiki/Permissive_software_licence),
+    weak [copyleft](https://en.wikipedia.org/wiki/Copyleft), strong
+    copyleft, and [proprietary
+    software](https://en.wikipedia.org/wiki/Proprietary_software)
+    licences.
+3.  The [licences list](https://www.gnu.org/licenses/license-list.html)
+    of the Free Software Foundation is comprehensive, but opinionated.
+4.  The [OSI list of popular licences](https://opensource.org/licenses).
 
 Please avoid:
 
-1. Creating your own licence - this risks [licence proliferation](https://en.wikipedia.org/wiki/License_proliferation) and may very well be legally unsound.
-2. Not specifying a licence - this risks the software being considered as [All Rights Reserved](https://en.wikipedia.org/wiki/All_rights_reserved) by default which may taint and encumber the future work of software developers who read it.
-3. Choosing an unpopular or obscure licence.
-4. Choosing a licence that is [incompatible with the GPL](https://www.dwheeler.com/essays/gpl-compatible.html).
-5. If you want to use the [public domain](https://en.wikipedia.org/wiki/Public_domain) as a non-licence, please use [CC0](https://creativecommons.org/choose/zero/) .
+1.  Creating your own licence - this risks [licence
+    proliferation](https://en.wikipedia.org/wiki/License_proliferation)
+    and may very well be legally unsound.
+2.  Not specifying a licence - this risks the software being considered
+    as [All Rights
+    Reserved](https://en.wikipedia.org/wiki/All_rights_reserved) by
+    default which may taint and encumber the future work of software
+    developers who read it.
+3.  Choosing an unpopular or obscure licence.
+4.  Choosing a licence that is [incompatible with the
+    GPL](https://www.dwheeler.com/essays/gpl-compatible.html).
+5.  If you want to use the [public
+    domain](https://en.wikipedia.org/wiki/Public_domain) as a
+    non-licence, please use
+    [CC0](https://creativecommons.org/choose/zero/) .
 
 ### What do Continuous Integration (CI) services such as Travis-CI, Jenkins, or AppVeyor provide?
 
-First of all, you may wish to peruse [the wikipedia entry on Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
-A CI service runs the build and tests on pristine environments (=
-such that dependencies need to be explicitly installed) on each version control
-commit. For
-example, it may be configured to install some dependencies, and then run
-`./configure && make && make test`. If one of the steps fails, then the problem
-is reported, and the developers need to restore the build to order.
+First of all, you may wish to peruse [the wikipedia entry on Continuous
+Integration](https://en.wikipedia.org/wiki/Continuous_integration). A CI
+service runs the build and tests on pristine environments (= such that
+dependencies need to be explicitly installed) on each version control
+commit. For example, it may be configured to install some dependencies,
+and then run `./configure && make && make test`. If one of the steps
+fails, then the problem is reported, and the developers need to restore
+the build to order.
 
-While one can set up local CI services (using e.g [Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there are hosted services such as [GitHub Actions](https://github.com/features/actions), [GitLab Pipelines](https://docs.gitlab.com/ee/ci/pipelines/), [Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or [AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a service, which: 1. open source projects can use free of charge 2. one can pay to use for non-public-source-projects to hopefully ease the maintenance burden.
+While one can set up local CI services (using e.g
+[Jenkins](https://en.wikipedia.org/wiki/Jenkins_%28software%29)), there
+are hosted services such as [GitHub
+Actions](https://github.com/features/actions), [GitLab
+Pipelines](https://docs.gitlab.com/ee/ci/pipelines/),
+[Travis-CI](https://en.wikipedia.org/wiki/Travis_CI) or
+[AppVeyor](https://en.wikipedia.org/wiki/AppVeyor). They provide a
+service, which: 1. open source projects can use free of charge 2. one
+can pay to use for non-public-source-projects to hopefully ease the
+maintenance burden.
 
 ### How do I debug memory errors (e.g: crashes, memory leaks, double-freeing) in my C / etc. programs?
 
 There are some tools that can help:
 
-1. [valgrind](https://en.wikipedia.org/wiki/Valgrind) - an open source memory debugger.
-2. [AddressSanitizer](https://en.wikipedia.org/wiki/AddressSanitizer) - another open source tool supported by the GCC and Clang compilers.
-3. [Insure++](https://en.wikipedia.org/wiki/Insure%2B%2B)
-4. [PurifyPlus](https://en.wikipedia.org/wiki/PurifyPlus)
-5. [BoundsChecker](https://en.wikipedia.org/wiki/BoundsChecker) - Windows-only.
+1.  [valgrind](https://en.wikipedia.org/wiki/Valgrind) - an open source
+    memory debugger.
+2.  [AddressSanitizer](https://en.wikipedia.org/wiki/AddressSanitizer) -
+    another open source tool supported by the GCC and Clang compilers.
+3.  [Insure++](https://en.wikipedia.org/wiki/Insure%2B%2B)
+4.  [PurifyPlus](https://en.wikipedia.org/wiki/PurifyPlus)
+5.  [BoundsChecker](https://en.wikipedia.org/wiki/BoundsChecker) -
+    Windows-only.
 
 ### How do I remove duplicates from a list of items? How do I make the items unique?
 
-The best way is to use a [Set](https://stackoverflow.com/questions/2630738/c-how-to-implement-set-data-structure) or
-a [dictionary/map/associative-array](https://en.wikipedia.org/wiki/Associative_array) [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type) . For more insights consult:
+The best way is to use a
+[Set](https://stackoverflow.com/questions/2630738/c-how-to-implement-set-data-structure)
+or a
+[dictionary/map/associative-array](https://en.wikipedia.org/wiki/Associative_array)
+[ADTs](https://en.wikipedia.org/wiki/Abstract_data_type) . For more
+insights consult:
 
-* [Rosetta Code page](http://rosettacode.org/wiki/Remove_duplicate_elements)
-* [Perl Hashes page](http://perl-begin.org/topics/hashes/)
-* [JavaScript Set page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
-* [awk one-liners](http://www.pement.org/awk/awk1line.txt) - search for "duplicate"
-* [Perl one-liners explained](http://www.catonmat.net/blog/perl-one-liners-explained-part-six/) - search for "unique"
+- [Rosetta Code
+  page](http://rosettacode.org/wiki/Remove_duplicate_elements)
+- [Perl Hashes page](http://perl-begin.org/topics/hashes/)
+- [JavaScript Set
+  page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [awk one-liners](http://www.pement.org/awk/awk1line.txt) - search for
+  "duplicate"
+- [Perl one-liners
+  explained](http://www.catonmat.net/blog/perl-one-liners-explained-part-six/) -
+  search for "unique"
 
 ### How is this symbol/character/punctuation mark called in English?
 
 The following resources may help:
 
-* [ASCII Pronunciation Rules for Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
-* [Wikipedia Punctuation Page](https://en.wikipedia.org/wiki/Punctuation)
-* [Unicode Shapecatcher](http://shapecatcher.com/)
-* [Wikipedia ASCII Page](https://en.wikipedia.org/wiki/ASCII)
-* [Xahlee's Unicode Pages](http://xahlee.info/)
+- [ASCII Pronunciation Rules for
+  Programmers](https://blog.codinghorror.com/ascii-pronunciation-rules-for-programmers/)
+- [Wikipedia Punctuation
+  Page](https://en.wikipedia.org/wiki/Punctuation)
+- [Unicode Shapecatcher](http://shapecatcher.com/)
+- [Wikipedia ASCII Page](https://en.wikipedia.org/wiki/ASCII)
+- [Xahlee's Unicode Pages](http://xahlee.info/)
 
 ### How do I find the size and/or length of an array in C?
 
-See [this Stackoverflow question](https://stackoverflow.com/questions/37538/how-do-i-determine-the-size-of-my-array-in-c) .
+See [this Stackoverflow
+question](https://stackoverflow.com/questions/37538/how-do-i-determine-the-size-of-my-array-in-c)
+.
 
 ### Is it true that macOS / Mac OS X is superior to Linux because it is a "Certified Unix"?
 
-First of all, see [the wikipedia page](https://en.wikipedia.org/wiki/Single_UNIX_Specification) for when OSes are considered certified to use the UNIX® trademark.
+First of all, see [the wikipedia
+page](https://en.wikipedia.org/wiki/Single_UNIX_Specification) for when
+OSes are considered certified to use the UNIX® trademark.
 
-In the context of this question, we are not trying to disuade you from using
-macOS, just to point out that being "Certified UNIX®" is not too relevant
-and should not be used as an argument against using [Linux](https://en.wikipedia.org/wiki/Linux). Namely:
+In the context of this question, we are not trying to disuade you from
+using macOS, just to point out that being "Certified UNIX®" is not too
+relevant and should not be used as an argument against using
+[Linux](https://en.wikipedia.org/wiki/Linux). Namely:
 
-1. Certified Unix® is reportedly given to particular OSes running on specific hardware. This is harder for Linux and other open source Unix-like OSes to achieve because they support heterogeneous hardware (including [x86](https://en.wikipedia.org/wiki/X86) and its peripherals).
-2. Two OSes based on the Linux kernel and the [GNU](https://en.wikipedia.org/wiki/GNU_Project)/etc. runtime - namely EulerOS and Inspur K-UX - were certified as Unix. See [the wikipedia page](https://en.wikipedia.org/wiki/Single_UNIX_Specification#EulerOS) for details.
-3. At a time, Windows NT by Microsoft was certified as Unix as well.
-4. Being certified as such does not mean that the system will behave exactly as a Unix system is expected to behave. For example, the [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in macOS is reportedly mostly neutered.
-5. Most people and organisations do not care too much about the Unix certification and will be happy to use a sane non-certified [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating system. The certification as Unix does not buy you much.
+1.  Certified Unix® is reportedly given to particular OSes running on
+    specific hardware. This is harder for Linux and other open source
+    Unix-like OSes to achieve because they support heterogeneous
+    hardware (including [x86](https://en.wikipedia.org/wiki/X86) and its
+    peripherals).
+2.  Two OSes based on the Linux kernel and the
+    [GNU](https://en.wikipedia.org/wiki/GNU_Project)/etc. runtime -
+    namely EulerOS and Inspur K-UX - were certified as Unix. See [the
+    wikipedia
+    page](https://en.wikipedia.org/wiki/Single_UNIX_Specification#EulerOS)
+    for details.
+3.  At a time, Windows NT by Microsoft was certified as Unix as well.
+4.  Being certified as such does not mean that the system will behave
+    exactly as a Unix system is expected to behave. For example, the
+    [/etc directory](https://en.wikipedia.org/wiki/Unix_filesystem) in
+    macOS is reportedly mostly neutered.
+5.  Most people and organisations do not care too much about the Unix
+    certification and will be happy to use a sane non-certified
+    [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating
+    system. The certification as Unix does not buy you much.
 
 ### Is a certain software technology good just because I heard that NASA uses it?
 
-[NASA](https://en.wikipedia.org/wiki/NASA) is large (and has a large budget,
-and a large scope of concern) and has been around for many decades, and so uses
-many different technologies, some of them may not be too recommended in the
-general case. Moreover, like many other organisations (and individuals), its
-developers, of software of otherwise, often experiment with technological
-trends or ideas, that turn out to be fads, or even long-term [technical
+[NASA](https://en.wikipedia.org/wiki/NASA) is large (and has a large
+budget, and a large scope of concern) and has been around for many
+decades, and so uses many different technologies, some of them may not
+be too recommended in the general case. Moreover, like many other
+organisations (and individuals), its developers, of software of
+otherwise, often experiment with technological trends or ideas, that
+turn out to be fads, or even long-term [technical
 debts](https://en.wikipedia.org/wiki/Technical_debt) or liabilities.
 
 While the
@@ -844,412 +1413,577 @@ common ignorance.
 
 Among the other technologies that NASA has used are:
 
-1. [Fortran](https://en.wikipedia.org/wiki/Fortran)
-2. [COBOL](https://blog.codinghorror.com/cobol-everywhere-and-nowhere/)
-3. [VAX](https://en.wikipedia.org/wiki/VAX)
-4. [Forth](https://en.wikipedia.org/wiki/Forth_%28programming_language%29)
-5. Assembly
-6. [Perl 5](https://www.nntp.perl.org/group/perl.advocacy/2008/04/msg2383.html)
-7. [Windows, MS Word, and MS Outlook](https://linux.slashdot.org/story/02/12/24/006238/bridging-unix-and-windows-at-nasa)
+1.  [Fortran](https://en.wikipedia.org/wiki/Fortran)
+2.  [COBOL](https://blog.codinghorror.com/cobol-everywhere-and-nowhere/)
+3.  [VAX](https://en.wikipedia.org/wiki/VAX)
+4.  [Forth](https://en.wikipedia.org/wiki/Forth_%28programming_language%29)
+5.  Assembly
+6.  [Perl
+    5](https://www.nntp.perl.org/group/perl.advocacy/2008/04/msg2383.html)
+7.  [Windows, MS Word, and MS
+    Outlook](https://linux.slashdot.org/story/02/12/24/006238/bridging-unix-and-windows-at-nasa)
 
-Note that we do not mean to imply that Python or whatever are bad just because
-NASA uses them, just that you should not use that fact as an argument in
-their favour.
+Note that we do not mean to imply that Python or whatever are bad just
+because NASA uses them, just that you should not use that fact as an
+argument in their favour.
 
 ### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
 
-First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
-not a lawyer) and all that jazz.
+First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I
+am not a lawyer) and all that jazz.
 
-A copyright holder may change the licence as they please, and [permissive licences](https://en.wikipedia.org/wiki/Permissive_software_licence) also allow
-other parties to sublicense the code under different licences. However, the
-original version of the code may be [forked](https://en.wikipedia.org/wiki/Fork_%28software_development%29) and maintained under the original licence by
-other parties.
+A copyright holder may change the licence as they please, and
+[permissive
+licences](https://en.wikipedia.org/wiki/Permissive_software_licence)
+also allow other parties to sublicense the code under different
+licences. However, the original version of the code may be
+[forked](https://en.wikipedia.org/wiki/Fork_%28software_development%29)
+and maintained under the original licence by other parties.
 
 For more information, see:
 
-* [Fear of Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
-* [ESR's comments about the "right to fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
+- [Fear of
+  Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
+- [ESR's comments about the "right to
+  fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
 
 ### Should I avoid using an open source project just because it is primarily developed by a company or individual that I dislike?
 
-First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I am
-not a lawyer) and all that jazz.
+First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I
+am not a lawyer) and all that jazz.
 
-In essence, the [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) nature of
-the licence protects you from claims of misuse by the copyright holder,
-but note that some open source licences (e.g the [AGPLv3](https://en.wikipedia.org/wiki/Affero_General_Public_License))
+In essence, the
+[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
+nature of the licence protects you from claims of misuse by the
+copyright holder, but note that some open source licences (e.g the
+[AGPLv3](https://en.wikipedia.org/wiki/Affero_General_Public_License))
 are quite restrictive, which may not be acceptable for your use cases.
 
-An open source project can also be legally forked and maintained independently if all else fails.
+An open source project can also be legally forked and maintained
+independently if all else fails.
 
-So it is a good idea to avoid
-[guilt by association](https://en.wikipedia.org/wiki/Association_fallacy) in
-this case assuming the relevant project is of decent quality.
+So it is a good idea to avoid [guilt by
+association](https://en.wikipedia.org/wiki/Association_fallacy) in this
+case assuming the relevant project is of decent quality.
 
 ### I was recommended a Unix tool. How can I set up a Unix-like subsystem on my system?
 
-If you already have Linux, one of the BSDs, or macOS, then they are usually
-suitable for that out of the box. If you are using MS Windows, then look into:
+If you already have Linux, one of the BSDs, or macOS, then they are
+usually suitable for that out of the box. If you are using MS Windows,
+then look into:
 
-1. [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source Unix-like environment that runs on several versions of Win32/Win64.
-2. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by Microsoft for Windows 10.
-3. Install GNU/Linux or similar on a virtual machine emulator such as [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
+1.  [cygwin](https://en.wikipedia.org/wiki/Cygwin) - an open source
+    Unix-like environment that runs on several versions of Win32/Win64.
+2.  [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) by
+    Microsoft for Windows 10.
+3.  Install GNU/Linux or similar on a virtual machine emulator such as
+    [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
 
-For more information, see [“How to start contributing to or using Open Source Software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
+For more information, see [“How to start contributing to or using Open
+Source
+Software”](http://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html).
 
 ### What is language X good for?
 
-More often than not, it is asked about a
-[general purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) which
-can be used for a wide array of purposes. Note however, that sometimes they
-may not be too suitable for certain tasks for various reasons.
+More often than not, it is asked about a [general purpose programming
+language](https://en.wikipedia.org/wiki/General-purpose_programming_language)
+which can be used for a wide array of purposes. Note however, that
+sometimes they may not be too suitable for certain tasks for various
+reasons.
 
 ### How can I run / program .NET and ASP.NET applications on Linux or macOS?
 
 You can try using one or more of:
 
-* [.NET Core](https://dotnet.github.io/) - open source by Microsoft and other contributors
-* [Mono](https://www.mono-project.com/) - also open source
+- [.NET Core](https://dotnet.github.io/) - open source by Microsoft and
+  other contributors
+- [Mono](https://www.mono-project.com/) - also open source
 
-Note that some APIs such as [WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) were not open sourced yet.
+Note that some APIs such as
+[WPF](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation)
+were not open sourced yet.
 
 ### What can I use to document my code? Can you recommend a documentation tool/system/framework ?
 
 Here are some resources to get you started:
 
-1. rindolf wrote a page titled [“Choice of Document Formats”](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/).
-2. Wikipedia has a page about [Lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) with a comparison.
-3. [Doxygen](http://www.doxygen.org/) is an open source documentation tool that supports many programming languages.
-4. [DocBook](https://en.wikipedia.org/wiki/DocBook) and [TEI](http://www.tei-c.org/) are open XML-based standards for encoding semantic documents and translating them, but with complex tooling.
-    1. [AsciiDoctor](https://asciidoctor.org/) can be converted to DocBook.
-5. Many languages have a common standard for documentation such as [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
-6. http://pandoc.org/ can convert between formats, but the conversion is not always flawfree.
+1.  rindolf wrote a page titled [“Choice of Document
+    Formats”](https://www.shlomifish.org/philosophy/computers/web/choice-of-docs-formats/).
+2.  Wikipedia has a page about [Lightweight markup
+    languages](https://en.wikipedia.org/wiki/Lightweight_markup_language)
+    with a comparison.
+3.  [Doxygen](http://www.doxygen.org/) is an open source documentation
+    tool that supports many programming languages.
+4.  [DocBook](https://en.wikipedia.org/wiki/DocBook) and
+    [TEI](http://www.tei-c.org/) are open XML-based standards for
+    encoding semantic documents and translating them, but with complex
+    tooling.
+    1.  [AsciiDoctor](https://asciidoctor.org/) can be converted to
+        DocBook.
+5.  Many languages have a common standard for documentation such as
+    [perl Pod](https://en.wikipedia.org/wiki/Plain_Old_Documentation) or
+    [python's RST](https://en.wikipedia.org/wiki/ReStructuredText).
+6.  <http://pandoc.org/> can convert between formats, but the conversion
+    is not always flawfree.
 
 ### Which Linux Distribution / OS / version can you recommend?
 
-See [this link](https://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html#Playing_with_Linux) with an
-introduction and some recommended alternatives.
+See [this
+link](https://www.shlomifish.org/philosophy/computers/open-source/how-to-start-contributing/tos-document.html#Playing_with_Linux)
+with an introduction and some recommended alternatives.
 
 ### How can I learn how to use the Git version control system?
 
-The [“awesome-git”](https://github.com/dictcp/awesome-git) document on GitHub has a
-list of tutorials.
+The [“awesome-git”](https://github.com/dictcp/awesome-git) document on
+GitHub has a list of tutorials.
 
 ### What do people mean when they say “s/pattern/replacement/”?
 
-This means replace (or "substitute") the pattern with the replacement in a
-previously said text.
+This means replace (or "substitute") the pattern with the replacement in
+a previously said text.
 
-This notation is derived from
-the Unix [ed](https://en.wikipedia.org/wiki/Ed_%28text_editor%29) editor,
-which in turn was inherited by [sed](https://en.wikipedia.org/wiki/Sed),
-[vi](https://en.wikipedia.org/wiki/Vi) (and vim) and [Perl](https://en.wikipedia.org/wiki/Perl).
+This notation is derived from the Unix
+[ed](https://en.wikipedia.org/wiki/Ed_%28text_editor%29) editor, which
+in turn was inherited by [sed](https://en.wikipedia.org/wiki/Sed),
+[vi](https://en.wikipedia.org/wiki/Vi) (and vim) and
+[Perl](https://en.wikipedia.org/wiki/Perl).
 
 For more information see:
 
-* [Hacker Writing Style](http://www.catb.org/jargon/html/writing-style.html)
+- [Hacker Writing
+  Style](http://www.catb.org/jargon/html/writing-style.html)
 
 ### What does “FOSS” mean?
 
-[Free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
+[Free and open source
+software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
 
 ### How do developers of open source software make money from it?
 
-First of all see ["A handy guide to financial support for FOSS"](https://github.com/nayafia/lemonade-stand).
+First of all see ["A handy guide to financial support for
+FOSS"](https://github.com/nayafia/lemonade-stand).
 
-Otherwise, note that copies of FOSS can be copied and distributed at a very low
-cost, like other digital files. As a result, some developers opt to provide
-their gratis digital works (including FOSS) free of charge, without expecting
-to be reimbursed, simply because they do not get penalised for every downloaded
-copy.
+Otherwise, note that copies of FOSS can be copied and distributed at a
+very low cost, like other digital files. As a result, some developers
+opt to provide their gratis digital works (including FOSS) free of
+charge, without expecting to be reimbursed, simply because they do not
+get penalised for every downloaded copy.
 
 ### How can I calculate the top / bottom number of items of a certain property from a stream of them?
 
-You can try using an efficient implementation of the [Priority queue ADT](https://en.wikipedia.org/wiki/Priority_queue). Some implementations of it are:
+You can try using an efficient implementation of the [Priority queue
+ADT](https://en.wikipedia.org/wiki/Priority_queue). Some implementations
+of it are:
 
-* [C++ STL](https://en.cppreference.com/w/cpp/container/priority_queue)
-* [Python](https://docs.python.org/3/library/heapq.html)
-* [Perl 5](https://metacpan.org/pod/Heap)
-* [Ruby](https://github.com/rubyworks/pqueue)
-* [C](https://github.com/armon/c-minheap-array) and [C libpqueue](https://github.com/vy/libpqueue)
-* [Java](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
+- [C++ STL](https://en.cppreference.com/w/cpp/container/priority_queue)
+- [Python](https://docs.python.org/3/library/heapq.html)
+- [Perl 5](https://metacpan.org/pod/Heap)
+- [Ruby](https://github.com/rubyworks/pqueue)
+- [C](https://github.com/armon/c-minheap-array) and [C
+  libpqueue](https://github.com/vy/libpqueue)
+- [Java](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
 
 ### What does "bisecting" mean?
 
-There is a [wikipedia page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29) that details
-the [VCS](https://en.wikipedia.org/wiki/Version_control) technique, but it has a more general utility.
+There is a [wikipedia
+page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29)
+that details the [VCS](https://en.wikipedia.org/wiki/Version_control)
+technique, but it has a more general utility.
 
-As the old joke goes: "How do you find a lion in the desert? You split the
-desert into two halfs, and the lion is in either one. Then you split the half
-with the lion into two quarters, and so on until you find the lion-sized
-fraction of the area with the lion." You can apply this to many problems, e.g
-by gradually moving away or temporarily removing configuration files or
-directives until you pinpoint the problem.
+As the old joke goes: "How do you find a lion in the desert? You split
+the desert into two halfs, and the lion is in either one. Then you split
+the half with the lion into two quarters, and so on until you find the
+lion-sized fraction of the area with the lion." You can apply this to
+many problems, e.g by gradually moving away or temporarily removing
+configuration files or directives until you pinpoint the problem.
 
 ### How can I overwrite text in a terminal or write a console-based UI?
 
-* The de-facto standard for writing [TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) is [curses](https://en.wikipedia.org/wiki/Curses_%28programming_library%29) which has some open source implementations such as [ncurses](https://en.wikipedia.org/wiki/Ncurses) and [PDCurses](https://en.wikipedia.org/wiki/PDCurses), but may be somewhat baroque in nature.
-* [libtickit](http://www.leonerd.org.uk/code/libtickit/) and others are newer and possibly more modern alternatives with incompatible APIs.
-* There are bindings for other languages like [curses.py](https://docs.python.org/3/howto/curses.html)
-* For simple tasks, printing no more than the terminal width (typically 80 characters) and then printing "\r" and overwriting may be adequate.
-* There are libraries for line input such as [readline](https://en.wikipedia.org/wiki/GNU_Readline) (GPLed) or [libedit](https://duckduckgo.com/?q=libedit&atb=v140-1&ia=web) (BSDLed).
+- The de-facto standard for writing
+  [TUIs](https://en.wikipedia.org/wiki/Text-based_user_interface) is
+  [curses](https://en.wikipedia.org/wiki/Curses_%28programming_library%29)
+  which has some open source implementations such as
+  [ncurses](https://en.wikipedia.org/wiki/Ncurses) and
+  [PDCurses](https://en.wikipedia.org/wiki/PDCurses), but may be
+  somewhat baroque in nature.
+- [libtickit](http://www.leonerd.org.uk/code/libtickit/) and others are
+  newer and possibly more modern alternatives with incompatible APIs.
+- There are bindings for other languages like
+  [curses.py](https://docs.python.org/3/howto/curses.html)
+- For simple tasks, printing no more than the terminal width (typically
+  80 characters) and then printing "\r" and overwriting may be adequate.
+- There are libraries for line input such as
+  [readline](https://en.wikipedia.org/wiki/GNU_Readline) (GPLed) or
+  [libedit](https://duckduckgo.com/?q=libedit&atb=v140-1&ia=web)
+  (BSDLed).
 
 ### How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?
 
-How many roads must a man walk down, before you can call him a man? ["The answer, my friend, is blowing in the wind"](https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind).
+How many roads must a man walk down, before you can call him a man?
+["The answer, my friend, is blowing in the
+wind"](https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind).
 
 Somewhat more seriously now, here are some thoughts:
 
-There is a [How to Teach Yourself C++ in 21 days](https://www.abstrusegoose.com/249) parody
-comics and a [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
-essay (but note that there was a post claiming that the study it was based on was about
-becoming an exceptional artisan, and that it takes far less time to merely become proficient).
+There is a [How to Teach Yourself C++ in 21
+days](https://www.abstrusegoose.com/249) parody comics and a [Teach
+Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
+essay (but note that there was a post claiming that the study it was
+based on was about becoming an exceptional artisan, and that it takes
+far less time to merely become proficient).
 
-In ["Lord Palmerston on Programming"](https://www.joelonsoftware.com/2002/12/11/lord-palmerston-on-programming/),
-Joel on Software notes that "Becoming proficient, really proficient, in just
-one programming world takes years. Sure, lots of bright teenagers learn Delphi
-one week and Python the next week and Perl the next week and think they are
-proficient. Yet they don’t have the foggiest clue how much they’re missing.".
+In ["Lord Palmerston on
+Programming"](https://www.joelonsoftware.com/2002/12/11/lord-palmerston-on-programming/),
+Joel on Software notes that "Becoming proficient, really proficient, in
+just one programming world takes years. Sure, lots of bright teenagers
+learn Delphi one week and Python the next week and Perl the next week
+and think they are proficient. Yet they don’t have the foggiest clue how
+much they’re missing.".
 
-You can probably get an entry-level or junior position software development job
-with relatively little or no experience, but likely one with a relatively low salary.
+You can probably get an entry-level or junior position software
+development job with relatively little or no experience, but likely one
+with a relatively low salary.
 
-Some books like ["The Pragmatic Programmer"](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
-or ["Coder to Developer"](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
-aim to teach inexperienced developers, part of the wisdom gained by experience.
+Some books like ["The Pragmatic
+Programmer"](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) or
+["Coder to
+Developer"](https://www.joelonsoftware.com/2004/05/05/mike-gunderloys-coder-to-developer/)
+aim to teach inexperienced developers, part of the wisdom gained by
+experience.
 
-It is a perceived fact among software developers that some developers write more elegant
-code with only six months of experience, than many developers with ten years of experience
-and Ph.D.'s in Computer Science.
+It is a perceived fact among software developers that some developers
+write more elegant code with only six months of experience, than many
+developers with ten years of experience and Ph.D.'s in Computer Science.
 
-There is an [interesting quote by Henry Ford about "experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately):
+There is an [interesting quote by Henry Ford about
+"experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately):
 
-“
-None of our men are "experts." We have most unfortunately found it necessary
-to get rid of a man as soon as he thinks himself an expert -- because no one
-ever considers himself expert if he really knows his job. A man who knows a
-job sees so much more to be done than he has done, that he is always pressing
-forward and never gives up an instant of thought to how good and how efficient
-he is. Thinking always ahead, thinking always of trying to do more, brings a
-state of mind in which nothing is impossible. The moment one gets into the
-"expert" state of mind a great number of things become impossible.
-— From Henry Ford Sr., "My Life and Work," p. 86 (1922)
-”
+“ None of our men are "experts." We have most unfortunately found it
+necessary to get rid of a man as soon as he thinks himself an expert --
+because no one ever considers himself expert if he really knows his job.
+A man who knows a job sees so much more to be done than he has done,
+that he is always pressing forward and never gives up an instant of
+thought to how good and how efficient he is. Thinking always ahead,
+thinking always of trying to do more, brings a state of mind in which
+nothing is impossible. The moment one gets into the "expert" state of
+mind a great number of things become impossible. — From Henry Ford Sr.,
+"My Life and Work," p. 86 (1922) ”
 
-According to the Coding Horror blog [most interviewed job candidates cannot program FizzBuzz](https://blog.codinghorror.com/why-cant-programmers-program/).
+According to the Coding Horror blog [most interviewed job candidates
+cannot program
+FizzBuzz](https://blog.codinghorror.com/why-cant-programmers-program/).
 
-Also note that being proficient and experienced may not automatically get you accepted into job openings
-because there are [other factors that employers may find important](https://shlomif.livejournal.com/4408.html).
+Also note that being proficient and experienced may not automatically
+get you accepted into job openings because there are [other factors that
+employers may find
+important](https://shlomif.livejournal.com/4408.html).
 
-The [learn X in Y minutes](https://learnxinyminutes.com/) site provides short introductions to computing topics
-which, although potentially useful, are likely not enough to become truly proficient.
+The [learn X in Y minutes](https://learnxinyminutes.com/) site provides
+short introductions to computing topics which, although potentially
+useful, are likely not enough to become truly proficient.
 
-----
-
-To sum up, there is no clear cut answer and magical moment during which you
-transition from a "newbie" into a "super duper rock star ninja wizard
-awesomesauce hotstuff" dev. However, the more you learn and try, the better off
-you'll be with the right attitude.
+To sum up, there is no clear cut answer and magical moment during which
+you transition from a "newbie" into a "super duper rock star ninja
+wizard awesomesauce hotstuff" dev. However, the more you learn and try,
+the better off you'll be with the right attitude.
 
 ### What do you mean by "generating makefiles" or by "generating code" in general?
 
-One can write code in some programming language that will emit plaintext, which in turn
-is valid code or markup of the same programming language or a different one that can be
-passed to its backend for execution. This is called "code generation".
+One can write code in some programming language that will emit
+plaintext, which in turn is valid code or markup of the same programming
+language or a different one that can be passed to its backend for
+execution. This is called "code generation".
 
 For more information, see:
 
-1. [GNU Autogen](https://www.gnu.org/software/autogen/)
-2. [Text Processing Tools](https://www.shlomifish.org/open-source/resources/text-processing-tools/)
-3. [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
-4. [Code Generation Chapter from “The Art of Unix Programming”](http://www.catb.org/esr/writings/taoup/html/generationchapter.html)
+1.  [GNU Autogen](https://www.gnu.org/software/autogen/)
+2.  [Text Processing
+    Tools](https://www.shlomifish.org/open-source/resources/text-processing-tools/)
+3.  [Metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming)
+4.  [Code Generation Chapter from “The Art of Unix
+    Programming”](http://www.catb.org/esr/writings/taoup/html/generationchapter.html)
 
 ### Will a change I would like to do break some functionality?
 
-As the [aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988)
-goes: <q>The difference between theory and practice is that in theory, there
-is no difference between theory and practice, while in practice, there is.</q>. There is usually
-a risk, however small, that a change will break some functionality. With good tooling (such
-as [Version control](https://en.wikipedia.org/wiki/Version_control) (git-scm / etc.) , [Virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) ( KVM , VMware, Xen, VirtualBox, etc. ) and
-[Docker / etc.](https://en.wikipedia.org/wiki/OS-level_virtualisation) ),
-and having a comprehensive automated tests' suite. it should be relatively easy
-to revert a change which introduced regressions, and you should do adequate
-testing.
+As the
+[aphorism](https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988)
+goes: “The difference between theory and practice is that in theory,
+there is no difference between theory and practice, while in practice,
+there is.”. There is usually a risk, however small, that a change will
+break some functionality. With good tooling (such as [Version
+control](https://en.wikipedia.org/wiki/Version_control) (git-scm / etc.)
+, [Virtual machines](https://en.wikipedia.org/wiki/Virtual_machine) (
+KVM , VMware, Xen, VirtualBox, etc. ) and [Docker /
+etc.](https://en.wikipedia.org/wiki/OS-level_virtualisation) ), and
+having a comprehensive automated tests' suite. it should be relatively
+easy to revert a change which introduced regressions, and you should do
+adequate testing.
 
-A change may have to be avoided due to being estimated as too time or money
-consuming, or as having too little gain. However, promising changes
-should be attempted because:
+A change may have to be avoided due to being estimated as too time or
+money consuming, or as having too little gain. However, promising
+changes should be attempted because:
 
-1. "No guts - no glory."
-2. [What does "if it ain't broke, don't fix it" really mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
-3. If you never change anything, your project won't progress.
+1.  "No guts - no glory."
+2.  [What does "if it ain't broke, don't fix it" really
+    mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
+3.  If you never change anything, your project won't progress.
 
 ### What does Object-Oriented Programming ( OOP ) mean?
 
-When people say [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) they can mean one of several things:
+When people say
+[OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) they
+can mean one of several things:
 
-* A catch-all phrase for the paradigm.
-* Like [Alan Kay noted:](https://softwareengineering.stackexchange.com/questions/46592/so-what-did-alan-kay-really-mean-by-the-term-object-oriented) <q>Actually, I made up the term object-oriented, and I can tell you I did not have C++ in mind. An important thing here is—I have many of the same feelings about Smalltalk </q>
-* The "OOP/OOD" approach taken by C++ and later Java and C# and other languages, which was inspired by [Simula](https://en.wikipedia.org/wiki/Simula).
+- A catch-all phrase for the paradigm.
+- Like [Alan Kay
+  noted:](https://softwareengineering.stackexchange.com/questions/46592/so-what-did-alan-kay-really-mean-by-the-term-object-oriented)
+  “Actually, I made up the term object-oriented, and I can tell you I
+  did not have C++ in mind. An important thing here is—I have many of
+  the same feelings about Smalltalk ”
+- The "OOP/OOD" approach taken by C++ and later Java and C# and other
+  languages, which was inspired by
+  [Simula](https://en.wikipedia.org/wiki/Simula).
 
-As a result, the term has become somewhat muddled. Also note that if the language is Turing-complete, then usually one can implement OOP-like systems such as [GObject](https://en.wikipedia.org/wiki/GObject) or [libcello](http://libcello.org/) for C.
+As a result, the term has become somewhat muddled. Also note that if the
+language is Turing-complete, then usually one can implement OOP-like
+systems such as [GObject](https://en.wikipedia.org/wiki/GObject) or
+[libcello](http://libcello.org/) for C.
 
 ### What does Functional Programming ( FP ) mean?
 
 Like OOP, FP can mean several things:
 
-1. The concept of programming without mutation or side effects. This was modelled in [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), and can often also be done in imperative languages.
-2. A language that is "marketed" as a functional language, which includes non-purely functional languages such as [Scheme](https://en.wikipedia.org/wiki/Scheme_%28programming_language%29) or https://en.wikipedia.org/wiki/Standard_ML and excludes others which have functional programming capabilities such as Perl, Ruby, or JavaScript.
-3. The polymorphism implementation in such statically-typed languages such as Haskell, Standard ML, or OCaml.
-4. A functional code, i.e: one that has [external quality](https://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/): is mostly bug free, has acceptable performance, etc. as opposed to the elegance of the code, and other internal quality aspects.
+1.  The concept of programming without mutation or side effects. This
+    was modelled in [Lambda
+    Calculus](https://en.wikipedia.org/wiki/Lambda_calculus), and can
+    often also be done in imperative languages.
+2.  A language that is "marketed" as a functional language, which
+    includes non-purely functional languages such as
+    [Scheme](https://en.wikipedia.org/wiki/Scheme_%28programming_language%29)
+    or <https://en.wikipedia.org/wiki/Standard_ML> and excludes others
+    which have functional programming capabilities such as Perl, Ruby,
+    or JavaScript.
+3.  The polymorphism implementation in such statically-typed languages
+    such as Haskell, Standard ML, or OCaml.
+4.  A functional code, i.e: one that has [external
+    quality](https://www.shlomifish.org/philosophy/computers/high-quality-software/rev2/):
+    is mostly bug free, has acceptable performance, etc. as opposed to
+    the elegance of the code, and other internal quality aspects.
 
-### Why do people keep speaking against [language]?
+### Why do people keep speaking against \[language\]?
 
-Because it is [impossible to please everyone](http://shlomifishswiki.branchable.com/Never_Try_to_Please_Everyone/) or as [Bjarne Stroustrup noted](https://en.wikiquote.org/wiki/Bjarne_Stroustrup): <q>There are only two kinds of languages: the ones people complain about and the ones nobody uses</q>.
+Because it is [impossible to please
+everyone](http://shlomifishswiki.branchable.com/Never_Try_to_Please_Everyone/)
+or as [Bjarne Stroustrup
+noted](https://en.wikiquote.org/wiki/Bjarne_Stroustrup): “There are only
+two kinds of languages: the ones people complain about and the ones
+nobody uses”.
 
-Furthermore, rindolf identified [several tradeoffs](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/) in
-programming language design which means no perfect language can ever exist, and for every chosen language design, some people will dislike it or complain about it.
+Furthermore, rindolf identified [several
+tradeoffs](https://www.shlomifish.org/philosophy/computers/your-programming-language-must-suck/)
+in programming language design which means no perfect language can ever
+exist, and for every chosen language design, some people will dislike it
+or complain about it.
 
-So some people will always complain, and while their opinions may have merit, it does not imply the language is not otherwise decent and usable.
-One cannot afford to [completely rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/) the whole codebase in the trendiest
-language every month or even every year (although gradual conversions are a less suicidal option), so many languages will linger-on due to legacy.
+So some people will always complain, and while their opinions may have
+merit, it does not imply the language is not otherwise decent and
+usable. One cannot afford to [completely
+rewrite](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/)
+the whole codebase in the trendiest language every month or even every
+year (although gradual conversions are a less suicidal option), so many
+languages will linger-on due to legacy.
 
 ### How can I handle several different tasks / events (e.g: replying networking requests) at the same time?
 
-You likely want an [event-driven programming](https://en.wikipedia.org/wiki/Event-driven_programming) approach using an events / asynchronous library or framework. Some examples for those are:
+You likely want an [event-driven
+programming](https://en.wikipedia.org/wiki/Event-driven_programming)
+approach using an events / asynchronous library or framework. Some
+examples for those are:
 
-1. [libuv](https://en.wikipedia.org/wiki/Libuv) and the older [libevent](https://en.wikipedia.org/wiki/Libevent) for C.
-2. [Twisted](https://en.wikipedia.org/wiki/Twisted_%28software%29) (which may be somewhat baroque), and [asyncio](https://docs.python.org/3/library/asyncio.html) for Python (e.g. [the pydle IRC library for asyncio](https://pydle.readthedocs.io/en/stable/)).
-3. Some alternatives for Perl are listed on [this page](https://perl-begin.org/uses/multitasking/).
-4. [Node.js](https://en.wikipedia.org/wiki/Nodejs) is inherently event-driven.
+1.  [libuv](https://en.wikipedia.org/wiki/Libuv) and the older
+    [libevent](https://en.wikipedia.org/wiki/Libevent) for C.
+2.  [Twisted](https://en.wikipedia.org/wiki/Twisted_%28software%29)
+    (which may be somewhat baroque), and
+    [asyncio](https://docs.python.org/3/library/asyncio.html) for Python
+    (e.g. [the pydle IRC library for
+    asyncio](https://pydle.readthedocs.io/en/stable/)).
+3.  Some alternatives for Perl are listed on [this
+    page](https://perl-begin.org/uses/multitasking/).
+4.  [Node.js](https://en.wikipedia.org/wiki/Nodejs) is inherently
+    event-driven.
 
-There are other approaches for multitasking including [multithreading](https://en.wikipedia.org/wiki/Thread_%28computer_science%29),
-[multiprocessing](https://en.wikipedia.org/wiki/Computer_process), [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing),
-as well as hybrid approaches.
+There are other approaches for multitasking including
+[multithreading](https://en.wikipedia.org/wiki/Thread_%28computer_science%29),
+[multiprocessing](https://en.wikipedia.org/wiki/Computer_process),
+[distributed
+computing](https://en.wikipedia.org/wiki/Distributed_computing), as well
+as hybrid approaches.
 
-### How can I make [insert application or library here] from scratch?
+### How can I make \[insert application or library here\] from scratch?
 
-We appreciate your enthusiasm, and often writing small-scoped systems' components "from scratch" is a useful exercise, for learning as well as for proof of implementation and reproducibility.
+We appreciate your enthusiasm, and often writing small-scoped systems'
+components "from scratch" is a useful exercise, for learning as well as
+for proof of implementation and reproducibility.
 
-[Tweet](https://twitter.com/shlomif/status/1542047869989011457): “My friend Botje from freenode noted that some people on its #osdev chatroom, have implemented kernels from scratch, which supported enough of POSIX to bootstrap a GNU ( https://gnu.org ) system [as I suspected]. Now try this with CSS 2.1…”.
+[Tweet](https://twitter.com/shlomif/status/1542047869989011457): “My
+friend Botje from freenode noted that some people on its \#osdev
+chatroom, have implemented kernels from scratch, which supported enough
+of POSIX to bootstrap a GNU ( <https://gnu.org> ) system \[as I
+suspected\]. Now try this with CSS 2.1…”.
 
 However, see:
 
-1. Carl Sagan: [“If you wish to make an apple pie from scratch, you must first invent the universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
-2. [“I thought using loops was cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/) on reddit.
-3. ["It’s not a Fooware - it's an operating system!"](https://www.shlomifish.org/humour/bits/It-s-not-a-Fooware-It-s-an-Operating-System/)
+1.  Carl Sagan: [“If you wish to make an apple pie from scratch, you
+    must first invent the
+    universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
+2.  [“I thought using loops was
+    cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/)
+    on reddit.
+3.  ["It’s not a Fooware - it's an operating
+    system!"](https://www.shlomifish.org/humour/bits/It-s-not-a-Fooware-It-s-an-Operating-System/)
 
-Different operating systems, programming languages, and runtimes provide different facilities out of the box. For example,
-cpython3 has a bundled [HTTP server](https://docs.python.org/3/library/http.server.html). You are probably going to
-rely on prior art when implementing your task and [that is OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
+Different operating systems, programming languages, and runtimes provide
+different facilities out of the box. For example, cpython3 has a bundled
+[HTTP server](https://docs.python.org/3/library/http.server.html). You
+are probably going to rely on prior art when implementing your task and
+[that is
+OK](https://www.shlomifish.org/humour/fortunes/show.cgi?id=esr-catb--great-programmers).
 
 Merging these 2 sides-of-the-coin, we get (from fortune-mod):
 
-```
-A young man wrote to Mozart and said:
+    A young man wrote to Mozart and said:
 
-Q: "Herr Mozart, I am thinking of writing symphonies.
-   Can you give me any suggestions as to how to get started?"
-A: "A symphony is a very complex musical form,
-   perhaps you should begin with some simple lieder
-   and work your way up to a symphony."
-Q: "But Herr Mozart, you were writing symphonies
-   when you were 8 years old."
-A: "But I never asked anybody how."
-```
+    Q: "Herr Mozart, I am thinking of writing symphonies.
+    Can you give me any suggestions as to how to get started?"
+    A: "A symphony is a very complex musical form,
+    perhaps you should begin with some simple lieder
+    and work your way up to a symphony."
+    Q: "But Herr Mozart, you were writing symphonies
+    when you were 8 years old."
+    A: "But I never asked anybody how."
 
 ### How hard is it to implement my own compiler?
 
-That depends on the source, target, and implementation languages. A compiler from [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) to
-[C](https://en.wikipedia.org/wiki/C_%28programming_language%29) can be written in, say, [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
-in a few hours. On the other hand, an optimising compiler from [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
-[x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely take months or more to
-implement even by very competent programmers.
+That depends on the source, target, and implementation languages. A
+compiler from [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) to
+[C](https://en.wikipedia.org/wiki/C_%28programming_language%29) can be
+written in, say,
+[Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29)
+in a few hours. On the other hand, an optimising compiler from
+[C++17](https://en.wikipedia.org/wiki/C%2B%2B17) to
+[x86-64](https://en.wikipedia.org/wiki/X86-64) machine code will likely
+take months or more to implement even by very competent programmers.
 
 ### How can I achieve this task using Unix shell?
 
-Often many programming tasks outgrow the Unix shells' functionality. In that
-case use [python or similar](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-learn-programming-which-language-should-i-start-with).
+Often many programming tasks outgrow the Unix shells' functionality. In
+that case use [python or
+similar](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#i-want-to-learn-programming-which-language-should-i-start-with).
 
 ### How do I create an installable .exe or .msi out of my Python/etc. code?
 
-First of all note that these solutions are not effective ways to [hide the code's inner workings from end-users](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#how-do-i-hideobscureencrypt-my-source-code-to-prevent-end-users-from-learning-how-it-works).
+First of all note that these solutions are not effective ways to [hide
+the code's inner workings from
+end-users](https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/master/FAQ_with_ToC__generated.md#how-do-i-hideobscureencrypt-my-source-code-to-prevent-end-users-from-learning-how-it-works).
 
 Otherwise, you can try using:
 
-* [PyInstaller](https://www.pyinstaller.org/), [Nuitka](https://nuitka.net/), and similar for Python.
-* [PAR](https://metacpan.org/pod/PAR) for Perl.
+- [PyInstaller](https://www.pyinstaller.org/),
+  [Nuitka](https://nuitka.net/), and similar for Python.
+- [PAR](https://metacpan.org/pod/PAR) for Perl.
 
 ### Will Artificial Intelligence (“AI”) eventually eliminate the need for paid human programmers' workers?
 
-Many people asked us that, and these discussions have not been too fruitful.
+Many people asked us that, and these discussions have not been too
+fruitful.
 
 First of all, note that a far more efficient way for you to earn money
-than working as a grunt software developer, is to
-request it from people (whether online or in reallife) in exchange for
-sessions of "amateur philosophy / comedy". These have also been called
-"education and entertainment", "geeking out", or even "love / knowledge".
+than working as a grunt software developer, is to request it from people
+(whether online or in reallife) in exchange for sessions of "amateur
+philosophy / comedy". These have also been called "education and
+entertainment", "geeking out", or even "love / knowledge".
 
 You can think of that as "begging for donations with style".
 
-**Pro tip:** "originality" is overrated: see ["Commercial Real Person Fan Fiction (RPFs), crossovers and parodies as 2021 geek/hacker imperatives for revitalising the film industry"](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/).
+**Pro tip:** "originality" is overrated: see ["Commercial Real Person
+Fan Fiction (RPFs), crossovers and parodies as 2021 geek/hacker
+imperatives for revitalising the film
+industry"](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/).
 
-Most of the best salaried employees are [geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
-and will not work on projects they consider unimportant even
-for obscene wages. Geeks are also known as "amateurs": workers
-who love their work.
+Most of the best salaried employees are
+[geeky](https://www.shlomifish.org/philosophy/culture/case-for-commercial-fan-fiction/),
+and will not work on projects they consider unimportant even for obscene
+wages. Geeks are also known as "amateurs": workers who love their work.
 
 If you still want a job (say because you are bored), then there are many
 non-software-development openings.
 
-As a case study, if you need money, then "rindolf" (see [his contact info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
+As a case study, if you need money, then "rindolf" (see [his contact
+info](https://www.shlomifish.org/me/contact-me/)) encourages you to:
 
-1. Lookup his bank credentials on GitHub, and —
-2. Extract 25,000 US dollars , which should allow you to support yourself for many days.
+1.  Lookup his bank credentials on GitHub, and —
+2.  Extract 25,000 US dollars , which should allow you to support
+    yourself for many days.
 
-(There are similar publicly-viewable lists on GitHub with bank credentials
-of many rich celebrities.)
+(There are similar publicly-viewable lists on GitHub with bank
+credentials of many rich celebrities.)
 
 ### Which music do you listen to while programming?
 
-A lot of people ask us that. Different software developers have different
-musical tastes, and may find different music suitable to listen to while
-programming. Some of them may find it hard to concentrate while listening to
-music.
+A lot of people ask us that. Different software developers have
+different musical tastes, and may find different music suitable to
+listen to while programming. Some of them may find it hard to
+concentrate while listening to music.
 
 That put aside, here are some recommendations from our regulars:
 
-* rindolf listens mostly to Pop and Rock (while being fond of tracks of many other genres) and has a [list of recommended albums](http://www.shlomifish.org/art/recommendations/music/) and a (very incomplete) [favourites playlist on YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
+- rindolf listens mostly to Pop and Rock (while being fond of tracks of
+  many other genres) and has a [list of recommended
+  albums](http://www.shlomifish.org/art/recommendations/music/) and a
+  (very incomplete) [favourites playlist on
+  YouTube](https://www.youtube.com/watch?v=LbNu1UnJCUY;list=FLc6rd10fdTTa8IBAdau_Cww).
 
-### Is it true that ##programming is more about Anime than programming? (Just like #anime is more about programming than Anime)
+### Is it true that \##programming is more about Anime than programming? (Just like \#anime is more about programming than Anime)
 
-That's not really true. While we sometimes discuss popular culture and entertainment (including but not limited to [Anime](https://en.wikipedia.org/wiki/Anime)), most of our conversations are about programming, or related computer help. It's not our fault that your favourite Anime-themed channel discusses programming a lot, and that may be caused by the fact that the IRC medium and Freenode in particular are somewhat more "techie"-oriented. So don't expect to join ##programming and hear many quality discussions about Anime.
+That's not really true. While we sometimes discuss popular culture and
+entertainment (including but not limited to
+[Anime](https://en.wikipedia.org/wiki/Anime)), most of our conversations
+are about programming, or related computer help. It's not our fault that
+your favourite Anime-themed channel discusses programming a lot, and
+that may be caused by the fact that the IRC medium and Freenode in
+particular are somewhat more "techie"-oriented. So don't expect to join
+\##programming and hear many quality discussions about Anime.
 
 ## About this FAQ
 
 ### This FAQ seems useful. Why isn't it in the channel's topic?
 
-Only channel operators can edit the /topic and none of them have seen it fit to
-put it there. Some of the maintainers of this FAQ approve of it being there
-(and the licencing terms allow that.), but none of them are channel
-ops. So there you go.
+Only channel operators can edit the /topic and none of them have seen it
+fit to put it there. Some of the maintainers of this FAQ approve of it
+being there (and the licencing terms allow that.), but none of them are
+channel ops. So there you go.
 
 ### Does this FAQ reflect the opinions of the channel as a whole?
 
-\#\#programming is a collective and often different members of it have
-different opinions, so there is often no unified opinion. As the old joke
-goes: "Ask N programmers what they think about X, and you'll get at least
-N+1 opinions." The contributors
-to this document tried to be as informative and non-bigotted as possible,
-but there probably is some bias.
+\##programming is a collective and often different members of it have
+different opinions, so there is often no unified opinion. As the old
+joke goes: "Ask N programmers what they think about X, and you'll get at
+least N+1 opinions." The contributors to this document tried to be as
+informative and non-bigotted as possible, but there probably is some
+bias.
 
 If you do not approve of parts of this document, you can:
 
-1. Send a pull request or a patch.
-2. Fork it and maintain your own version (which you are entitled to do after accepting some preconditions such as giving attribution).
-3. Write a similar document of your own.
+1.  Send a pull request or a patch.
+2.  Fork it and maintain your own version (which you are entitled to do
+    after accepting some preconditions such as giving attribution).
+3.  Write a similar document of your own.
 
 ## Licence/License
 
-The textual content of this document is made available under the [Creative Commons Attribution (CC-by) 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (or at your option - any later version). Whatever code is given here is made available under the [MIT/Expat License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
+The textual content of this document is made available under the
+[Creative Commons Attribution (CC-by) 4.0 International
+licence](https://creativecommons.org/licenses/by/4.0/) (or at your
+option - any later version). Whatever code is given here is made
+available under the [MIT/Expat
+License](https://en.wikipedia.org/wiki/MIT_License). Share and enjoy!
