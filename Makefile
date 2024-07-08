@@ -16,11 +16,16 @@ $(TOC_GEN):
 
 DOCBOOK5 = first-version-of-docbook5-FAQ.docbook5.xml
 XHTML = FAQ.xhtml
+X = -o "$@/index.xhtml"
 
+#	docmake --stringparam "docbook.css.source=" --stringparam "root.filename=index.xhtml" -o "xhtml-faq" -v xhtml5 $<
 $(XHTML): $(DOCBOOK5)
-	docmake -v --ns xhtml -o $@ $<
+	docmake --ns --trailing-slash=0 -o xhtml-faq/index.xhtml xhtml5 $<
 
 html: $(XHTML)
+
+ff-preview: html
+	firefox xhtml-faq/index.xhtml
 
 check: all
 	PYTHONPATH="$${PWD}/t/lib" prove t/*.py
