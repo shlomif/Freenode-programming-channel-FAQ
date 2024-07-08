@@ -23,18 +23,18 @@ the irc.freenode.net server, type «/join ##programming»
 (without the angle brackets) and press enter. It is a good
 idea to register your nickname with the Freenode network (see
 /msg NickServ HELP). This URL may work for you:
-<a href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</a>
+<link xlink:href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</link>
 .
 </para>
 <para>
 Freenode also provides a web interface here:
-<a href="http://webchat.freenode.net/"><link xlink:href="http://webchat.freenode.net/">http://webchat.freenode.net/</link></a>
+<link xlink:href="http://webchat.freenode.net/"><link xlink:href="http://webchat.freenode.net/">http://webchat.freenode.net/</link></link>
 . For more information about viable IRC clients see:
 </para>
 <itemizedlist spacing="compact">
 <listitem>
 <para>
-<a href="http://perl-begin.org/irc/"><link xlink:href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</link></a>
+<link xlink:href="http://perl-begin.org/irc/"><link xlink:href="http://perl-begin.org/irc/">http://perl-begin.org/irc/</link></link>
 </para>
 </listitem>
 <listitem>
@@ -3097,9 +3097,9 @@ functionality?</title>
 <para>
 As the
 <link xlink:href="https://github.com/shlomif/shlomif-email-signature/blob/master/shlomif-sig-quotes.txt#L1988">aphorism</link>
-goes: <q>The difference between theory and practice is that in
+goes: <quote>The difference between theory and practice is that in
 theory, there is no difference between theory and practice,
-while in practice, there is.</q>. There is usually a risk,
+while in practice, there is.</quote>. There is usually a risk,
 however small, that a change will break some functionality.
 With good tooling (such as
 <link xlink:href="https://en.wikipedia.org/wiki/Version_control">Version
@@ -3154,10 +3154,10 @@ A catch-all phrase for the paradigm.
 <para>
 Like
 <link xlink:href="https://softwareengineering.stackexchange.com/questions/46592/so-what-did-alan-kay-really-mean-by-the-term-object-oriented">Alan
-Kay noted:</link> <q>Actually, I made up the term
+Kay noted:</link> <quote>Actually, I made up the term
 object-oriented, and I can tell you I did not have C++ in
 mind. An important thing here is—I have many of the same
-feelings about Smalltalk </q>
+feelings about Smalltalk </quote>
 </para>
 </listitem>
 <listitem>
@@ -3228,9 +3228,9 @@ Because it is
 <link xlink:href="http://shlomifishswiki.branchable.com/Never_Try_to_Please_Everyone/">impossible
 to please everyone</link> or as
 <link xlink:href="https://en.wikiquote.org/wiki/Bjarne_Stroustrup">Bjarne
-Stroustrup noted</link>: <q>There are only two kinds of
+Stroustrup noted</link>: <quote>There are only two kinds of
 languages: the ones people complain about and the ones nobody
-uses</q>.
+uses</quote>.
 </para>
 <para>
 Furthermore, rindolf identified
