@@ -15,7 +15,7 @@ $(TOC_GEN):
 	# git clone -b "shlomif-issue100-better-fix" https://github.com/shlomif/github-markdown-toc
 
 DOCBOOK5 = first-version-of-docbook5-FAQ.docbook5.xml
-XHTML = FAQ.xhtml
+XHTML = xhtml-faq/index.xhtml
 X = -o "$@/index.xhtml"
 
 #	docmake --stringparam "docbook.css.source=" --stringparam "root.filename=index.xhtml" -o "xhtml-faq" -v xhtml5 $<
@@ -27,5 +27,7 @@ html: $(XHTML)
 ff-preview: html
 	firefox xhtml-faq/index.xhtml
 
-check: all
+all: html
+
+check: all html
 	PYTHONPATH="$${PWD}/t/lib" prove t/*.py
