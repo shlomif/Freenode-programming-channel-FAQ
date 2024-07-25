@@ -44,6 +44,7 @@ class HtmlTestsDocQuery:
 class HtmlTestsDoc:
     """A single HTML document wrapper"""
     def __init__(self, harness, fn, filetype='html'):
+        self.filetype = filetype
         self.harness = harness
         if isinstance(fn, dict):
             assert fn['type'] == 'text'
@@ -54,7 +55,6 @@ class HtmlTestsDoc:
                 assert False
             return
         self.fn = fn
-        self.filetype = filetype
         if filetype == 'html':
             self.root = html.parse(fn)
         elif filetype == 'docbook5':
