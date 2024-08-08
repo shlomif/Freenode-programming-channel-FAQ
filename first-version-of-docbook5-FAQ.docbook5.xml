@@ -8,7 +8,7 @@
 <title>Freenode programming channel FAQ</title>
 <para>
 This page is intended to be global for the whole
-<link xlink:href="irc://irc.freenode.net/##programming">##programming</link>
+<link xlink:href="irc://irc.freenode.net/%23%23programming">##programming</link>
 channel. So feel free to clone and reuse.
 </para>
 <section xml:id="the-questions">
@@ -21,7 +21,7 @@ the irc.freenode.net server, type «/join ##programming»
 (without the angle brackets) and press enter. It is a good
 idea to register your nickname with the Freenode network (see
 /msg NickServ HELP). This URL may work for you:
-<link xlink:href="irc://irc.freenode.net/##programming">irc://irc.freenode.net/##programming</link>
+<link xlink:href="irc://irc.freenode.net/%23%23programming">irc://irc.freenode.net/##programming</link>
 .
 </para>
 <para>
@@ -925,7 +925,7 @@ completeness sake.
 </itemizedlist>
 <para>
 There's also a
-<link xlink:href="irc://irc.freenode.net/#algorithms">channel
+<link xlink:href="irc://irc.freenode.net/%23algorithms">channel
 called &quot;#algorithms&quot; on Freenode</link> and,
 naturally, you can discuss algorithms on ##programming, as
 long as you perform due diligence.
@@ -1834,7 +1834,7 @@ Ways to Build Web Apps” by Tom Hummel</link>
 or kernel?</title>
 <para>
 First of all, Freenode has
-<link xlink:href="irc://irc.freenode.net/#osdev">a channel
+<link xlink:href="irc://irc.freenode.net/%23osdev">a channel
 called #osdev</link> and it is possible that you may get
 better help there.
 </para>
