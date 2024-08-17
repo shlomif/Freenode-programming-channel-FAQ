@@ -8,3 +8,6 @@ To build/update, try running:
 . `perl bin/my-cookiecutter.pl`
 . `gmake`
 . `gmake test`
+
+The ultimate sources for the FAQ are the contents of <code>FAQ.docbook5.xml.tt2</code> .
+Please edit that file.
