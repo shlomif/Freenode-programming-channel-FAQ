@@ -2,3 +2,9 @@ This repository contains the [Frequently Asked Questions &#40;FAQ&#41;](FAQ.mdwn
 [Freenode](https://freenode.net/) ##programming channel. It is meant to be
 hosted as either an Ikiwiki wiki or alternatively viewable using the GitHub
 Markdown viewer.
+
+To build/update, try running:
+
+. `perl bin/my-cookiecutter.pl`
+. `gmake`
+. `gmake test`
