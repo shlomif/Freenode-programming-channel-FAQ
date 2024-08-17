@@ -21,7 +21,7 @@ $(MARKDOWN_FAQ_WITHOUT_TOC): $(DOCBOOK5)
 	pandoc -t gfm -f docbook -o $@ -- $<
 
 $(DOCBOOK5): $(DOCBOOK5_TEMPLATE)
-	tpage $< > $@
+	perl template-toolkit-render.pl -input $< --output $@
 
 #	docmake --stringparam "docbook.css.source=" --stringparam "root.filename=index.xhtml" -o "xhtml-faq" -v xhtml5 $<
 
