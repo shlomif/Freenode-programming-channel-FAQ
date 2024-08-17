@@ -1,5 +1,6 @@
 /.ikiwiki
 /.perltidyrc
+/FAQ.docbook5.xml
 /Tests/case-insense-file-collision.t
 /Tests/data/cache/vnu-html-validator.json
 /Tests/scss.t

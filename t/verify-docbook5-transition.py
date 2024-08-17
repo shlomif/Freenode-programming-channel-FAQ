@@ -15,7 +15,7 @@ from html_unit_test import ns
 
 class MyTests(html_unit_test.TestCase):
     def test_initial_docbook(self):
-        input_fn = './first-version-of-docbook5-FAQ.docbook5.xml'
+        input_fn = './FAQ.docbook5.xml'
         doc = self.doc(input_fn, filetype='docbook5')
         sections = doc.xpath('//db:section')
         id_attr = '{xml}id'.format(xml=("{" + ns['xml'] + "}"))
