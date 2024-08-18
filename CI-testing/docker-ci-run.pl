@@ -238,22 +238,20 @@ sub run_config
     my @cpan_deps = (
         qw/
             App::Deps::Verify
+            App::Docmake
             Carp::Always
             File::Which
+            Getopt::Long
+            HTML::T5
             IO::All
             List::MoreUtils
-            Math::BigInt::GMP
-            Math::GMP
-            MooX
-            MooX::late
             Path::Tiny
             String::ShellQuote
+            Template
             Test::Code::TidyAll
             Test::Differences
-            Test::File::IsSorted
             Test::PerlTidy
             Test::TrailingSpace
-            Tree::AVL
             /
     );
 
@@ -378,6 +376,10 @@ then
 fi
 $package_manager_install_cmd @deps
 sudo ln -sf /usr/bin/make /usr/bin/gmake
+if false
+then
+    cpanm --notest @cpan_deps
+fi
 EOSCRIPTTTTTTT
 
     if ($from_snap)
@@ -402,7 +404,7 @@ $setup_script_cmd
 which cmp
 pydeps="WebTest beautifulsoup4 bs4 click cookiecutter lxml pycotap vnu_validator webtest zenfilter"
 sudo -H bash -c "$setup_script_cmd ; `which python3` -m pip install $pip_options \$pydeps"
-cpanm --notest App::Deps::Verify App::Docmake Carp::Always Getopt::Long HTML::T5 List::MoreUtils Path::Tiny Pod::Xhtml
+cpanm --notest @cpan_deps
 @nl_trav_cmds
 EOSCRIPTTTTTTT
     $obj->exe_bash_code( { code => $script, } );
