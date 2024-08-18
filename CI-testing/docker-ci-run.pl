@@ -63,7 +63,7 @@ my ($yaml_data) = {
         "perl bin/my-cookiecutter.pl",
         "$MAKE clean", $MAKE, "$MAKE test",
         "git status -s",
-        "git diff --HEAD",
+        "git diff HEAD",
     ],
 };
 
