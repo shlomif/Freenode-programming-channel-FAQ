@@ -59,7 +59,12 @@ my $MAKE = "gmake";
 my ($yaml_data) = {
     addons  => { apt => { packages => [], }, },
     install => [],
-    script  => [ "perl bin/my-cookiecutter.pl", $MAKE, "$MAKE test", ],
+    script  => [
+        "perl bin/my-cookiecutter.pl",
+        "$MAKE clean", $MAKE, "$MAKE test",
+        "git status -s",
+        "git diff --HEAD",
+    ],
 };
 
 my $debian_sys_deps =

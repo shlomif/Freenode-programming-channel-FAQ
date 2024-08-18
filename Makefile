@@ -6,7 +6,12 @@ TOC_GEN = $(TOC_DIR)/gh-md-toc
 DOCBOOK5 = FAQ.docbook5.xml
 DOCBOOK5_TEMPLATE = $(DOCBOOK5).tt2
 XHTML = xhtml-faq/index.xhtml
-X = -o "$@/index.xhtml"
+
+TARGETS =
+TARGETS += $(DOCBOOK5)
+TARGETS += $(GEN_FAQ)
+TARGETS += $(MARKDOWN_FAQ_WITHOUT_TOC)
+TARGETS += $(XHTML)
 
 all: $(GEN_FAQ)
 
@@ -39,7 +44,11 @@ ff-preview: html
 
 all: html
 
+clean:
+	rm -f $(TARGETS)
+
 check: all html
 	PYTHONPATH="$${PWD}/t/lib" prove t/*.py
 
 test: check
+
