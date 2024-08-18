@@ -15,7 +15,8 @@ jobs:
         -   run: sudo cpanm --verbose Carp Carp::Always
                 Docker::CLI::Wrapper::Container
                 Moo Path::Tiny
-        -   run: perl bin/docker-ci-run.pl --regex-filter='debian'
+        -   run: perl CI-testing/docker-ci-run.pl --regex-filter='debian'
+                --cleanrun
         timeout-minutes: 20
 name: test-docker-ci-debian
 'on':
