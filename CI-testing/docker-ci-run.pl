@@ -46,10 +46,9 @@ package main;
 
 use Cwd            qw/ getcwd /;
 use File::Basename qw/ basename /;
-use YAML::XS       qw/ LoadFile /;
 
 my $YAML_FN = ".travis.yml";
-if ( !-f $YAML_FN )
+if ( not -f $YAML_FN )
 {
     # die "No \"${YAML_FN}\"";
 }
