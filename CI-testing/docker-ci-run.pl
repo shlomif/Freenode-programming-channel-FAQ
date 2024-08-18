@@ -55,8 +55,12 @@ if ( !-f $YAML_FN )
 }
 
 # my ($yaml_data) = LoadFile($YAML_FN);
-my ($yaml_data) =
-    { addons => { apt => { packages => [], }, }, install => [], script => [], };
+my $MAKE = "gmake";
+my ($yaml_data) = {
+    addons  => { apt => { packages => [], }, },
+    install => [],
+    script  => [ $MAKE, "$MAKE test", ],
+};
 
 my $debian_sys_deps =
     [ @{ $yaml_data->{addons}{apt}{packages} }, 'liblocal-lib-perl', ];
@@ -392,6 +396,7 @@ EOSCRIPTTTTTTT
 
     $script = <<"EOSCRIPTTTTTTT";
 set -e -x
+cd ~/source
 $locale
 $setup_script_cmd
 which cmp
