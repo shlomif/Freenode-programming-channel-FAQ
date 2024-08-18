@@ -111,9 +111,10 @@ EOF
                 qw/
                     build-essential
                     cookiecutter
+                    docbook-xsl-ns
+                    docbook5-xml
                     libdb5.3-dev
                     libexpat1-dev
-                    libgd-dev
                     libgdbm-compat-dev
                     libgdbm-dev
                     libncurses-dev
@@ -133,7 +134,6 @@ EOF
                     python3-dev
                     python3-venv
                     python3-virtualenv
-                    txt2html
                     vim
                     xsltproc
                     xz-utils
@@ -156,6 +156,7 @@ EOF
             sys_deps              => [
                 qw/
                     diffutils
+                    docbook5-style-xsl
                     gd-devel
                     gdbm-devel
                     gmp-devel
@@ -168,15 +169,11 @@ EOF
                     ncurses-devel
                     pcre-devel
                     perl-DBD-SQLite
-                    perl-Inline-Python
                     perl-XML-Parser
                     perl-generators
-                    primesieve-devel
                     python3
                     python3-devel
-                    python3-libsass
                     sgml-common
-                    the_silver_searcher
                     vim
                     virtualenv
                     which
@@ -220,7 +217,6 @@ sub run_config
                 cmake
                 cmake-data
                 cpanminus
-                docbook5-style-xsl
                 expat
                 g++
                 gcc
@@ -431,7 +427,7 @@ my $output_fn;
 my $force_load;
 my $cleanrun;
 my $cleanup;
-my $regex_filter = 'fedora';
+my $regex_filter = '.';
 
 GetOptions(
     "cleanrun!"      => \$cleanrun,
