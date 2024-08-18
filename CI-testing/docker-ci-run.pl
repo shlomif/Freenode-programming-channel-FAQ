@@ -60,9 +60,11 @@ my ($yaml_data) = {
     install => [],
     script  => [
         "perl bin/my-cookiecutter.pl",
-        "$MAKE clean", $MAKE, "$MAKE test",
-        "git status -s",
-        "git diff HEAD",
+        "$MAKE clean",
+        $MAKE,
+        "$MAKE test",
+        "git status -s || true",
+        "( git diff HEAD || true ) | head -200 || true",
     ],
 };
 
