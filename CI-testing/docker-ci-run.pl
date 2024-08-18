@@ -59,7 +59,7 @@ my $MAKE = "gmake";
 my ($yaml_data) = {
     addons  => { apt => { packages => [], }, },
     install => [],
-    script  => [ $MAKE, "$MAKE test", ],
+    script  => [ "perl bin/my-cookiecutter.pl", $MAKE, "$MAKE test", ],
 };
 
 my $debian_sys_deps =
@@ -215,6 +215,7 @@ sub run_config
                 cmake
                 cmake-data
                 cpanminus
+                docbook5-style-xsl
                 expat
                 g++
                 gcc
@@ -222,6 +223,7 @@ sub run_config
                 lynx
                 make
                 m4
+                pandoc
                 python3
                 python3-cookiecutter
                 python3-pip
@@ -230,6 +232,7 @@ sub run_config
                 rsync
                 tidy
                 virtualenv
+                xsltproc
                 zip
                 /,
             @$sys_deps,
