@@ -48,7 +48,7 @@ clean:
 	rm -f $(TARGETS)
 
 check: all html
-	PYTHONPATH="$${PWD}/t/lib" prove t/*.py
+	PYTHONPATH="$${PWD}/t/lib" prove t/*.py Tests/tidyall.t
 
 test: check
 

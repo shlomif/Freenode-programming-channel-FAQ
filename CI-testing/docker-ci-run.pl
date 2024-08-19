@@ -245,11 +245,16 @@ sub run_config
             App::Deps::Verify
             App::Docmake
             Carp::Always
+            Code::TidyAll
+            Code::TidyAll::Plugin::PerlCritic
+            Code::TidyAll::Plugin::PerlTidy
+            Code::TidyAll::Plugin::TestCount
             File::Which
             Getopt::Long
             HTML::T5
             IO::All
             List::MoreUtils
+            Test::Code::TidyAll
             Path::Tiny
             String::ShellQuote
             Template

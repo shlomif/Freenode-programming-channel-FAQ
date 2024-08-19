@@ -1,0 +1,11 @@
+[PerlTidy]
+select = **/*.{pl,pm,t}
+argv = -ci=4 -bl -cti=0 --character-encoding=none
+ignore =
+
+[PerlCritic]
+select = **/*.{pl,pm,t}
+ignore =
+
+[TestCount]
+select = t/*.t
