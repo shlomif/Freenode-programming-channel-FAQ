@@ -256,6 +256,7 @@ sub run_config
             List::MoreUtils
             Test::Code::TidyAll
             Path::Tiny
+            Perl::Critic
             String::ShellQuote
             Template
             Test::Code::TidyAll
