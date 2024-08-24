@@ -5,6 +5,11 @@
 # Copyright © 2019 Shlomi Fish <shlomif@cpan.org>
 #
 # Distributed under terms of the MIT license.
+#
+# Based in part on "topic.py" ,(c) Xavier Combelle here made in public domain
+# ( https://github.com/shlomif/Freenode-programming-channel-FAQ/blob/
+#   b171f5367a5f54a430c4f727c757106107793e59/topic.py )
+# ( https://is.gd/7TJun3 )
 
 import re
 

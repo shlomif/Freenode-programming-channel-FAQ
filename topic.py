@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # (c) Xavier Combelle here made in public domain
 
+# NOTE: we now use gen-toc-based-on-docbook5.py instead, but this program
+# may have other use-cases.
+
 import argparse
 import subprocess
 import sys
