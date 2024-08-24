@@ -7,7 +7,6 @@
 # Distributed under terms of the MIT license.
 
 # import re
-import unittest
 
 import lxml.etree
 
@@ -36,7 +35,6 @@ class MyTests(html_unit_test.TestCase):
                 parent = section
                 while parent is not None:
                     tag = lxml.etree.QName(parent).localname
-                    print(tag)
                     if tag == 'section':
                         count_parent_section_elements += 1
                     parent = parent.getparent()
@@ -54,6 +52,4 @@ class MyTests(html_unit_test.TestCase):
 
 
 if __name__ == '__main__':
-    from pycotap import TAPTestRunner
-    suite = unittest.TestLoader().loadTestsFromTestCase(MyTests)
-    TAPTestRunner().run(suite)
+    MyTests().test_initial_docbook()
