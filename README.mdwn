@@ -1,13 +1,13 @@
-This repository contains the [Frequently Asked Questions &#40;FAQ&#41;](FAQ.mdwn) for the
+This repository contains the [Frequently Asked Questions &#40;FAQ&#41;](FAQ_with_ToC__generated.md) for the
 [Freenode](https://freenode.net/) ##programming channel. It is meant to be
 hosted as either an Ikiwiki wiki or alternatively viewable using the GitHub
 Markdown viewer.
 
 To build/update, try running:
 
-. `perl bin/my-cookiecutter.pl`
-. `gmake`
-. `gmake test`
+1. `perl bin/my-cookiecutter.pl`
+2. `gmake`
+3. `gmake test`
 
 The ultimate sources for the FAQ are the contents of <code>FAQ.docbook5.xml.tt2</code> .
 Please edit that file.
