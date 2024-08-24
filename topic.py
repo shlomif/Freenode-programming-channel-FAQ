@@ -13,7 +13,8 @@ def add_toc(fn):
     out_s = subprocess.Popen(
         ["bash", "-c", "./github-markdown-toc/gh-md-toc - < " + fn],
         stdout=subprocess.PIPE).stdout.read().decode('utf-8')
-    out_s += open(fn).read()
+    with open(fn, "rt") as fh:
+        out_s += fh.read()
     return out_s
 
 
@@ -26,7 +27,9 @@ def main(argv):
     parser.add_argument('--input', type=str, required=True,
                         help='Input filename')
     args = parser.parse_args(argv[1:])
-    open(args.output, "wt").write(add_toc(args.input))
+    output_text = add_toc(args.input)
+    with open(args.output, "wt") as ofh:
+        ofh.write(output_text)
 
 
 main(sys.argv)
