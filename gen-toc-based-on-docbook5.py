@@ -42,7 +42,7 @@ class MyTests(html_unit_test.TestCase):
                     parent = parent.getparent()
                 assert count_parent_section_elements > 0
                 output_text += "{}* [{}](#{})\n".format(
-                    ("    " * (count_parent_section_elements - 1)),
+                    (" " * (4 * (count_parent_section_elements - 1))),
                     docbook5_title, id2)
             print(output_text)
             return output_text
