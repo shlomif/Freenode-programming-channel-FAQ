@@ -6,8 +6,10 @@
 #
 # Distributed under terms of the MIT license.
 
-# import re
+import re
 
+import argparse
+import sys
 import lxml.etree
 
 import html_unit_test
@@ -22,7 +24,7 @@ class MyTests(html_unit_test.TestCase):
         id_attr = '{xml}id'.format(xml=("{" + ns['xml'] + "}"))
 
         def _process_sections():
-            output_text = ""
+            _toc_text = ""
             while len(sections.xpath_results):
                 section = sections.xpath_results.pop(0)
                 id2 = section.get(id_attr)
@@ -31,6 +33,11 @@ class MyTests(html_unit_test.TestCase):
                     title_xpath, namespaces=ns
                 )
                 docbook5_title = docbook5_title_list[0]
+                docbook5_title = re.sub('\\n', ' ', docbook5_title)
+                assert '\n' not in id2
+                if id2 == 'what-is-the-channel-for-topictechnology':
+                    docbook5_title = \
+                        "What is the channel for <em>TOPIC</em>/TECHNOLOGY?"
                 count_parent_section_elements = 0
                 parent = section
                 while parent is not None:
@@ -39,17 +46,32 @@ class MyTests(html_unit_test.TestCase):
                         count_parent_section_elements += 1
                     parent = parent.getparent()
                 assert count_parent_section_elements > 0
-                output_text += "{}* [{}](#{})\n".format(
-                    (" " * (4 * (count_parent_section_elements - 1))),
+                _toc_text += "{}* [{}](#{})\n".format(
+                    (" " * (3 * (count_parent_section_elements - 1))),
                     docbook5_title, id2)
-            print(output_text)
-            return output_text
+            return _toc_text
 
-        _process_sections()
-        if 0:
-            for section in sections.xpath_results:
-                print(section.get(id_attr))
+        return _process_sections()
+
+
+def main(argv):
+    parser = argparse.ArgumentParser(
+        prog='PROG',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--output', type=str, required=True,
+                        help='output filename')
+    parser.add_argument('--input', type=str, required=True,
+                        help='Input filename')
+    args = parser.parse_args(argv[1:])
+    out_s = ''
+    with open(args.input, "rt") as fh:
+        out_s += fh.read()
+    output_toc = MyTests().test_initial_docbook()
+    output_text = output_toc + out_s
+
+    with open(args.output, "wt") as ofh:
+        ofh.write(output_text)
 
 
 if __name__ == '__main__':
-    MyTests().test_initial_docbook()
+    main(sys.argv)

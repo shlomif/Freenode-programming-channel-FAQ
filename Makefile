@@ -1,6 +1,6 @@
 GEN_FAQ = FAQ_with_ToC__generated.md
 MARKDOWN_FAQ_WITHOUT_TOC = FAQ.mdwn
-GEN = topic.py
+GEN = gen-toc-based-on-docbook5.py
 TOC_DIR = github-markdown-toc
 TOC_GEN = $(TOC_DIR)/gh-md-toc
 DOCBOOK5 = FAQ.docbook5.xml
@@ -16,7 +16,7 @@ TARGETS += $(XHTML)
 all: $(GEN_FAQ)
 
 $(GEN_FAQ): $(MARKDOWN_FAQ_WITHOUT_TOC) $(GEN) $(TOC_GEN)
-	python3 $(GEN) --input $< --output $@
+	PYTHONPATH="$${PWD}/t/lib" python3 $(GEN) --input $< --output $@
 
 $(TOC_GEN):
 	git clone https://github.com/ekalinin/github-markdown-toc
