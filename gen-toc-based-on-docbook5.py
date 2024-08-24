@@ -9,6 +9,8 @@
 # import re
 import unittest
 
+import lxml.etree
+
 import html_unit_test
 from html_unit_test import ns
 
@@ -30,7 +32,18 @@ class MyTests(html_unit_test.TestCase):
                     title_xpath, namespaces=ns
                 )
                 docbook5_title = docbook5_title_list[0]
-                output_text += "* [{}](#{})\n".format(docbook5_title, id2)
+                count_parent_section_elements = 0
+                parent = section
+                while parent is not None:
+                    tag = lxml.etree.QName(parent).localname
+                    print(tag)
+                    if tag == 'section':
+                        count_parent_section_elements += 1
+                    parent = parent.getparent()
+                assert count_parent_section_elements > 0
+                output_text += "{}* [{}](#{})\n".format(
+                    ("    " * (count_parent_section_elements - 1)),
+                    docbook5_title, id2)
             print(output_text)
             return output_text
 
