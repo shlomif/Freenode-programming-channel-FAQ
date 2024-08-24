@@ -11,3 +11,7 @@ To build/update, try running:
 
 The ultimate sources for the FAQ are the contents of <code>FAQ.docbook5.xml.tt2</code> .
 Please edit that file.
+
+Note that we use a GitHub Actions and Docker-based Continuous-Integration set-up to
+reproduce and test the code. Refer to the files under ".github/workflows" for more
+insights.
