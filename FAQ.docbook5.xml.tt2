@@ -543,11 +543,11 @@ control system</link>. For more about version control
 systems and the motivation behind them see
 <link xlink:href="http://better-scm.shlomifish.org/">the
 “Better SCM” Site</link> and
-<link xlink:href="http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/">a
-related section from “Perl for Perl Newbies”</link> (which
-is not exclusively limited to Perl) and
 <link xlink:href="http://www.slideshare.net/xSawyer/source-code-management-systems">Sawyer
 X’s talk about source code management systems</link>.
+</para>
+<para>
+As of 2024, <link xlink:href="https://en.wikipedia.org/wiki/Git">the Git version control system</link> has established itself as the dominant and go-to solution. While Git is not perfect, in our opinion we think that <link xlink:href="https://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-BitKeeper-or-GitHub">it is good enough</link> to avoid using any-of-the-semingly-less-popular alternatives.
 </para>
 </listitem>
 </orderedlist>

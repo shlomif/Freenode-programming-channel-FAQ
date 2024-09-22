@@ -388,12 +388,15 @@ But here goes with a grain of salt:
 1.  Use a good [version control
     system](http://en.wikipedia.org/wiki/Revision_control). For more
     about version control systems and the motivation behind them see
-    [the “Better SCM” Site](http://better-scm.shlomifish.org/) and [a
-    related section from “Perl for Perl
-    Newbies”](http://www.shlomifish.org/lecture/Perl/Newbies/lecture5/version-control/)
-    (which is not exclusively limited to Perl) and [Sawyer X’s talk
-    about source code management
+    [the “Better SCM” Site](http://better-scm.shlomifish.org/) and
+    [Sawyer X’s talk about source code management
     systems](http://www.slideshare.net/xSawyer/source-code-management-systems).
+    As of 2024, [the Git version control
+    system](https://en.wikipedia.org/wiki/Git) has established itself as
+    the dominant and go-to solution. While Git is not perfect, in our
+    opinion we think that [it is good
+    enough](https://www.shlomifish.org/humour/fortunes/show.cgi?id=sharp-programming-BitKeeper-or-GitHub)
+    to avoid using any-of-the-semingly-less-popular alternatives.
 
 - Please don't give the usual cliches that you don't need a version
   control system if you’re only one person or that the project is not
