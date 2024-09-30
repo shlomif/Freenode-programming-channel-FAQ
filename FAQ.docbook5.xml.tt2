@@ -505,7 +505,7 @@ which is system-dependent.
 <para>
 The O’Reilly book
 <link xlink:href="http://www.lemis.com/grog/Documentation/PUS/">Porting
-UNIX Software</link> (available for purchase, or a free
+UNIX Software</link> (which is available for purchase, or as a free
 download under a Creative Commons licence, on the link), goes
 into further depth about these and many other UNIX portability
 issues.

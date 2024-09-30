@@ -362,10 +362,10 @@ is subject to many system-dependent factors, such as:
   64-bit, etc., which is system-dependent.
 
 The O’Reilly book [Porting UNIX
-Software](http://www.lemis.com/grog/Documentation/PUS/) (available for
-purchase, or a free download under a Creative Commons licence, on the
-link), goes into further depth about these and many other UNIX
-portability issues.
+Software](http://www.lemis.com/grog/Documentation/PUS/) (which is
+available for purchase, or as a free download under a Creative Commons
+licence, on the link), goes into further depth about these and many
+other UNIX portability issues.
 
 In any case, the best way to mitigate this problem portably and safely,
 is to write (and later read) every field (and sometimes every byte
