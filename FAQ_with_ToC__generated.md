@@ -1430,6 +1430,11 @@ Note that we do not mean to imply that Python or whatever are bad just
 because NASA uses them, just that you should not use that fact as an
 argument in their favour.
 
+Also note that we are almost sure that otherwise-esteemed providers of
+code, content, technology, education, and entertainment (e.g: DARPA,
+IBM, Google, MIT, GNU, Walt Disney, Microsoft, etc), have their share of
+legacy and retrospectively poorly implemented software.
+
 ### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
 
 First of all, note that [IANAL](https://en.wikipedia.org/wiki/IANAL) (I
