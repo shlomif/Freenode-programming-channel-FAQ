@@ -91,8 +91,7 @@ probably get more help on the topic-specific channels.
 </para>
 </section>
 <section xml:id="what-is-the-channel-for-topictechnology">
-<title>What is the channel for
-<emphasis>T</emphasis><emphasis>O</emphasis><emphasis>P</emphasis><emphasis>I</emphasis><emphasis>C</emphasis>/TECHNOLOGY?</title>
+<title>What is the channel for a certain topic or technology?</title>
 <para>
 You can search the channels list by following the instructions
 in the command <literal>/msg alis help</literal> .
@@ -174,6 +173,7 @@ So please
 programming properly</link> .
 </para>
 </section>
+
 <section xml:id="how-should-i-ask-a-question-on-the-channel-can-i">
 <title>How should I ask a question on the channel? Can
 I?</title>
@@ -293,7 +293,7 @@ Nano</link>, should be OK.
 </listitem>
 </itemizedlist>
 <para>
-These editors may still be useful if that's all you can use,
+These editors may still be useful if they are all you can use,
 but if you can afford to install and/or use a more capable
 text editor, it is, by all means, a good idea.
 </para>
@@ -337,6 +337,7 @@ Linux/UNIX). As a result, there is no good excuse not to
 download one, install it, and use it.
 </para>
 </section>
+
 <section xml:id="i-want-to-learn-programming-which-language-should-i-start-with">
 <title>I want to learn programming? Which language should I
 start with?</title>
@@ -459,6 +460,7 @@ ones, and generally waste the time of the more experienced
 people on the channel who are trying to help you.
 </para>
 </section>
+
 <section xml:id="how-do-i-learn-how-to-program">
 <title>How do I learn how to program?</title>
 <para>
@@ -467,6 +469,7 @@ See the
 question</link>.
 </para>
 </section>
+
 <section xml:id="how-should-i-do-binary-inputoutput-properly">
 <title>How should I do binary Input/Output properly?</title>
 <para>
@@ -519,6 +522,7 @@ should be able to find some mechanisms inside
 libraries</link> to do that.
 </para>
 </section>
+
 <section xml:id="what-are-some-best-practices-in-programming-that-i-should-adopt">
 <title>What are some best practices in programming that I should
 adopt?</title>
@@ -554,7 +558,7 @@ As of 2024, <link xlink:href="https://en.wikipedia.org/wiki/Git">the Git version
 <itemizedlist spacing="compact">
 <listitem>
 <para>
-Please don't give the usual cliches that you don't need a
+Please don't give the usual clichés that you don't need a
 version control system if you’re only one person or that
 the project is not large enough to warrant it. You
 probably do.
@@ -728,6 +732,7 @@ Koponen.
 </listitem>
 </orderedlist>
 </section>
+
 <section xml:id="what-is-the-best-programming-language">
 <title>What is the best programming language?</title>
 <para>
