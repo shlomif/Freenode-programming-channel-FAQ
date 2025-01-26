@@ -170,6 +170,7 @@ EOF
                     ncurses-devel
                     pcre-devel
                     perl-DBD-SQLite
+                    perl-LWP-Protocol-https
                     perl-XML-Parser
                     perl-generators
                     python3
