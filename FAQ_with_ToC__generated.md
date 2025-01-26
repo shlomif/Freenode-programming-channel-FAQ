@@ -143,7 +143,7 @@ Note that you are still welcome to ask questions related to specific
 technologies on \##programming, but otherwise you'll probably get more
 help on the topic-specific channels.
 
-### What is the channel for a certain topic or technology?
+### What is the channel for *TOPIC*/TECHNOLOGY?
 
 You can search the channels list by following the instructions in the
 command `/msg alis help` .
