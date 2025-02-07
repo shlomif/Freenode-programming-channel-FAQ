@@ -2901,9 +2901,11 @@ libpqueue</link>
 <para>
 There is a
 <link xlink:href="https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29">wikipedia
-page</link> that details the
-<link xlink:href="https://en.wikipedia.org/wiki/Version_control">VCS</link>
-technique, but it has a more general utility.
+page</link> that details the “bisecting” technique when used
+using
+<link xlink:href="https://en.wikipedia.org/wiki/Version_control">version control
+systems (= “VCSes”)</link>
+, but it has a more general applicability.
 </para>
 <para>
 As the old joke goes: &quot;How do you find a lion in the

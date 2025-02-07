@@ -1504,8 +1504,9 @@ of it are:
 
 There is a [wikipedia
 page](https://en.wikipedia.org/wiki/Bisection_%28software_engineering%29)
-that details the [VCS](https://en.wikipedia.org/wiki/Version_control)
-technique, but it has a more general utility.
+that details the “bisecting” technique when used using [version control
+systems (= “VCSes”)](https://en.wikipedia.org/wiki/Version_control) ,
+but it has a more general applicability.
 
 As the old joke goes: "How do you find a lion in the desert? You split
 the desert into two halfs, and the lion is in either one. Then you split
