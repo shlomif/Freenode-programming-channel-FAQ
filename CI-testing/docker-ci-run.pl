@@ -103,6 +103,7 @@ su -c "apt-get -y install eatmydata locales netselect-apt sudo"
 printf "%s\n%s\n" "en_US.UTF-8 UTF-8" "C.UTF-8 UTF-8" > /etc/locale.gen
 sudo dpkg-reconfigure --frontend=noninteractive locales
 sudo apt-get update -qq
+sudo eatmydata apt-get -y full-upgrade
 EOF
             setup_script_cmd    => "true",
             snapshot_names_base => "programming_faq/hpage_debian",
@@ -133,8 +134,6 @@ EOF
                     python3
                     python3-all
                     python3-dev
-                    python3-venv
-                    python3-virtualenv
                     vim
                     xsltproc
                     xz-utils
@@ -151,10 +150,11 @@ EOF
 
             # pip_options                 => "--break-system-packages",
             pip_options           => "",
-            setup_package_manager => "sudo dnf -y install nosync ; $EN ;",
-            setup_script_cmd      => "$EN",
-            snapshot_names_base   => "programming_faq/hpage_fedora",
-            sys_deps              => [
+            setup_package_manager =>
+"sudo dnf -y install nosync ; $EN ; $NOSYNC sudo dnf -y upgrade --refresh ; ",
+            setup_script_cmd    => "$EN",
+            snapshot_names_base => "programming_faq/hpage_fedora",
+            sys_deps            => [
                 qw/
                     diffutils
                     docbook5-style-xsl
@@ -177,7 +177,6 @@ EOF
                     python3-devel
                     sgml-common
                     vim
-                    virtualenv
                     which
                     xhtml1-dtds
                     xz
@@ -231,10 +230,8 @@ sub run_config
                 python3-cookiecutter
                 python3-pip
                 python3-setuptools
-                python3-virtualenv
                 rsync
                 tidy
-                virtualenv
                 xsltproc
                 zip
                 /,
@@ -387,11 +384,6 @@ then
     $package_manager_install_cmd glibc-langpack-en glibc-locale-source
 fi
 $package_manager_install_cmd @deps
-sudo ln -sf /usr/bin/make /usr/bin/gmake
-if false
-then
-    cpanm --notest @cpan_deps
-fi
 EOSCRIPTTTTTTT
 
     if ($from_snap)
