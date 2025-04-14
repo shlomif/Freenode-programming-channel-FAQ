@@ -3367,18 +3367,30 @@ is OK</link>.
 <para>
 Merging these 2 sides-of-the-coin, we get (from fortune-mod):
 </para>
-<programlisting>
-A young man wrote to Mozart and said:
 
+<blockquote>
+<para>
+A young man wrote to Mozart and said:
+</para>
+
+<para>
 Q: &quot;Herr Mozart, I am thinking of writing symphonies.
 Can you give me any suggestions as to how to get started?&quot;
+</para>
+<para>
 A: &quot;A symphony is a very complex musical form,
 perhaps you should begin with some simple lieder
 and work your way up to a symphony.&quot;
+</para>
+<para>
 Q: &quot;But Herr Mozart, you were writing symphonies
 when you were 8 years old.&quot;
+</para>
+<para>
 A: &quot;But I never asked anybody how.&quot;
-</programlisting>
+</para>
+</blockquote>
+
 </section>
 <section xml:id="how-hard-is-it-to-implement-my-own-compiler">
 <title>How hard is it to implement my own compiler?</title>
