@@ -1576,16 +1576,16 @@ developers with ten years of experience and Ph.D.'s in Computer Science.
 There is an [interesting quote by Henry Ford about
 "experts"](https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately):
 
-“ None of our men are "experts." We have most unfortunately found it
-necessary to get rid of a man as soon as he thinks himself an expert --
-because no one ever considers himself expert if he really knows his job.
-A man who knows a job sees so much more to be done than he has done,
-that he is always pressing forward and never gives up an instant of
-thought to how good and how efficient he is. Thinking always ahead,
-thinking always of trying to do more, brings a state of mind in which
-nothing is impossible. The moment one gets into the "expert" state of
-mind a great number of things become impossible. — From Henry Ford Sr.,
-"My Life and Work," p. 86 (1922) ”
+> None of our men are "experts." We have most unfortunately found it
+> necessary to get rid of a man as soon as he thinks himself an expert
+> -- because no one ever considers himself expert if he really knows his
+> job. A man who knows a job sees so much more to be done than he has
+> done, that he is always pressing forward and never gives up an instant
+> of thought to how good and how efficient he is. Thinking always ahead,
+> thinking always of trying to do more, brings a state of mind in which
+> nothing is impossible. The moment one gets into the "expert" state of
+> mind a great number of things become impossible. — From Henry Ford
+> Sr., "My Life and Work," p. 86 (1922)
 
 According to the Coding Horror blog [most interviewed job candidates
 cannot program

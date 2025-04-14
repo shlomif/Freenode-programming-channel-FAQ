@@ -3023,8 +3023,9 @@ There is an
 <link xlink:href="https://www.goodreads.com/quotes/306037-none-of-our-men-are-experts-we-have-most-unfortunately">interesting
 quote by Henry Ford about &quot;experts&quot;</link>:
 </para>
+<blockquote>
 <para>
-“ None of our men are &quot;experts.&quot; We have most
+None of our men are &quot;experts.&quot; We have most
 unfortunately found it necessary to get rid of a man as soon
 as he thinks himself an expert -- because no one ever
 considers himself expert if he really knows his job. A man who
@@ -3035,8 +3036,9 @@ Thinking always ahead, thinking always of trying to do more,
 brings a state of mind in which nothing is impossible. The
 moment one gets into the &quot;expert&quot; state of mind a
 great number of things become impossible. — From Henry Ford
-Sr., &quot;My Life and Work,&quot; p. 86 (1922) ”
+Sr., &quot;My Life and Work,&quot; p. 86 (1922)
 </para>
+</blockquote>
 <para>
 According to the Coding Horror blog
 <link xlink:href="https://blog.codinghorror.com/why-cant-programmers-program/">most
