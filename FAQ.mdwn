@@ -325,8 +325,8 @@ But here goes with a grain of salt:
     for
     C](http://www.shlomifish.org/open-source/resources/software-tools/)
     or the community-based alternatives for your programming language of
-    choice (e.g: [setuptools](http://en.wikipedia.org/wiki/Setuptools)
-    for Python; [Dist::Zilla](http://dzil.org/) for Perl;
+    choice (e.g: [setuptools](https://github.com/pypa/setuptools) for
+    Python; [Dist::Zilla](http://dzil.org/) for Perl;
     [RubyGems](http://en.wikipedia.org/wiki/RubyGems) for Ruby).
 4.  Deploy a local or hosted [Continuous
     Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI)

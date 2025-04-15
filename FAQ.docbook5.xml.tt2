@@ -589,7 +589,7 @@ complications, you should look at
 <link xlink:href="http://www.shlomifish.org/open-source/resources/software-tools/">alternatives
 for C</link> or the community-based alternatives for your
 programming language of choice (e.g:
-<link xlink:href="http://en.wikipedia.org/wiki/Setuptools">setuptools</link>
+<link xlink:href="https://github.com/pypa/setuptools">setuptools</link>
 for Python;
 <link xlink:href="http://dzil.org/">Dist::Zilla</link> for
 Perl;
