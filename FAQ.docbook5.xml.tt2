@@ -2574,8 +2574,8 @@ that fact as an argument in their favour.
 <para>
 Also note that we are almost sure that other otherwise-esteemed providers
 of code, content, technology, education, and entertainment (e.g:
-DARPA, IBM, Google, MIT, GNU, Walt Disney, other Microsoft), have
-their share of legacy and retrospectively poorly implemented software.
+DARPA, IBM, Google, MIT, GNU, Walt Disney, Microsoft), have
+their share of legacy and retrospectively poorly-implemented software.
 </para>
 </section>
 <section xml:id="can-a-copyright-owner-change-the-licence-of-an-open-source-project-if-they-dislike-someones-abuse-of-it">
@@ -2608,7 +2608,7 @@ of Forking</link>
 <listitem>
 <para>
 <link xlink:href="http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html">ESR's
-comments about the &quot;right to fork&quot;</link>
+comments about the “right to fork”;</link>
 </para>
 </listitem>
 </itemizedlist>
@@ -2839,8 +2839,8 @@ and open source software</link> .
 it?</title>
 <para>
 First of all see
-<link xlink:href="https://github.com/nayafia/lemonade-stand">&quot;A
-handy guide to financial support for FOSS&quot;</link>.
+<link xlink:href="https://github.com/nayafia/lemonade-stand">“A
+handy guide to financial support for FOSS”</link>.
 </para>
 <para>
 Otherwise, note that copies of FOSS can be copied and
@@ -2973,8 +2973,8 @@ There are libraries for line input such as
 <para>
 How many roads must a man walk down, before you can call him a
 man?
-<link xlink:href="https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind">&quot;The
-answer, my friend, is blowing in the wind&quot;</link>.
+<link xlink:href="https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind">“The
+answer, my friend, is blowing in the wind”</link>.
 </para>
 <para>
 Somewhat more seriously now, here are some thoughts:
@@ -3323,6 +3323,7 @@ systems' components &quot;from scratch&quot; is a useful
 exercise, for learning as well as for proof of implementation
 and reproducibility.
 </para>
+<blockquote>
 <para>
 <link xlink:href="https://twitter.com/shlomif/status/1542047869989011457">Tweet</link>:
 “My friend Botje from freenode noted that some people on its
@@ -3331,6 +3332,7 @@ supported enough of POSIX to bootstrap a GNU (
 <link xlink:href="https://gnu.org">https://gnu.org</link> )
 system [as I suspected]. Now try this with CSS 2.1…”.
 </para>
+</blockquote>
 <para>
 However, see:
 </para>
@@ -3346,7 +3348,7 @@ invent the universe,”</link>
 <listitem>
 <para>
 <link xlink:href="https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/">“I
-thought using loops was cheating…”</link> on reddit.
+thought using loops [for composing Electronic Dancing Music] was cheating…”</link> on reddit.
 </para>
 </listitem>
 <listitem>

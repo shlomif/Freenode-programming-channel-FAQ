@@ -1432,8 +1432,8 @@ argument in their favour.
 
 Also note that we are almost sure that other otherwise-esteemed
 providers of code, content, technology, education, and entertainment
-(e.g: DARPA, IBM, Google, MIT, GNU, Walt Disney, other Microsoft), have
-their share of legacy and retrospectively poorly implemented software.
+(e.g: DARPA, IBM, Google, MIT, GNU, Walt Disney, Microsoft), have their
+share of legacy and retrospectively poorly-implemented software.
 
 ### Can a copyright owner change the licence of an open source project if they dislike someone's abuse of it?
 
@@ -1452,8 +1452,8 @@ For more information, see:
 
 - [Fear of
   Forking](http://linuxmafia.com/faq/Licensing_and_Law/forking.html)
-- [ESR's comments about the "right to
-  fork"](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
+- [ESR's comments about the “right to
+  fork”;](http://www.catb.org/esr/writings/cathedral-bazaar/magic-cauldron/ar01s08.html)
 
 ### Should I avoid using an open source project just because it is primarily developed by a company or individual that I dislike?
 
@@ -1568,8 +1568,8 @@ software](https://en.wikipedia.org/wiki/Free_and_open-source_software) .
 
 ### How do developers of open source software make money from it?
 
-First of all see ["A handy guide to financial support for
-FOSS"](https://github.com/nayafia/lemonade-stand).
+First of all see [“A handy guide to financial support for
+FOSS”](https://github.com/nayafia/lemonade-stand).
 
 Otherwise, note that copies of FOSS can be copied and distributed at a
 very low cost, like other digital files. As a result, some developers
@@ -1629,8 +1629,8 @@ configuration files or directives until you pinpoint the problem.
 ### How much time / competitive programming problems / books / online courses / etc. will it take before I am employable / a "master programmer" / etc.?
 
 How many roads must a man walk down, before you can call him a man?
-["The answer, my friend, is blowing in the
-wind"](https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind).
+[“The answer, my friend, is blowing in the
+wind”](https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind).
 
 Somewhat more seriously now, here are some thoughts:
 
@@ -1834,18 +1834,19 @@ We appreciate your enthusiasm, and often writing small-scoped systems'
 components "from scratch" is a useful exercise, for learning as well as
 for proof of implementation and reproducibility.
 
-[Tweet](https://twitter.com/shlomif/status/1542047869989011457): “My
-friend Botje from freenode noted that some people on its \#osdev
-chatroom, have implemented kernels from scratch, which supported enough
-of POSIX to bootstrap a GNU ( <https://gnu.org> ) system \[as I
-suspected\]. Now try this with CSS 2.1…”.
+> [Tweet](https://twitter.com/shlomif/status/1542047869989011457): “My
+> friend Botje from freenode noted that some people on its \#osdev
+> chatroom, have implemented kernels from scratch, which supported
+> enough of POSIX to bootstrap a GNU ( <https://gnu.org> ) system \[as I
+> suspected\]. Now try this with CSS 2.1…”.
 
 However, see:
 
 1.  Carl Sagan: [“If you wish to make an apple pie from scratch, you
     must first invent the
     universe,”](https://www.youtube.com/watch?v=7s664NsLeFM)
-2.  [“I thought using loops was
+2.  [“I thought using loops \[for composing Electronic Dancing Music\]
+    was
     cheating…”](https://www.reddit.com/r/edmproduction/comments/60zh48/do_you_ever_feel_like_your_cheating_by_using/dfasidh/)
     on reddit.
 3.  ["It’s not a Fooware - it's an operating
