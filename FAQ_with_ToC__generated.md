@@ -1734,7 +1734,7 @@ changes should be attempted because:
 
 1.  "No guts - no glory."
 2.  [What does "if it ain't broke, don't fix it" really
-    mean?](https://szabgab.com/what-does--if-it-aint-broke-dont-fix-it--really-mean.html)
+    mean?](https://www.shlomifish.org/philosophy/psychology/changing-the-seldon-plan/)
 3.  If you never change anything, your project won't progress.
 
 ### What does Object-Oriented Programming ( OOP ) mean?
